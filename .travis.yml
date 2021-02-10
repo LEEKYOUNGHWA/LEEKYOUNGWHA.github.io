@@ -5,6 +5,11 @@ install:
   - npm ci
 script:
   - npm run build
+  - cd src/.vuepress/dist
+  - git init
+  - git add -A
+  - git commit -m 'deploy'
+  - git push -f git@github.com:LEEKYOUNGHWA/LEEKYOUNGHWA.github.io.git master
 deploy:
   provider: pages
   skip_cleanup: true
