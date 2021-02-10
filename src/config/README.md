@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Configgggg
+# Configggggggg
 
 ## foo
 
@@ -14,5 +14,5 @@ sidebar: auto
 - Type: `string`
 - Default: `/`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzAzMjkxMV19
+eyJoaXN0b3J5IjpbLTIwNjQwMTUzMjJdfQ==
 -->
