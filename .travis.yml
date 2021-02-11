@@ -9,7 +9,7 @@ notifications:
  email:
    recipients:
      - rudghk5220@gmail.com
-  deploy:
+deploy:
   provider: pages
   skip_cleanup: true
   local_dir: src/.vuepress/dist
