@@ -28,10 +28,10 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
+    editLinks: true,
     docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    editLinkText: 'edit',
+    lastUpdated: true,
     nav: [
       {
         text: 'Guide',
@@ -40,10 +40,6 @@ module.exports = {
       {
         text: 'Config',
         link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
   },
