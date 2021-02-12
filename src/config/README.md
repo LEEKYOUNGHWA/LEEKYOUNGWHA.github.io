@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# Configggggggg
+# Configgggggggwhyyyyyyy
 
 ## foo
 
