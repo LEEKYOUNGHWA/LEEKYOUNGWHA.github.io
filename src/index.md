@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: myBlog
 actionText: Quick Start →
