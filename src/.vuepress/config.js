@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'devblog',
+  title: 'BLOG',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -32,25 +32,24 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Posts',
-        link: '/posts/',
-      }
-    ],
+    // nav: [
+    //   {
+    //     // text: 'a',
+    //     // link: '/',
+    //   }
+    // ],
     sidebar: {
-      '/posts/': [
+      '/': [
         {
           title: 'Vue',
-          collapsable: true,
+          collapsable: false,
           children: [
-            '',
             'using-vue'
           ]
         },
         {
           title: 'Spring',
-          collapsable: true,
+          collapsable: false,
           children: [
             'using-vue2'
           ]
