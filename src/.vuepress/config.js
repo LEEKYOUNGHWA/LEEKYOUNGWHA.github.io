@@ -43,12 +43,12 @@ module.exports = {
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
         'two'   /* /foo/two.html */
-      ],,
+      ],
       '/sql/':[
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
         'two'   /* /foo/two.html */
-      ],,
+      ],
       '/tools/':[
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
