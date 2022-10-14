@@ -38,7 +38,7 @@ module.exports = {
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
         'two'   /* /foo/two.html */
-      ],,
+      ],
       '/spring/':[
         '',     /* /foo/ */
         'one',  /* /foo/one.html */
