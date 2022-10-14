@@ -34,10 +34,26 @@ module.exports = {
     lastUpdated: false,
     searchPlaceholder: 'Search...'
     sidebar: {
-      '/vue/':'auto',
-      '/spring/':'auto',
-      '/sql/':'auto',
-      '/tools/':'auto',
+      '/vue/':[
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],,
+      '/spring/':[
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],,
+      '/sql/':[
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],,
+      '/tools/':[
+        '',     /* /foo/ */
+        'one',  /* /foo/one.html */
+        'two'   /* /foo/two.html */
+      ],
     },
   },
 
