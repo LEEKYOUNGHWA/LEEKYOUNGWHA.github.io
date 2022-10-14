@@ -38,7 +38,6 @@ module.exports = {
       '/spring/':'auto',
       '/sql/':'auto',
       '/tools/':'auto',
-      '/': 'auto',
     },
   },
 
