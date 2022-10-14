@@ -33,11 +33,11 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     sidebar: [
-      '/': 'auto',
       '/vue/':'auto',
       '/spring/':'auto',
       '/sql/':'auto',
       '/tools/':'auto',
+      '/': 'auto',
     ],
   },
 
