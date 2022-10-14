@@ -32,7 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    searchPlaceholder: 'Search...'
+    searchPlaceholder: 'Search...',
     sidebar: {
       '/vue/':[
         '',     /* /foo/ */
