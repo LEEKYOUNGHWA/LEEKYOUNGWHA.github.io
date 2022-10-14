@@ -4,8 +4,8 @@ https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789
 
 ![저 팝업이 떳을때 소스를 실행하는게 키포인트](https://photos.app.goo.gl/obuZhHyp6c3LR9jT6)
 
-    enter code here 
-    window.XMLHttpRequest =  class MyXMLHttpRequest extends window.XMLHttpRequest {
+```js
+window.XMLHttpRequest =  class MyXMLHttpRequest extends window.XMLHttpRequest {
   open(...args){
     if(args[1].startsWith("https://api.github.com/user?access_token=")) {
       // apply fix as described by github
@@ -17,7 +17,7 @@ https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789
       
       const ret = super.open(...args);
       
-      this.setRequestHeader("Authorization", `token ghp_6ZgEi1xkBiO--------Ora2M0A5wbi`); // set required header
+      this.setRequestHeader("Authorization", `token ${token}`); // set required header
       
       return ret;
     }
@@ -26,11 +26,12 @@ https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789
     }
   }
 }
+```
     
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNjMxNzQ1LDE5MDg1NTU1NjAsNjI5Nz
+eyJoaXN0b3J5IjpbNTAyOTc2MzI0LDE5MDg1NTU1NjAsNjI5Nz
 QyNDY4XX0=
 -->
