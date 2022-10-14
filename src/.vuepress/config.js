@@ -32,9 +32,13 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    sidebar: {
-      '/': 'auto'
-    },
+    sidebar: [
+      '/': 'auto',
+      '/vue/':'auto',
+      '/spring/':'auto',
+      '/sql/':'auto',
+      '/tools/':'auto',
+    ],
   },
 
   /**
