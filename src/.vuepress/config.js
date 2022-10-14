@@ -38,24 +38,7 @@ module.exports = {
     //     // link: '/',
     //   }
     // ],
-    sidebar: {
-      '/': [
-        {
-          title: 'Vue',
-          collapsable: false,
-          children: [
-            'using-vue'
-          ]
-        },
-        {
-          title: 'Spring',
-          collapsable: false,
-          children: [
-            'using-vue2'
-          ]
-        }
-      ],
-    }
+    sidebar: 'auto',
   },
 
   /**
