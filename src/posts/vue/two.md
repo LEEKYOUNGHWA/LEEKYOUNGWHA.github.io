@@ -110,7 +110,7 @@ module.exports = {
     plugins: [
         '@vuepress/plugin-back-to-top',
         '@vuepress/plugin-medium-zoom',
-        ['sitemap', { hostname: 'https://leekyounghwa.github.io'}], /* 문법 틀려서 한참 헤멨다 */
+        ['sitemap', { hostname: 'https://leekyounghwa.github.io'}], /* 괄호 틀려서 한참 헤멨다 */
       ],
 }
 ```
@@ -123,5 +123,3 @@ Allow: /
 Sitemap: https://leekyounghwa.github.io/sitemap.xml
 ```
 [https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap)
-
-구글디벨로퍼를 보니깐 직접 제출 혹은 robots.txt 작성 둘중에 하나만 해도 되는거 같다.
