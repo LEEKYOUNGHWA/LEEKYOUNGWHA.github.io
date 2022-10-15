@@ -123,3 +123,65 @@ Allow: /
 Sitemap: https://leekyounghwa.github.io/sitemap.xml
 ```
 [https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap)
+
+[https://search.google.com/search-console](https://search.google.com/search-console)
+
+![3](~@image/3.png)
+
+## 댓글기능추가하기
+
+[https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/)
+
+`theme/components/Comment.vue 파일 생성`
+```js
+<template>
+  <div ref="comment"></div>
+</template>
+<script>
+export default {
+  mounted() {
+    // script tag 생성
+    const utterances = document.createElement("script");
+    utterances.type = "text/javascript";
+    utterances.async = true;
+    utterances.crossorigin = "anonymous";
+    utterances.src = "https://utteranc.es/client.js";
+
+    utterances.setAttribute("issue-term", "pathname"); // pathname|url|title|og:title 중 택 1
+    utterances.setAttribute("theme", "github-light"); // theme 설정 (github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark, boxy-light) 중 하나 선택
+    utterances.setAttribute("repo", `LEEKYOUNGHWA/blog-comment`); // 주의!! 사용할 repository
+
+    this.$refs.comment.appendChild(utterances);
+  }
+};
+</script>
+```
+
+`theme/components/Page.vue 수정`
+
+```js {6,18,21}
+<template>
+  <main class="page">
+    <slot name="top" />
+
+    <Content class="theme-default-content" />
+    <Comment/>
+    <PageEdit />
+
+    <PageNav v-bind="{ sidebarItems }" />
+
+    <slot name="bottom" />
+  </main>
+</template>
+
+<script>
+import PageEdit from '@theme/components/PageEdit.vue'
+import PageNav from '@theme/components/PageNav.vue'
+import Comment from '@theme/components/Comment.vue'
+
+export default {
+  components: { PageEdit, PageNav, Comment },
+  props: ['sidebarItems']
+}
+</script>
+```
