@@ -45,7 +45,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-    {'sitemap': { hostname: 'https://leekyounghwa.github.io'}},
+    ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
   ],
 
   configureWebpack: {

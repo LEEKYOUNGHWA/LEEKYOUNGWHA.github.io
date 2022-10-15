@@ -1,4 +1,4 @@
-# vuepress
+# vuepress 블로그
 
 ## sidebar 자동 생성
 
@@ -90,11 +90,38 @@ configureWebpack: {
 ![2](~@image/2.png) /*markdown에서 사용할때는 이렇게*/
 ```
 
-### 검색최적화
+## SEO 검색최적화 sitemap 만들기
 
-```
+[https://www.npmjs.com/package/vuepress-plugin-sitemap](https://www.npmjs.com/package/vuepress-plugin-sitemap)
+[https://kyounghwan01.github.io/blog/Vue/vuepress/seo/](https://kyounghwan01.github.io/blog/Vue/vuepress/seo/)
+
+```bash
 npm install vuepress-plugin-sitemap
 ```
 
+`requires a peer of esm@^3.0.0 but none is installed` 메시지 떠서 추가로 설치해줬다
+
+```bash
+npm install "esm@^3.0.0"
 ```
+
+```js
+module.exports = {
+    plugins: [
+        '@vuepress/plugin-back-to-top',
+        '@vuepress/plugin-medium-zoom',
+        ['sitemap', { hostname: 'https://leekyounghwa.github.io'}], /* 문법 틀려서 한참 헤멨다 */
+      ],
+}
 ```
+빌드하면 src/.vuepress/dist/sitemap.xml 파일이 생성된것을 확인할 수 있다.
+
+`src/.vuepress/public/robots.txt 작성`
+```
+User-agent: *
+Allow: /
+Sitemap: https://leekyounghwa.github.io/sitemap.xml
+```
+[https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap)
+
+구글디벨로퍼를 보니깐 직접 제출 혹은 robots.txt 작성 둘중에 하나만 해도 되는거 같다.
