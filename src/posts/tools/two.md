@@ -1,8 +1,12 @@
-# stackedit github 연동
+# stackedit github 연동 400 error 해결
 
-https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789
+[https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789](https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789)
 
-![저 팝업이 떳을때 소스를 실행하는게 키포인트](https://photos.app.goo.gl/obuZhHyp6c3LR9jT6)
+![image](~@image/1.jpg)
+`저 팝업이 떳을때 소스를 실행하는게 키포인트 ㅜㅜ 바보같이 이걸 헤멨다`
+
+소스 실행하고 체크박스 체크하고 ok 클릭.
+토큰은 깃헙에서 새로 발급 받았다. 예전이랑 방식이 바뀐듯
 
 ```js
 window.XMLHttpRequest =  class MyXMLHttpRequest extends window.XMLHttpRequest {
@@ -27,10 +31,3 @@ window.XMLHttpRequest =  class MyXMLHttpRequest extends window.XMLHttpRequest {
   }
 }
 ```
-    
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyOTc2MzI0XX0=
--->

@@ -1,4 +1,6 @@
 const { description } = require('../../package')
+const fs = require("fs")
+const path = require("path")
 
 module.exports = {
   /**
@@ -31,30 +33,10 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
-    searchPlaceholder: 'Search...',
+    lastUpdated: true,
     sidebar: {
-      '/vue/':[
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
-      ],
-      '/spring/':[
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
-      ],
-      '/sql/':[
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
-      ],
-      '/tools/':[
-        '',     /* /foo/ */
-        'one',  /* /foo/one.html */
-        'two'   /* /foo/two.html */
-      ],
-    },
+      '/': getSideBar()
+    }
   },
 
   /**
@@ -63,5 +45,29 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@image': '/src/image/'
+      }
+    }
+  }
+};
+
+function getSideBar() {
+  const src = './src/';
+  const posts = 'posts'
+  const fs = require('fs');
+  const fileList = [];  
+  fs.readdirSync(src+posts).forEach(file => {   
+    const childrenList = [];
+    fs.readdirSync(src+posts+'/'+file).forEach(fileName => {
+      childrenList.push((posts+'/'+file+'/'+fileName).replace('.md',''))
+    });
+    fileList.push({'title' : file, 'collapsable' : false, 'children' : childrenList});
+  }); 
+  console.log(fileList);
+  return fileList;
 }
