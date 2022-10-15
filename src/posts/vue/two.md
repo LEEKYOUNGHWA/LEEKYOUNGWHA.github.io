@@ -89,3 +89,12 @@ configureWebpack: {
 ```
 ![2](~@image/2.png) /*markdown에서 사용할때는 이렇게*/
 ```
+
+### 검색최적화
+
+```
+npm install vuepress-plugin-sitemap
+```
+
+```
+```
