@@ -3,7 +3,7 @@
     <slot name="top" />
 
     <Content class="theme-default-content" />
-    <Comment class="theme-default-content" ref="comm" :key="location"/>
+    <Comment class="theme-default-content" :key="location"/>
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />

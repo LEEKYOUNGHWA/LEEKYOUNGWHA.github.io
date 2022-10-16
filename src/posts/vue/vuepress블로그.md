@@ -128,7 +128,7 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 
 ![3](~@image/3.png)
 
-## 댓글기능추가하기
+## vuepress utterance 댓글기능추가하기
 
 [https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/)
 
@@ -199,7 +199,7 @@ Page.vue DOM 변경시 현재 url path를 키값으로 설정하여 Comment comp
     <slot name="top" />
 
     <Content class="theme-default-content" />
-    <Comment class="theme-default-content" ref="comm" :key="location"/>
+    <Comment class="theme-default-content" :key="location"/>
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
