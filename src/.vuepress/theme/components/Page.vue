@@ -22,7 +22,7 @@ export default {
   props: ['sidebarItems'],
   data () {
     return {
-      location: location.pathname
+      location: ''
     }
   },
   updated() {
