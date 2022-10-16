@@ -185,3 +185,47 @@ export default {
 }
 </script>
 ```
+
+`20221016 theme/components/Page.vue DOM 사이드바로 메뉴 이동시 댓글이 바뀌지 않았다 ㅠ 강제로 업데이트`
+
+Page.vue DOM 변경시 현재 url path를 키값으로 설정하여 Comment component update!!
+ 
+[https://hyeonyeee.tistory.com/m/97](https://hyeonyeee.tistory.com/m/97)
+[https://forum.vuejs.org/t/observing-dom-changes/28585](https://forum.vuejs.org/t/observing-dom-changes/28585)
+
+```js
+<template>
+  <main class="page">
+    <slot name="top" />
+
+    <Content class="theme-default-content" />
+    <Comment class="theme-default-content" ref="comm" :key="location"/>
+    <PageEdit />
+
+    <PageNav v-bind="{ sidebarItems }" />
+
+    <slot name="bottom" />
+  </main>
+</template>
+
+<script>
+import PageEdit from '@theme/components/PageEdit.vue'
+import PageNav from '@theme/components/PageNav.vue'
+import Comment from '@theme/components/Comment.vue'
+
+export default {
+  components: { PageEdit, PageNav, Comment },
+  props: ['sidebarItems'],
+  data () {
+    return {
+      location: location.pathname
+    }
+  },
+  updated() {
+    this.$nextTick(() => {
+      this.location = location.pathname;
+    })
+  },
+}
+</script>
+```

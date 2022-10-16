@@ -3,7 +3,7 @@
     <slot name="top" />
 
     <Content class="theme-default-content" />
-    <Comment class="theme-default-content" ref="comm"/>
+    <Comment class="theme-default-content" ref="comm" :key="location"/>
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -20,10 +20,14 @@ import Comment from '@theme/components/Comment.vue'
 export default {
   components: { PageEdit, PageNav, Comment },
   props: ['sidebarItems'],
+  data () {
+    return {
+      location: location.pathname
+    }
+  },
   updated() {
     this.$nextTick(() => {
-      console.log("updated");
-      this.$refs.comm.forceUpdate();
+      this.location = location.pathname;
     })
   },
 }
