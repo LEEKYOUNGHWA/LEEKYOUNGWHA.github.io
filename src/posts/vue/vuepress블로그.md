@@ -1,5 +1,8 @@
 # vuepress 블로그
 
+## vue gtag
+[https://yenarue.github.io/web/2020/04/29/vue-google-analytics/(https://yenarue.github.io/web/2020/04/29/vue-google-analytics/)
+
 ## sidebar 자동 생성
 
 [https://techformist.com/automatic-dynamic-sidebar-vuepress/](https://techformist.com/automatic-dynamic-sidebar-vuepress/)
@@ -229,3 +232,6 @@ export default {
 }
 </script>
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUwOTkyMzc2MV19
+-->
