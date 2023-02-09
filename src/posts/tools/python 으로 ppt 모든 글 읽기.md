@@ -1,7 +1,22 @@
+# python 으로 .ppt 파일 .pptx로 저장
+
+```python
+prs = Presentation(file)
+for slide in prs.slides:
+    for shape in slide.shapes:
+        if shape.has_text_frame:
+    print(shape.text_frame.text)
+    for paragraph in shape.text_frame.paragraphs:
+        print(paragraph.text)
+
+                    for idx in range(0,len(shape.text_frame.paragraphs)-1):
+                        for ridx in range(0,len(shape.text_frame.paragraphs[idx].runs)):
+                            print(shape.text_frame.paragraphs[idx].runs[ridx].text)
+```
+    
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NzgyNjgwMjVdfQ==
 -->
