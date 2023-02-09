@@ -1,28 +1,30 @@
 # python 으로 .ppt 파일 .pptx로 저장
 
 ```python
+from glob import glob
+import re
 import os
-from pptx import Presentation
-import glob
-import sys
+import win32com.client
 
-path = "C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\보고서설계서"
-files = glob.glob(path + '/*')
+# Create list of paths to .doc files
+paths = glob('C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\보고서설계서\\*.ppt', recursive=True)
 
-for file in files:
-    prs = Presentation(file)
-    for slide in prs.slides:
-        for shape in slide.shapes:
-            if shape.has_table:
-                for i in range(0,len(shape.table.rows)-1):
-                    for j in range(0,len(shape.table.rows[i].cells)-1):
-                        cell = shape.table.rows[i].cells[j].text
-                        print(cell)
+def save_as_pptx(path):
+    PptApp = win32com.client.Dispatch("Powerpoint.Application")
+    PptApp.Visible = True
+    PPtPresentation = PptApp.Presentations.Open(path)
+    PPtPresentation.SaveAs(path+'x', 24)
+    PPtPresentation.close()
+    PptApp.Quit()
+    
+for path in paths:
+    print(path.replace("\\보고서설계서\\", "\\보고서설계서_ppt\\"))
+    save_as_pptx(path)
 ```
     
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYzNzM1ODNdfQ==
+eyJoaXN0b3J5IjpbMjA2Mzg3Mjg4Ml19
 -->
