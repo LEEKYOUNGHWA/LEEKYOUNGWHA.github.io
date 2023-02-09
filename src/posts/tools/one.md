@@ -1,5 +1,4 @@
-# stackedit github 연동
-
+# stackedit github 로그인 400 error 
 https://github.com/benweet/stackedit/issues/1755#issuecomment-918949789
 
 ![저 팝업이 떳을때 소스를 실행하는게 키포인트](https://photos.app.goo.gl/obuZhHyp6c3LR9jT6)
@@ -32,5 +31,5 @@ window.XMLHttpRequest =  class MyXMLHttpRequest extends window.XMLHttpRequest {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyOTc2MzI0XX0=
+eyJoaXN0b3J5IjpbMTUwNzU3MzU5MSw1MDI5NzYzMjRdfQ==
 -->
