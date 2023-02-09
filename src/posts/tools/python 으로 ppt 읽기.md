@@ -1,6 +1,6 @@
 # python 으로 ppt 테이블의 모든 셀 읽기
 
-```js
+```python
 import os
 from pptx import Presentation
 import glob
@@ -24,5 +24,5 @@ for file in files:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NzQ0NTE0XX0=
+eyJoaXN0b3J5IjpbLTE1NjY3NTQ2NjddfQ==
 -->
