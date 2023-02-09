@@ -1,3 +1,5 @@
+# pytoh .doc to .docx
+
 ```python
 from glob import glob
 import re
@@ -34,5 +36,5 @@ for path in paths:
 print(count)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDY4NTg4OF19
+eyJoaXN0b3J5IjpbMTQ5MTI0MDY1NF19
 -->
