@@ -1,4 +1,4 @@
-# python 으로 ppt 읽기
+# python 으로 ppt 테이블 읽기
 
 ```js
 import os
@@ -24,5 +24,5 @@ for file in files:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODMxNzMzNF19
+eyJoaXN0b3J5IjpbNTY0NDU3ODI2XX0=
 -->
