@@ -1,4 +1,4 @@
-# python 으로 .ppt 파일 .pptx로 저장
+# python 으로 ppt 모든 글 읽기
 
 ```python
 prs = Presentation(file)
@@ -18,5 +18,5 @@ for slide in prs.slides:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODk5NjQyNV19
+eyJoaXN0b3J5IjpbMTE5NDU1MDUzLC02MTg5OTY0MjVdfQ==
 -->
