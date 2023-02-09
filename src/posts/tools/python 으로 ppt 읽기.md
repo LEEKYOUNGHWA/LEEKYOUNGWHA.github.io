@@ -1,32 +1,35 @@
 # python 으로 ppt 읽기
 
 ```js
-window.XMLHttpRequest =  class MyXMLHttpRequest extends window.XMLHttpRequest {
-  open(...args){
-    if(args[1].startsWith("https://api.github.com/user?access_token=")) {
-      // apply fix as described by github
-      // https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param/#changes-to-make
-  
-      const segments = args[1].split("?");
-      args[1] = segments[0]; // remove query params from url
-      const token = segments[1].split("=")[1]; // save the token
-      
-      const ret = super.open(...args);
-      
-      this.setRequestHeader("Authorization", `token ${token}`); // set required header
-      
-      return ret;
-    }
-    else {
-      return super.open(...args);
-    }
-  }
-}
+import os
+from pptx import Presentation
+import glob
+import sys
+
+path = "C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\보고서설계서"
+path_ = "C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\보고서설계서_"
+files = glob.glob(path + '/*')
+
+for file in files:
+    f=file
+    rename=''
+    name = ''
+    idd = ''
+    yn = '.pptx' in os.path.basename(f) and 'VFS' in os.path.basename(f)
+    if (yn == True) :
+        prs = Presentation(f)
+        for slide in prs.slides:
+            for shape in slide.shapes:
+                if shape.has_table:
+                    for i in range(0,len(shape.table.rows)-1):
+                        for j in range(0,len(shape.table.rows[i].cells)-1):
+                            cell = shape.table.rows[i].cells[j].text
+                            print(cell)
 ```
     
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODQ2NTI4Nl19
+eyJoaXN0b3J5IjpbLTE5OTg5NDc3MTNdfQ==
 -->
