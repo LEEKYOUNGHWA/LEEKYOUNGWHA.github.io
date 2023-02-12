@@ -12,6 +12,5 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BUILD_SCRIPT: yarn --ignore-engines && yarn build
-        TARGET_REPO: LEEKYOUNGWHA/LEEKYOUNGHWA.github.io
         TARGET_BRANCH: gh-pages
         BUILD_DIR: src/.vuepress/dist/
