@@ -1,5 +1,5 @@
 {
-  "name": "LEEKYOUNGHWA.github.io",
+  "name": "leekyounghwa.github.io",
   "version": "0.0.1",
   "description": "myBlog",
   "main": "index.js",
@@ -7,17 +7,22 @@
     "name": "LeeKyounghwa",
     "email": "rudghk5220@gmail.com"
   },
-  "repository": "https://github.com/LEEKYOUNGHWA/LEEKYOUNGHWA.github.io/LEEKYOUNGHWA.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LEEKYOUNGHWA/LEEKYOUNGHWA.github.io/LEEKYOUNGHWA.github.io"
+  },
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.9.8"
   },
   "dependencies": {
     "esm": "^3.0.0",
     "vuepress-plugin-sitemap": "^2.3.1"
-  }
+  },
+  "keywords": [],
+  "author": ""
 }
