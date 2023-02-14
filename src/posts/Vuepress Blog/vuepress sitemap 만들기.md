@@ -1,8 +1,4 @@
-# vuepress 블로그
-
-
-
-
+# vuepress  sitemap 만들기
 
 ## SEO 검색최적화 sitemap 만들기
 
@@ -55,5 +51,5 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEzMTc0NjddfQ==
+eyJoaXN0b3J5IjpbOTQ5MTg5OTYyXX0=
 -->
