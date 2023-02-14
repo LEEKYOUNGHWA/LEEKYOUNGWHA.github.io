@@ -56,7 +56,7 @@ export default {
 }
 </script>
 ```
-theme/components/Page.vue DOM 사이드바로 메뉴 이동시 댓글이 바뀌지 않았다 ㅠ 강제로 업데이트`
+theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이드바로 메뉴 이동시 댓글창이 바뀌지 않았다 ㅠ... 강제로 업데이트 하는 코드를 추가해 주었다.
 
 Page.vue DOM 변경시 현재 url path를 키값으로 설정하여 Comment component update!!
  
@@ -100,5 +100,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDA2Mzc2M119
+eyJoaXN0b3J5IjpbMjUxMjM0NzddfQ==
 -->
