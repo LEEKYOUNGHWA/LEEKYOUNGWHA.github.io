@@ -66,7 +66,8 @@ TARGET_BRANCH: gh-pages
 BUILD_DIR: src/.vuepress/dist/
 ```
 
-정상적으로 빌드 배포되는것 확인이전 완료!
+정상적으로 빌드 배포되는것 확인하였다
+이전 완료!
 
 
 
@@ -75,7 +76,7 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDYxMDQyNCw5ODgwMDQ5NjEsMjA5Nj
-gzMTAyOSwxOTgxMDkwOTQ0LC0xMTQxODc0NDA2LC0xMDM4MTcw
-MTc3LDE5OTU2MDA1NzBdfQ==
+eyJoaXN0b3J5IjpbODc4MzA3NTM2LDk4ODAwNDk2MSwyMDk2OD
+MxMDI5LDE5ODEwOTA5NDQsLTExNDE4NzQ0MDYsLTEwMzgxNzAx
+NzcsMTk5NTYwMDU3MF19
 -->
