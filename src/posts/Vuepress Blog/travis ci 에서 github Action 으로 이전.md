@@ -20,6 +20,8 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 >   모든 신규 사용자가 가입 시 선택할 수 있는 무료 '평가판' 플랜은 사용자 수에 제한이 없는 사용량 기반 플랜으로, 즉시 구축을 시작할 수 있는 10,000개의 평가판 크레딧 풀이 함께 제공됩니다. 이러한 크레딧이 소진되면 보충되지 않으며 사용자는 계속 구축하려면 더 높은 요금제에 가입해야 합니다. [OSS 크레딧 수당](https://docs.travis-ci.com/user/billing-faq/#what-if-i-am-building-open-source) 을 요청 하거나 사용 가능한 계획 중 하나를 고려하십시오. 
 >   ***평가판 크레딧은 30일 동안만 유효합니다.***
 
+## github Action 세팅
+
 몇년동안 잘 쓴 travis ci를 뒤로하고.. github Action으로 옮기기로 마음 먹었다.
 
 블로그 참고하여 진행하였다. [참고](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-actions/#vuepress-github-actions%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)
@@ -64,8 +66,8 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjQ2OTAsMTQ2NDI5Mzg5NSwtMTI4ND
-Y3MTQ4NSw4NzgzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEwMjks
-MTk4MTA5MDk0NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3NywxOT
-k1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbLTIxMTg4MjQ0MjgsMTQ2NDI5Mzg5NSwtMT
+I4NDY3MTQ4NSw4NzgzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEw
+MjksMTk4MTA5MDk0NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3Ny
+wxOTk1NjAwNTcwXX0=
 -->
