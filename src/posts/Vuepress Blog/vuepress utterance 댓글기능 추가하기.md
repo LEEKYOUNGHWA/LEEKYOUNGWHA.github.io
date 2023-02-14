@@ -3,6 +3,7 @@
 [블로그](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/) 참고 하였다.. 이분은 패키지를 새로 설치 하셨지만 그냥 vue press를 수정하면 안되나? 하는 생각에.. vuepress 직접 수정 했습니다
 
  1.  theme/components/Comment.vue 파일 생성
+ 
 ```js
 <template>
   <div ref="comment"></div>
@@ -27,7 +28,7 @@ export default {
 </script>
 ```
 
-`theme/components/Page.vue 수정`
+2. theme/components/Page.vue 수정
 
 ```js {6,18,21}
 <template>
@@ -55,8 +56,7 @@ export default {
 }
 </script>
 ```
-
-`20221016 theme/components/Page.vue DOM 사이드바로 메뉴 이동시 댓글이 바뀌지 않았다 ㅠ 강제로 업데이트`
+theme/components/Page.vue DOM 사이드바로 메뉴 이동시 댓글이 바뀌지 않았다 ㅠ 강제로 업데이트`
 
 Page.vue DOM 변경시 현재 url path를 키값으로 설정하여 Comment component update!!
  
@@ -100,5 +100,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE3OTA5NjVdfQ==
+eyJoaXN0b3J5IjpbMTUxMDA2Mzc2M119
 -->
