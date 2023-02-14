@@ -66,12 +66,13 @@ theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이�
 
 ```js
 // 최종!
+// theme/components/Page.vue
 <template>
   <main class="page">
     <slot name="top" />
 
     <Content class="theme-default-content" />
-    <Comment class="theme-default-content" :key="location"/>
+    <Comment :key="location"/>
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -102,5 +103,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODQ4OTk3MV19
+eyJoaXN0b3J5IjpbMTk1OTE2MzcxNV19
 -->
