@@ -1,6 +1,6 @@
 # vuepress utterance 댓글기능추가하기
 
-[블로그](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/) 참고 하였다.. 이분은 패키지를 새로 설치 하셨지만 그냥 vue press를 수정하면 안되나? 하는 생각에.. vuepress 직접 수정 했습니다
+[블로그](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/) 참고 하였다.. 이분은 패키지를 새로 설치 하셨지만 그냥 vue press를 수정하면 안되나? 하는 생각에.. vuepress 직접 수정 했다
 
  1.  theme/components/Comment.vue 파일 생성
  
@@ -59,7 +59,7 @@ export default {
 ```
 댓글창은 떳으나... 사이드바로 메뉴 이동시 댓글창이 바뀌지 않았다.. (새로고침이나 url 이동시에는 정상 동작해서 뒤늦게 발견했다.. ㅠ) 사이드바로 이동시 컨텐츠만 업데이트 되어서 Comment 컴포넌트는 그대로 유지되는 듯 했다. 페이지 전체를 reload 하지 않고 comment component만 업데이트 시키는 로직을 추가해 주었다.
 
-현재 url path를 키값으로 설정하여 변경 감지시  `<Comment/>` component를 강제 업데이트 시켜주는 로직을 추가해 주었다.
+현재 url path를 키값으로 설정하여 변경 감지시  `<Comment/>` component를 강제 업데이트 시켜주었다.
  
 [observing dom changes](https://forum.vuejs.org/t/observing-dom-changes/28585)
 [vue force rerender](https://michaelnthiessen.com/force-re-render/)
@@ -103,5 +103,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDYwODY4MywxNTc3MTY3OTFdfQ==
+eyJoaXN0b3J5IjpbLTk4NzYyNzUzNSwxNTc3MTY3OTFdfQ==
 -->
