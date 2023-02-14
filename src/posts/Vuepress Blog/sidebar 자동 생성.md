@@ -2,6 +2,7 @@
 # sidebar 자동 생성
 
 [https://techformist.com/automatic-dynamic-sidebar-vuepress/](https://techformist.com/automatic-dynamic-sidebar-vuepress/)
+
 vuepress는 다 괜찮은데 게시글을 하나 생성할때마다 설정 파일에 경로를 지정해 줘야 하는게 상당히 귀찮다. 
 
 여러 블로그랑 npm package를 봤는데 내가 원하는 모양새는 아니었다.  
@@ -74,5 +75,5 @@ function getSideBar() {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjAwOTY2Nyw3MzA0MjY1MjNdfQ==
+eyJoaXN0b3J5IjpbMTc3MDExNzY4MSw3MzA0MjY1MjNdfQ==
 -->
