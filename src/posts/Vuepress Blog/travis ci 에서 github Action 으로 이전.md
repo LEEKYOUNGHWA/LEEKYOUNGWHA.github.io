@@ -31,10 +31,8 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 [https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module](https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module)
 
-
-// .github/workflows/main.yml
-
 ```
+// .github/workflows/main.yml
 name: Build and Deploy
 on: [push]
 jobs:
@@ -63,7 +61,7 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTM1NDMyMSwtMTI4NDY3MTQ4NSw4Nz
+eyJoaXN0b3J5IjpbMTg2NzgxMTU0NSwtMTI4NDY3MTQ4NSw4Nz
 gzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEwMjksMTk4MTA5MDk0
 NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3NywxOTk1NjAwNTcwXX
 0=
