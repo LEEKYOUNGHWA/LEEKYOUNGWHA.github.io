@@ -13,6 +13,7 @@ vuepress에서 기본으로 제공하는 `sidebar: 'auto'` 옵션은 는 한 페
 
 ![2](~@image/2.png)
 
+기존 side bar 설정을 지우고 동적으로 읽을 수 있게 함수를 생성해 주었다.
 ```js
 themeConfig: {
     repo: '',
@@ -74,5 +75,6 @@ function getSideBar() {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4Njg4MTUsNzMwNDI2NTIzXX0=
+eyJoaXN0b3J5IjpbLTEwODU3MDU5ODksOTA4Njg4MTUsNzMwND
+I2NTIzXX0=
 -->
