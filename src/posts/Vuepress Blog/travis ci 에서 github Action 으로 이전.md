@@ -25,8 +25,10 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 가상머신 npm 버전이 낮아서 생기는 문제였다.. 다시 폭풍 서치,.,
 
 > yarn --ignore-engines
+엔진 체크를 무시하는 명령어를 추가해 주었다.
+https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module
 
-npm 
+
 ```
 name: Build and Deploy
 
@@ -67,6 +69,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTk4MjA3MiwtMTAzODE3MDE3NywxOT
+eyJoaXN0b3J5IjpbLTk0MzgwNzU4MiwtMTAzODE3MDE3NywxOT
 k1NjAwNTcwXX0=
 -->
