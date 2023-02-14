@@ -24,6 +24,7 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 가상머신 npm 버전이 낮아서 생기는 문제였다.. 다시 폭풍 서치,.,
 
+> yarn --ignore-engines
 
 ```
 name: Build and Deploy
@@ -65,5 +66,5 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDkxMzkwNywxOTk1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbLTEwMzgxNzAxNzcsMTk5NTYwMDU3MF19
 -->
