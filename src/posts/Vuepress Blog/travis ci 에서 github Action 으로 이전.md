@@ -2,7 +2,7 @@
 
 ### Builds have been temporarily disabled for private and public repositories due to a negative credit balance. Please go to the Plan page to replenish your credit balance.
 
-
+4개월만에 git블로그에 글을 쓰고 자동으로 배포가 되길 기다렸으나.. 요지부동 이었다. 이놈의 블로그는 참 손이 많이 간다.. (티스토리로 옮기고 싶은 마음이 굴뚝같지만 그동안 쓴 시간이 아깝고..)
 
 [https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html](https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html)
 
@@ -14,5 +14,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbLTI5OTkyNzI2MSwxOTk1NjAwNTcwXX0=
 -->
