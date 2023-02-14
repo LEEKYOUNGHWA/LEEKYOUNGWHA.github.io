@@ -32,7 +32,7 @@ module.exports = {
 
 빌드하면 src/.vuepress/dist/sitemap.xml 파일이 생성된것을 확인할 수 있다.
 
-***src/.vuepress/public/robots.txt*** 
+>***src/.vuepress/public/robots.txt***  정상적으로 뜨는지 확인
 ```
 User-agent: *
 Allow: /
@@ -51,5 +51,5 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDM5NDYyN119
+eyJoaXN0b3J5IjpbMTYwNzE3MDg4M119
 -->
