@@ -72,9 +72,7 @@ function getSideBar() {
 }
 ```
 이제 마크다운 파일만 생성해주면 사이드바에 자동으로 추가된다!
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODQxMjgwNCwtMTA4NTcwNTk4OSw5MD
-g2ODgxNSw3MzA0MjY1MjNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjA2NTA1NDIsLTc4ODQxMjgwNCwtMT
+A4NTcwNTk4OSw5MDg2ODgxNSw3MzA0MjY1MjNdfQ==
 -->
