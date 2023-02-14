@@ -35,35 +35,24 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 // .github/workflows/main.yml
 
+```
 name: Build and Deploy
-
 on: [push]
-
 jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
 
-build-and-deploy:
-
-runs-on: ubuntu-latest
-
-steps:
-
-- name: Checkout
-
-uses: actions/checkout@master
-
-- name: Deploy Build Files
-
-uses: jenkey2011/vuepress-deploy@1.0.1
-
-env:
-
-ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-
-BUILD_SCRIPT: yarn --ignore-engines && yarn build
-
-TARGET_BRANCH: gh-pages
-
-BUILD_DIR: src/.vuepress/dist/
+    - name: Deploy Build Files
+      uses: jenkey2011/vuepress-deploy@1.0.1
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BUILD_SCRIPT: yarn --ignore-engines && yarn docs:build
+        TARGET_BRANCH: gh-pages
+        BUILD_DIR: docs/.vuepress/dist
+```
 ```
 
 정상적으로 빌드 배포되는것 확인하였다
@@ -76,7 +65,7 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4MzA3NTM2LDk4ODAwNDk2MSwyMDk2OD
-MxMDI5LDE5ODEwOTA5NDQsLTExNDE4NzQ0MDYsLTEwMzgxNzAx
-NzcsMTk5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbLTEyODQ2NzE0ODUsODc4MzA3NTM2LDk4OD
+AwNDk2MSwyMDk2ODMxMDI5LDE5ODEwOTA5NDQsLTExNDE4NzQ0
+MDYsLTEwMzgxNzAxNzcsMTk5NTYwMDU3MF19
 -->
