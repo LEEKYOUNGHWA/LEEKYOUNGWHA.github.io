@@ -61,8 +61,8 @@ theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이�
 
 현재 url path를 키값으로 설정하여 변경 감지시  `<Comment/>` component를 강제 업데이트 시켜주는 로직을 추가해 주었다.
  
-[https://hyeonyeee.tistory.com/m/97](https://hyeonyeee.tistory.com/m/97)
-[https://forum.vuejs.org/t/observing-dom-changes/28585](https://forum.vuejs.org/t/observing-dom-changes/28585)
+[observing dom changes](https://forum.vuejs.org/t/observing-dom-changes/28585)
+[vue force re render](https://michaelnthiessen.com/force-re-render/)
 
 ```js
 // 최종!
@@ -103,5 +103,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzE2NzkxXX0=
+eyJoaXN0b3J5IjpbOTI4MjE4MDU3LDE1NzcxNjc5MV19
 -->
