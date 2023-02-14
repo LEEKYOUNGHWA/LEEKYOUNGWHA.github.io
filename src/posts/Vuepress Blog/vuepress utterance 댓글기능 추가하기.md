@@ -31,6 +31,7 @@ export default {
 2. theme/components/Page.vue 수정
 
 ```js {6,18,21}
+// theme/components/Page.vue
 <template>
   <main class="page">
     <slot name="top" />
@@ -71,7 +72,6 @@ theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이�
 
     <Content class="theme-default-content" />
     <Comment class="theme-default-content" :key="location"/>
-    <!-- 컴포넌트에 키값 넣어 주기-->
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -93,7 +93,6 @@ export default {
       location: location.pathname
     }
   },
-  // url path 변경 감지시
   updated() {
     this.$nextTick(() => {
       this.location = location.pathname;
@@ -103,5 +102,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgyNDg0MzhdfQ==
+eyJoaXN0b3J5IjpbMTUwODQ4OTk3MV19
 -->
