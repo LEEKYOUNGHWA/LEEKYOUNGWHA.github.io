@@ -38,7 +38,8 @@ npm install vuepress-plugin-sitemap
 ```bash
 npm install "esm@^3.0.0"
 ```
-module.exports 에 추가해 준다. 괄호 틀려서 한참 헤멨다
+
+module.exports 에 추가해 준다. 괄호 틀려서 한참 헤멨다 ㅎㅎ
 
 ```js
 module.exports = {
@@ -165,5 +166,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjIzMDEzNl19
+eyJoaXN0b3J5IjpbLTE4NzEyNTc2MzhdfQ==
 -->
