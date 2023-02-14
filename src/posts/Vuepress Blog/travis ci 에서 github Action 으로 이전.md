@@ -61,6 +61,7 @@ TARGET_BRANCH: gh-pages
 BUILD_DIR: src/.vuepress/dist/
 ```
 
+이전 완료!
 
 
 
@@ -69,6 +70,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzgwNzU4MiwtMTAzODE3MDE3NywxOT
-k1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbNzA4Mjg0NTgzLC0xMDM4MTcwMTc3LDE5OT
+U2MDA1NzBdfQ==
 -->
