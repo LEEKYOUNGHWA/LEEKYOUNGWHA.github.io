@@ -28,7 +28,8 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 > yarn --ignore-engines
 엔진 체크를 무시하는 명령어를 추가해 주었다.
-https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module
+
+[https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module](https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module)
 
 ```
 
@@ -74,6 +75,7 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjgzMTAyOSwxOTgxMDkwOTQ0LC0xMT
-QxODc0NDA2LC0xMDM4MTcwMTc3LDE5OTU2MDA1NzBdfQ==
+eyJoaXN0b3J5IjpbOTg4MDA0OTYxLDIwOTY4MzEwMjksMTk4MT
+A5MDk0NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3NywxOTk1NjAw
+NTcwXX0=
 -->
