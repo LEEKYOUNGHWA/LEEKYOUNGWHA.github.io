@@ -56,7 +56,7 @@ export default {
 }
 </script>
 ```
-theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이드바로 메뉴 이동시 댓글창이 바뀌지 않았다.. 사이드바로 페이지 이동시 dom을 다시 렌더링 하지 않고 dom 안에 컨텐츠만 다시 불러 오는 듯? 
+theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이드바로 메뉴 이동시 댓글창이 바뀌지 않았다.. 사이드바로 페이지 이동시 dom을 다시 렌더링 하지 않고 dom 안에 컨텐츠만 다시 불러 오는 듯?
 
 현재 url path를 키값으로 설정하여 변경 감지시  `<Comment/>` component를 강제 업데이트 시켜주는 로직을 추가해 주었다.
  
@@ -64,12 +64,14 @@ theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이�
 [https://forum.vuejs.org/t/observing-dom-changes/28585](https://forum.vuejs.org/t/observing-dom-changes/28585)
 
 ```js
+// 최종!
 <template>
   <main class="page">
     <slot name="top" />
 
     <Content class="theme-default-content" />
     <Comment class="theme-default-content" :key="location"/>
+    <!-- 컴포넌트에 키값 넣어 주기-->
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -91,6 +93,7 @@ export default {
       location: location.pathname
     }
   },
+  // url path 변경 감지시
   updated() {
     this.$nextTick(() => {
       this.location = location.pathname;
@@ -100,5 +103,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDY5NzE0OV19
+eyJoaXN0b3J5IjpbLTIwMjgyNDg0MzhdfQ==
 -->
