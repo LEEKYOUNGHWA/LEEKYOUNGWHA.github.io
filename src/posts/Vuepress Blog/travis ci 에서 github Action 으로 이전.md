@@ -30,9 +30,9 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 토큰 설정까지 완료하였으나 가상 머신에서 에러를 뿜으며 빌드가 되지 않았다..... 
 
-```cmd
-The engine "node" is incompatible with this module
-```
+
+## The engine "node" is incompatible with this module
+
 다시 폭풍 서치.....
 
 [the engine node is incompatible with this module](https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module)
@@ -71,7 +71,7 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDIzMzY1OSwxOTY2MzMyNzQwLDE0Nj
+eyJoaXN0b3J5IjpbLTcwOTQ0NTg3NSwxOTY2MzMyNzQwLDE0Nj
 QyOTM4OTUsLTEyODQ2NzE0ODUsODc4MzA3NTM2LDk4ODAwNDk2
 MSwyMDk2ODMxMDI5LDE5ODEwOTA5NDQsLTExNDE4NzQ0MDYsLT
 EwMzgxNzAxNzcsMTk5NTYwMDU3MF19
