@@ -10,8 +10,6 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
  - 토글을 켜라 -> 이미 켜져있음
  - 크레딧??? (언제생겼지..) -> 남아있음
 
-=
-
 [https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html](https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html)
 
 나와 비슷한 처지인 블로그가 있었다.. 결론: 30일 무료 평가판을 쓰고 나면 더이상 무료로 사용이 불가능 하다.
@@ -76,6 +74,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3NjA3MDk2LDE5ODEwOTA5NDQsLTExND
-E4NzQ0MDYsLTEwMzgxNzAxNzcsMTk5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbMjA5NjgzMTAyOSwxOTgxMDkwOTQ0LC0xMT
+QxODc0NDA2LC0xMDM4MTcwMTc3LDE5OTU2MDA1NzBdfQ==
 -->
