@@ -1,7 +1,4 @@
-
-
-
-## 이미지 경로 설정
+# vuepress 이미지 경로 설정
 
 [https://vuepress.vuejs.org/guide/assets.html#relative-urls](https://vuepress.vuejs.org/guide/assets.html#relative-urls)
 
@@ -14,9 +11,11 @@ configureWebpack: {
     }
   }
 ```
-```
-![2](~@image/2.png) /*markdown에서 사용할때는 이렇게*/
+
+markdown에서 사용할때는 이렇게
+```javascript
+![image](~@image/2.png) 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYxNTk5MzZdfQ==
+eyJoaXN0b3J5IjpbLTEyMjAyNTYyNTBdfQ==
 -->
