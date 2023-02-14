@@ -4,6 +4,8 @@
 
 4개월만에 git블로그에 글을 쓰고 자동으로 배포가 되길 기다렸으나.. 요지부동 이었다. 이놈의 블로그는 참 손이 많이 간다.. (티스토리로 옮기고 싶은 마음이 굴뚝같지만 그동안 쓴 시간이 아깝고..)
 
+travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하길래 폭풍 구글링을 했다. 토 무료로 서비스를 제공하지 않는다고 한다
+
 [https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html](https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html)
 
 > ### 무료 평가판 플랜 
@@ -14,5 +16,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTkyNzI2MSwxOTk1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbLTE4OTg1Mjc5OTUsMTk5NTYwMDU3MF19
 -->
