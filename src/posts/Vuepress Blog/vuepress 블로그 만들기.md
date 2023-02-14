@@ -65,6 +65,10 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 
 ![3](~@image/3.png)
 
+설정 완료!
+
+구글에 노출되기 까지 하루나 이틀 걸리는거 같다. 인내심을 가지고 기다리자.
+
 ## vuepress utterance 댓글기능추가하기
 
 [https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/)
@@ -167,5 +171,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTkwNjgyNF19
+eyJoaXN0b3J5IjpbMTE2ODg5NDA5NV19
 -->
