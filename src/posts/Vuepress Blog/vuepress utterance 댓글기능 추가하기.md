@@ -57,12 +57,12 @@ export default {
 }
 </script>
 ```
-theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이드바로 메뉴 이동시 댓글창이 바뀌지 않았다.. 
+theme/components/Page.vue 를 수정하면 된다고 생각 했으나.. 사이드바로 메뉴 이동시 댓글창이 바뀌지 않았다.. 사이드바로 이동시 컨텐츠만 업데이트 되어서 Comment 컴포넌트는 그대로 유지되는 현상이 있었다. 페이지 전체를 reload 하지 않고 comment component만 업데이트 시키는 로직을 추가해 주었다.
 
 현재 url path를 키값으로 설정하여 변경 감지시  `<Comment/>` component를 강제 업데이트 시켜주는 로직을 추가해 주었다.
  
 [observing dom changes](https://forum.vuejs.org/t/observing-dom-changes/28585)
-[vue force re render](https://michaelnthiessen.com/force-re-render/)
+[vue force rerender](https://michaelnthiessen.com/force-re-render/)
 
 ```js
 // 최종!
@@ -103,5 +103,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4MjE4MDU3LDE1NzcxNjc5MV19
+eyJoaXN0b3J5IjpbLTEzNjk2MTU1NzIsMTU3NzE2NzkxXX0=
 -->
