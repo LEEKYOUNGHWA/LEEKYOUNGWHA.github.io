@@ -1,9 +1,8 @@
 # vuepress utterance 댓글기능추가하기
 
-[https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/)
+[블로그](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-comment/) 참고 하였다.. 이분은 패키지를 새로 설치 하셨지만 그냥 vue press를 수정하면 안되나? 하는 생각에.. vuepress 직접 수정 했습니다
 
-
-`theme/components/Comment.vue 파일 생성`
+ 1.  theme/components/Comment.vue 파일 생성
 ```js
 <template>
   <div ref="comment"></div>
@@ -101,5 +100,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTk2NDBdfQ==
+eyJoaXN0b3J5IjpbLTE3NDE3OTA5NjVdfQ==
 -->
