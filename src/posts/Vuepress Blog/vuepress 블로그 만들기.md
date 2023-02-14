@@ -26,22 +26,26 @@ configureWebpack: {
 [https://www.npmjs.com/package/vuepress-plugin-sitemap](https://www.npmjs.com/package/vuepress-plugin-sitemap)
 [https://kyounghwan01.github.io/blog/Vue/vuepress/seo/](https://kyounghwan01.github.io/blog/Vue/vuepress/seo/)
 
+우선 패키지 하나 설치해 준다
 ```bash
 npm install vuepress-plugin-sitemap
 ```
 
-`requires a peer of esm@^3.0.0 but none is installed` 메시지 떠서 추가로 설치해줬다
+` // requires a peer of esm@^3.0.0 but none is installed`
+
+ 메시지 떠서 추가로 설치해줬다
 
 ```bash
 npm install "esm@^3.0.0"
 ```
+module.exports 에 추가해 준다. 괄호 틀려서 한참 헤멨다
 
 ```js
 module.exports = {
     plugins: [
         '@vuepress/plugin-back-to-top',
         '@vuepress/plugin-medium-zoom',
-        ['sitemap', { hostname: 'https://leekyounghwa.github.io'}], /* 괄호 틀려서 한참 헤멨다 */
+        ['sitemap', { hostname: 'https://leekyounghwa.github.io'}], 
       ],
 }
 ```
@@ -161,5 +165,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE1NjE0NjddfQ==
+eyJoaXN0b3J5IjpbMTA0NjIzMDEzNl19
 -->
