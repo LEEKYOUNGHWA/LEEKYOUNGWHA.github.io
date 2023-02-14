@@ -14,11 +14,17 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 >   모든 신규 사용자가 가입 시 선택할 수 있는 무료 '평가판' 플랜은 사용자 수에 제한이 없는 사용량 기반 플랜으로, 즉시 구축을 시작할 수 있는 10,000개의 평가판 크레딧 풀이 함께 제공됩니다. 이러한 크레딧이 소진되면 보충되지 않으며 사용자는 계속 구축하려면 더 높은 요금제에 가입해야 합니다. [OSS 크레딧 수당](https://docs.travis-ci.com/user/billing-faq/#what-if-i-am-building-open-source) 을 요청 하거나 사용 가능한 계획 중 하나를 고려하십시오. 
 >   ***평가판 크레딧은 30일 동안만 유효합니다.***
 
+몇년동안 잘 쓴 travis ci를 뒤로하고.. github Action으로 옮기기로 마음 먹었다.
+
+블로그 참고하여 진행하였다.
+
+기존의 travis ci ㅛ
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTk4NzQxMCwxOTk1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbLTE1OTQ2Nzg5NTQsMTk5NTYwMDU3MF19
 -->
