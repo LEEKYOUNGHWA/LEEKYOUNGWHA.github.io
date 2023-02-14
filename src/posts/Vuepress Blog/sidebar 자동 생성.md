@@ -1,5 +1,5 @@
 
-# sidebar 자동 생성
+# vuepress 블로그 sidebar 자동 생성
 
 [https://techformist.com/automatic-dynamic-sidebar-vuepress/](https://techformist.com/automatic-dynamic-sidebar-vuepress/)
 
@@ -75,5 +75,5 @@ function getSideBar() {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDExNzY4MSw3MzA0MjY1MjNdfQ==
+eyJoaXN0b3J5IjpbNTA4NzE3MDk4LDczMDQyNjUyM119
 -->
