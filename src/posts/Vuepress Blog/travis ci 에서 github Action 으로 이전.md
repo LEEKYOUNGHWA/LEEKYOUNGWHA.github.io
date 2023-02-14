@@ -53,7 +53,6 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_DIR: docs/.vuepress/dist
 ```
-```
 
 정상적으로 빌드 배포되는것 확인하였다
 이전 완료!
@@ -65,7 +64,8 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ2NzE0ODUsODc4MzA3NTM2LDk4OD
-AwNDk2MSwyMDk2ODMxMDI5LDE5ODEwOTA5NDQsLTExNDE4NzQ0
-MDYsLTEwMzgxNzAxNzcsMTk5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbMTAxMzkyNjk1NSwtMTI4NDY3MTQ4NSw4Nz
+gzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEwMjksMTk4MTA5MDk0
+NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3NywxOTk1NjAwNTcwXX
+0=
 -->
