@@ -4,7 +4,7 @@
 
 4개월만에 git블로그에 글을 쓰고 자동으로 배포가 되길 기다렸으나.. 요지부동 이었다. 이놈의 블로그는 참 손이 많이 간다.. (티스토리로 옮기고 싶은 마음이 굴뚝같지만 그동안 쓴 시간이 아깝고..)
 
-travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하길래 폭풍 구글링을 했다. 토글을 키면 된다고 하는데 내 travis ci에서는 이미 토글이 켜져 있었다. 
+travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하길래 폭풍 구글링을 했다. 토글을 키면 된다고 하는데 내 travis ci에서는 이미 토글이 켜져 있고 크레딧도 남아 있음... 
 
 [https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html](https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html)
 
@@ -70,6 +70,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTA5MDk0NCwtMTE0MTg3NDQwNiwtMT
-AzODE3MDE3NywxOTk1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbMTQzNzIzOTIyNywxOTgxMDkwOTQ0LC0xMT
+QxODc0NDA2LC0xMDM4MTcwMTc3LDE5OTU2MDA1NzBdfQ==
 -->
