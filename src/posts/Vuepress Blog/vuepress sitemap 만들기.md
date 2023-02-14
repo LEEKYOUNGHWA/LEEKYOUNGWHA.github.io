@@ -10,9 +10,9 @@
 npm install vuepress-plugin-sitemap
 ```
 
-` // requires a peer of esm@^3.0.0 but none is installed`
+` > requires a peer of esm@^3.0.0 but none is installed`
 
- 메시지 떠서 추가로 설치해줬다
+ 에러 메시지 떠서 추가로 설치해줬다
 
 ```bash
 npm install "esm@^3.0.0"
@@ -51,5 +51,5 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNTE1MDE5XX0=
+eyJoaXN0b3J5IjpbMTk1NDM5NDYyN119
 -->
