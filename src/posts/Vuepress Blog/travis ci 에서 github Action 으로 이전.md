@@ -30,6 +30,9 @@ https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-wit
 
 
 ```
+
+// .github/workflows/main.yml
+
 name: Build and Deploy
 
 on: [push]
@@ -70,6 +73,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4Mjg0NTgzLC0xMDM4MTcwMTc3LDE5OT
-U2MDA1NzBdfQ==
+eyJoaXN0b3J5IjpbMTAzNzM3OTIzNywtMTAzODE3MDE3NywxOT
+k1NjAwNTcwXX0=
 -->
