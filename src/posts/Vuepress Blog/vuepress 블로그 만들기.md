@@ -4,9 +4,6 @@
 [https://yenarue.github.io/web/2020/04/29/vue-google-analytics/(https://yenarue.github.io/web/2020/04/29/vue-google-analytics/)
 
 
-
-
-
 ## 이미지 경로 설정
 
 [https://vuepress.vuejs.org/guide/assets.html#relative-urls](https://vuepress.vuejs.org/guide/assets.html#relative-urls)
@@ -164,5 +161,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjYwNzYzMzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjE1NjE0NjddfQ==
 -->
