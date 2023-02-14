@@ -53,7 +53,7 @@ module.exports = {
 
 빌드하면 src/.vuepress/dist/sitemap.xml 파일이 생성된것을 확인할 수 있다.
 
-그리고 ***src/.vuepress/public/robots.txt***  작성 해 준다.
+***src/.vuepress/public/robots.txt*** 
 ```
 User-agent: *
 Allow: /
@@ -171,5 +171,5 @@ export default {
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjk0NzUxMV19
+eyJoaXN0b3J5IjpbMTY5NzgwNTc1NV19
 -->
