@@ -22,7 +22,39 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 설정까지 완료하였으나 가상 머신에서 에러를 뿜으며 빌드가 되지 않았다.....
 
+가상머신 npm 버전
 
+```
+name: Build and Deploy
+
+on: [push]
+
+jobs:
+
+build-and-deploy:
+
+runs-on: ubuntu-latest
+
+steps:
+
+- name: Checkout
+
+uses: actions/checkout@master
+
+- name: Deploy Build Files
+
+uses: jenkey2011/vuepress-deploy@1.0.1
+
+env:
+
+ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+BUILD_SCRIPT: yarn --ignore-engines && yarn build
+
+TARGET_BRANCH: gh-pages
+
+BUILD_DIR: src/.vuepress/dist/
+```
 
 
 
@@ -32,5 +64,5 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDczMzE2NiwxOTk1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbMTcwMDYzNTY1NiwxOTk1NjAwNTcwXX0=
 -->
