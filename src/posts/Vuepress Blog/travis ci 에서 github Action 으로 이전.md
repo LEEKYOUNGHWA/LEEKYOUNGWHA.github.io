@@ -30,7 +30,7 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 토큰 설정까지 완료하였으나 가상 머신에서 에러를 뿜으며 빌드가 되지 않았다..... 다시 폭풍 서치.....
 
-> yarn --ignore-engines
+> ***yarn --ignore-engines***
 엔진 체크를 무시하는 명령어를 추가해 주었다.
 
 [https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module](https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module)
@@ -66,8 +66,8 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg4MjQ0MjgsMTQ2NDI5Mzg5NSwtMT
-I4NDY3MTQ4NSw4NzgzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEw
-MjksMTk4MTA5MDk0NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3Ny
-wxOTk1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbMTk2NjMzMjc0MCwxNDY0MjkzODk1LC0xMj
+g0NjcxNDg1LDg3ODMwNzUzNiw5ODgwMDQ5NjEsMjA5NjgzMTAy
+OSwxOTgxMDkwOTQ0LC0xMTQxODc0NDA2LC0xMDM4MTcwMTc3LD
+E5OTU2MDA1NzBdfQ==
 -->
