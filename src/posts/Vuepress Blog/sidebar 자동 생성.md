@@ -3,9 +3,7 @@
 
 vuepress는 다 괜찮은데 게시글을 하나 생성할때마다 설정 파일에 경로를 지정해 줘야 하는게 상당히 귀찮다. 
 
-vuepress에서 기본으로 제공하는 `sidebar: 'auto'` 옵션은 는 한 페이지만 나오는 거였다 ㅠㅠ  여러 블로그랑 npm package를 봤는데 전부 다 내가 원하는 모양새가 아니었다.  
- 
-여러 폴더를 자동으로 읽지 못함.. 
+vuepress에서 기본으로 제공하는 `sidebar: 'auto'` 옵션은 는 한 페이지만 나오는 거였다 ㅠㅠ  여러 블로그랑 npm package를 봤는데 전부 다 내가 원하는 모양새가 아니었다. 
 
 [https://techformist.com/automatic-dynamic-sidebar-vuepress/](https://techformist.com/automatic-dynamic-sidebar-vuepress/)
 
@@ -76,5 +74,5 @@ function getSideBar() {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY3OTAwNzQsNzMwNDI2NTIzXX0=
+eyJoaXN0b3J5IjpbOTA4Njg4MTUsNzMwNDI2NTIzXX0=
 -->
