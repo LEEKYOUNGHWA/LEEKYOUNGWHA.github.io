@@ -55,9 +55,7 @@ themeConfig: {
         } 
       ]
     */
-```
 
-```javascript
 function getSideBar() {
   const src = './src/';
   const posts = 'posts'
@@ -77,6 +75,6 @@ function getSideBar() {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgwNDA5MSwtMTA4NTcwNTk4OSw5MD
+eyJoaXN0b3J5IjpbLTc4ODQxMjgwNCwtMTA4NTcwNTk4OSw5MD
 g2ODgxNSw3MzA0MjY1MjNdfQ==
 -->
