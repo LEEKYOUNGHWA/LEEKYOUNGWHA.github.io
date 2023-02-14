@@ -1,8 +1,8 @@
 # travis ci 에서 github Action 으로 이전
 
-### Builds have been temporarily disabled for private and public repositories due to a negative credit balance. Please go to the Plan page to replenish your credit balance.
-
 4개월만에 git블로그에 글을 쓰고 자동으로 배포가 되길 기다렸으나.. 요지부동 이었다. 이놈의 블로그는 참 손이 많이 간다.. (티스토리로 옮기고 싶은 마음이 굴뚝같지만 그동안 쓴 시간이 아깝고..)
+
+### Builds have been temporarily disabled for private and public repositories due to a negative credit balance. Please go to the Plan page to replenish your credit balance.
 
 travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하길래 폭풍 구글링을 했다. 
 
@@ -62,8 +62,8 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDI5Mzg5NSwtMTI4NDY3MTQ4NSw4Nz
-gzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEwMjksMTk4MTA5MDk0
-NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3NywxOTk1NjAwNTcwXX
-0=
+eyJoaXN0b3J5IjpbLTExMzA3OTA3NzcsMTQ2NDI5Mzg5NSwtMT
+I4NDY3MTQ4NSw4NzgzMDc1MzYsOTg4MDA0OTYxLDIwOTY4MzEw
+MjksMTk4MTA5MDk0NCwtMTE0MTg3NDQwNiwtMTAzODE3MDE3Ny
+wxOTk1NjAwNTcwXX0=
 -->
