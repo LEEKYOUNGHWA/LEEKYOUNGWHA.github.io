@@ -1,4 +1,4 @@
-# vuepress  sitemap 만들기
+# vuepress 구글 검색되게 sitemap
 
 ## SEO 검색최적화 sitemap 만들기
 
@@ -51,5 +51,5 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5MTg5OTYyXX0=
+eyJoaXN0b3J5IjpbODQwNTE1MDE5XX0=
 -->
