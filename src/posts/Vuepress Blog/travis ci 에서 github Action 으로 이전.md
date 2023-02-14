@@ -26,6 +26,7 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 > yarn --ignore-engines
 
+npm 
 ```
 name: Build and Deploy
 
@@ -66,5 +67,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgxNzAxNzcsMTk5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbMjE0NTk4MjA3MiwtMTAzODE3MDE3NywxOT
+k1NjAwNTcwXX0=
 -->
