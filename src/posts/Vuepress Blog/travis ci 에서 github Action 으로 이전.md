@@ -20,7 +20,7 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 기존의 travis ci yml 파일은 과감히 지우고 .github/workflows/main.yml yml 파일 다시 생성해 주었다
 
-설정까지 완료하였으나 가상 머신에서 에러를 뿜으며 빌드가 되지 않았다.....
+토큰 설정까지 완료하였으나 가상 머신에서 에러를 뿜으며 빌드가 되지 않았다.....
 
 가상머신 npm 버전이 낮아서 생기는 문제였다.. 다시 폭풍 서치,.,
 
@@ -73,6 +73,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzIyNjEzMSwtMTAzODE3MDE3NywxOT
-k1NjAwNTcwXX0=
+eyJoaXN0b3J5IjpbNDUyMTUxMjQ5LC0xMDM4MTcwMTc3LDE5OT
+U2MDA1NzBdfQ==
 -->
