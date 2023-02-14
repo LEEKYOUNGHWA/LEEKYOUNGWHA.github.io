@@ -26,7 +26,6 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 엔진 체크를 무시하는 명령어를 추가해 주었다.
 https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module
 
-
 ```
 
 // .github/workflows/main.yml
@@ -71,6 +70,6 @@ BUILD_DIR: src/.vuepress/dist/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE4NzQ0MDYsLTEwMzgxNzAxNzcsMT
-k5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbLTQ0MjEwNDM3NiwtMTE0MTg3NDQwNiwtMT
+AzODE3MDE3NywxOTk1NjAwNTcwXX0=
 -->
