@@ -16,9 +16,15 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 몇년동안 잘 쓴 travis ci를 뒤로하고.. github Action으로 옮기기로 마음 먹었다.
 
-블로그 참고하여 진행하였다.
+블로그 참고하여 진행하였다. [참고](https://kyounghwan01.github.io/blog/Vue/vuepress/vuepress-github-actions/#vuepress-github-actions%E1%84%85%E1%85%A9-%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5)
 
-기존의 travis ci ㅛ
+기존의 travis ci yml 파일은 과감히 지우고
+
+설정까지 완료하였으나 가상 머신에서 에러를 뿜으며 빌드가 되지 않았다.....
+
+
+
+
 
 
 
@@ -26,5 +32,5 @@ travis ci에서 위와 같은 메시지를 뿜으며 아무런 동작을 안하�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ2Nzg5NTQsMTk5NTYwMDU3MF19
+eyJoaXN0b3J5IjpbMTczNDczMzE2NiwxOTk1NjAwNTcwXX0=
 -->
