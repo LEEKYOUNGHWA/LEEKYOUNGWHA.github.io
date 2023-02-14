@@ -1,4 +1,4 @@
-# Builds have been temporarily disabled for private and public repositories due to a negative credit balance. Please go to the [Plan page](https://app.travis-ci.com/account/plan)  to replenish your credit balance.
+# Builds have been temporarily disabled for private and public repositories due to a negative credit balance. Please go to the Plan page to replenish your credit balance.
 
 https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html
 
@@ -11,5 +11,5 @@ https://dqdongg.com/blog/github/web/2021/05/04/Blog-github-action.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ0ODU0MTRdfQ==
+eyJoaXN0b3J5IjpbLTI4MTQ0MTAwMl19
 -->
