@@ -35,7 +35,7 @@ The engine "node" is incompatible with this module
 ```
 다시 폭풍 서치.....
 
-[the-engine-node-is-incompatible-with-this-module](https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module)
+[the engine node is incompatible with this module](https://stackoverflow.com/questions/56617209/the-engine-node-is-incompatible-with-this-module)
 
 > ***yarn --ignore-engines***
 엔진 체크를 무시하는 명령어를 추가해 주었다.
@@ -71,8 +71,8 @@ jobs:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjM0NDIsMTk2NjMzMjc0MCwxNDY0Mj
-kzODk1LC0xMjg0NjcxNDg1LDg3ODMwNzUzNiw5ODgwMDQ5NjEs
-MjA5NjgzMTAyOSwxOTgxMDkwOTQ0LC0xMTQxODc0NDA2LC0xMD
-M4MTcwMTc3LDE5OTU2MDA1NzBdfQ==
+eyJoaXN0b3J5IjpbMTI2MDIzMzY1OSwxOTY2MzMyNzQwLDE0Nj
+QyOTM4OTUsLTEyODQ2NzE0ODUsODc4MzA3NTM2LDk4ODAwNDk2
+MSwyMDk2ODMxMDI5LDE5ODEwOTA5NDQsLTExNDE4NzQ0MDYsLT
+EwMzgxNzAxNzcsMTk5NTYwMDU3MF19
 -->
