@@ -34,13 +34,15 @@ For example:
 
 **Testimmutablestring1.java**
 
-1.  class Testimmutablestring1{
-2.  public  static  void main(String args[]){
-3.  String s="Sachin";
-4.  s=s.concat(" Tendulkar");
-5.  System.out.println(s);
-6.  }
-7.  }
+```java
+class Testimmutablestring1{
+  public  static  void main(String args[]){
+  String s="Sachin";
+  s=s.concat(" Tendulkar");
+  System.out.println(s);
+  }
+}
+```
 
 [Test it Now](https://www.javatpoint.com/opr/test.jsp?filename=Testimmutablestring1)
 
@@ -78,5 +80,5 @@ The immutability of String helps to minimize the usage in the heap memory. When 
 
 The reason behind the String class being final is because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NTQ2MjM2XX0=
+eyJoaXN0b3J5IjpbNDYzNjI5NTZdfQ==
 -->
