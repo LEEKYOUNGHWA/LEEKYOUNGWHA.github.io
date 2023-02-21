@@ -1,5 +1,7 @@
 # Immutable String in Java
 
+[https://www.javatpoint.com/immutable-string](https://www.javatpoint.com/immutable-string)
+
 A String is an unavoidable type of variable while writing any application program. String references are used to store various attributes like username, password, etc. In Java,  **String objects are immutable**. Immutable simply means unmodifiable or unchangeable.
 
 Once String object is created its data or state can't be changed but a new String object is created.
@@ -78,5 +80,5 @@ The immutability of String helps to minimize the usage in the heap memory. When 
 
 The reason behind the String class being final is because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjM5OTc5Ml19
+eyJoaXN0b3J5IjpbMTUyODI5MDMxNywtMzI2Mzk5NzkyXX0=
 -->
