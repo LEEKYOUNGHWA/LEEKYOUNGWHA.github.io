@@ -44,8 +44,6 @@ class Testimmutablestring1{
 }
 ```
 
-[Test it Now](https://www.javatpoint.com/opr/test.jsp?filename=Testimmutablestring1)
-
 **Output:**
 
 Sachin Tendulkar
@@ -80,5 +78,5 @@ The immutability of String helps to minimize the usage in the heap memory. When 
 
 The reason behind the String class being final is because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzNjI5NTZdfQ==
+eyJoaXN0b3J5IjpbLTMyNjM5OTc5Ml19
 -->
