@@ -11,7 +11,9 @@ It can be used to return string from memory if it is created by a new keyword. I
 
 The signature of the intern() method is given below:
 
-1.  public String intern()
+```
+public String intern()
+```
 
 ### Returns
 
@@ -23,9 +25,11 @@ Play Video
 
 When a string is created in Java, it occupies memory in the heap. Also, we know that the String class is immutable. Therefore, whenever we create a string using the new keyword, new memory is allocated in the heap for corresponding string, which is irrespective of the content of the array. Consider the following code snippet.
 
-1.  String str = new String("Welcome to JavaTpoint.");
-2.  String str1 = new String("Welcome to JavaTpoint");
-3.  System.out.println(str1 == str); // prints false
+```
+  String str = new String("Welcome to JavaTpoint.");
+  String str1 = new String("Welcome to JavaTpoint");
+  System.out.println(str1 == str); // prints false
+```
 
 The println statement prints false because separate memory is allocated for each string literal. Thus, two new string objects are created in the memory i.e. str and str1. that holds different references.
 
@@ -105,5 +109,5 @@ Following are some important points to remember regarding the intern() method:
 
 Here, one object is created in the heap memory outside of the SCP because of the usage of the new keyword. As we have got the string literal too ("Hello World"); therefore, one object is created inside the SCP, provided the literal "Hello World" is already not present in the SCP.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODQ5ODk2XX0=
+eyJoaXN0b3J5IjpbLTMxMzI1NDQ3XX0=
 -->
