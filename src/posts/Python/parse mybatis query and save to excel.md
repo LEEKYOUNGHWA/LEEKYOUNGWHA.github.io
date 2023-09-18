@@ -7,8 +7,8 @@ import json
 from openpyxl import Workbook
 from pathlib import Path
 from openpyxl import load_workbook
-wb = load_workbook(filename = 'smtcServer쿼리조사.xlsx')
-smtc = wb['smtc webdb 커넥션  조사']
+wb = load_workbook(filename = '쿼리조사.xlsx')
+smtc = wb['커넥션  조사']
 #newwb = Workbook()  
 #newwb = load_workbook(filename = 'smtcServer쿼리조사.xlsx')
 #ws1 = newwb.active
@@ -68,8 +68,8 @@ import re
 from pathlib import Path
 import glob
 from openpyxl import load_workbook
-newwb = load_workbook(filename = 'smtcServer쿼리조사.xlsx')
-ws1 = newwb['smtc webdb 커넥션  조사']
+newwb = load_workbook(filename = '쿼리조사.xlsx')
+ws1 = newwb['커넥션  조사']
 ws2 = newwb.create_sheet("상품이외2")
 ws2.append(['번호','ecdDataSource','impl','queryid'])
 
@@ -89,14 +89,14 @@ for row in ws1.iter_rows(min_col=1, min_row=53 ,max_col=4 ,max_row=53):
 #with open('C:\\Users\\lkh\\smtc\\smart4c_mip_all\\resource\\spring\\persists\\'+cell.value, 'r',encoding='utf-8') as f:
 #data = f.read()
 #doc = xmltodict.parse(data)
-#newwb.save('smtcServer쿼리조사.xlsx')        
+#newwb.save('쿼리조사.xlsx')        
 #with open('C:\\Users\\lkh\\smtc\\smart4c_mip_all\\src\\smart4c\\modules\\prd\\dao\\impl\\DlvInfoEntDaoImpl.java', 'r',encoding='utf-8') as f:
 #data = f.read()
 #print(data)
 #all = re.findall(r"getSqlFromXml(\w+[\w\.]*)",data)
 #all = re.findall('getSqlFromXml\(\"(.*)\"', data)
 #print(all)
-newwb.save('smtcServer쿼리조사.xlsx')
+newwb.save('쿼리조사.xlsx')
 ```
 
 ```python
@@ -105,7 +105,7 @@ from pathlib import Path
 import glob
 import xmltodict
 
-wb = load_workbook(filename = 'smtcServer쿼리조사.xlsx')
+wb = load_workbook(filename = '쿼리조사.xlsx')
 ws1 = wb["상품이외2"]
 i=2
 for row in ws1.iter_rows(min_col=1, min_row=2):
@@ -145,7 +145,7 @@ import re
 from pathlib import Path
 import glob
 
-newwb = load_workbook(filename = 'smtcServer쿼리조사.xlsx')
+newwb = load_workbook(filename = '쿼리조사.xlsx')
 ws1 = newwb["상품이외2"]
 #sharews = newwb["쉐어플렉스테이블"]
 i=1
@@ -175,8 +175,8 @@ for row in ws1.iter_rows(min_col=1, min_row=2):
 #if sharetable[0].value in row[4].value:
 #shtables+=sharetable[0].value + ', '
 #ws1['M'+str(i)] = shtables
-newwb.save('smtcServer쿼리조사.xlsx')
+newwb.save('쿼리조사.xlsx')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODg5MjIxMV19
+eyJoaXN0b3J5IjpbLTEyNTA0Mzg5MDldfQ==
 -->
