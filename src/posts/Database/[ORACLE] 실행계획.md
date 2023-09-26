@@ -52,7 +52,7 @@ FROM  TABLE(dbms_xplan.display);
 
 ## SCAN 의 종류와 속도
 
-SCAN이란,  데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방식을 일컬어 접근 경로라고 합니다. 특히 아래 3가지 SCAN 방법을 아시는 것이 중요합니다.
+SCAN이란,  데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방식을 일컬어 접근 경로라고 합니다.
 
 - **FULL TABLE SCAN :**  테이블의 전체 데이터를 읽어 조건에 맞는 데이터를 추출하는 방식
 - **ROWID SCAN :**  ROWID를 기준으로 데이터를 추출하며 단일 행에 접근하는 방식 중에서 가장 빠름
@@ -209,6 +209,6 @@ select /*+ full(emp) */ * from emp;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NzgwMTc3NiwxMjgyMTU2NDA3LC00NT
-MzNTM4NjhdfQ==
+eyJoaXN0b3J5IjpbLTExMzA5NjIwNTQsMTI4MjE1NjQwNywtND
+UzMzUzODY4XX0=
 -->
