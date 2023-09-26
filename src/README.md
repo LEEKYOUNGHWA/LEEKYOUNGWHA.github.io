@@ -1,6 +1,6 @@
 # 끄적끄적
 
-### 18-03-02 ~ 현재 (5년 6개월)
+### 18-03-02 ~ 현재
 
 > #### 농협 통합멤버십 시스템 구축
 > - 금융/보험/증권/카드
@@ -44,7 +44,7 @@
 > - Oracle, Spring Framework, 마이플랫폼
 > - 프로젝트, 개발
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxODY0Myw1MjU0NTkzODEsLTEwNjQxMD
-A4OTYsMTkxNDQ1OTg2OCwtOTQ5OTQwNzkyLDM0MDE2NTIzMF19
-
+eyJoaXN0b3J5IjpbLTU4MTAzNjg1LDc4MTg2NDMsNTI1NDU5Mz
+gxLC0xMDY0MTAwODk2LDE5MTQ0NTk4NjgsLTk0OTk0MDc5Miwz
+NDAxNjUyMzBdfQ==
 -->
