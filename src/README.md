@@ -2,30 +2,17 @@
 
 공부 블로그 입니당
 
-18-03-02 ~ 현재 (5년 6개월)
+###18-03-02 ~ 현재 (5년 6개월)
+
 > #### 농협 통합멤버십 시스템 구축
+> - 금융/보험/증권/카드
+>- 2018-06-01 ~ 2018-11-01
+>- Spring Framework
 
-- 금융/보험/증권/카드
-
-2018-06-01 ~ 2018-11-01
-
-S/W엔지니어
-
-Spring Framework
-
-주요내용
-
-테스트
-
-##### 하나투어 차세대 항공 플랫폼 구축
-
-호텔/여행/항공
-
-2018-11-01 ~ 2019-11-18
-
-S/W엔지니어
-
-OracleSpring FrameworkNexacro
+> #### 하나투어 차세대 항공 플랫폼 구축
+> - 호텔/여행/항공
+>- 2018-11-01 ~ 2019-11-18
+> - Oracle, Spring, Framework Nexacro
 
 주요내용
 
@@ -101,6 +88,6 @@ OracleSpring Framework
 
 프로젝트, 개발
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDM1MzUyNiwxOTE0NDU5ODY4LC05ND
+eyJoaXN0b3J5IjpbMTQwNDc4NDc5OCwxOTE0NDU5ODY4LC05ND
 k5NDA3OTIsMzQwMTY1MjMwXX0=
 -->
