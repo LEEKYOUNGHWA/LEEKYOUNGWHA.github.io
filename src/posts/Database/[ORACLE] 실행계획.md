@@ -63,7 +63,9 @@ SCAN이란,  데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM3Mzk1MDcsMTI4MjE1NjQwNywtND
-UzMzUzODY4XX0=
+eyJoaXN0b3J5IjpbMTgyMzU0MTYwOSwxMjgyMTU2NDA3LC00NT
+MzNTM4NjhdfQ==
 -->
