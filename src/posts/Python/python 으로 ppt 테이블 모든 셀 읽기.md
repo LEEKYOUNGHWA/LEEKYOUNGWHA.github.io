@@ -1,5 +1,7 @@
 # python 으로 ppt 테이블의 모든 셀 읽기
 
+문서 5000개 정리하면서 사용했던 파이썬 소스
+
 ```python
 import os
 from pptx import Presentation
@@ -24,5 +26,5 @@ for file in files:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY3NTQ2NjddfQ==
+eyJoaXN0b3J5IjpbMTk3MDk5MjA5MiwtMTU2Njc1NDY2N119
 -->
