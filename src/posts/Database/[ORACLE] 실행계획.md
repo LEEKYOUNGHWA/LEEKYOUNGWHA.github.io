@@ -16,6 +16,9 @@ PLAN에 보이는 용어에 대한 의미 입니다.
 -   **Cardinality**  
     -. 행 집합에서 행의 수를 표시 합니다. 행 집합은 기본 테이블, 뷰, 조인이나, GROUP BY의 결과 입니다.  
     -. 행 집합을 의미하니 적게 나타날수록 SQL이 빠를 수 있습니다.
+
+## dbeaver 실행계획 보기
+![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cePSzY/btqBFvRIEwL/EtNlFachAd2fuhKV925NJ0/img.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzg1NzgyOF19
+eyJoaXN0b3J5IjpbNzExODk3NzhdfQ==
 -->
