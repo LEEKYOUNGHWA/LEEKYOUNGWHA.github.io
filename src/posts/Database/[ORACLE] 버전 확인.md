@@ -10,7 +10,7 @@
 -   `sqlplus`  명령어 입력  
     ![](https://velog.velcdn.com/images/thehill_hannam/post/78a0ffad-735b-47e6-9940-ddd4279c9cd0/image.png)
 
-[enter link description here](https://velog.io/@thehill_hannam/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%B2%84%EC%A0%84-%ED%99%95%EC%9D%B8cmd-query)
+[출처](https://velog.io/@thehill_hannam/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%B2%84%EC%A0%84-%ED%99%95%EC%9D%B8cmd-query)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDA4MjQ5NV19
+eyJoaXN0b3J5IjpbMjg0NDY5NzE3XX0=
 -->
