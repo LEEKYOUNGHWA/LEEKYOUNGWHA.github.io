@@ -50,10 +50,20 @@ FROM  TABLE(dbms_xplan.display);
 
 > db 이관 작업후 특정 테이블 포함 쿼리 수행 속도가 느려 원인을 파악해 보니 pk가 누락이 되었었다. (어떻게 그럴수가 있지.. pk 누락된지 모르고 튜닝 요청을 추가로 계속 올렸었따 =3= ) pk 생성후에도 옵티마이저가 계속 이전 실행계획으로 수행한다면 dba에게 실행 계획 초기화를 요청하자.
 
+## SCAN 의 종류와 속도
 
+실행 계획을 분석하기 위해서는 SCAN이라는 용어를 알고 있어야 합니다. SCAN이란, 말 그대로 데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방식을 일컬어 접근 경로라고 합니다. 특히 아래 3가지 SCAN 방법을 아시는 것이 중요합니다.
+
+- **FULL TABLE SCAN :**  테이블의 전체 데이터를 읽어 조건에 맞는 데이터를 추출하는 방식 입니다.
+
+- **ROWID SCAN :**  ROWID를 기준으로 데이터를 추출하며 단일 행에 접근하는 방식 중에서 가장 빠릅니다.
+
+**INDEX SCAN :**  말 그대로 인덱스를 활용하여 원하는 데이터를 추출하는 방식입니다.
+
+이 두 가지 SCAN 방법 중 개발자가 손쉽게 유도할 수 있는 SCAN의 방법은 FULL TABLE SCAN과 INDEX SCAN입니다. 이 중에서 테이블에 데이터가 많지 않아 INDEX를 타야 하는 시간 소요가 불필요하다고 느껴지거나 테이블에서 추출해야 하는 데이터 양이 엄청 많다면 FULL TABLE SCAN을 하는 것이 유리할 수 있고 반대로 많은 데이터가 있는 테이블에서 내가 원하는 데이터를 추출해야 하는 상황이라면 INDEX SCAN을 하는것이 좋습니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwOTA3MzE5LDEyODIxNTY0MDcsLTQ1Mz
+eyJoaXN0b3J5IjpbNjM2NzI2NzYzLDEyODIxNTY0MDcsLTQ1Mz
 M1Mzg2OF19
 -->
