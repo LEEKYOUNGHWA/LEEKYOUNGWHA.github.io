@@ -1,6 +1,6 @@
 # parse mybatis query and save to excel
 
-나는야 문서왕.. 천개 가량의 쿼리를 조사& 정리했따 @,,@
+나는야 문서왕.. 천개 가량의 쿼리를 조사& 엑셀로 정리했따 @,,@
 
 ```python
 #anaconda prompt> pip install xmltodict
@@ -180,5 +180,5 @@ for row in ws1.iter_rows(min_col=1, min_row=2):
 newwb.save('쿼리조사.xlsx')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDMxOTk5MCwtMTI1MDQzODkwOV19
+eyJoaXN0b3J5IjpbLTM1OTgxMDY1OSwtMTI1MDQzODkwOV19
 -->
