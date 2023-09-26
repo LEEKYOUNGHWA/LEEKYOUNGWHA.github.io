@@ -31,7 +31,7 @@
 >#### GS리테일 e-커머스 상시개발 용역 계약
 > -유통/커머스
 > -2021-01-01 ~ 2022-12-31
-> -PostgreSQL, Spring boot, Vue JS
+> -Spring boot, Vue JS, PostgreSQL, 
 > -프로젝트, 개발
 
 >#### GS리테일 SAP 재무시스템 구축에 따른 Legacy 대응 개발
@@ -46,6 +46,6 @@
 > -Oracle, Spring Framework, 마이플랫폼
 > -프로젝트, 개발
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODIxMDE4MiwxOTE0NDU5ODY4LC05ND
+eyJoaXN0b3J5IjpbLTYxOTU1MTk0NiwxOTE0NDU5ODY4LC05ND
 k5NDA3OTIsMzQwMTY1MjMwXX0=
 -->
