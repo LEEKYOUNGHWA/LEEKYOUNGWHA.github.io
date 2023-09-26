@@ -46,7 +46,11 @@ FROM  TABLE(dbms_xplan.display);
 위의 실행 계획에선 전체 비용이 13인것을 알수 있음
 - Time: 각 단계별 수행 시간
 
+## 실행계획 초기화
+db 이관 작업후 속도가 느려 원인을 파악해 보니 pk가 누락이 되었었다. pk 생성후에도 실행계획이 이전처럼 나오지 않는다면 dba에게 실행 계획 초기화를 요청하자.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzMDgwODcwLC00NTMzNTM4NjhdfQ==
+eyJoaXN0b3J5IjpbMTI4MjE1NjQwNywtNDUzMzUzODY4XX0=
 -->
