@@ -1,5 +1,7 @@
 # pytoh .doc to .docx
 
+문서 5000개 정리하면서 사용했던 파이썬 소스
+
 ```python
 from glob import glob
 import re
@@ -36,5 +38,5 @@ for path in paths:
 print(count)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTI0MDY1NF19
+eyJoaXN0b3J5IjpbLTgyOTM4MjgwOSwxNDkxMjQwNjU0XX0=
 -->
