@@ -1,7 +1,5 @@
 # 끄적끄적
 
-공부 블로그 입니당
-
 ### 18-03-02 ~ 현재 (5년 6개월)
 
 > #### 농협 통합멤버십 시스템 구축
@@ -46,6 +44,6 @@
 > -Oracle, Spring Framework, 마이플랫폼
 > -프로젝트, 개발
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQxMDA4OTYsMTkxNDQ1OTg2OCwtOT
-Q5OTQwNzkyLDM0MDE2NTIzMF19
+eyJoaXN0b3J5IjpbNTI1NDU5MzgxLC0xMDY0MTAwODk2LDE5MT
+Q0NTk4NjgsLTk0OTk0MDc5MiwzNDAxNjUyMzBdfQ==
 -->
