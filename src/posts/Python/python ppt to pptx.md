@@ -3,6 +3,7 @@
 [https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python](https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python)
 
 python3에서 안된다고 되어 있는데.. 아나콘다 에서는 잘 동작함 
+
 문서 5000개 정리하면서 사용했던 파이썬 소스
 ```python
 from glob import glob
@@ -30,5 +31,5 @@ for path in paths:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Mzg2MjEwMywtMTI2NTA4MjU4MF19
+eyJoaXN0b3J5IjpbLTE2ODkxMjU5LC0xMjY1MDgyNTgwXX0=
 -->
