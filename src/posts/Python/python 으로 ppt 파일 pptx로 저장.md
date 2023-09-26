@@ -1,5 +1,9 @@
 # python 으로 .ppt 파일 .pptx로 저장
 
+[https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python](https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python)
+
+python3에서 안된다고 되어 있는데.. 아나콘다 에서는 잘 동작함 
+
 ```python
 from glob import glob
 import re
@@ -26,5 +30,5 @@ for path in paths:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Mzg3Mjg4Ml19
+eyJoaXN0b3J5IjpbLTEyNjUwODI1ODAsMjA2Mzg3Mjg4Ml19
 -->
