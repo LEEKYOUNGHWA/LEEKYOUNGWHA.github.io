@@ -58,7 +58,7 @@ SCAN이란,  데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방
 - **ROWID SCAN :**  ROWID를 기준으로 데이터를 추출하며 단일 행에 접근하는 방식 중에서 가장 빠름
 - **INDEX SCAN :**  말 그대로 인덱스를 활용하여 원하는 데이터를 추출하는 방식
 
-https://goldswan.tistory.com/33
+[https://goldswan.tistory.com/33](https://goldswan.tistory.com/33)
 
 **[INDEX UNIQUE SCAN]**
 
@@ -209,6 +209,6 @@ select /*+ full(emp) */ * from emp;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA5NjIwNTQsMTI4MjE1NjQwNywtND
-UzMzUzODY4XX0=
+eyJoaXN0b3J5IjpbLTE2NjM3Mzc0MDEsLTExMzA5NjIwNTQsMT
+I4MjE1NjQwNywtNDUzMzUzODY4XX0=
 -->
