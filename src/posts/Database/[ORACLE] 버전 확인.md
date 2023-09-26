@@ -1,4 +1,4 @@
-# oracle 버전 확인하기
+# [ORACLE] 버전 확인하기
 
 ## Query
 
@@ -12,5 +12,5 @@
 
 [출처](https://velog.io/@thehill_hannam/%EC%98%A4%EB%9D%BC%ED%81%B4-%EB%B2%84%EC%A0%84-%ED%99%95%EC%9D%B8cmd-query)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NDY5NzE3XX0=
+eyJoaXN0b3J5IjpbLTExNTc2NTg5MywyODQ0Njk3MTddfQ==
 -->
