@@ -47,10 +47,13 @@ FROM  TABLE(dbms_xplan.display);
 - Time: 각 단계별 수행 시간
 
 ## 실행계획 초기화
-db 이관 작업후 속도가 느려 원인을 파악해 보니 pk가 누락이 되었었다. pk 생성후에도 실행계획이 이전처럼 나오지 않는다면 dba에게 실행 계획 초기화를 요청하자.
+
+> db 이관 작업후 특정 테이블 포함 쿼리 수행 속도가 느려 원인을 파악해 보니 pk가 누락이 되었었다. (어떻게 그럴수가 있지) pk 생성후에도 옵티마이저가 계속 이전 실행계획으로 수행한다면 dba에게 실행 계획 초기화를 요청하자.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjE1NjQwNywtNDUzMzUzODY4XX0=
+eyJoaXN0b3J5IjpbLTQ5NzA0NzM0NSwxMjgyMTU2NDA3LC00NT
+MzNTM4NjhdfQ==
 -->
