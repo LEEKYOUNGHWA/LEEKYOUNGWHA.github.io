@@ -1,5 +1,7 @@
 # parse mybatis query and save to excel
 
+나는야 문서왕
+
 ```python
 #anaconda prompt> pip install xmltodict
 import xmltodict
@@ -178,5 +180,5 @@ for row in ws1.iter_rows(min_col=1, min_row=2):
 newwb.save('쿼리조사.xlsx')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA0Mzg5MDldfQ==
+eyJoaXN0b3J5IjpbMjMxMzExNzAwLC0xMjUwNDM4OTA5XX0=
 -->
