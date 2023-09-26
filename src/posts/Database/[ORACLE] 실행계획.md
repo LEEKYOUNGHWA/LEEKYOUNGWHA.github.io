@@ -19,6 +19,19 @@ PLAN에 보이는 용어에 대한 의미 입니다.
 
 ## dbeaver 실행계획 보기
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cePSzY/btqBFvRIEwL/EtNlFachAd2fuhKV925NJ0/img.png)
+
+[https://sidorl.tistory.com/31](https://sidorl.tistory.com/31)
+
+## EXPLAIN plan  FOR  
+```sql
+EXPLAIN plan FOR 
+SELECT  ename,  sal,  job  
+FROM  emp  
+WHERE  sal  =  3000;  
+  
+SELECT  *  
+FROM  TABLE(dbms_xplan.display);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExODk3NzhdfQ==
+eyJoaXN0b3J5IjpbLTQ1MzM1Mzg2OF19
 -->
