@@ -2,7 +2,7 @@
 
 공부 블로그 입니당
 
-###18-03-02 ~ 현재 (5년 6개월)
+### 18-03-02 ~ 현재 (5년 6개월)
 
 > #### 농협 통합멤버십 시스템 구축
 > - 금융/보험/증권/카드
@@ -46,6 +46,6 @@
 > -Oracle, Spring Framework, 마이플랫폼
 > -프로젝트, 개발
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTU1MTk0NiwxOTE0NDU5ODY4LC05ND
-k5NDA3OTIsMzQwMTY1MjMwXX0=
+eyJoaXN0b3J5IjpbLTEwNjQxMDA4OTYsMTkxNDQ1OTg2OCwtOT
+Q5OTQwNzkyLDM0MDE2NTIzMF19
 -->
