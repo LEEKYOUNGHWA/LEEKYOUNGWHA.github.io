@@ -3,9 +3,6 @@
     class="home"
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
-    <head>
-      <meta name="google-adsense-account" content="ca-pub-8111136017997298">
-    </head>
     <header class="hero">
       <img
         v-if="data.heroImage"
