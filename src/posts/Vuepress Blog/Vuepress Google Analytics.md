@@ -39,8 +39,11 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 < ƒ gtag(){dataLayer.push(arguments);}
 ```
 
+![](https://photos.app.goo.gl/eFhkeDaDTwSYsuDHA)
 
+![](https://photos.google.com/share/AF1QipOH-9rpx5xHFUNcuohnyA0dY8tbyr8ZXWLl2yo43GGcQFaPg2Qhw13Z1FN3W-NVow/photo/AF1QipNpZWr3wSTLEcSrMSVyKUlfuFWflJc3MckrZudZ?key=Ulo0Y2x4V05ZallWX2RaNDQxd0plaTB4cUxXV0tR)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTg0MDMzOSwxOTQyODY1Mzg4LC0xOT
-c3MzQxOTc2LDIwNDY3OTQzNTcsLTk1MTAwNjEwMl19
+eyJoaXN0b3J5IjpbLTEzNTA5MDkyODAsMTAwNTg0MDMzOSwxOT
+QyODY1Mzg4LC0xOTc3MzQxOTc2LDIwNDY3OTQzNTcsLTk1MTAw
+NjEwMl19
 -->
