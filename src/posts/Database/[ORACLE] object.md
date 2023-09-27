@@ -42,9 +42,7 @@ SELECT * FROM ALL_SYNONYMS;
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 네이밍 룰도 안 지켜진 시노님이면 이게 그냥 테이블인줄 알고 휙 지나갔다가 나중에 역풍을 맞을 수 있..
 
-아무튼 이런건 이제 사용하지 말자!
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE3Nzg5OF19
+eyJoaXN0b3J5IjpbLTkyMDc3ODA1Nl19
 -->
