@@ -2,6 +2,8 @@
 
 [https://github.com/vuejs/vuepress/issues/2713](https://github.com/vuejs/vuepress/issues/2713)
 
+[https://stackoverflow.com/questions/62563531/how-can-i-add-google-analytics-to-my-vuepress-website-in-accordance-with-gdpr](https://stackoverflow.com/questions/62563531/how-can-i-add-google-analytics-to-my-vuepress-website-in-accordance-with-gdpr)
+
 `config.js`
 
 ```js 
@@ -28,7 +30,15 @@ module.exports = {
     ['script', {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-672PNZBWWP');"]],
   ],
 ```
+
+F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
+```
+> gtag
+< ƒ gtag(){dataLayer.push(arguments);}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mjg2NTM4OCwtMTk3NzM0MTk3NiwyMD
-Q2Nzk0MzU3LC05NTEwMDYxMDJdfQ==
+eyJoaXN0b3J5IjpbNzYyMzYzMjMzLDE5NDI4NjUzODgsLTE5Nz
+czNDE5NzYsMjA0Njc5NDM1NywtOTUxMDA2MTAyXX0=
 -->
