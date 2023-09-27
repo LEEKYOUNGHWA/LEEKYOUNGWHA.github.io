@@ -44,11 +44,20 @@ SELECT * FROM ALL_SYNONYMS;
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
 # pl/sql procedure
+[https://pgnt.tistory.com/13](https://pgnt.tistory.com/13)
 
+이미 만들어진 프로시저를 간단히 돌려보고 싶을때
+``` sql
+declare 
+	procedure procdeure_name
+	is -- 프로시저 적어주고
+
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAzMjQ0NDgsLTE5MDk4MTQ5NTcsMj
-A4MTQ3MzM1OV19
+eyJoaXN0b3J5IjpbNzkxMzYyMTUyLC0xNDMwMzI0NDQ4LC0xOT
+A5ODE0OTU3LDIwODE0NzMzNTldfQ==
 -->
