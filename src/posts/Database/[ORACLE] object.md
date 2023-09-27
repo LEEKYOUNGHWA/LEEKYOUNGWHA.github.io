@@ -51,8 +51,8 @@ CREATE OR REPLACE 를 DECLARE로 바꿔주고 돌려볼 수 있다.
 
 ``` sql
 DECLARE 
-	procedure temp_procedure
-IS
+	PROCEDURE temp_procedure
+	IS
 	-- 프로시저 내용 적어주고
 BEGIN
 	temp_procedure(); -- 실행
@@ -63,6 +63,6 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjM2MTU4NSwxNDc1MDEzOTIwLC0xND
-MwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ==
+eyJoaXN0b3J5IjpbLTEwMDA0NDU4ODEsMTQ3NTAxMzkyMCwtMT
+QzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMDgxNDczMzU5XX0=
 -->
