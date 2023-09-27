@@ -47,17 +47,21 @@ dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하�
 [https://pgnt.tistory.com/13](https://pgnt.tistory.com/13)
 
 이미 만들어진 프로시저를 간단히 돌려보고 싶을때
-``` sql
-declare 
-	procedure procdeure_name
-	is -- 프로시저 적어주고
 
+``` sql
+DECLARE 
+	procedure procdeure_name
+	is 
+	-- 프로시저 적어주고
+BEGIN
+	temp_procedure(); --
+END
 
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMzYyMTUyLC0xNDMwMzI0NDQ4LC0xOT
+eyJoaXN0b3J5IjpbNjIyMTcyMTA4LC0xNDMwMzI0NDQ4LC0xOT
 A5ODE0OTU3LDIwODE0NzMzNTldfQ==
 -->
