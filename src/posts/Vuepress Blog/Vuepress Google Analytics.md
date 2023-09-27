@@ -27,6 +27,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     [
+        [
 	      "script",
 	      {
 	        async: true,
@@ -38,5 +39,6 @@ module.exports = {
   ],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Njc5NDM1NywtOTUxMDA2MTAyXX0=
+eyJoaXN0b3J5IjpbLTE5NzczNDE5NzYsMjA0Njc5NDM1NywtOT
+UxMDA2MTAyXX0=
 -->
