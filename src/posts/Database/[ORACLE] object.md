@@ -41,9 +41,9 @@ SELECT * FROM ALL_SYNONYMS;
 [http://www.gurubee.net/lecture/1560](http://www.gurubee.net/lecture/1560)
 [https://myjamong.tistory.com/179](https://myjamong.tistory.com/179)
 
-dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 네이밍 룰도 안 지켜진 시노님이면 이게 그냥 테이블인줄 알고 휙 지나갔다가 나중에 역풍을 맞을 수 있..
+dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTQ3MzM1OV19
+eyJoaXN0b3J5IjpbLTE5MDk4MTQ5NTcsMjA4MTQ3MzM1OV19
 -->
