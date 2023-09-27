@@ -4,6 +4,8 @@
 
 [https://stackoverflow.com/questions/62563531/how-can-i-add-google-analytics-to-my-vuepress-website-in-accordance-with-gdpr](https://stackoverflow.com/questions/62563531/how-can-i-add-google-analytics-to-my-vuepress-website-in-accordance-with-gdpr)
 
+밑에 있는 'script' 두줄 추가해줬다. 괄호와 콤마에 유의하자
+
 `config.js`
 
 ```js 
@@ -39,6 +41,6 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMzYzMjMzLDE5NDI4NjUzODgsLTE5Nz
-czNDE5NzYsMjA0Njc5NDM1NywtOTUxMDA2MTAyXX0=
+eyJoaXN0b3J5IjpbMTAwNTg0MDMzOSwxOTQyODY1Mzg4LC0xOT
+c3MzQxOTc2LDIwNDY3OTQzNTcsLTk1MTAwNjEwMl19
 -->
