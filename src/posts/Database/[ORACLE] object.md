@@ -53,7 +53,7 @@ CREATE OR REPLACE 를 DECLARE로 바꿔주고 돌려볼 수 있다.
 DECLARE 
 	procedure temp_procedure
 IS
-	-- 프로시저 적어주고
+	-- 프로시저 내용 적어주고
 BEGIN
 	temp_procedure(); -- 실행
 END
@@ -63,6 +63,6 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzExNDAzMCwxNDc1MDEzOTIwLC0xND
+eyJoaXN0b3J5IjpbLTQyMjM2MTU4NSwxNDc1MDEzOTIwLC0xND
 MwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ==
 -->
