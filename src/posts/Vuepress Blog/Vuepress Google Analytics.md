@@ -26,19 +26,11 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    [
-        [
-	      "script",
-	      {
-	        async: true,
-	        src: "https://www.googletagmanager.com/gtag/js?id=G-@@@@@@@@",
-	      },
-	    ],
-	    ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-@@@@@@@@');"]],
-	  ]
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-672PNZBWWP'}],
+    ['script', {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-672PNZBWWP');"]],
   ],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzczNDE5NzYsMjA0Njc5NDM1NywtOT
-UxMDA2MTAyXX0=
+eyJoaXN0b3J5IjpbNTU1Mjk3NzQwLC0xOTc3MzQxOTc2LDIwND
+Y3OTQzNTcsLTk1MTAwNjEwMl19
 -->
