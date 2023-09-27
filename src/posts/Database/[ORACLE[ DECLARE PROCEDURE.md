@@ -6,7 +6,7 @@
 
 DECLARE 에서 프로시저를 선언할 수 있음
 
-CREATE OR REPLACE 를 DECLARE로 바꿔주고 BEGIN 에서 실행시켜준다
+기존 프로시저의 CREATE OR REPLACE 를 DECLARE로 바꿔주고 BEGIN 에서 실행시켜준다
 
 ``` sql
 DECLARE 
@@ -18,6 +18,6 @@ BEGIN
 END
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMzAzMDgsLTE4NjYyMTIsMTQ4MzU2MD
-M5Ml19
+eyJoaXN0b3J5IjpbLTEzMjQyMTMyMTgsLTE4NjYyMTIsMTQ4Mz
+U2MDM5Ml19
 -->
