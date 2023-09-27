@@ -5,6 +5,7 @@
 이 블로그 보고 따라 했다.
 2번째 방법으로 적용 했다.
 
+`config.js`
 ```js 
 module.exports = {
   /**
@@ -37,5 +38,5 @@ module.exports = {
   ],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzg0Njk3MiwtOTUxMDA2MTAyXX0=
+eyJoaXN0b3J5IjpbMjA0Njc5NDM1NywtOTUxMDA2MTAyXX0=
 -->
