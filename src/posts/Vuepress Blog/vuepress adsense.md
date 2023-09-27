@@ -1,7 +1,8 @@
 # vuepress adsense
 
-게시글이 15개가 넘어야 한다는 말이 있
-3가지 방법이 있는데 본인이 편한걸로 하면 된다.
+게시글이 15개가 넘어야 한다는 글을 봐서.. 미루고 미루다가 드디어 신청했다
+
+adsense 연결 하는 3가지 방법이 있는데 본인이 편한걸로 하면 된다.
 
 나는 그냥 public에 파일 하나 만들어서 넣어줬다
 
@@ -10,6 +11,8 @@
 
 요청은 끝났는데 언제 승인될지는 모르겠다....! 제발 한번에 됬음 좋겠다아아아 제발~~~~~~~~~~
 
+[https://www.google.com/adsense](https://www.google.com/adsense)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjIzMDE0Ml19
+eyJoaXN0b3J5IjpbMTE4MzI5MDQxM119
 -->
