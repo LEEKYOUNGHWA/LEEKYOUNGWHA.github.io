@@ -32,10 +32,10 @@ module.exports = {
 	        src: "https://www.googletagmanager.com/gtag/js?id=G-@@@@@@@@",
 	      },
 	    ],
-	    ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-@@@@@@@');"]],
+	    ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-@@@@@@@@');"]],
 	  ]
   ],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTAwNjEwMl19
+eyJoaXN0b3J5IjpbMTQwNzg0Njk3MiwtOTUxMDA2MTAyXX0=
 -->
