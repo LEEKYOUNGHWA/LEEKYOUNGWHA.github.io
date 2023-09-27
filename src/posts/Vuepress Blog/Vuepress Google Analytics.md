@@ -39,11 +39,14 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 < ƒ gtag(){dataLayer.push(arguments);}
 ```
 
-![](https://photos.app.goo.gl/eFhkeDaDTwSYsuDHA)
+애널리틱스 홈에들어가면 성공이라고 바로 뜬다
 
-![](https://photos.google.com/share/AF1QipOH-9rpx5xHFUNcuohnyA0dY8tbyr8ZXWLl2yo43GGcQFaPg2Qhw13Z1FN3W-NVow/photo/AF1QipNpZWr3wSTLEcSrMSVyKUlfuFWflJc3MckrZudZ?key=Ulo0Y2x4V05ZallWX2RaNDQxd0plaTB4cUxXV0tR)
+> ` 데이터 수집이 활성화되었습니다. 
+> 
+> 🎉 애널리틱스 계정에 표시되기까지 최대 24시간이 소요될 수 있습니다. `
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTAyMTUzOTQsLTEzNTA5MDkyODAsMT
+eyJoaXN0b3J5IjpbLTE5MjY5Nzc2NDMsLTEzNTA5MDkyODAsMT
 AwNTg0MDMzOSwxOTQyODY1Mzg4LC0xOTc3MzQxOTc2LDIwNDY3
 OTQzNTcsLTk1MTAwNjEwMl19
 -->
