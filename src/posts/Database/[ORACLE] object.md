@@ -49,7 +49,6 @@ dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하�
 이력 관리를 위해 개발자가 직접 프로시저 수정 하지 말라고 할때, 이미 만들어진 프로시저를 조금 수정해서 간단히 돌려보고 싶을때
 CREATE OR REPLACE 를 DECLARE로 바꿔주고 돌려볼 수 있다.
 
-
 ``` sql
 DECLARE 
 	procedure temp_procedure
@@ -64,6 +63,6 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODI1MDYyNCwxNDc1MDEzOTIwLC0xND
+eyJoaXN0b3J5IjpbMTQ3MzExNDAzMCwxNDc1MDEzOTIwLC0xND
 MwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ==
 -->
