@@ -2,9 +2,8 @@
 
 [https://github.com/vuejs/vuepress/issues/2713](https://github.com/vuejs/vuepress/issues/2713)
 
+`config.js`
 
-
-config.js`
 ```js 
 module.exports = {
   /**
@@ -30,6 +29,6 @@ module.exports = {
   ],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTkzMjE2MCwtMTk3NzM0MTk3NiwyMD
+eyJoaXN0b3J5IjpbMTk0Mjg2NTM4OCwtMTk3NzM0MTk3NiwyMD
 Q2Nzk0MzU3LC05NTEwMDYxMDJdfQ==
 -->
