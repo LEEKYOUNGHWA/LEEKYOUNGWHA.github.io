@@ -8,7 +8,7 @@
 
 `config.js`
 
-``` js {20,21}
+```js {20,21}
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -49,7 +49,7 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 > 🎉 애널리틱스 계정에 표시되기까지 최대 24시간이 소요될 수 있습니다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjM1Mzk2NCwtOTY1MzM3ODgxLDY3OD
+eyJoaXN0b3J5IjpbMTE2MjczOTc3MCwtOTY1MzM3ODgxLDY3OD
 cxMzc1MSwtMTM1MDkwOTI4MCwxMDA1ODQwMzM5LDE5NDI4NjUz
 ODgsLTE5NzczNDE5NzYsMjA0Njc5NDM1NywtOTUxMDA2MTAyXX
 0=
