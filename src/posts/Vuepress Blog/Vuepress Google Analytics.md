@@ -38,9 +38,10 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 > gtag
 < ƒ gtag(){dataLayer.push(arguments);}
 ```
-
-
-애널리틱스 홈에들어가면  바로 성공이라고 뜬다
+     
+       
+            
+  애널리틱스 홈에들어가면  바로 성공이라고 뜬다
 [https://analytics.google.com/](https://analytics.google.com/)
 
 > ### 데이터 수집이 활성화되었습니다. 
@@ -48,7 +49,7 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 > 🎉 애널리틱스 계정에 표시되기까지 최대 24시간이 소요될 수 있습니다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzNzUzNjA1LC0xMzUwOTA5MjgwLDEwMD
+eyJoaXN0b3J5IjpbNjc4NzEzNzUxLC0xMzUwOTA5MjgwLDEwMD
 U4NDAzMzksMTk0Mjg2NTM4OCwtMTk3NzM0MTk3NiwyMDQ2Nzk0
 MzU3LC05NTEwMDYxMDJdfQ==
 -->
