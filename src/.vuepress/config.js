@@ -22,14 +22,15 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     [
+	[
 	      "script",
 	      {
 	        async: true,
 	        src: "https://www.googletagmanager.com/gtag/js?id=G-672PNZBWWP",
 	      },
-	    ],
-	    ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-672PNZBWWP');"]],
-	  ]
+	],
+	["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-672PNZBWWP');"]],
+    ],
   ],
 
   /**
