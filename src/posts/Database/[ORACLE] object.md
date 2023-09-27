@@ -43,7 +43,7 @@ SELECT * FROM ALL_SYNONYMS;
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
-# pl/sql procedure
+# pl/sql declare procedure
 [https://pgnt.tistory.com/13](https://pgnt.tistory.com/13)
 
 이력 관리를 위해 개발자가 직접 프로시저 수정 하지 말라고 할때, 이미 만들어진 프로시저를 조금 수정해서 간단히 돌려보고 싶을때
@@ -63,6 +63,6 @@ END
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA0NDU4ODEsMTQ3NTAxMzkyMCwtMT
-QzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMDgxNDczMzU5XX0=
+eyJoaXN0b3J5IjpbMTc2ODgwNTE4MSwxNDc1MDEzOTIwLC0xND
+MwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ==
 -->
