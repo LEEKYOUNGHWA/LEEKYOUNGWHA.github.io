@@ -1,11 +1,10 @@
 # vuepress 블로그에 google analytics 붙이기
 
-[https://kim-eun-ji.github.io/etc/2021-06-09-vuepress_ga/](https://kim-eun-ji.github.io/etc/2021-06-09-vuepress_ga/)
+[https://github.com/vuejs/vuepress/issues/2713](https://github.com/vuejs/vuepress/issues/2713)
 
-이 블로그 보고 따라 했다.
-2번째 방법으로 적용 했다.
 
-`config.js`
+
+config.js`
 ```js 
 module.exports = {
   /**
@@ -31,6 +30,6 @@ module.exports = {
   ],
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1Mjk3NzQwLC0xOTc3MzQxOTc2LDIwND
-Y3OTQzNTcsLTk1MTAwNjEwMl19
+eyJoaXN0b3J5IjpbLTc2OTkzMjE2MCwtMTk3NzM0MTk3NiwyMD
+Q2Nzk0MzU3LC05NTEwMDYxMDJdfQ==
 -->
