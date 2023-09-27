@@ -4,7 +4,7 @@
 
 [https://stackoverflow.com/questions/62563531/how-can-i-add-google-analytics-to-my-vuepress-website-in-accordance-with-gdpr](https://stackoverflow.com/questions/62563531/how-can-i-add-google-analytics-to-my-vuepress-website-in-accordance-with-gdpr)
 
-위 밑에 있는 'script' 두줄 추가해줬다. 괄호와 콤마에 유의하자
+위 두 사이트 참고해서 적용하였다. 줄바꿈이랑 콤마 지저분해서 깔끔하게 'script' 두줄로 만들어 줬다.
 
 `config.js`
 
@@ -43,7 +43,7 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 
 ![](https://photos.google.com/share/AF1QipOH-9rpx5xHFUNcuohnyA0dY8tbyr8ZXWLl2yo43GGcQFaPg2Qhw13Z1FN3W-NVow/photo/AF1QipNpZWr3wSTLEcSrMSVyKUlfuFWflJc3MckrZudZ?key=Ulo0Y2x4V05ZallWX2RaNDQxd0plaTB4cUxXV0tR)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDk0Nzk2NCwtMTM1MDkwOTI4MCwxMD
-A1ODQwMzM5LDE5NDI4NjUzODgsLTE5NzczNDE5NzYsMjA0Njc5
-NDM1NywtOTUxMDA2MTAyXX0=
+eyJoaXN0b3J5IjpbLTIxMTAyMTUzOTQsLTEzNTA5MDkyODAsMT
+AwNTg0MDMzOSwxOTQyODY1Mzg4LC0xOTc3MzQxOTc2LDIwNDY3
+OTQzNTcsLTk1MTAwNjEwMl19
 -->
