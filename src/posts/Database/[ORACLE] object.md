@@ -43,7 +43,12 @@ SELECT * FROM ALL_SYNONYMS;
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
+# pl/sql procedure
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDk4MTQ5NTcsMjA4MTQ3MzM1OV19
+eyJoaXN0b3J5IjpbLTE0MzAzMjQ0NDgsLTE5MDk4MTQ5NTcsMj
+A4MTQ3MzM1OV19
 -->
