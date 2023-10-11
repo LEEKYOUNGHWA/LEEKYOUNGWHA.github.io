@@ -16,7 +16,8 @@ adsense 연결 하는 3가지 방법이 있는데 본인이 편한걸로 하면 
 
 
 ## 2023-10-11 
-진짜 딱 2주만에 연락 왔다 .. 빈 페이지가 있다나 뭐라나... 암튼
+진짜 딱 2주만에 연락 왔다 .. 빈 페이지가 있다나 뭐라나... 암튼 거절당함 메인 페이지가 휑해서 그런가 싶어서 일단 글 채워 넣고 다시 신청함... 또 2주 걸리겠지.... 두구두구.....
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAyNTk4MzksMTE4MzI5MDQxM119
+eyJoaXN0b3J5IjpbMTg1NzM4MDk5MywxMTgzMjkwNDEzXX0=
 -->
