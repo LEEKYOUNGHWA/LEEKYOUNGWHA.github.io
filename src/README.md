@@ -2,37 +2,15 @@
 
 GSITM 18-03-02 ~재직중
 
-> 하나투어 차세대 항공 플랫폼 구축
+> **하나투어 차세대 항공 플랫폼 구축**
 > 2018-11-01 ~ 2019-11-18
 > OracleSpring FrameworkNexacro
 > 항공실시간파트개발
 
-##### GS리테일 2019년 SLA 계약
-
-유통/커머스
-
-2019-11-18 ~ 2019-12-31
-
-S/W엔지니어
-
+GS리테일  SLA 계약
+2019-11-18 ~ 2020-12-31
 OracleSpring Framework
-
 주요내용
-
-운영, 개발
-
-##### GS리테일 2020년 SLA 계약
-
-유통/커머스
-
-2020-01-01 ~ 2020-12-31
-
-S/W엔지니어
-
-OracleSpring Framework
-
-주요내용
-
 운영, 개발
 
 ##### GS리테일 e-커머스 상시개발 용역 계약
@@ -80,8 +58,8 @@ OracleSpring Framework
 email : rudghk5220@gmail.com
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjY1NjI5MSw4NzQwNTQyMDMsLTIxMT
-cyNDUzNzMsLTU4MTAzNjg1LDc4MTg2NDMsNTI1NDU5MzgxLC0x
-MDY0MTAwODk2LDE5MTQ0NTk4NjgsLTk0OTk0MDc5MiwzNDAxNj
-UyMzBdfQ==
+eyJoaXN0b3J5IjpbNzkyNTAyMjMyLDg3NDA1NDIwMywtMjExNz
+I0NTM3MywtNTgxMDM2ODUsNzgxODY0Myw1MjU0NTkzODEsLTEw
+NjQxMDA4OTYsMTkxNDQ1OTg2OCwtOTQ5OTQwNzkyLDM0MDE2NT
+IzMF19
 -->
