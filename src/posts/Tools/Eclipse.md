@@ -1,5 +1,5 @@
 
-# Eclipse 기능 정리 내가 보는용
+# Eclipse 기능 정리. 내가 보는용
 
 ##  Compare with Other Resource – The Easy Way using Eclipse (no additional plugin required)
 
@@ -11,5 +11,5 @@
 
 [https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips](https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MDMyNjM4XX0=
+eyJoaXN0b3J5IjpbLTE3MjQxMzIwODhdfQ==
 -->
