@@ -15,9 +15,10 @@
 >
 >근데 폴더 뎁스가 넘어가면 안되는거 같음.  
 >
-> workspace 에는 현재 워크스페이스에서 비교하고 싶은 소스나 폴더 끌어다 놓아서 설정도 가능하다
+> workspace 에는 현재 워크스페이스에서 비교하고 싶은 소스나 폴더 끌어다 놓아서 설정도 가능
 
 [https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips](https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjgyOTIwNywtMTcyNDEzMjA4OF19
+eyJoaXN0b3J5IjpbLTEyNjE2MzE0OTksLTE3MjQxMzIwODhdfQ
+==
 -->
