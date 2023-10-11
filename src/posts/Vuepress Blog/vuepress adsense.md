@@ -1,5 +1,6 @@
 # vuepress adsense
 
+## 2023-09-26
 게시글이 15개가 넘어야 한다는 글을 봐서.. 미루고 미루다가 드디어 신청했다
 
 adsense 연결 하는 3가지 방법이 있는데 본인이 편한걸로 하면 된다.
@@ -13,6 +14,9 @@ adsense 연결 하는 3가지 방법이 있는데 본인이 편한걸로 하면 
 
 [https://www.google.com/adsense](https://www.google.com/adsense)
 
+
+## 2023-10-11 
+진짜 딱 2주만에 연락 왔다 .. 빈 페이지가 있다나 뭐라나... 암튼
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzI5MDQxM119
+eyJoaXN0b3J5IjpbLTE3MDAyNTk4MzksMTE4MzI5MDQxM119
 -->
