@@ -22,13 +22,13 @@
 [https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips](https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips)
 
 ## 단축키
-내 머리는 왜이렇게 나쁜걸까... 죽어도 안외워 지는데 이번에 프로젝트하면서 call hierarchy 단축키는 한 500번 이상 누른거 같다 
+내 머리는 왜이렇게 나쁜걸까... 죽어도 안외워 지는데 이번에 프로젝트하면서 call hierarchy 단축키는 한 500번 이상 누른거 같다 이거만 외워짐 ㅎㅅㅎ
 
 `Ctrl` + `Shift` + `L` : 단축키 표시가 나온다
 `Ctrl` + `Alt` + `H` : Call Hierarchy
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg2OTc5MDAsLTEyNjE2MzE0OTksLT
-E3MjQxMzIwODhdfQ==
+eyJoaXN0b3J5IjpbMTYzNDQxMjE1NSwtMTI2MTYzMTQ5OSwtMT
+cyNDEzMjA4OF19
 -->
