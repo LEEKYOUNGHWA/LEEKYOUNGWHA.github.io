@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'leekyounghwa BLOG',
+  title: '끄적끄적',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
