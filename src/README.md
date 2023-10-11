@@ -4,17 +4,17 @@
 >
 >2023-06-15 ~ 진행중  
 >
->`Oracle` `Spring Framework`  
->
 >프로젝트, 개발  
+
+`Oracle` `Spring Framework`  
 
 >**GS리테일 SAP 재무시스템 구축에 따른 Legacy 대응 개발**  
 >
 >2023-01-01 ~ 2023-03-01  
 >
->`Oracle` `Spring Framework` `Nexacro`
->
 >프로젝트, 개발  
+
+`Oracle` `Spring Framework` `Nexacro`
 
 >**GS리테일 e-커머스 상시개발 용역 계약**  
 >
@@ -51,9 +51,9 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2MTQ3NjcxLDEyMDQ4Njk4MzEsNjk0Nz
-Q5MzkzLC0xMjk4NDY4MTY1LDEzNzgwMDE5NTgsMTUyOTQ0MDk4
-MSw4NzQwNTQyMDMsLTIxMTcyNDUzNzMsLTU4MTAzNjg1LDc4MT
-g2NDMsNTI1NDU5MzgxLC0xMDY0MTAwODk2LDE5MTQ0NTk4Njgs
-LTk0OTk0MDc5MiwzNDAxNjUyMzBdfQ==
+eyJoaXN0b3J5IjpbLTYzMDE1MTU2NSwxMjA0ODY5ODMxLDY5ND
+c0OTM5MywtMTI5ODQ2ODE2NSwxMzc4MDAxOTU4LDE1Mjk0NDA5
+ODEsODc0MDU0MjAzLC0yMTE3MjQ1MzczLC01ODEwMzY4NSw3OD
+E4NjQzLDUyNTQ1OTM4MSwtMTA2NDEwMDg5NiwxOTE0NDU5ODY4
+LC05NDk5NDA3OTIsMzQwMTY1MjMwXX0=
 -->
