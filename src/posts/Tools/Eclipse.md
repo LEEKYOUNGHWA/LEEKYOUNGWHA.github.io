@@ -1,6 +1,7 @@
 
 # Eclipse 기능 정리. 내가 보는용
 
+## 이클립스 
 ##  Compare with Other Resource – The Easy Way using Eclipse (no additional plugin required)
 
 `Ctrl+3 (for Quick Access)` -> search for `Compare with Other Resource`
@@ -19,6 +20,6 @@
 
 [https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips](https://stackoverflow.com/questions/4623564/how-do-i-compare-two-files-using-eclipse-is-there-any-option-provided-by-eclips)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE2MzE0OTksLTE3MjQxMzIwODhdfQ
-==
+eyJoaXN0b3J5IjpbLTE4Mzg3Mzc0NzIsLTEyNjE2MzE0OTksLT
+E3MjQxMzIwODhdfQ==
 -->
