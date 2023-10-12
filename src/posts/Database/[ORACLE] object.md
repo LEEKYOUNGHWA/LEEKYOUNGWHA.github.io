@@ -45,7 +45,7 @@ dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하�
 
 # Sequence
 ## 시퀀스 강제조정..
-물론 이렇게 하면 안된다
+물론 이렇게 하면 안된다 권한 없을때 야매로 몰래 하기 좋음
 ```sql
 DECLARE
 v_seq NUMBER(10) := 0;
@@ -55,6 +55,14 @@ v_seq NUMBER(10) := 0;
 	END LOOP;
 END;
 ```
+[https://hye0-log.tistory.com/5](https://hye0-log.tistory.com/5)
+
+```sql
+-- 1. 시퀀스 차이가 얼마나 나는지 차이값을 확인한다.  
+SELECT [기준 시퀀스 명].NEXTVAL - [변경 대상 시퀀스].NEXTVAL FROM DUAL; 
+-- 2. 시퀀스 증가값 일시 변경  
+ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  289462; -- 3. 시퀀스 값 현행화  SELECT [변경 대상 시퀀스].NEXTVAL FROM DUAL; -- 4. 다시 1씩 증가될 수 있도록 변경  ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  1;
+```
 
 
 
@@ -62,7 +70,7 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODg4NTI5MywtOTY3MTIxODEsMTQ3NT
+eyJoaXN0b3J5IjpbLTUyNzk5ODM2NCwtOTY3MTIxODEsMTQ3NT
 AxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMDgxNDcz
 MzU5XX0=
 -->
