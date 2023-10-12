@@ -43,7 +43,7 @@ SELECT * FROM ALL_SYNONYMS;
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
-# Alter sequence useing pl/sql
+# 시퀀스 조정
 **1. 드롭하고 새로 생성**
 **2. 증분값 조정**
 ```sql
@@ -73,7 +73,7 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMzk0NzAsMjExMTk4MzExOSwtNDY2Nj
-AzMjcxLC05NjcxMjE4MSwxNDc1MDEzOTIwLC0xNDMwMzI0NDQ4
-LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ==
+eyJoaXN0b3J5IjpbLTYyNTIyODM3NiwyMTExOTgzMTE5LC00Nj
+Y2MDMyNzEsLTk2NzEyMTgxLDE0NzUwMTM5MjAsLTE0MzAzMjQ0
+NDgsLTE5MDk4MTQ5NTcsMjA4MTQ3MzM1OV19
 -->
