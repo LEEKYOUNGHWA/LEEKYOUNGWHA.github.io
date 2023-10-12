@@ -57,7 +57,8 @@ SELECT [변경 대상 시퀀스].NEXTVAL FROM DUAL;
 -- 4. 다시 1씩 증가될 수 있도록 변경  
 ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  1;
 ```
-대부분 증분값 변경해서 조절하지만 권한이 없을때..
+블로그 검색해보니 대부분 증분값 변경해서 조절하는거 같다.
+하지만 일개 개발자에게는 권한이 없음
 ```sql
 DECLARE
 v_seq NUMBER(10) := 0;
@@ -74,7 +75,7 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MjAzMjk1LC05NjcxMjE4MSwxNDc1MD
-EzOTIwLC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMz
-NTldfQ==
+eyJoaXN0b3J5IjpbLTQ2NjYwMzI3MSwtOTY3MTIxODEsMTQ3NT
+AxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMDgxNDcz
+MzU5XX0=
 -->
