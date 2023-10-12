@@ -43,12 +43,26 @@ SELECT * FROM ALL_SYNONYMS;
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
+# Sequence
+## 시퀀스 강제조정..
+물론 이렇게 하면 안된다
+```sql
+DECLARE
+v_seq NUMBER(10) := 0;
+	BEGIN
+		FOR i IN 1 .. 10 LOOP
+		SELECT GS_SCM_BRAND_REQ_SEQ.nextval INTO v_seq FROM dual;
+	END LOOP;
+END;
+```
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzEyMTgxLDE0NzUwMTM5MjAsLTE0Mz
-AzMjQ0NDgsLTE5MDk4MTQ5NTcsMjA4MTQ3MzM1OV19
+eyJoaXN0b3J5IjpbLTgxODg4NTI5MywtOTY3MTIxODEsMTQ3NT
+AxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMDgxNDcz
+MzU5XX0=
 -->
