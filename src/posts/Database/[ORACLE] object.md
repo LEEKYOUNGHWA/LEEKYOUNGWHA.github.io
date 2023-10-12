@@ -43,7 +43,7 @@ SELECT * FROM ALL_SYNONYMS;
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
-# Sequence
+# adjust Sequence u
 ## 시퀀스 조정..
 **1. 드롭하고 새로 생성**
 **2. 증분값 조정**
@@ -63,7 +63,7 @@ ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  1;
 **3. select 시퀀스.nextval connect by level**
   select 문에 connect by level 써서 올려줘도 되긴 하는데 툴에서 200번 돌고 멈춰버림
 
-**4. loop**
+**4. using pl/sql loop**
 [https://stackoverflow.com/a/6099259](https://stackoverflow.com/a/6099259)
 ```sql
 DECLARE
@@ -74,14 +74,14 @@ v_seq NUMBER(10) := 0;
 	END LOOP;
 END;
 ```
-야매로 조절하기 최고의 방법인듯 만번
+야매로 조절하기 최고의 방법인듯 만번도 거뜬함.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDkzMDY4MjcsLTQ2NjYwMzI3MSwtOT
-Y3MTIxODEsMTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgx
-NDk1NywyMDgxNDczMzU5XX0=
+eyJoaXN0b3J5IjpbLTIwNDU4MDE4NCwtNDY2NjAzMjcxLC05Nj
+cxMjE4MSwxNDc1MDEzOTIwLC0xNDMwMzI0NDQ4LC0xOTA5ODE0
+OTU3LDIwODE0NzMzNTldfQ==
 -->
