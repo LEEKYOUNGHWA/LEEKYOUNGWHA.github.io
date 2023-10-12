@@ -48,14 +48,7 @@ dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하�
 **1. 드롭하고 새로 생성**
 **2. 증분값 조정**
 ```sql
--- 1. 시퀀스 차이가 얼마나 나는지 차이값을 확인한다.  
-SELECT [기준 시퀀스 명].NEXTVAL - [변경 대상 시퀀스].NEXTVAL FROM DUAL; 
--- 2. 시퀀스 증가값 일시 변경  
 ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  289462; 
--- 3. 시퀀스 값 현행화  
-SELECT [변경 대상 시퀀스].NEXTVAL FROM DUAL; 
--- 4. 다시 1씩 증가될 수 있도록 변경  
-ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  1;
 ```
 블로그 검색해보니 대부분 증분값 변경해서 조절하는거 같다.
 하지만 일개 개발자에게는 권한이 없음
@@ -64,7 +57,7 @@ ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  1;
   select 문에 connect by level 써서 올려줘도 되긴 하는데 툴에서 200번 돌고 멈춰버림
 
 **4. using pl/sql loop**
-[https://stackoverflow.com/a/6099259](https://stackoverflow.com/a/6099259)
+[Best way to reset an Oracle sequence to the next value in an existing column](https://stackoverflow.com/a/6099259)
 ```sql
 DECLARE
 v_seq NUMBER(10) := 0;
@@ -81,7 +74,7 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU4MDE4NCwtNDY2NjAzMjcxLC05Nj
+eyJoaXN0b3J5IjpbMjExMTk4MzExOSwtNDY2NjAzMjcxLC05Nj
 cxMjE4MSwxNDc1MDEzOTIwLC0xNDMwMzI0NDQ4LC0xOTA5ODE0
 OTU3LDIwODE0NzMzNTldfQ==
 -->
