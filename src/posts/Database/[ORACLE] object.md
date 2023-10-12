@@ -44,18 +44,16 @@ SELECT * FROM ALL_SYNONYMS;
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
 # 시퀀스 조정
-**1. 드롭하고 새로 생성**
-**2. 증분값 조정**
+#### 1. 드롭하고 새로 생성
+#### 2. 증분값 조정
 ```sql
 ALTER SEQUENCE [변경 대상 시퀀스] INCREMENT BY  289462; 
 ```
 블로그 검색해보니 대부분 증분값 변경해서 조절하는거 같다.
 하지만 일개 개발자에게는 권한이 없음
-
-**3. select 시퀀스.nextval connect by level**
+#### 3. select 시퀀스.nextval connect by level
   select 문에 connect by level 써서 올려줘도 되긴 하는데 툴에서 200번 돌고 멈춰버림
-
-**4. using pl/sql loop**
+#### 4. using pl/sql loop
 [Best way to reset an Oracle sequence to the next value in an existing column](https://stackoverflow.com/a/6099259)
 ```sql
 DECLARE
@@ -73,7 +71,7 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTIyODM3NiwyMTExOTgzMTE5LC00Nj
+eyJoaXN0b3J5IjpbMTkyMjIwMDI5OCwyMTExOTgzMTE5LC00Nj
 Y2MDMyNzEsLTk2NzEyMTgxLDE0NzUwMTM5MjAsLTE0MzAzMjQ0
 NDgsLTE5MDk4MTQ5NTcsMjA4MTQ3MzM1OV19
 -->
