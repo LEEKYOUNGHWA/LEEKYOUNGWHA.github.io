@@ -22,7 +22,7 @@
 > 
 > 폴더 지정해서 여러파일을 한꺼번에 비교 가능하다.  
 >
->근데 폴더 뎁스가 넘어가면 안되는거 같음.  
+>근데 폴더 뎁스가 2 넘어가면 안되는거 같음.  
 >
 > workspace 에는 현재 워크스페이스에서 비교하고 싶은 소스나 폴더 끌어다 놓아서 설정도 가능
 
@@ -36,6 +36,6 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3ODM3MzM3LDE2MzQ0MTIxNTUsLTEyNj
-E2MzE0OTksLTE3MjQxMzIwODhdfQ==
+eyJoaXN0b3J5IjpbLTg4MDE1NjU2NSwxNjM0NDEyMTU1LC0xMj
+YxNjMxNDk5LC0xNzI0MTMyMDg4XX0=
 -->
