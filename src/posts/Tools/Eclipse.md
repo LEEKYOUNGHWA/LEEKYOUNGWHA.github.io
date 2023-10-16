@@ -3,6 +3,13 @@
 
 ## [이클립스  Java development user guide](https://help.eclipse.org/latest/index.jsp?nav=/1)
 
+## 이클립스 svn 특정 이전 버전으로 되돌리기
+
+![](https://t1.daumcdn.net/cfile/tistory/99A4AD4B5A3FBA6D29)
+
+1. 선택파일 > 마우스 우클릭 > Team > Update To Revision
+
+2. Revison 선택 > Browse 버튼 클릭하여 파일 이전 버전을 선택
 ##  Compare with Other Resource – The Easy Way using Eclipse (no additional plugin required)
 
 `Ctrl+3 (for Quick Access)` -> search for `Compare with Other Resource`
@@ -29,6 +36,6 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDQxMjE1NSwtMTI2MTYzMTQ5OSwtMT
-cyNDEzMjA4OF19
+eyJoaXN0b3J5IjpbMzA3ODM3MzM3LDE2MzQ0MTIxNTUsLTEyNj
+E2MzE0OTksLTE3MjQxMzIwODhdfQ==
 -->
