@@ -4,6 +4,7 @@
 ## [이클립스  Java development user guide](https://help.eclipse.org/latest/index.jsp?nav=/1)
 
 ## 이클립스 svn 특정 이전 버전으로 되돌리기
+간만에 쓰는 svn.. 혼란스럽다...
 
 ![](https://t1.daumcdn.net/cfile/tistory/99A4AD4B5A3FBA6D29)
 
@@ -36,6 +37,6 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDE1NjU2NSwxNjM0NDEyMTU1LC0xMj
-YxNjMxNDk5LC0xNzI0MTMyMDg4XX0=
+eyJoaXN0b3J5IjpbLTEwNjYyNzAzODUsMTYzNDQxMjE1NSwtMT
+I2MTYzMTQ5OSwtMTcyNDEzMjA4OF19
 -->
