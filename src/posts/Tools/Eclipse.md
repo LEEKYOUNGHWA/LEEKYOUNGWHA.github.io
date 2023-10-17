@@ -2,7 +2,11 @@
 # Eclipse 기능 정리. 내가 보는용
 
 ## [이클립스  Java development user guide](https://help.eclipse.org/latest/index.jsp?nav=/1)
-
+## 이클립스 디버깅
+- breakpoints
+- variables
+- expressions
+[https://spoqa.github.io/2012/03/05/eclipse-debugger.html](https://spoqa.github.io/2012/03/05/eclipse-debugger.html)
 ## 이클립스 svn 특정 이전 버전으로 되돌리기
 간만에 쓰는 svn.. 혼란스럽다...
 
@@ -37,6 +41,6 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYyNzAzODUsMTYzNDQxMjE1NSwtMT
-I2MTYzMTQ5OSwtMTcyNDEzMjA4OF19
+eyJoaXN0b3J5IjpbMTk5ODIyMzExOSwtMTA2NjI3MDM4NSwxNj
+M0NDEyMTU1LC0xMjYxNjMxNDk5LC0xNzI0MTMyMDg4XX0=
 -->
