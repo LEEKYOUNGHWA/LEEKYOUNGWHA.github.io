@@ -36,15 +36,15 @@ select * from ALL_DB_LINKS;
 SELECT * FROM ALL_SYNONYMS;
 ```
 
-# synonym DBlink
+## synonym DBlink
 
 [http://www.gurubee.net/lecture/1560](http://www.gurubee.net/lecture/1560)
 [https://myjamong.tistory.com/179](https://myjamong.tistory.com/179)
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
 
-# 시퀀스
-## 시퀀스 조정
+## 시퀀스
+### 시퀀스 조정
 #### 1. 드롭하고 새로 생성
 #### 2. 증분값 조정
 ```sql
@@ -67,7 +67,7 @@ END;
 ```
 야매로 조절하기 최고의 방법인듯 만번도 거뜬함.
 
-## [ORACLE] Sequence 증가 이상 - Cache (Last Number와 Currval 값 차이)
+### [ORACLE] Sequence 증가 이상 - Cache (Last Number와 Currval 값 차이)
 
 [https://doughman.tistory.com/11](https://doughman.tistory.com/11)
 [https://bae9086.tistory.com/297](https://bae9086.tistory.com/297)
@@ -91,9 +91,9 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2MDYzODgwLDY5MzU0Mjk3NSwxODMzMj
-Y0NDMzLC02NTIyNDY5MTQsODgzNTIxNzA4LDc1NjU1MTkxNiwx
-OTIyMjAwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MT
-IxODEsMTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1
-NywyMDgxNDczMzU5XX0=
+eyJoaXN0b3J5IjpbLTEyMjM5MDk3MjIsNzY2MDYzODgwLDY5Mz
+U0Mjk3NSwxODMzMjY0NDMzLC02NTIyNDY5MTQsODgzNTIxNzA4
+LDc1NjU1MTkxNiwxOTIyMjAwMjk4LDIxMTE5ODMxMTksLTQ2Nj
+YwMzI3MSwtOTY3MTIxODEsMTQ3NTAxMzkyMCwtMTQzMDMyNDQ0
+OCwtMTkwOTgxNDk1NywyMDgxNDczMzU5XX0=
 -->
