@@ -72,6 +72,7 @@ END;
 [https://doughman.tistory.com/11](https://doughman.tistory.com/11)
 [https://bae9086.tistory.com/297](https://bae9086.tistory.com/297)
 
+
 ## ORACLE RAC 
 - 여러 개의 Instance가 하나의 Database를 엑세스
 [https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
@@ -89,8 +90,8 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNTIxNzA4LDc1NjU1MTkxNiwxOTIyMj
-AwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MTIxODEs
-MTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMD
-gxNDczMzU5XX0=
+eyJoaXN0b3J5IjpbLTY1MjI0NjkxNCw4ODM1MjE3MDgsNzU2NT
+UxOTE2LDE5MjIyMDAyOTgsMjExMTk4MzExOSwtNDY2NjAzMjcx
+LC05NjcxMjE4MSwxNDc1MDEzOTIwLC0xNDMwMzI0NDQ4LC0xOT
+A5ODE0OTU3LDIwODE0NzMzNTldfQ==
 -->
