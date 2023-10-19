@@ -72,7 +72,7 @@ END;
 [https://doughman.tistory.com/11](https://doughman.tistory.com/11)
 [https://bae9086.tistory.com/297](https://bae9086.tistory.com/297)
 [https://subbak2.tistory.com/16](https://subbak2.tistory.com/16)
-CACHE 적용은 성능의 문제로 적용하는게 더 크다. LAST NUMBER 조회하면 CACHE만큼 차이나 보일것임. 
+CACHE 적용은 성능의 문제로 적용하는게 더 크다. LAST NUMBER 조회하면 CACHE만큼 차이나 보일것임.
 
 ## ORACLE RAC 
 - 여러 개의 Instance가 하나의 Database를 엑세스
@@ -91,7 +91,7 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTg1NDQyNywxODMzMjY0NDMzLC02NT
+eyJoaXN0b3J5IjpbLTQ5MTAwNTc1NywxODMzMjY0NDMzLC02NT
 IyNDY5MTQsODgzNTIxNzA4LDc1NjU1MTkxNiwxOTIyMjAwMjk4
 LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MTIxODEsMTQ3NT
 AxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMDgxNDcz
