@@ -67,9 +67,16 @@ END;
 ```
 야매로 조절하기 최고의 방법인듯 만번도 거뜬함.
 
-## # [ORACLE] Sequence 증가 이상 - Cache (Last Number와 Currval 값 차이)
+## [ORACLE] Sequence 증가 이상 - Cache (Last Number와 Currval 값 차이)
 
 [https://doughman.tistory.com/11](https://doughman.tistory.com/11)
+[https://bae9086.tistory.com/297](https://bae9086.tistory.com/297)
+
+## ORACLE RAC 
+- 여러 개의 Instance가 하나의 Database를 엑세스
+[https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
+
+
 
 
 
@@ -77,8 +84,8 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDEwMDIzMSw3NTY1NTE5MTYsMTkyMj
-IwMDI5OCwyMTExOTgzMTE5LC00NjY2MDMyNzEsLTk2NzEyMTgx
-LDE0NzUwMTM5MjAsLTE0MzAzMjQ0NDgsLTE5MDk4MTQ5NTcsMj
-A4MTQ3MzM1OV19
+eyJoaXN0b3J5IjpbODY1ODM4MTAyLDc1NjU1MTkxNiwxOTIyMj
+AwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MTIxODEs
+MTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMD
+gxNDczMzU5XX0=
 -->
