@@ -76,6 +76,11 @@ END;
 - 여러 개의 Instance가 하나의 Database를 엑세스
 [https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
 
+- RAC 확인방법 
+```sql
+select * From v$option where parameter ='Real Application Clusters';
+```
+
 
 
 
@@ -84,7 +89,7 @@ END;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1ODM4MTAyLDc1NjU1MTkxNiwxOTIyMj
+eyJoaXN0b3J5IjpbODgzNTIxNzA4LDc1NjU1MTkxNiwxOTIyMj
 AwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MTIxODEs
 MTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMD
 gxNDczMzU5XX0=
