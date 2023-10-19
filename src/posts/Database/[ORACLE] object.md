@@ -67,15 +67,18 @@ END;
 ```
 야매로 조절하기 최고의 방법인듯 만번도 거뜬함.
 
-## 
+## # [ORACLE] Sequence 증가 이상 - Cache (Last Number와 Currval 값 차이)
+
+[https://doughman.tistory.com/11](https://doughman.tistory.com/11)
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NTUxOTE2LDE5MjIyMDAyOTgsMjExMT
-k4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4MSwxNDc1MDEzOTIw
-LC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ
-==
+eyJoaXN0b3J5IjpbLTg0NDEwMDIzMSw3NTY1NTE5MTYsMTkyMj
+IwMDI5OCwyMTExOTgzMTE5LC00NjY2MDMyNzEsLTk2NzEyMTgx
+LDE0NzUwMTM5MjAsLTE0MzAzMjQ0NDgsLTE5MDk4MTQ5NTcsMj
+A4MTQ3MzM1OV19
 -->
