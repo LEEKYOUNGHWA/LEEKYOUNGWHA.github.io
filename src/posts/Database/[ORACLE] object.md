@@ -72,7 +72,7 @@ END;
 [https://doughman.tistory.com/11](https://doughman.tistory.com/11)
 [https://bae9086.tistory.com/297](https://bae9086.tistory.com/297)
 [https://subbak2.tistory.com/16](https://subbak2.tistory.com/16)
-CACHE 적용은 성능의 문제로 적용하는게 더 크다. LAST NUMBER 조회하면 CACHE 만큼 메모리에 할당된 시퀀스 넘버가 보임.
+CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키는 것에 중점을 둔 기능이 아니라, 성능을 위해 미리 숫자만큼 캐시해놓는다라는 의미가 강한 옵션이다. LAST NUMBER 조회하면 CACHE 만큼 메모리에 할당된 시퀀스 넘버가 보임.
 
 ## ORACLE RAC 
 - 여러 개의 Instance가 하나의 Database를 엑세스
@@ -91,9 +91,9 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNTQyOTc1LDE4MzMyNjQ0MzMsLTY1Mj
-I0NjkxNCw4ODM1MjE3MDgsNzU2NTUxOTE2LDE5MjIyMDAyOTgs
-MjExMTk4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4MSwxNDc1MD
-EzOTIwLC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMz
-NTldfQ==
+eyJoaXN0b3J5IjpbNzY2MDYzODgwLDY5MzU0Mjk3NSwxODMzMj
+Y0NDMzLC02NTIyNDY5MTQsODgzNTIxNzA4LDc1NjU1MTkxNiwx
+OTIyMjAwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MT
+IxODEsMTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1
+NywyMDgxNDczMzU5XX0=
 -->
