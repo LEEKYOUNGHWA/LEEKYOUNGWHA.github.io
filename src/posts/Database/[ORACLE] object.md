@@ -35,6 +35,13 @@ select * from ALL_DB_LINKS;
 -- synonym 조회
 SELECT * FROM ALL_SYNONYMS;
 ```
+```sql
+-- procedure function 소스 조회(조건
+SELECT *
+FROM dba_SOURCE 
+WHERE owner NOT IN ( 'SYS', 'ORACLE_OCM', 'SYSTEM', 'DBSNMP','WMSYS','EXFSYS')
+AND TEXT LIKE '%@DL_PRD%';
+```
 
 ## synonym DBlink
 
@@ -91,9 +98,10 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM5MDk3MjIsNzY2MDYzODgwLDY5Mz
-U0Mjk3NSwxODMzMjY0NDMzLC02NTIyNDY5MTQsODgzNTIxNzA4
-LDc1NjU1MTkxNiwxOTIyMjAwMjk4LDIxMTE5ODMxMTksLTQ2Nj
-YwMzI3MSwtOTY3MTIxODEsMTQ3NTAxMzkyMCwtMTQzMDMyNDQ0
-OCwtMTkwOTgxNDk1NywyMDgxNDczMzU5XX0=
+eyJoaXN0b3J5IjpbMTc0NDc3NjYyMywtMTIyMzkwOTcyMiw3Nj
+YwNjM4ODAsNjkzNTQyOTc1LDE4MzMyNjQ0MzMsLTY1MjI0Njkx
+NCw4ODM1MjE3MDgsNzU2NTUxOTE2LDE5MjIyMDAyOTgsMjExMT
+k4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4MSwxNDc1MDEzOTIw
+LC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ
+==
 -->
