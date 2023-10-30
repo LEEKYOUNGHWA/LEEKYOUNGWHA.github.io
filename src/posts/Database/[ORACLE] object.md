@@ -1,5 +1,5 @@
 
-# [ORACLE] object 조회
+# [ORACLE] Object 조회
 
 ```sql 
 -- object 조회
@@ -100,7 +100,7 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjU5NTA3NiwtNDY1ODgyMzI2LC0xMj
+eyJoaXN0b3J5IjpbLTIxNTY5NTE5NiwtNDY1ODgyMzI2LC0xMj
 IzOTA5NzIyLDc2NjA2Mzg4MCw2OTM1NDI5NzUsMTgzMzI2NDQz
 MywtNjUyMjQ2OTE0LDg4MzUyMTcwOCw3NTY1NTE5MTYsMTkyMj
 IwMDI5OCwyMTExOTgzMTE5LC00NjY2MDMyNzEsLTk2NzEyMTgx
