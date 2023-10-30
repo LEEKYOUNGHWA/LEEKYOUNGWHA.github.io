@@ -36,7 +36,7 @@ select * from ALL_DB_LINKS;
 SELECT * FROM ALL_SYNONYMS;
 ```
 ```sql
--- procedure function 소스 조회(조건
+-- procedure function 소스 조회(조건은 알아서)
 SELECT *
 FROM dba_SOURCE 
 WHERE owner NOT IN ( 'SYS', 'ORACLE_OCM', 'SYSTEM', 'DBSNMP','WMSYS','EXFSYS')
@@ -98,7 +98,7 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDc3NjYyMywtMTIyMzkwOTcyMiw3Nj
+eyJoaXN0b3J5IjpbLTQ2NTg4MjMyNiwtMTIyMzkwOTcyMiw3Nj
 YwNjM4ODAsNjkzNTQyOTc1LDE4MzMyNjQ0MzMsLTY1MjI0Njkx
 NCw4ODM1MjE3MDgsNzU2NTUxOTE2LDE5MjIyMDAyOTgsMjExMT
 k4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4MSwxNDc1MDEzOTIw
