@@ -92,6 +92,8 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 - 여러 개의 Instance가 하나의 Database를 엑세스
 [https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
 
+## [[SQL] 프로시저(procedure)와 declare 차이 (tistory.com)](https://pgnt.tistory.com/13)
+
 
 
 
@@ -100,10 +102,10 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE4Mzc2MzIsLTQ2NTg4MjMyNiwtMT
-IyMzkwOTcyMiw3NjYwNjM4ODAsNjkzNTQyOTc1LDE4MzMyNjQ0
-MzMsLTY1MjI0NjkxNCw4ODM1MjE3MDgsNzU2NTUxOTE2LDE5Mj
-IyMDAyOTgsMjExMTk4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4
-MSwxNDc1MDEzOTIwLC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LD
-IwODE0NzMzNTldfQ==
+eyJoaXN0b3J5IjpbLTEwMzU3NzQyMSwtNDY1ODgyMzI2LC0xMj
+IzOTA5NzIyLDc2NjA2Mzg4MCw2OTM1NDI5NzUsMTgzMzI2NDQz
+MywtNjUyMjQ2OTE0LDg4MzUyMTcwOCw3NTY1NTE5MTYsMTkyMj
+IwMDI5OCwyMTExOTgzMTE5LC00NjY2MDMyNzEsLTk2NzEyMTgx
+LDE0NzUwMTM5MjAsLTE0MzAzMjQ0NDgsLTE5MDk4MTQ5NTcsMj
+A4MTQ3MzM1OV19
 -->
