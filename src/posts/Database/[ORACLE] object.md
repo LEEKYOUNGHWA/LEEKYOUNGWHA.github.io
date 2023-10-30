@@ -93,11 +93,6 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 - 여러 개의 Instance가 하나의 Database를 엑세스
 [https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
 
-- RAC 확인방법 
-```sql
-select * From v$option where parameter ='Real Application Clusters';
-```
-
 
 
 
@@ -106,10 +101,10 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5NzMwMDg4LC00NjU4ODIzMjYsLTEyMj
-M5MDk3MjIsNzY2MDYzODgwLDY5MzU0Mjk3NSwxODMzMjY0NDMz
-LC02NTIyNDY5MTQsODgzNTIxNzA4LDc1NjU1MTkxNiwxOTIyMj
-AwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MTIxODEs
-MTQ3NTAxMzkyMCwtMTQzMDMyNDQ0OCwtMTkwOTgxNDk1NywyMD
-gxNDczMzU5XX0=
+eyJoaXN0b3J5IjpbMTkzMTgzOTI1MCwtNDY1ODgyMzI2LC0xMj
+IzOTA5NzIyLDc2NjA2Mzg4MCw2OTM1NDI5NzUsMTgzMzI2NDQz
+MywtNjUyMjQ2OTE0LDg4MzUyMTcwOCw3NTY1NTE5MTYsMTkyMj
+IwMDI5OCwyMTExOTgzMTE5LC00NjY2MDMyNzEsLTk2NzEyMTgx
+LDE0NzUwMTM5MjAsLTE0MzAzMjQ0NDgsLTE5MDk4MTQ5NTcsMj
+A4MTQ3MzM1OV19
 -->
