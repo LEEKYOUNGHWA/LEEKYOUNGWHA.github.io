@@ -3,7 +3,7 @@
 
 ```sql 
 -- object 조회
-select * from ALL_OBJECTS;
+select * from ALL_OBJECTS; -- 또는 dba_objects
 ```
 
 ```sql 
@@ -98,10 +98,10 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTg4MjMyNiwtMTIyMzkwOTcyMiw3Nj
-YwNjM4ODAsNjkzNTQyOTc1LDE4MzMyNjQ0MzMsLTY1MjI0Njkx
-NCw4ODM1MjE3MDgsNzU2NTUxOTE2LDE5MjIyMDAyOTgsMjExMT
-k4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4MSwxNDc1MDEzOTIw
-LC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LDIwODE0NzMzNTldfQ
-==
+eyJoaXN0b3J5IjpbLTE3OTI3MDEyMTAsLTQ2NTg4MjMyNiwtMT
+IyMzkwOTcyMiw3NjYwNjM4ODAsNjkzNTQyOTc1LDE4MzMyNjQ0
+MzMsLTY1MjI0NjkxNCw4ODM1MjE3MDgsNzU2NTUxOTE2LDE5Mj
+IyMDAyOTgsMjExMTk4MzExOSwtNDY2NjAzMjcxLC05NjcxMjE4
+MSwxNDc1MDEzOTIwLC0xNDMwMzI0NDQ4LC0xOTA5ODE0OTU3LD
+IwODE0NzMzNTldfQ==
 -->
