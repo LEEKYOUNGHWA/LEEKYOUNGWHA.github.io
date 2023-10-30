@@ -83,7 +83,6 @@ END;
 야매로 조절하기 최고의 방법인듯 만번도 거뜬함.
 
 ### [ORACLE] Sequence 증가 이상 - Cache (Last Number와 Currval 값 차이)
-
 [https://doughman.tistory.com/11](https://doughman.tistory.com/11)
 [https://bae9086.tistory.com/297](https://bae9086.tistory.com/297)
 [https://subbak2.tistory.com/16](https://subbak2.tistory.com/16)
@@ -101,7 +100,7 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTgzOTI1MCwtNDY1ODgyMzI2LC0xMj
+eyJoaXN0b3J5IjpbMTMyNzEzNjI5MiwtNDY1ODgyMzI2LC0xMj
 IzOTA5NzIyLDc2NjA2Mzg4MCw2OTM1NDI5NzUsMTgzMzI2NDQz
 MywtNjUyMjQ2OTE0LDg4MzUyMTcwOCw3NTY1NTE5MTYsMTkyMj
 IwMDI5OCwyMTExOTgzMTE5LC00NjY2MDMyNzEsLTk2NzEyMTgx
