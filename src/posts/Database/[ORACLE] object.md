@@ -46,6 +46,10 @@ AND TEXT LIKE '%@DL_PRD%';
 -- 오라클 버전 확인
 select * from v$version;
 ```
+```sql
+-- 오라클 RAC 확인
+select  *  From v$option  where parameter ='Real Application Clusters';
+```
 
 ## synonym DBlink
 
@@ -102,7 +106,7 @@ select * From v$option where parameter ='Real Application Clusters';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2OTIxNjM1LC00NjU4ODIzMjYsLTEyMj
+eyJoaXN0b3J5IjpbNzc5NzMwMDg4LC00NjU4ODIzMjYsLTEyMj
 M5MDk3MjIsNzY2MDYzODgwLDY5MzU0Mjk3NSwxODMzMjY0NDMz
 LC02NTIyNDY5MTQsODgzNTIxNzA4LDc1NjU1MTkxNiwxOTIyMj
 AwMjk4LDIxMTE5ODMxMTksLTQ2NjYwMzI3MSwtOTY3MTIxODEs
