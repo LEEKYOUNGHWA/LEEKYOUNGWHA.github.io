@@ -19,6 +19,10 @@ adsense 연결 하는 3가지 방법이 있는데 본인이 편한걸로 하면 
 진짜 딱 2주만에 연락 왔다 .. 빈 페이지가 있다나 뭐라나... 암튼 거절당함.
  메인 페이지가 휑해서 그런가 싶어서 일단 글 채워 넣고 다시 신청함... 또 2주 걸리겠지.... 두구두구.....
 
+## 2023-10-30
+나의 비루한 블로그는 두번이나 애드고시에서 탈락했따.... 눈물이 난다...
+글을 좀더 채워넣어야 하나... 뭐가 비었다고 자꾸 그러는지... ㅠㅠㅠㅠ
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5OTkxNTU3LDExODMyOTA0MTNdfQ==
+eyJoaXN0b3J5IjpbNDczNjM5NzM0LDExODMyOTA0MTNdfQ==
 -->
