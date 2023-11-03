@@ -2,6 +2,14 @@
 # Eclipse 기능 정리. 내가 보는용
 
 ## [이클립스  Java development user guide](https://help.eclipse.org/latest/index.jsp?nav=/1)
+## SVN comment log 수정하기
+자신이 바꾸고싶은 comment가 있는 부분을 선택하여
+**[마우스 우클릭] - [Show Revision Properties]**
+그러면  **Revision Properties**  라는  **탭**이 생기고
+**svn:log**  **부분**에서
+**[마우스 우클릭] - [Edit...]**
+이제 log을 변경하고싶은 comment를 작성하고 OK를 눌러주면 끝
+
 ## 이클립스 디버깅
 - breakpoints
 - variables
@@ -41,6 +49,7 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODIyMzExOSwtMTA2NjI3MDM4NSwxNj
-M0NDEyMTU1LC0xMjYxNjMxNDk5LC0xNzI0MTMyMDg4XX0=
+eyJoaXN0b3J5IjpbLTE1MjkwNzIyMjksMTk5ODIyMzExOSwtMT
+A2NjI3MDM4NSwxNjM0NDEyMTU1LC0xMjYxNjMxNDk5LC0xNzI0
+MTMyMDg4XX0=
 -->
