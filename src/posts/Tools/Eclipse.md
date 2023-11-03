@@ -7,6 +7,7 @@
 자신이 바꾸고싶은 comment가 있는 부분을 선택하여
 **[마우스 우클릭] - [Show Revision Properties]**
 그러면  **Revision Properties**  라는  **탭**이 생기고
+![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/bRSuz7/btqw6o3mHlx/SBM1kayg9ogGxyESnHlPY1/img.png)
 **svn:log**  **부분**에서
 **[마우스 우클릭] - [Edit...]**
 이제 log을 변경하고싶은 comment를 작성하고 OK를 눌러주면 끝
@@ -51,7 +52,7 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNzU0OTYyLDE5OTgyMjMxMTksLTEwNj
+eyJoaXN0b3J5IjpbMjkxNzM0ODYzLDE5OTgyMjMxMTksLTEwNj
 YyNzAzODUsMTYzNDQxMjE1NSwtMTI2MTYzMTQ5OSwtMTcyNDEz
 MjA4OF19
 -->
