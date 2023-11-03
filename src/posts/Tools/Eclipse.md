@@ -9,6 +9,7 @@
 **svn:log**  **부분**에서
 **[마우스 우클릭] - [Edit...]**
 이제 log을 변경하고싶은 comment를 작성하고 OK를 눌러주면 끝
+권한이 없다면 관리자에게 연락
 
 ## 이클립스 디버깅
 - breakpoints
@@ -49,7 +50,7 @@
 
 [https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H](https://khrdev.tistory.com/entry/Elipse-%EB%A9%94%EC%86%8C%EB%93%9C-%ED%98%B8%EC%B6%9C%ED%95%9C-%EA%B3%B3-%EC%B0%BE%EA%B8%B0-Ctrl-Alt-H)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjkwNzIyMjksMTk5ODIyMzExOSwtMT
+eyJoaXN0b3J5IjpbLTE3MzE2NzIxOTIsMTk5ODIyMzExOSwtMT
 A2NjI3MDM4NSwxNjM0NDEyMTU1LC0xMjYxNjMxNDk5LC0xNzI0
 MTMyMDg4XX0=
 -->
