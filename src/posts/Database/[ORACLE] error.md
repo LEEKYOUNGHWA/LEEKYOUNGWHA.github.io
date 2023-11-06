@@ -22,20 +22,16 @@
 
 - 프로시저 생성 후 실행시 해당 GRANT / SYNONYM
 
+```
 GRANT EXECUTE ON " ADMIN ". " BTOS002_4 " TO IBUS05;
-
 CREATE SYNONYM "ADMIN"."IBUS05" FOR "ADMIN"."BTOS002_4";
-
 CREATE PUBLIC SYNONYM "BTOS002_4" FOR "ADMIN". "BTOS002_4";
-
-꿀팁 : 프로시저 컴파일 단축키 - F9 (Toad for Oracle)
-
+```
+프로시저 컴파일 단축키 - F9 (Toad for Oracle) 아니면 그냥 프로시저 우클릭해서 컴파일
 프로시저 저장 - F5 (Toad for Oracle)
 
-위의 두가지만 확인 해보시면 왠만해선 해결이 가능합니다.
-
-이상으로 ORA-06550 : 식별자가 정의되어야 합니다. 의 오류 해결 방법 이었습니다.
+위의 두가지만 확인 해보시면 왠만해선 해결이 가능.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTI4NTI1N119
+eyJoaXN0b3J5IjpbNzIzMTI4NTIxXX0=
 -->
