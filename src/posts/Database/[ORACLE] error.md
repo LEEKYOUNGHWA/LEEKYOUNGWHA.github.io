@@ -31,6 +31,8 @@ CREATE PUBLIC SYNONYM "BTOS002_4" FOR "ADMIN". "BTOS002_4";
 
 위의 두가지만 확인 해보시면 왠만해선 해결이 가능.
 
+나의 경우는 .. 해당 배치소스를 퇴사자가 카트에 잡고 있어서 배포가 되지 않았던 경우였다.. 이상한 D2... 난생처음보는 배포 시스템인데 구글에 검색해도 정보가 잘 없다 신기한 놈이다....
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIxNzQzMDldfQ==
+eyJoaXN0b3J5IjpbLTE4OTAxNTM0MzddfQ==
 -->
