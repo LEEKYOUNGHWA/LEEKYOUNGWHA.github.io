@@ -24,7 +24,7 @@
 
 `Spring Framework` `PostgreSQL` `Vue JS`  
 
-> **GS리테일  물류 DW운영**   
+> **GS리테일  물류 DW, 팝카드 DW운영**   
 > 
 > 2019-11-18 ~ 2020-12-31   
 > 
@@ -51,7 +51,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDI2MTIzMywyMDI5MzE1MDY4LC02Mz
+eyJoaXN0b3J5IjpbMTMzOTE0MTA0MywyMDI5MzE1MDY4LC02Mz
 AxNTE1NjUsMTIwNDg2OTgzMSw2OTQ3NDkzOTMsLTEyOTg0Njgx
 NjUsMTM3ODAwMTk1OCwxNTI5NDQwOTgxLDg3NDA1NDIwMywtMj
 ExNzI0NTM3MywtNTgxMDM2ODUsNzgxODY0Myw1MjU0NTkzODEs
