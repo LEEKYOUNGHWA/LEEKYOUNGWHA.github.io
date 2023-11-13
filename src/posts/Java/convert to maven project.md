@@ -13,8 +13,8 @@
 
 ```mermaid
 graph LR
-Project home[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
+A[Project home] -- Link text --> B((Circle))
+A -- Link text --> C[Round Rect]
 B --> D{Rhombus}
 C --> D
 ```
@@ -22,5 +22,5 @@ C --> D
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mjg3Mzk0XX0=
+eyJoaXN0b3J5IjpbLTE4MTk1OTA5NzRdfQ==
 -->
