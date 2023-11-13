@@ -13,14 +13,14 @@
 
 ```mermaid
 graph LR
-A[Project home] -- Link text --> B[Circle]
-A -- Link text --> C[Round Rect]
+A[Project home] --> B[src]
+A  --> C[pom.xml]
 B --> D{Rhombus}
-C --> D
+
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkxODUzMTJdfQ==
+eyJoaXN0b3J5IjpbLTQyOTA3NjU0MF19
 -->
