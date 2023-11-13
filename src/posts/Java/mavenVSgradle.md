@@ -55,11 +55,13 @@ E --> I[resources]
 - gradle run : application 플러그인의 mainClassName 으로 지정된 메인 클래스를 실행한다. 
 
 
+`실전 자바 소프트웨어개발`
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDcxNDg2OF19
+eyJoaXN0b3J5IjpbLTIwNjMyMzMzMTYsMTM5MDcxNDg2OF19
 -->
