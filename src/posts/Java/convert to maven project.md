@@ -23,11 +23,16 @@ E --> H[java]
 E --> I[resources]
 ```
 
-## 메이븐 빌드 파일 예
+## 메이븐 빌드 파일 예제 pom.xml
+- project : pom.xml 파일의 최상위 수준 요소다
+- groupId : 프로젝트를 만드는 조직의 고유 식별자를 지정한다
+- artifactId : 빌드 과정에서 생성된 부산물의 고유한 기본 이름을 지정한다
+- packaging : 부산물에 사용할 패키지 형식(JAR, WAR, EAR등)을 지정한다. 이 요소를 생략하면 JAR를 사용한다.
+- version 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDczMDQxMiwxOTI0NzQwMDgwLDM5Mz
+eyJoaXN0b3J5IjpbLTI0MjMzMTIxMiwxOTI0NzQwMDgwLDM5Mz
 MxMTY0OF19
 -->
