@@ -15,12 +15,15 @@
 graph LR
 A[Project home] --> B[src]
 A  --> C[pom.xml]
-B --> D{Rhombus}
+B --> D[]
+D --> E[main]
+E --> F[java]
+E --> G[resources]
 
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTA3NjU0MF19
+eyJoaXN0b3J5IjpbMjA1MTA0MTQ4Nl19
 -->
