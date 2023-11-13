@@ -34,11 +34,13 @@ E --> I[resources]
 
 ## 메이븐 명령어
 - mvn clean : 빌드하기 전에 기존 빌드에서 생성된 부산물을 정리한다
-- mvn compile : 프로젝트의 소스코드를 컴파일(기본적으로 생성된 target
+- mvn compile : 프로젝트의 소스코드를 컴파일(기본적으로 생성된 target 폴더에 결과를 저장) 한다.
+- mvn test : 컴파일된 소스코드를 테스트한다
+- mvn package : JAR과 같은 적절한 형식으로 컴파일된 코드를 패키징한다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2MDYxNjcwLDE5MjQ3NDAwODAsMzkzMz
+eyJoaXN0b3J5IjpbNzcwMTc4MTU4LDE5MjQ3NDAwODAsMzkzMz
 ExNjQ4XX0=
 -->
