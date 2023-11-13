@@ -23,8 +23,11 @@ E --> H[java]
 E --> I[resources]
 ```
 
+## 메이븐 빌드 파일 예
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDc0MDA4MCwzOTMzMTE2NDhdfQ==
+eyJoaXN0b3J5IjpbLTQ5NDczMDQxMiwxOTI0NzQwMDgwLDM5Mz
+MxMTY0OF19
 -->
