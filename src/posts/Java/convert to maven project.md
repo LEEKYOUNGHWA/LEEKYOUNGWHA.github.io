@@ -39,11 +39,13 @@ E --> I[resources]
 - mvn package : JAR과 같은 적절한 형식으로 컴파일된 코드를 패키징한다.
 
 ## 메이븐 vs 그레이들
-메이븐 단점 == `xml` 의 단점 : 작업하기 귀찮고, 가독성이 떨어짐
+가장 널리 사용되는 도구는 메이븐 이지만, 
+메이븐 단점 == **xml** 의 단점 : 작업하기 귀찮고, 가독성이 떨어짐
+반면 그레이들의 가장 큰 장점은 그루비, 코틀린 프로그래밍을 이용해 친근한 도메인 특화 언어 DSL(domain-specifie language)를 적용한다는 점이다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTk4MDI1NCwxOTI0NzQwMDgwLDM5Mz
+eyJoaXN0b3J5IjpbLTM5NTAyOTU2MCwxOTI0NzQwMDgwLDM5Mz
 MxMTY0OF19
 -->
