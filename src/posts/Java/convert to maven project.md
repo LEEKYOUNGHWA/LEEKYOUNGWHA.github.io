@@ -48,7 +48,8 @@ E --> I[resources]
 ## 그레이들 명령어
 - gradle clean : 이전 빌드에서 생성된 파일을 정리한다
 - gradle build : 응용프로그램을 패키징한다
-- gradle test: 
+- gradle test : 테스트를 실행한다
+- gradle run : application 플러그인의 mainClassName 으로 지정된 메인 클래스를 실행한다. 
 
 
 
@@ -57,6 +58,6 @@ E --> I[resources]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMTMwMTA2LDE5MjQ3NDAwODAsMzkzMz
-ExNjQ4XX0=
+eyJoaXN0b3J5IjpbNjEwMDgzNzAsMTkyNDc0MDA4MCwzOTMzMT
+E2NDhdfQ==
 -->
