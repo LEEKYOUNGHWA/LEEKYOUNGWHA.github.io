@@ -43,9 +43,20 @@ E --> I[resources]
 메이븐 단점 == **xml** 의 단점 : 작업하기 귀찮고, 가독성이 떨어짐
 반면 그레이들의 가장 큰 장점은 그루비, 코틀린 프로그래밍을 이용해 친근한 도메인 특화 언어 DSL(domain-specifie language)를 적용한다는 점이다.
 
+## 그레이들 빌드 파일 예제 build.gradle settings.gradle
+
+## 그레이들 명령어
+- gradle clean : 이전 빌드에서 생성된 파일을 정리한다
+- gradle build : 응용프로그램을 패키징한다
+- gradle test: 
+
+
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTAyOTU2MCwxOTI0NzQwMDgwLDM5Mz
-MxMTY0OF19
+eyJoaXN0b3J5IjpbOTYwMTMwMTA2LDE5MjQ3NDAwODAsMzkzMz
+ExNjQ4XX0=
 -->
