@@ -28,11 +28,17 @@ E --> I[resources]
 - groupId : 프로젝트를 만드는 조직의 고유 식별자를 지정한다
 - artifactId : 빌드 과정에서 생성된 부산물의 고유한 기본 이름을 지정한다
 - packaging : 부산물에 사용할 패키지 형식(JAR, WAR, EAR등)을 지정한다. 이 요소를 생략하면 JAR를 사용한다.
-- version 
+- version : 프로젝트에서 생성하는 부산물 버전을 지정한다
+- build : 플러그인, 자원 등 빌드 과정을 가이드하는 다양한 설정을 지정한다.
+- dependencies : 프로젝트의 디펜던시 목록을 지정한다.
+
+## 메이븐 명령어
+- mvn clean : 빌드하기 전에 기존 빌드에서 생성된 부산물을 정리한다
+- mvn compile : 프로젝트의 소스코드를 컴파일(기본적으로 생성된 target
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjMzMTIxMiwxOTI0NzQwMDgwLDM5Mz
-MxMTY0OF19
+eyJoaXN0b3J5IjpbNzg2MDYxNjcwLDE5MjQ3NDAwODAsMzkzMz
+ExNjQ4XX0=
 -->
