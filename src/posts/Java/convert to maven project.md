@@ -38,9 +38,12 @@ E --> I[resources]
 - mvn test : 컴파일된 소스코드를 테스트한다
 - mvn package : JAR과 같은 적절한 형식으로 컴파일된 코드를 패키징한다.
 
+## 메이븐 vs 그레이들
+메이븐 단점 == `xml` 의 단점 : 작업하기 귀찮고, 가독성이 떨어짐
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwMTc4MTU4LDE5MjQ3NDAwODAsMzkzMz
-ExNjQ4XX0=
+eyJoaXN0b3J5IjpbMTg2MTk4MDI1NCwxOTI0NzQwMDgwLDM5Mz
+MxMTY0OF19
 -->
