@@ -1,3 +1,5 @@
+[[toc]]
+
 # 자바 빌드 도구
 
 ##  자바 프로젝트를 메이븐 프로젝트로 변환하기
@@ -59,5 +61,5 @@ E --> I[resources]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTYwNjM3OThdfQ==
+eyJoaXN0b3J5IjpbLTIwNTgzMzI4MzhdfQ==
 -->
