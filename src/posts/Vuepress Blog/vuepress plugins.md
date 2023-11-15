@@ -20,6 +20,13 @@ plugins: [
     ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
   ],
 ```
+
+```mermaid
+graph LR
+A[짜] --> B[증]
+A --> C[나]
+```
+
     ```mermaid
     graph LR
     A[짜] --> B[증]

@@ -26,18 +26,6 @@ E --> H[java]
 E --> I[resources]
 ```
 
-    ```mermaid
-    
-    graph LR
-    
-    A[짜] --> B[증]
-    
-    A --> C[나]
-    
-      
-    
-    ```
-
 ## 메이븐 빌드 파일 예제 pom.xml
 - project : pom.xml 파일의 최상위 수준 요소다
 - groupId : 프로젝트를 만드는 조직의 고유 식별자를 지정한다
