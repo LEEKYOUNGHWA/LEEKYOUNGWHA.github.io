@@ -46,8 +46,8 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    'flowchart',
+    'vuepress-plugin-mermaidjs',
     ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
   ],
 
@@ -57,6 +57,10 @@ module.exports = {
         '@image': '/src/image/'
       }
     }
+  },
+
+  markdown : {
+    lineNumbers: true
   }
 };
 
