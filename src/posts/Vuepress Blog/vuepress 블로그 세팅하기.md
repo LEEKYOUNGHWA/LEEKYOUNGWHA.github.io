@@ -1,10 +1,13 @@
 # 블로그 세팅하기
 
-역시나 배보다 배꼽이 더 큰 블로그다
+역시나 배보다 배꼽이 더 큰 블로그다.  
 프로젝트 끝나서 할게 없어서 회사 피씨에 블로그를 세팅하려고 하는데...
-귀찮다... 귀찮음 + 기억이 가물가물 + 감시당할꺼같음.... 
+
+귀찮다... 귀찮음 + 기억이 가물가물 + git 사용하면 감시당할꺼같음....  
 뭐 조만간 포맷하고 철수할거 같으니... 그 사이에 잡혀가진 않겠지
-암튼 희미한 기억을 붙잡고 다시 세팅하는 과정을 남겨놓는다.
+
+암튼 희미한 기억을 붙잡고 다시 세팅하는 과정을 남겨놓는다.  
+(이번 프로젝트에서 node 개발을 안해서 설치할게 많타 퓨.... 다음번에는 일말의 버벅임도 없이 한큐에 세팅하리라)
 
 > 이 조합은 개인적인 선호에 따라 조합된것임. 구리다고 뭐라 하지 않기
 
@@ -20,11 +23,11 @@ git config --global user.email "rudghk5220@gmail.com"
 4. chocolatey 설치 
 관리자 권한 powershell 에서 명령어 입력  
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 5. node 설치 `choco install nodejs-lts`
 6. node 시스템 환경변수 설정 Path에 `C:\Program Files\nodejs` 추가, vscode 껏다 키기
-7. vscode 확장프로그램 Git Graph 설치
+7. vscode 확장프로그램 Git Graph 설치.  
 	딴거 다 귀찮고 헷갈리기만 한다 이거 하나만 씀.
 8. 내 블로그 클론 `https://github.com/LEEKYOUNGHWA/LEEKYOUNGHWA.github.io.git`
 9. vuepress 설치 `npm install vuepress`

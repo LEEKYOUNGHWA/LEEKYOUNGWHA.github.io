@@ -1,7 +1,7 @@
 {
   "name": "leekyounghwa.github.io",
   "version": "0.0.1",
-  "description": "myBlog",
+  "description": "personal space",
   "main": "index.js",
   "authors": {
     "name": "LeeKyounghwa",
@@ -18,11 +18,16 @@
   "license": "MIT",
   "dependencies": {
     "esm": "^3.0.0",
+    "json-fn": "^1.1.1",
     "vuepress": "^1.9.10",
+    "vuepress-plugin-chart": "^0.3.0",
     "vuepress-plugin-flowchart": "^1.5.0",
     "vuepress-plugin-mermaidjs": "^1.9.1",
+    "vuepress-plugin-seo": "^0.2.0",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
-  "keywords": [],
-  "author": ""
+  "keywords": [
+    "vuepress"
+  ],
+  "author": "LeeKyounghwa"
 }

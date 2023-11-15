@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: '끄적끄적',
+  title: 'LeeKyounghwa25',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -36,10 +36,11 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: true,
+    lastUpdated: false,
     sidebar: {
       '/': getSideBar()
-    }
+    },
+    smoothScroll: true,
   },
 
   /**
@@ -49,12 +50,15 @@ module.exports = {
     'flowchart',
     'vuepress-plugin-mermaidjs',
     ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
+    ['seo', { /* todo : options 설정 */ }],
+    'vuepress-plugin-chart',
   ],
 
   configureWebpack: {
     resolve: {
       alias: {
-        '@image': '/src/image/'
+        '@image': '/src/image/',
+        '@components' : '/src/.vuepress/components/'
       }
     }
   },

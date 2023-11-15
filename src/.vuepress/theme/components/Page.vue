@@ -3,6 +3,7 @@
     <slot name="top" />
 
     <Content class="theme-default-content" />
+    <TagLinks class="theme-default-content"/>
     <Comment class="theme-default-content" :key="location"/>
     <PageEdit />
 
@@ -15,10 +16,11 @@
 <script>
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
-import Comment from '@theme/components/Comment.vue'
+import Comment from '@components/Comment.vue'
+import TagLinks from '@components/TagLinks.vue'
 
 export default {
-  components: { PageEdit, PageNav, Comment },
+  components: { PageEdit, PageNav, Comment, TagLinks },
   props: ['sidebarItems'],
   data () {
     return {
