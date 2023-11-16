@@ -1,7 +1,8 @@
 ---
-title: Plugins applied to my blog
+title: vuepress plugins applied to my blog
 lang: ko-KR
 date: 2023/11/15 20:46:25
+lastUpdated: 2023/11/15 20:46:25
 description: vuepress플러그인들 정리
 meta:
   - name: vuepress
@@ -15,6 +16,19 @@ tags: ["vuepress", "vuejs", "mermaid", "plugins", "chart.js"]
 
 내 블로그에 적용한 플러그인들 정리
 
+```js
+--2023.11.16
+"dependencies": {
+    "esm": "^3.0.0",
+    "json-fn": "^1.1.1",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-chart": "^0.3.0",
+    "vuepress-plugin-flowchart": "^1.5.0",
+    "vuepress-plugin-mermaidjs": "^1.9.1",
+    "vuepress-plugin-seo": "^0.1.4",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+```
 ## official plugins(참고용)
 - [link](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#official-plugins)
 
@@ -64,11 +78,40 @@ A --> C[나]
 
 
 ## vuepress-plugin-seo
+- version : 0.1.4
 - document : [vuepress-plugin-seo](https://github.com/lorisleiva/vuepress-plugin-seo)
 
 ```
-npm i vuepress-plugin-seo
+npm i vuepress-plugin-seo@0.1.4
 ```  
+
+는 역시나 그냥 설치하니까 안됬다(버전 명시 안해주면 0.2.0. 설치됨).  
+이건 뭐 공식문서에서도 버전 관련된 내용은 없고  
+그냥 될줄 알았지.... 설치하고 아무리 내가 커스텀 설정을 해도 meta가 생기지도 않고 그대로인 것이다.  
+혹시나.. 해서 버전을 낮춰서 설치 해 줬다. 
+
+[버전](https://www.npmjs.com/package/vuepress-plugin-seo?activeTab=versions) 보면 최근 7일간 0.1.4 가 제일 설치가 많이 되었다.
+
+`버전 체크 + 다운로드 횟수를 잘 보자.`
+
+![7](~@image/7.jpg)
+이정도 양은 생성되어야 제대로 적용된거임.
+
+```js
+-- config.js
+ ['seo', {
+        image: ($page, $site) => $page.frontmatter.image || ($site.themeConfig.domain + $site.themeConfig.logo),
+        modifiedAt: $page => $page.frontmatter.lastUpdated,
+    }],
+```
+config.js 에 커스텀으로 두줄만 설정해 줬다.  
+
+frontmatter 에 이미지 없으면 그냥 로고 노출해주게 설정해줬고,  
+
+stackedit으로 막 편집하면서 글 써서 글로벌 lastUpdated 는 false 로 걍 꺼놨었었다.  
+그래서 frontmatter 에 명시해준로 쓰게 바꿔줬다.
+
+[vuepress 공식문서 글로벌 변수 참고](https://v1.vuepress.vuejs.org/guide/global-computed.html#site)
 
 ## vuepress-plugin-chart 
 - version : 0.3.0
@@ -96,7 +139,7 @@ config.js 설정해주니 불친절한 에러발생
     npm i json-fn
 
 
-차트 잘 작성됨! 노션에 그래프가 안그려지는게 항상 아쉬웠는데  
+차트 잘 작성됨! 
 가계부나 투자일지 쓰기 좋을거같다.. 크크
 
 ```chart

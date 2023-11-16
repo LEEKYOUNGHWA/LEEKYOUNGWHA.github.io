@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'LeeKyounghwa25',
+  title: 'The belly button is bigger than the belly',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -18,6 +18,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    ['link', { rel: 'icon', href: '/logo.jpg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -32,6 +33,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '/logo.jpg',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -41,6 +43,8 @@ module.exports = {
       '/': getSideBar()
     },
     smoothScroll: true,
+    author: 'LeeKyounghwa',
+    domain: 'leekyounghwa.github.io',
   },
 
   /**
@@ -49,9 +53,12 @@ module.exports = {
   plugins: [
     'flowchart',
     'vuepress-plugin-mermaidjs',
-    ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
-    ['seo', { /* todo : options 설정 */ }],
     'vuepress-plugin-chart',
+    ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
+    ['seo', {
+        image: ($page, $site) => $page.frontmatter.image || ($site.themeConfig.domain + $site.themeConfig.logo),
+        modifiedAt: $page => $page.lastUpdated || $page.frontmatter.lastUpdated || new Date('2023/11/15 20:46:25'),
+    }],
   ],
 
   configureWebpack: {
