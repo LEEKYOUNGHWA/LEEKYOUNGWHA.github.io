@@ -11,12 +11,13 @@ meta:
     content: vuepress-plugin-mermaidjs doens't work
   - name : vuepress-plugin-seo
     content : create meta data to blog using vuepress-plugin-seo
-tags: ["vuepress blog", "vuejs", "mermaid", "plugins", "chart.js"]
+tags: ["vuepress blog"]
 ---
 
 # {{ $frontmatter.title }}
 
-내 블로그에 적용한 플러그인들 정리
+내 블로그에 적용한 플러그인들 뭐가뭔지 까먹을 수 있으니 정리해놓겠음.  
+이름이 조악한 애들은 나중에 뭐때문에 딸려왔는지 파악이 안됨....
 
 ```js
 --2023.11.16
@@ -31,8 +32,7 @@ tags: ["vuepress blog", "vuejs", "mermaid", "plugins", "chart.js"]
     "vuepress-plugin-sitemap": "^2.3.1"
   },
 ```
-## official plugins(참고용)
-- [link](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#official-plugins)
+- [official plugins(참고용)](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#official-plugins)
 
 ## vuepress-plugin-mermaidjs
 - version : 1.9.1
@@ -161,7 +161,7 @@ config.js 설정해주니 불친절한 에러발생
 }
 ```
 
-## SEO 검색최적화 sitemap 만들기
+## vuepress-plugin-sitemap
 
 [https://www.npmjs.com/package/vuepress-plugin-sitemap](https://www.npmjs.com/package/vuepress-plugin-sitemap)
 [https://kyounghwan01.github.io/blog/Vue/vuepress/seo/](https://kyounghwan01.github.io/blog/Vue/vuepress/seo/)
