@@ -1,5 +1,5 @@
 ---
-title: javascript - alert() 이나 confirm() 자동 확인, 버튼 자동 클릭
+title: alert() 이나 confirm() 자동 확인, 버튼 자동 클릭
 lang: ko-KR
 date: 2023/11/20 10:00:00
 lastUpdated: 2023/11/20 10:00:00
