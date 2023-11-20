@@ -17,7 +17,7 @@ tags: ["vuepress blog"]
 # {{ $frontmatter.title }}
 
 내 블로그에 적용한 플러그인들 뭐가뭔지 까먹을 수 있으니 정리해놓겠음.  
-이름이 조악한 애들은 나중에 뭐때문에 딸려왔는지 파악이 안됨....
+이름이 조악한 애들은 나중에 뭐때문에 설치했는지 가물가물....
 
 ```js
 --2023.11.16
@@ -179,7 +179,7 @@ npm install vuepress-plugin-sitemap
 npm install "esm@^3.0.0"
 ```
 
-module.exports 에 추가해 준다. 괄호 틀려서 한참 헤멨다 ㅎㅎ
+module.exports 에 추가해 준다.
 
 ```js
 module.exports = {

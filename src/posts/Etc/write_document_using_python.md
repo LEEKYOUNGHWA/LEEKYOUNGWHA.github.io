@@ -1,6 +1,30 @@
-# parse mybatis query and save to excel
+---
+title: 파이썬으로 대량 문서 작업 소스
+lang: ko-KR
+date: 2023/11/20 10:00:00
+lastUpdated: 2023/11/20 10:00:00
+description: 프로젝트 하면서 5000개 문서 분류 및 rename, 1000개 쿼리 엑셀로 정리한 파이썬 소스.
+meta:
+  - name: 파이썬으로 문서 작업 자동화
+    content: python read and write ppt, pptx
+  - name: parse mybatis query and save to excel
+    content: 파이썬으로 마이바티스 쿼리 파싱하여 엑셀로 저장하기
+tags: ["python"]
+---
 
-나는야 문서왕.. 천개 가량의 쿼리를 조사& 엑셀로 정리했따 @,,@
+# {{ $frontmatter.title }}
+
+올 한해는 문서만 작성하다가 끝났다....  
+그래도 sap 프로젝트때 파이썬으로 한번 문서 정리 하고 나니까 이번 탈오라클 프로젝트에서는 수월하게 작업했던거 같다.  
+좀 지저분하긴 한데 다음에 또 쓸일 있으면 정리 되겠지....  
+프로젝트 하면서 5000개 문서 분류 및 rename, 1000개 쿼리 엑셀로 정리한 파이썬 소스.  
+해당 소스는 anaconda3 jupyter notebook 에서 실행하였다.  
+
+[[toc]]
+
+## python으로 마이바티스 쿼리 엑셀로 작성
+
+`xmltodict.parse(data)` 이게 키포인트 였음.
 
 ```python
 #anaconda prompt> pip install xmltodict
@@ -179,6 +203,108 @@ for row in ws1.iter_rows(min_col=1, min_row=2):
 #ws1['M'+str(i)] = shtables
 newwb.save('쿼리조사.xlsx')
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTgxMDY1OSwtMTI1MDQzODkwOV19
--->
+
+## python으로 .doc 파일 .docx 파일로 저장
+
+```python
+from glob import glob
+import re
+import os
+import win32com.client as win32
+from win32com.client import constants
+
+# Create list of paths to .doc files
+paths = glob('C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\프로그램설계서_doc\\*.doc', recursive=True)
+
+def save_as_docx(path):
+    # Opening MS Word
+    word = win32.gencache.EnsureDispatch('Word.Application')
+    doc = word.Documents.Open(path)
+    doc.Activate ()
+
+    # Rename path with .docx
+    new_file_abs = os.path.abspath(path)
+    new_file_abs = re.sub(r'\.\w+$', '.docx', new_file_abs)
+
+    # Save and Close
+    word.ActiveDocument.SaveAs(
+        new_file_abs, FileFormat=constants.wdFormatXMLDocument
+    )
+    doc.Close(False)
+
+count=0
+for path in paths:
+#     print(path.replace("\\프로그램설계서\\","\\프로그램설계서_doc\\"))
+    save_as_docx(path)
+#     os.renames(path, path.replace("\\프로그램설계서\\","\\프로그램설계서_doc\\"))
+    count+=1
+
+print(count)
+```
+
+## python으로 .ppt 파일 .pptx로 저장
+
+[https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python](https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python)
+
+python3에서 안된다고 되어 있는데.. 아나콘다 에서는 잘 동작함 
+
+문서 5000개 정리하면서 사용했던 파이썬 소스
+```python
+from glob import glob
+import re
+import os
+import win32com.client
+
+# Create list of paths to .doc files
+paths = glob('C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\보고서설계서\\*.ppt', recursive=True)
+
+def save_as_pptx(path):
+    PptApp = win32com.client.Dispatch("Powerpoint.Application")
+    PptApp.Visible = True
+    PPtPresentation = PptApp.Presentations.Open(path)
+    PPtPresentation.SaveAs(path+'x', 24)
+    PPtPresentation.close()
+    PptApp.Quit()
+    
+for path in paths:
+    print(path.replace("\\보고서설계서\\", "\\보고서설계서_ppt\\"))
+    save_as_pptx(path)
+```
+
+## python으로 ppt 모든 글 읽기
+
+```python
+prs = Presentation(file)
+for slide in prs.slides:
+    for shape in slide.shapes:
+        if shape.has_text_frame:
+		    print(shape.text_frame.text)
+    for paragraph in shape.text_frame.paragraphs:
+        print(paragraph.text)
+
+    for idx in range(0,len(shape.text_frame.paragraphs)-1):
+        for ridx in range(0,len(shape.text_frame.paragraphs[idx].runs)):
+            print(shape.text_frame.paragraphs[idx].runs[ridx].text)
+```
+
+## python으로 ppt 테이블의 모든 셀 읽기
+
+```python
+import os
+from pptx import Presentation
+import glob
+import sys
+
+path = "C:\\Users\\lkh\\Documents\\01.편의점가맹지원\\보고서설계서"
+files = glob.glob(path + '/*')
+
+for file in files:
+    prs = Presentation(file)
+    for slide in prs.slides:
+        for shape in slide.shapes:
+            if shape.has_table:
+                for i in range(0,len(shape.table.rows)-1):
+                    for j in range(0,len(shape.table.rows[i].cells)-1):
+                        cell = shape.table.rows[i].cells[j].text
+                        print(cell)
+```
