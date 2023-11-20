@@ -6,15 +6,18 @@ lastUpdated: 2023/11/15 20:46:25
 description: vuepress플러그인들 정리
 meta:
   - name: vuepress
-    content: vuepress blog setting
-  - name: mermaid
-    content: apply mermaid js vuepress
-tags: ["vuepress", "vuejs", "mermaid", "plugins", "chart.js"]
+    content: vuepress blog plugins
+  - name: vuepress-plugin-mermaidjs
+    content: vuepress-plugin-mermaidjs doens't work
+  - name : vuepress-plugin-seo
+    content : create meta data to blog using vuepress-plugin-seo
+tags: ["vuepress blog"]
 ---
 
 # {{ $frontmatter.title }}
 
-내 블로그에 적용한 플러그인들 정리
+내 블로그에 적용한 플러그인들 뭐가뭔지 까먹을 수 있으니 정리해놓겠음.  
+이름이 조악한 애들은 나중에 뭐때문에 딸려왔는지 파악이 안됨....
 
 ```js
 --2023.11.16
@@ -29,8 +32,7 @@ tags: ["vuepress", "vuejs", "mermaid", "plugins", "chart.js"]
     "vuepress-plugin-sitemap": "^2.3.1"
   },
 ```
-## official plugins(참고용)
-- [link](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#official-plugins)
+- [official plugins(참고용)](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#official-plugins)
 
 ## vuepress-plugin-mermaidjs
 - version : 1.9.1
@@ -158,3 +160,51 @@ config.js 설정해주니 불친절한 에러발생
   }
 }
 ```
+
+## vuepress-plugin-sitemap
+
+[https://www.npmjs.com/package/vuepress-plugin-sitemap](https://www.npmjs.com/package/vuepress-plugin-sitemap)
+[https://kyounghwan01.github.io/blog/Vue/vuepress/seo/](https://kyounghwan01.github.io/blog/Vue/vuepress/seo/)
+
+우선 패키지 하나 설치해 준다
+```bash
+npm install vuepress-plugin-sitemap
+```
+
+` > requires a peer of esm@^3.0.0 but none is installed`
+
+ 에러 메시지 떠서 추가로 설치해줬다
+
+```bash
+npm install "esm@^3.0.0"
+```
+
+module.exports 에 추가해 준다. 괄호 틀려서 한참 헤멨다 ㅎㅎ
+
+```js
+module.exports = {
+    plugins: [
+        '@vuepress/plugin-back-to-top',
+        '@vuepress/plugin-medium-zoom',
+        ['sitemap', { hostname: 'https://leekyounghwa.github.io'}], 
+      ],
+}
+```
+
+빌드하면 src/.vuepress/dist/sitemap.xml 파일이 생성된것을 확인할 수 있다.
+
+>***src/.vuepress/public/robots.txt***  정상적으로 뜨는지 확인
+```
+User-agent: *
+Allow: /
+Sitemap: https://leekyounghwa.github.io/sitemap.xml
+```
+[https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap](https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=ko#addsitemap)
+
+[https://search.google.com/search-console](https://search.google.com/search-console)
+
+![3](~@image/3.png)
+
+설정 완료!
+
+구글에 노출되기 까지 하루나 이틀 걸리는거 같다. 인내심을 가지고 기다리자.
