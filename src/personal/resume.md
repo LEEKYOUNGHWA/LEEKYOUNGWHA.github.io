@@ -3,7 +3,7 @@ sidebar: false
 tags: ["personal"]
 ---
 
-# resume
+# Resume
 
 ### GSITM 
 #### 18-03-02 ~재직중

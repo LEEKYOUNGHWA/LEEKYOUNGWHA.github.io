@@ -1,4 +1,5 @@
 ---
+sidebar: false
 title: My Fav Albums 100
 lang: ko-KR
 date: 2023/11/20 10:00:00
