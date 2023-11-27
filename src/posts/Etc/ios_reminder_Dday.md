@@ -12,7 +12,7 @@ tags: ["personal"]
 
 # {{ $frontmatter.title }}
 
-- [단축어 링크 : https://www.icloud.com/shortcuts/7d80beb506564f7d8d57bd911b737ea2](https://www.icloud.com/shortcuts/7d80beb506564f7d8d57bd911b737ea2)
+- [단축어 링크](https://www.icloud.com/shortcuts/7d80beb506564f7d8d57bd911b737ea2)
 
 아이폰 미리알림 기본어플에 디데이 기능 단축어로 추가하는 방법을 공유합니다.    
 
