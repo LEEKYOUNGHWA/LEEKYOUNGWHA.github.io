@@ -3,7 +3,7 @@ sidebar: false
 tags: ["personal"]
 ---
 
-# Rresume
+# Resume
 
 ### GSITM 
 #### 18-03-02 ~재직중
@@ -48,5 +48,5 @@ tags: ["personal"]
 
 `Oracle` `Spring Framework` `Nexacro`  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1MTg3NDIwXX0=
+eyJoaXN0b3J5IjpbLTU0MDQxNTkyXX0=
 -->
