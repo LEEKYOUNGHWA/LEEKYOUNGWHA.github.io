@@ -3,7 +3,7 @@ sidebar: false
 tags: ["personal"]
 ---
 
-# Resume
+# Rresume
 
 ### GSITM 
 #### 18-03-02 ~재직중
@@ -47,3 +47,6 @@ tags: ["personal"]
 > 항공실시간파트개발  
 
 `Oracle` `Spring Framework` `Nexacro`  
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjQ1MTg3NDIwXX0=
+-->
