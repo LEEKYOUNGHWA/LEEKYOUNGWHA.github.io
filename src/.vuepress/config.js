@@ -1,12 +1,12 @@
-const { description } = require('../../package')
-const fs = require("fs")
-const path = require("path")
+const { description } = require("../../package");
+const fs = require("fs");
+const path = require("path");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'The belly button is bigger than the belly',
+  title: "The belly button is bigger than the belly",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -18,13 +18,35 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['link', { rel: 'icon', href: '/logo.jpg' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-672PNZBWWP'}],
-    ['script', {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-672PNZBWWP');"]],
-    ['script', { async: true, src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8111136017997298', crossorigin: 'anonymous'}],
+    ["link", { rel: "icon", href: "/logo.jpg" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-672PNZBWWP",
+      },
+    ],
+    [
+      "script",
+      {},
+      [
+        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-672PNZBWWP');",
+      ],
+    ],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8111136017997298",
+        crossorigin: "anonymous",
+      },
+    ],
   ],
 
   /**
@@ -33,60 +55,74 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    logo: '/logo.jpg',
-    repo: '',
+    logo: "/logo.jpg",
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     sidebar: {
-      '/': getSideBar()
+      "/": getSideBar(),
     },
     smoothScroll: true,
-    author: 'LeeKyounghwa',
-    domain: 'leekyounghwa.github.io',
+    author: "LeeKyounghwa",
+    domain: "leekyounghwa.github.io",
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
-    'flowchart',
-    'vuepress-plugin-mermaidjs',
-    'vuepress-plugin-chart',
-    ['sitemap', { hostname: 'https://leekyounghwa.github.io'}],
-    ['seo', {
-        image: ($page, $site) => $page.frontmatter.image || ($site.themeConfig.domain + $site.themeConfig.logo),
-        modifiedAt: $page => $page.lastUpdated || $page.frontmatter.lastUpdated || new Date('2023/11/15 20:46:25'),
-    }],
+    "flowchart",
+    "vuepress-plugin-mermaidjs",
+    "vuepress-plugin-chart",
+    ["sitemap", { hostname: "https://leekyounghwa.github.io" }],
+    [
+      "seo",
+      {
+        image: ($page, $site) =>
+          $page.frontmatter.image ||
+          $site.themeConfig.domain + $site.themeConfig.logo,
+        modifiedAt: ($page) =>
+          $page.lastUpdated ||
+          $page.frontmatter.lastUpdated ||
+          new Date("2023/11/15 20:46:25"),
+      },
+    ],
   ],
 
   configureWebpack: {
     resolve: {
       alias: {
-        '@image': '/src/image/',
-        '@components' : '/src/.vuepress/components/'
-      }
-    }
+        "@image": "/src/image/",
+        "@components": "/src/.vuepress/components/",
+      },
+    },
   },
 
-  markdown : {
-    lineNumbers: true
-  }
+  markdown: {
+    lineNumbers: true,
+  },
 };
 
 function getSideBar() {
-  const src = './src/';
-  const posts = 'posts'
-  const fs = require('fs');
-  const fileList = [];  
-  fs.readdirSync(src+posts).forEach(file => {   
+  const src = "./src/";
+  const posts = "posts";
+  const fs = require("fs");
+  const fileList = [];
+  fs.readdirSync(src + posts).forEach((file) => {
     const childrenList = [];
-    fs.readdirSync(src+posts+'/'+file).forEach(fileName => {
-      childrenList.push((posts+'/'+file+'/'+fileName).replace('.md',''))
+    fs.readdirSync(src + posts + "/" + file).forEach((fileName) => {
+      childrenList.push(
+        (posts + "/" + file + "/" + fileName).replace(".md", "")
+      );
     });
-    fileList.push({'title' : file, 'collapsable' : false, 'children' : childrenList});
-  }); 
+    fileList.push({
+      title: file,
+      collapsable: true,
+      children: childrenList,
+    });
+  });
   console.log(fileList);
   return fileList;
 }

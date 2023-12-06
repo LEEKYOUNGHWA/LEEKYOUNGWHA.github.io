@@ -18,7 +18,7 @@ tags: ["python"]
 그래도 sap 프로젝트때 파이썬으로 한번 문서 정리 하고 나니까 이번 탈오라클 프로젝트에서는 수월하게 작업했던거 같다.  
 좀 지저분하긴 한데 다음에 또 쓸일 있으면 정리 되겠지....  
 프로젝트 하면서 5000개 문서 분류 및 rename, 1000개 쿼리 엑셀로 정리한 파이썬 소스.  
-해당 소스는 anaconda3 jupyter notebook 에서 실행하였다.  
+해당 소스는 anaconda3 jupyter notebook 에서 실행하였다.
 
 [[toc]]
 
@@ -35,7 +35,7 @@ from pathlib import Path
 from openpyxl import load_workbook
 wb = load_workbook(filename = '쿼리조사.xlsx')
 smtc = wb['커넥션  조사']
-#newwb = Workbook()  
+#newwb = Workbook()
 #newwb = load_workbook(filename = 'smtcServer쿼리조사.xlsx')
 #ws1 = newwb.active
 #ws1 = newwb['persist-impl']
@@ -88,7 +88,6 @@ wb.save('쿼리조사.xlsx')
 #book.save('write2cell.xlsx')
 ```
 
-
 ```python
 import re
 from pathlib import Path
@@ -115,7 +114,7 @@ for row in ws1.iter_rows(min_col=1, min_row=53 ,max_col=4 ,max_row=53):
 #with open('C:\\Users\\lkh\\smtc\\smart4c_mip_all\\resource\\spring\\persists\\'+cell.value, 'r',encoding='utf-8') as f:
 #data = f.read()
 #doc = xmltodict.parse(data)
-#newwb.save('쿼리조사.xlsx')        
+#newwb.save('쿼리조사.xlsx')
 #with open('C:\\Users\\lkh\\smtc\\smart4c_mip_all\\src\\smart4c\\modules\\prd\\dao\\impl\\DlvInfoEntDaoImpl.java', 'r',encoding='utf-8') as f:
 #data = f.read()
 #print(data)
@@ -156,7 +155,7 @@ for row in ws1.iter_rows(min_col=1, min_row=2):
 #print(doc)
                 if doc['@key'] == row[3].value:
                         print(doc['#text'])
-                        ws1['E'+str(i)] = query.get('#text')        
+                        ws1['E'+str(i)] = query.get('#text')
     i+=1
 #if my_file.is_file():
 #print(i, cell.value,my_file)
@@ -246,9 +245,10 @@ print(count)
 
 [https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python](https://stackoverflow.com/questions/45670024/convert-ppt-file-to-pptx-in-python)
 
-python3에서 안된다고 되어 있는데.. 아나콘다 에서는 잘 동작함 
+python3에서 안된다고 되어 있는데.. 아나콘다 에서는 잘 동작함
 
 문서 5000개 정리하면서 사용했던 파이썬 소스
+
 ```python
 from glob import glob
 import re
@@ -265,7 +265,7 @@ def save_as_pptx(path):
     PPtPresentation.SaveAs(path+'x', 24)
     PPtPresentation.close()
     PptApp.Quit()
-    
+
 for path in paths:
     print(path.replace("\\보고서설계서\\", "\\보고서설계서_ppt\\"))
     save_as_pptx(path)
