@@ -1,7 +1,3 @@
----
-tags: ["personal"]
----
-
 # Resume
 
 ### GSITM
@@ -47,7 +43,3 @@ tags: ["personal"]
 > 항공실시간파트개발
 
 `Oracle` `Spring Framework` `Nexacro`
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDQxNTkyXX0=
--->
