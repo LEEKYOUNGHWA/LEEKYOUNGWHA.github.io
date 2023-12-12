@@ -9,6 +9,7 @@ meta:
     content: git 명령어 정리
 tags: ["git"]
 ---
+
 # {{ $frontmatter.title }}
 
 ```sh
@@ -81,3 +82,13 @@ git push
 # git 도움말
 git command --help
 ```
+
+## pull request
+
+1. [github] Fork
+1. clone, remote설정
+1. branch 생성
+1. 수정 작업 후 add, commit, push
+1. [github] Pull Request 생성
+1. [github] 코드리뷰, Merge Pull Reqest
+1. Merge 이후 branch 삭제 및 동기화

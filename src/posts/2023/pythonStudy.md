@@ -20,3 +20,5 @@ tags: ["python"]
 [day2 (2023-12-05)](../../study/pythonCodingDojang/day2.md)  
 [day3 (2023-12-06)](../../study/pythonCodingDojang/day3.md)  
 [day4 (2023-12-07)](../../study/pythonCodingDojang/day4.md)
+
+위에서 리액트 공부하라 하셔서 일단 중단..,,,
