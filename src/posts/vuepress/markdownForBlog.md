@@ -2,15 +2,23 @@
 title: 마크다운 블로그용
 lang: ko-KR
 date: 2023/12/07 00:00:00
-lastUpdated: 2022/01/01 00:00:00
-description: 마크다운 블로그용
+lastUpdated: 2023/12/13 00:00:00
+description: 마크다운 문법 vuepress 블로그용 정리
 meta:
   - name: 마크다운 블로그용
-    content: 마크다운 블로그용
+    content: 마크다운 블로그용 정리
 tags: ["vuepress"]
 ---
 
-# 마크다운 블로그용
+# {{ $frontmatter.title }}
+
+## escape
+
+backslash(\\)를 사용
+
+    const message = \`제 이름은 ${name}입니다\`;
+
+const message = \`제 이름은 ${name}입니다\`;
 
 ## image
 

@@ -37,8 +37,8 @@ cd hello-react
 yarn start
 ```
 
-- VS Code 마켓플레이스: ESLint, Prettier, Reactjs Code Snippet 설치
-- Reactjs Code Snippet : rsc(함수형 컴포넌트 생성), rcc(클래스형 컴포넌트 생성) + `enter`
+- VS Code 마켓플레이스: `ESLint`, `Prettier`, `Reactjs Code Snippet` `vscode-styled-components` 설치
+- Reactjs Code Snippet 기본 소스 자동생성 : rsc(함수형 컴포넌트 생성), rcc(클래스형 컴포넌트 생성) + `enter`
 - 문제 탭: VS Code의 상단 메뉴에서 보기 > 문제
 - 초록색 줄이 그어진 코드는 고치기 싫다면 그냥 무시해도 되지만 빨간색 줄이 그어진 코드는 반드시 고쳐야함.
 - Prettier : VS Code에서 F1을 누르고 format이라고 입력한 다음 Enter
