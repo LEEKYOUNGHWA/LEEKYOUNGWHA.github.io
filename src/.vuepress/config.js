@@ -82,7 +82,7 @@ module.exports = {
       {
         image: ($page, $site) =>
           $page.frontmatter.image ||
-          $site.themeConfig.domain + $site.themeConfig.logo,
+          "https://" + $site.themeConfig.domain + $site.themeConfig.logo,
         modifiedAt: ($page) =>
           $page.lastUpdated ||
           $page.frontmatter.lastUpdated ||
