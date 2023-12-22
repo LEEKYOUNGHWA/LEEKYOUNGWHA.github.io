@@ -12,7 +12,7 @@ tags: ["personal"]
 
 # diary....
 
-## 20231223
+## 20231222
 
 ### [playwright 수정](../posts/2023/playwright.md)
 
