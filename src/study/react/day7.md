@@ -33,4 +33,7 @@ gantt
 
 ## async/await
 
-함수의 앞부분에 async 키워드를 추가하고, 해당 함수 내부에서 Promise의 앞부분에 await 키워드를 사용.
+- [https://triplexblog.kr/170](https://triplexblog.kr/170)
+- async/await : Promise를 더욱 쉽게 사용할 수 있도록 해 주는 ES2017(ES8) 문법. Promise가 끝날 때까지 기다리고, 결과 값을 특정 변수에 담을 수 있다.
+- 함수의 앞부분에 async 키워드를 추가하고, 해당 함수 내부에서 Promise의 앞부분에 await 키워드를 사용
+- axios : HTTP 요청을 Promise 기반으로 처리하는 자바스크립트 HTTP 클라이언트 라이브러리
