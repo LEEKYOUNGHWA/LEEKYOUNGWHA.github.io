@@ -12,9 +12,16 @@ tags: ["personal"]
 
 # diary....
 
+## 20231226
+
+리액트가 확실히 어려운거같다.. 기초를 메우기 위해 책 정독중..
+내일쯤 다 읽을듯
+
+- 자바스크립트 파워북 요약 : [../posts/2023/es6.md](../posts/2023/es6.md)
+
 ## 20231222
 
-### [playwright 수정](../posts/2023/playwright.md)
+### playwright 수정 [../posts/2023/playwright.md](../posts/2023/playwright.md)
 
 ### 리액트 블로그탐방
 
