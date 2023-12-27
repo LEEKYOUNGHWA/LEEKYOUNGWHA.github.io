@@ -10,26 +10,28 @@
 
 PLAN에 보이는 용어에 대한 의미 입니다.
 
--   **Cost**  
-    - 쿼리를 수행함에 있어 사용된 자원이나, 작업의 단위를 나타냅니다. 적을 수록 쿼리가 더 효율적이겠죠  
-    - 단, 어쩔수 없이 Full Scan을 해야 하는 쿼리는 의미가 없을 수도 있습니다.
--   **Cardinality**  
-    - 행 집합에서 행의 수를 표시 합니다. 행 집합은 기본 테이블, 뷰, 조인이나, GROUP BY의 결과 입니다.  
-    - 행 집합을 의미하니 적게 나타날수록 SQL이 빠를 수 있습니다.
+- **Cost**
+  - 쿼리를 수행함에 있어 사용된 자원이나, 작업의 단위를 나타냅니다. 적을 수록 쿼리가 더 효율적이겠죠
+  - 단, 어쩔수 없이 Full Scan을 해야 하는 쿼리는 의미가 없을 수도 있습니다.
+- **Cardinality**
+  - 행 집합에서 행의 수를 표시 합니다. 행 집합은 기본 테이블, 뷰, 조인이나, GROUP BY의 결과 입니다.
+  - 행 집합을 의미하니 적게 나타날수록 SQL이 빠를 수 있습니다.
 
 ## dbeaver 실행계획 보기
+
 ![enter image description here](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/cePSzY/btqBFvRIEwL/EtNlFachAd2fuhKV925NJ0/img.png)
 
 [https://sidorl.tistory.com/31](https://sidorl.tistory.com/31)
 
-## EXPLAIN plan  FOR  
+## EXPLAIN plan FOR
+
 ```sql
-EXPLAIN plan FOR 
-SELECT  ename,  sal,  job  
-FROM  emp  
-WHERE  sal  =  3000;  
-  
-SELECT  *  
+EXPLAIN plan FOR
+SELECT  ename,  sal,  job
+FROM  emp
+WHERE  sal  =  3000;
+
+SELECT  *
 FROM  TABLE(dbms_xplan.display);
 ```
 
@@ -43,7 +45,7 @@ FROM  TABLE(dbms_xplan.display);
 - Rows : 해당 쿼리 계획 단계에서 나올 것으로 예상되는 행의 수
 - Byte : 실행 계획의 각 단계가 반환할 것으로 예상 되는 데이터의 크기를 바이트로 나타낸 수. 이 수는 행의 수와 행의 예상 길이에 따라 결정됨
 - Cost : CBO가 쿼리 계획의 각 단계에 할당한 비용. CBO는 동일한 쿼리에 대해 다양한 실행 경로/계획을 생성하며 모든 쿼리에 대해 비용을 할당함
-위의 실행 계획에선 전체 비용이 13인것을 알수 있음
+  위의 실행 계획에선 전체 비용이 13인것을 알수 있음
 - Time: 각 단계별 수행 시간
 
 ## 실행계획 초기화
@@ -52,11 +54,11 @@ FROM  TABLE(dbms_xplan.display);
 
 ## SCAN 의 종류와 속도
 
-SCAN이란,  데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방식을 일컬어 접근 경로라고 합니다.
+SCAN이란, 데이터를 읽는 작업을 말하는데 SCAN을 수행하는 방식을 일컬어 접근 경로라고 합니다.
 
-- **FULL TABLE SCAN :**  테이블의 전체 데이터를 읽어 조건에 맞는 데이터를 추출하는 방식
-- **ROWID SCAN :**  ROWID를 기준으로 데이터를 추출하며 단일 행에 접근하는 방식 중에서 가장 빠름
-- **INDEX SCAN :**  말 그대로 인덱스를 활용하여 원하는 데이터를 추출하는 방식
+- **FULL TABLE SCAN :** 테이블의 전체 데이터를 읽어 조건에 맞는 데이터를 추출하는 방식
+- **ROWID SCAN :** ROWID를 기준으로 데이터를 추출하며 단일 행에 접근하는 방식 중에서 가장 빠름
+- **INDEX SCAN :** 말 그대로 인덱스를 활용하여 원하는 데이터를 추출하는 방식
 
 [https://goldswan.tistory.com/33](https://goldswan.tistory.com/33)
 
@@ -83,7 +85,7 @@ select empno from emp where empno = 7369;--PK 조회
 
 ```
 select empno, ename --인덱스에 존재하지 않는 ename 조회
-from emp 
+from emp
 where empno = 7369;
 ```
 
@@ -204,9 +206,6 @@ select /*+ full(emp) */ * from emp;
 |   1 |  TABLE ACCESS FULL| EMP  |    12 |   468 |     3   (0)| 00:00:01 |
 --------------------------------------------------------------------------
 ```
-
-
-
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE2NjM3Mzc0MDEsLTExMzA5NjIwNTQsMT

@@ -1,7 +1,8 @@
 ---
-title: 커스텀 개발 일지
+title: vuepress 블로그 커스텀 개발 일지
 lang: ko-KR
-date: 2023/11/15 20:46:25
+date: 2022/01/01 00:00:00
+lastUpdated: 2023/11/10 00:00:0
 description: customize sidebar, tags to my vuepress blog
 meta:
   - name: vuepress tags

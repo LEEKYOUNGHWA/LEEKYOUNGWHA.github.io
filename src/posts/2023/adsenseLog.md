@@ -1,5 +1,5 @@
 ---
-title: 애드고시..
+title: vuepress 블로그 애드고시..
 lang: ko-KR
 date: 2023/11/15 20:46:25
 lastUpdated: 2023/11/15 20:46:25

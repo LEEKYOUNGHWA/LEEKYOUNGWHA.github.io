@@ -7,7 +7,6 @@ description: 아이폰 미리알림 어플에 디데이 기능 단축어로 추�
 meta:
   - name: 아이폰 미리알림 디데이
     content: 아이폰 미리알림 디데이로 만들어주는 단축어
-tags: ["personal"]
 ---
 
 # {{ $frontmatter.title }}

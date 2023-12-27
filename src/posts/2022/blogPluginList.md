@@ -1,8 +1,8 @@
 ---
-title: 플러그인 정리
+title: vuepress 블로그 플러그인 정리
 lang: ko-KR
-date: 2023/11/15 20:46:25
-lastUpdated: 2023/11/15 20:46:25
+date: 2022/01/01 00:00:00
+lastUpdated: 2022/01/01 00:00:00
 description: vuepress플러그인들 정리
 meta:
   - name: vuepress
@@ -20,7 +20,6 @@ tags: ["vuepress"]
 이름이 조악한 애들은 나중에 뭐때문에 설치했는지 가물가물....
 
 ```js
---2023.11.16
 "dependencies": {
     "esm": "^3.0.0",
     "json-fn": "^1.1.1",

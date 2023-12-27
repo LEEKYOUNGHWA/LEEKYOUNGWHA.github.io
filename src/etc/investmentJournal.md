@@ -9,7 +9,6 @@ meta:
     content: 만기매칭형 채권의 실제 분배금 입금 내역과 수익률을 계산
   - name: KBSTAR23-11회사채(AA-이상)액티브
     content: KBSTAR23-11회사채(AA-이상)액티브 만기 상환 실 수익률 계산
-tags: ["personal"]
 ---
 
 # 만기매칭형 채권 실제로 얼마 받았는가 KBSTAR23-11회사채(AA-이상)액티브

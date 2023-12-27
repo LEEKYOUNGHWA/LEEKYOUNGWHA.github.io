@@ -7,7 +7,7 @@ description: 친절한 SQL 튜닝 요약
 meta:
   - name: 친절한 SQL 튜닝
     content: 친절한 SQL 튜닝 요약
-tags: ["Books"]
+tags: ["books"]
 ---
 
 # {{ $frontmatter.title }}

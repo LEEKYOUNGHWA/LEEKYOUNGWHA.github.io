@@ -3,7 +3,9 @@
 [[toc]]
 
 ## [shortest completing word](https://leetcode.com/problems/shortest-completing-word/)
+
 ::: details Code
+
 ```java
 class Solution {
     public static String shortestCompletingWord(String licensePlate, String[] words) {
@@ -28,7 +30,7 @@ class Solution {
         int[] curr = new int[26];
         for (char c:s.toCharArray())
             curr[c-'a']++;
-        
+
         for (int i=0; i<curr.length; i++){
             if (curr[i]<count[i]) return false;
         }
@@ -36,4 +38,5 @@ class Solution {
     }
 }
 ```
+
 :::

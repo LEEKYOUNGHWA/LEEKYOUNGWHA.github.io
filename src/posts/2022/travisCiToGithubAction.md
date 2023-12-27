@@ -1,7 +1,7 @@
 ---
-title: 블로그 CD/CI
+title: vuepress 블로그 CD/CI
 lang: ko-KR
-date: 2023/11/10 00:00:00
+date: 2022/11/10 00:00:00
 lastUpdated: 2023/11/10 00:00:0
 description: travis ci 유료화로 github action 으로 이사간 로그.
 meta:
@@ -75,7 +75,3 @@ jobs:
 
 정상적으로 빌드 배포되는것 확인하였다
 이전 완료!
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTQ0NTg3NV19
--->

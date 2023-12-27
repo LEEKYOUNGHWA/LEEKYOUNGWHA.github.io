@@ -7,7 +7,6 @@ description: 매일 원하는 시간만큼 기상시간을 앞당겨 알람 생�
 meta:
   - name: 아이폰 단축어 기상시간 앞당겨서 알람 생성
     content: 매일 원하는 시간만큼 기상시간을 앞당겨 알람 생성 할 수 있는 단축어 공유
-tags: ["personal"]
 ---
 
 # {{ $frontmatter.title }}
