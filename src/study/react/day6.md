@@ -1,13 +1,16 @@
 ---
 title: 리액트 라우터 (SPA)
 lang: ko-KR
-date: 2023/12/12 10:00:00
-lastUpdated: 2023/12/12 10:00:00
+date: 2023/12/18 10:00:00
+lastUpdated: 2023/12/18 10:00:00
 description: 리액트 라우터 (SPA)
 meta:
   - name: 리액트 라우터 (SPA)
     content: chapter13
 tags: ["React"]
+sidebar: auto
+prev: ./day5.md
+next: ./day7.md
 ---
 
 # {{ $frontmatter.title }}

@@ -8,11 +8,12 @@ meta:
   - name: 리액트 라이프사이클 메서드
     content: 리액트 라이프사이클 메서드
 tags: ["React"]
+sidebar: auto
+prev: ./day1.md
+next: ./day3.md
 ---
 
 # {{ $frontmatter.title }}
-
-[[toc]]
 
 ## 컴포넌트 라이프사이클 메서드의 흐름
 

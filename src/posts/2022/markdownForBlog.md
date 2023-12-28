@@ -105,13 +105,13 @@ export default defineUserConfig({
 <Badge text="demo" />
 - VuePress - <Badge type="tip" text="v2" vertical="top" />
 - VuePress - <Badge type="warning" text="v2" vertical="middle" />
-- VuePress - <Badge type="danger" text="v2" vertical="bottom" />
+- VuePress - <Badge type="error" text="v2" vertical="bottom" />
 ```
 
 <Badge text="demo" />
 - VuePress - <Badge type="tip" text="v2" vertical="top" />
 - VuePress - <Badge type="warning" text="v2" vertical="middle" />
-- VuePress - <Badge type="danger" text="v2" vertical="bottom" />
+- VuePress - <Badge type="error" text="v2" vertical="bottom" />
 
 ## Code Groups and Code Blocks <Badge type="tip" text="1.6.0+" vertical="top" />
 

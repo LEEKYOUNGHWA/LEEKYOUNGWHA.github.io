@@ -4,10 +4,9 @@
 
     <Content class="theme-default-content" />
     <TagLinks class="theme-default-content"/>
-    <Comment class="theme-default-content" :key="location"/>
     <PageEdit />
-
     <PageNav v-bind="{ sidebarItems }" />
+    <Comment class="theme-default-content" :key="location"/>
 
     <slot name="bottom" />
   </main>
