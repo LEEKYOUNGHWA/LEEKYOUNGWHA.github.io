@@ -12,6 +12,8 @@ meta:
 tags: ["python"]
 ---
 
+<Comment2/>
+
 # {{ $frontmatter.title }}
 
 올 한해는 문서만 작성하다가 끝났다....  
