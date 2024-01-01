@@ -8,11 +8,12 @@ meta:
   - name: Sass
     content: Sass
 tags: ["React"]
+sidebar: auto
+prev: ./day3.md
+next: ./day5.md
 ---
 
 # {{ $frontmatter.title }}
-
-[[toc]]
 
 ## sass 사용
 

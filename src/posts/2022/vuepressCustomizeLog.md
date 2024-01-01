@@ -227,6 +227,16 @@ export default {
 </script>
 ```
 
+::: tip
+참고한 블로그에서 blog-comment 라는 레파지토리를 새로 만들어서 쓰고 있어서 별 생각 없이 따라했었는데 굳이 새로 만들지 않아도 된다.  
+블로그 세팅한 레파지토리 넣어도됨.
+
+```
+utterances.setAttribute("repo", "LEEKYOUNGHWA/LEEKYOUNGHWA.github.io");
+```
+
+:::
+
 2. theme/components/Page.vue 수정
 
 ```js {6,18,21}

@@ -1,13 +1,15 @@
 ---
 title: axios
 lang: ko-KR
-date: 2023/12/12 10:00:00
-lastUpdated: 2023/12/12 10:00:00
+date: 2023/12/18 10:00:00
+lastUpdated: 2023/12/18 10:00:00
 description: axios
 meta:
   - name: axios
     content: chapter14
 tags: ["React"]
+sidebar: auto
+prev: ./day6.md
 ---
 
 # {{ $frontmatter.title }}

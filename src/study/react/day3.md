@@ -8,14 +8,15 @@ meta:
   - name: Hooks
     content: Hooks
 tags: ["React"]
+sidebar: auto
+prev: ./day2.md
+next: ./day4.md
 ---
 
 # {{ $frontmatter.title }}
 
 함수형 컴포넌트에서도 상태관리를 할 수 있게하는 Hooks.  
 리액트 메뉴얼에서 함수형 컴포넌트와 Hooks를 사용할 것을 권장함.
-
-[[toc]]
 
 ## 1. useState
 
