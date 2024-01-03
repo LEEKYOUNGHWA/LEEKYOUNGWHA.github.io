@@ -19,6 +19,7 @@
   "dependencies": {
     "esm": "^3.0.0",
     "json-fn": "^1.1.1",
+    "vue-jsonp": "^2.0.0",
     "vuepress": "^1.9.10",
     "vuepress-plugin-chart": "^0.3.0",
     "vuepress-plugin-flowchart": "^1.5.0",
