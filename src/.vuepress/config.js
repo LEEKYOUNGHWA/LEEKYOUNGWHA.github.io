@@ -111,17 +111,21 @@ function getSideBar() {
   const fs = require("fs");
   const fileList = [];
   fs.readdirSync(src + posts).forEach((file) => {
-    const childrenList = [];
-    fs.readdirSync(src + posts + "/" + file).forEach((fileName) => {
-      childrenList.push(
-        (posts + "/" + file + "/" + fileName).replace(".md", "")
-      );
-    });
-    fileList.push({
-      title: file,
-      collapsable: true,
-      children: childrenList,
-    });
+    if (file != "README.md") {
+      const childrenList = [];
+      fs.readdirSync(src + posts + "/" + file).forEach((fileName) => {
+        if (fileName != "README.md") {
+          childrenList.push(
+            (posts + "/" + file + "/" + fileName).replace(".md", "")
+          );
+        }
+      });
+      fileList.push({
+        title: file,
+        collapsable: true,
+        children: childrenList,
+      });
+    }
   });
   console.log(fileList);
   return fileList;
