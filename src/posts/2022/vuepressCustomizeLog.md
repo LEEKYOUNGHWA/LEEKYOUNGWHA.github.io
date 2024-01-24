@@ -2,15 +2,33 @@
 title: vuepress 블로그 커스텀 개발 일지
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2023/11/10 00:00:0
-description: customize sidebar, tags to my vuepress blog
+lastUpdated: 2024/01/16 00:00:0
+description: customize sidebar, tags to my vuepress blog, 뷰프레스1 사이드바 스크롤 디자인 변경
 meta:
   - name: vuepress tags
     content: Adding Tags to vuepress
+  - name: 뷰프레스 커스텀
+    content: 뷰프레스1 사이드바 스크롤 디자인 변경
 tags: ["vuepress"]
 ---
 
 # {{ $frontmatter.title }}
+
+## 뷰프레스1 사이드바 스크롤 디자인 변경
+
+[블로그](https://codingbroker.tistory.com/66) 참고
+
+`.vuepress/theme/components/Sidebar.vue`
+
+```js
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+  background-color: #00988d36;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #09978da8;
+}
+```
 
 ## vuepress tag page 넣기
 
