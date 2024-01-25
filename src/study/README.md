@@ -1,4 +1,4 @@
-# study
+# study log.
 
 ## 2024.01.25
 

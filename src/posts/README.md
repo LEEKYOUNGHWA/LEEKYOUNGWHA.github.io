@@ -10,9 +10,11 @@ meta:
 tags: ["diary"]
 ---
 
+# blog history.
+
 ## 2024.01.25
 
-sidebar, navbar 업데이트
+sidebar, navbar 업데이트 [github commit log](https://github.com/LEEKYOUNGHWA/LEEKYOUNGHWA.github.io/commit/31d475c118b66da326b2d2834e1804e16f35f88f#diff-9b73f4a12efe0be8829d902ad280c132505c19c2f41c0463375437e5112fab7b)
 
 ## 2024.01.03
 
