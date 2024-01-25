@@ -61,8 +61,13 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: false,
+    nav: [
+      { text: "post", link: "/posts/" },
+      { text: "study", link: "/study/" },
+    ],
     sidebar: {
-      "/": getSideBar(),
+      "/posts/": getSideBar("posts"),
+      "/study/": getSideBar("study"),
     },
     smoothScroll: true,
     author: "LeeKyounghwa",
@@ -105,28 +110,25 @@ module.exports = {
   },
 };
 
-function getSideBar() {
+function getSideBar(dirNm) {
   const src = "./src/";
-  const posts = "posts";
   const fs = require("fs");
   const fileList = [];
-  fs.readdirSync(src + posts).forEach((file) => {
-    if (file != "README.md") {
+  fs.readdirSync(src + dirNm)
+    .filter((file) => file != "README.md")
+    .forEach((file) => {
       const childrenList = [];
-      fs.readdirSync(src + posts + "/" + file).forEach((fileName) => {
-        if (fileName != "README.md") {
-          childrenList.push(
-            (posts + "/" + file + "/" + fileName).replace(".md", "")
-          );
-        }
-      });
+      fs.readdirSync(src + dirNm + "/" + file)
+        .filter((fileName) => fileName != "README.md")
+        .forEach((fileName) => {
+          childrenList.push((file + "/" + fileName).replace(".md", ""));
+        });
       fileList.push({
         title: file,
         collapsable: true,
         children: childrenList,
       });
-    }
-  });
+    });
   console.log(fileList);
   return fileList;
 }
