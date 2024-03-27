@@ -13,6 +13,11 @@ tags: ["git"]
 # {{ $frontmatter.title }}
 
 ```sh
+# 원격저장소 커밋,푸쉬 내용 리셋하기
+git reset --hard 0f16a57a[되돌아가고싶은커밋]
+git push -f origin develop # 강제 푸쉬
+```
+```sh
 # Repository 생성
 # 새로운 로컬 저장소를 생성하기
 git init [project_name]
