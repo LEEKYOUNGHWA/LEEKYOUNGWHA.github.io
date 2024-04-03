@@ -1,6 +1,6 @@
 # 깃블로그
 
-- 주소 : [LEEKYOUNGHWA.github.io](LEEKYOUNGHWA.github.io)
+- 주소 : [LEEKYOUNGHWA.github.io](https://LEEKYOUNGHWA.github.io)
   
 ## setting
 1. 풀
