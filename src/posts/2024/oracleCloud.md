@@ -111,9 +111,14 @@ firewall-cmd --zone=public --list-all #확인
 ### 수동 배포
 
 ```cmd
+ssh -i ssh-key-2024-04-21.key ubuntu@158.180.66.250
 git pull
 chmod +x gradlew
 ./gradlew build -x test 
 cd build/libs
 java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar
+nohup java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar &
+nohup java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar & > /dev/null
 ```
+
+[블로그](https://suyeoniii.tistory.com/52)
