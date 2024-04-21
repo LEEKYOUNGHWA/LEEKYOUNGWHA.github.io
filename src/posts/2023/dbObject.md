@@ -55,7 +55,7 @@ select  *  From v$option  where parameter ='Real Application Clusters';
 
 ## synonym DBlink
 
-[http://www.gurubee.net/lecture/1560](http://www.gurubee.net/lecture/1560)
+[http://www.gurubee.net/lecture/1560](http://www.gurubee.net/lecture/1560)  
 [https://myjamong.tistory.com/179](https://myjamong.tistory.com/179)
 
 dblink를 synonym 으로 감싸서 사용하기도 한다. 예전에 유행하던 스타일이라고 한다.. 아무튼 요즘은 걷어내는 추세!
@@ -104,7 +104,9 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 
 ## ORACLE RAC
 
-- 여러 개의 Instance가 하나의 Database를 엑세스
+- 여러 개의 Instance가 하나의 Database를 엑세스  
   [https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
 
-## [[SQL] 프로시저(procedure)와 declare 차이 (tistory.com)](https://pgnt.tistory.com/13)
+## 프로시저(procedure)와 declare 차이
+
+[링크](https://pgnt.tistory.com/13)

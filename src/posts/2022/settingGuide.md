@@ -58,8 +58,6 @@ Error: error:0308010C:digital envelope routines::unsupported
     at Array.forEach (<anonymous>)
 ```
 
-퓨.. 첨에는 teser-webpack-plugin 버전 업그레이드 해줬더니 다른데서 또 에러 뿜뿜 하는것이다.
-
 webpack 을 4를 써서 그렇다는 사람도 있고 5를 써서 다운그레이드 해라는 사람도 있고... 제각각이다
 결국 nvm 설치하고 node 버전을 16으로 다시 설치해줬다.  
 (전에도 이랬었던거 같다 간만에 설치하니 똑같은 난관에 부딪힘 데자뷰...)

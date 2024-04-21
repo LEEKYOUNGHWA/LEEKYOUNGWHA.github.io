@@ -21,14 +21,15 @@ tags: ["vuepress"]
 
 ```js
 "dependencies": {
-    "esm": "^3.0.0",
-    "json-fn": "^1.1.1",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-chart": "^0.3.0",
-    "vuepress-plugin-flowchart": "^1.5.0",
-    "vuepress-plugin-mermaidjs": "^1.9.1",
-    "vuepress-plugin-seo": "^0.1.4",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "esm": "^3.0.0", // vuepress-plugin-sitemap 의존
+    "json-fn": "^1.1.1", // vuepress-plugin-chart 의존
+    "vuepress": "^1.9.10", // 기본
+    "vue-jsonp": "^2.0.0", // gist 삽입 개발하면서 추가
+    "vuepress-plugin-chart": "^0.3.0", // 차트
+    "vuepress-plugin-flowchart": "^1.5.0", // 플로우차트
+    "vuepress-plugin-mermaidjs": "^1.9.1", // 머메이드
+    "vuepress-plugin-seo": "^0.1.4", // seo 메타생성
+    "vuepress-plugin-sitemap": "^2.3.1" // 사이트맵
   },
 ```
 

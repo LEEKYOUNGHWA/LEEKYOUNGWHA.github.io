@@ -43,7 +43,21 @@ getSmart 라는 사내 교육프로그램이 있는데 다음 차시로 넘어�
 // 인터벌로 재생버튼 자동 클릭
 setInterval(function () {
   document.getElementsByClassName("vjs-big-play-button")[0].click();
-}, 100);
+}, 5000);
 ```
 
 3. 끄읏
+
+## 겟스마트 - 인프런 다음 차시 버튼 자동으로 클릭
+
+겟스마트 인프런 버전... 별거 없음
+
+```js
+setInterval(function () {
+  document
+    .getElementsByClassName(
+      "mantine-UnstyledButton-root mantine-Button-root css-x644ap mantine-3353zk"
+    )[0]
+    .click();
+}, 5000);
+```
