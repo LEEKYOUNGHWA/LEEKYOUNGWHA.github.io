@@ -107,3 +107,13 @@ firewall-cmd --zone=public --list-all #확인
 
 ![image](~@image/2024/oracleCloud/5.png)
 
+
+### 수동 배포
+
+```cmd
+git pull
+chmod +x gradlew
+./gradlew build -x test 
+cd build/libs
+java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar
+```
