@@ -80,13 +80,8 @@ chmod +x gradlew # 권한 없을때 실행
 sudo chown 777 ./gradlew
 ./gradlew build
 ```
-### 10. 빌드 파일 실행하기
 
-```bash
-cd build/libs
-java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar
-```
-### 11. 방화벽 열어주기
+### 10. 방화벽 열어주기
 [블로그](https://velog.io/@s2moon98/Oracle-Cloud%EC%99%80-%ED%8F%AC%ED%8A%B8-%ED%8F%AC%EC%9B%8C%EB%94%A9)
 
 instance에 Ingress Rules 추가해주고, 명령어 실행해 준다.
@@ -97,9 +92,15 @@ firewall-cmd --permanent --zone=public --add-port=80/tcp
 firewall-cmd --permanent --zone=public --add-port=8787/tcp
 firewall-cmd --permanent --zone=public --add-port=443/tcp
 firewall-cmd --reload
-firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=8080 --permanent #80 -> 8787으로 포트 포워딩
+firewall-cmd --zone=public --add-forward-port=port=80:proto=tcp:toport=8787 --permanent #80 -> 8787으로 포트 포워딩
 firewall-cmd --reload
 firewall-cmd --zone=public --list-all #확인
+```
+### 11. 빌드 파일 실행하기
+
+```bash
+cd build/libs
+java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar # ssh 붙어있을때만 서버 실행. 백그라운드에서 실행되려면 nohup
 ```
 
 ### 12. 접속 확인
@@ -108,7 +109,7 @@ firewall-cmd --zone=public --list-all #확인
 ![image](~@image/2024/oracleCloud/5.png)
 
 
-### 수동 배포
+### 13. 수동 배포
 
 ```cmd
 ssh -i ssh-key-2024-04-21.key ubuntu@158.180.66.250
@@ -116,8 +117,6 @@ git pull
 chmod +x gradlew
 ./gradlew build -x test 
 cd build/libs
-java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar
-nohup java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar &
 nohup java -jar ThreadCloneCoding-0.0.1-SNAPSHOT.jar & > /dev/null
 ```
 
