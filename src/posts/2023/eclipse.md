@@ -1,3 +1,7 @@
+---
+tags: ["tool"]
+---
+
 # Eclipse 기능 정리. 내가 보는용
 
 ## [이클립스 Java development user guide](https://help.eclipse.org/latest/index.jsp?nav=/1)

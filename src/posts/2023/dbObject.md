@@ -1,3 +1,7 @@
+---
+tags: ["database"]
+---
+
 # oracle object 조회
 
 ```sql

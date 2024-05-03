@@ -7,6 +7,7 @@ description: window 에서 SDKman 설치. choco 를 이용해서 설치. 설치�
 meta:
   - name: window 에서 SDKman 설치 choco
     content: window 에서 SDKman 설치 choco
+tags: ["tool"]    
 ---
 
 # SDKman

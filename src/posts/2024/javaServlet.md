@@ -1,4 +1,8 @@
-# Java Servlet
+---
+tags: ["java"]    
+---
+
+# java Servlet
 
 ## 이클립스 Servlet API 소스 보는 법
 

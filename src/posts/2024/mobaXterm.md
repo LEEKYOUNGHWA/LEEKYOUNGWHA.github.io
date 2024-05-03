@@ -7,6 +7,7 @@ description: mobaXterm 설치, 한글 깨질때 설정 방법
 meta:
   - name: mobaXterm 설치
     content: mobaXterm 설치
+tags: ["tool"]
 ---
 
 # mobaXterm 설치

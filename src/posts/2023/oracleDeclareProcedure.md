@@ -1,3 +1,7 @@
+---
+tags: ["database"]
+---
+
 # oracle PL/SQL DECLARE PROCEDURE
 
 [https://pgnt.tistory.com/13](https://pgnt.tistory.com/13)

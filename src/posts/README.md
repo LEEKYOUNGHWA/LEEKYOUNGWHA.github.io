@@ -7,10 +7,12 @@ description: posts history, diary
 meta:
   - name: diary
     content: diary
-tags: ["diary"]
 ---
 
 # blog history.
+
+## 2024.04.21
+[오라클 클라우드](/posts/2024/oracleCloud.md)
 
 ## 2024.01.25
 

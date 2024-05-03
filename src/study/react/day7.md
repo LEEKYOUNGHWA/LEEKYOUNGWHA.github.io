@@ -7,7 +7,7 @@ description: axios
 meta:
   - name: axios
     content: chapter14
-tags: ["React"]
+tags: ["react"]
 sidebar: auto
 prev: ./day6.md
 ---

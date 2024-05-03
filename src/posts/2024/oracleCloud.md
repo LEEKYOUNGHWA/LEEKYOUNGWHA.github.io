@@ -7,6 +7,7 @@ description: 오라클 클라우드 무료 티어에 spring boot 배포하기
 meta:
   - name: 오라클 클라우드 무료 티어에 spring boot 배포하기
     content: 오라클 클라우드 무료 티어에 spring boot 배포하기
+tags: ["oracle cloud"]
 ---
 
 # 오라클 클라우드 무료 티어에 spring boot 배포하기

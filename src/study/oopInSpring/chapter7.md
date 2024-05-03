@@ -1,3 +1,7 @@
+---
+tags: ["java"]
+---
+
 # 07.스프링 삼각형과 설정 정보
 
 -  IoC/DI, AOP, PSA : 스프링의 3대 프로그래밍 모델. POJO(Plain Old Java Object)를 기반으로 스프링 삼각형이라는 애칭을 가짐.
