@@ -43,7 +43,7 @@ getSmart 라는 사내 교육프로그램이 있는데 다음 차시로 넘어�
 // 인터벌로 재생버튼 자동 클릭
 setInterval(function () {
   document.getElementsByClassName("vjs-big-play-button")[0].click();
-}, 5000);
+}, 50100);
 ```
 
 3. 끄읏
@@ -61,3 +61,6 @@ setInterval(function () {
     .click();
 }, 5000);
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0MTcwNzU2MTZdfQ==
+-->
