@@ -7,8 +7,9 @@ description: eclipse 설정
 meta:
   - name: eclipse 설정
     content: eclipse 설정
-tags:["tools"]
+tags:["tool"]
 ---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg2MTE0N119
+eyJoaXN0b3J5IjpbLTgzNTg3MDE0Ml19
 -->
