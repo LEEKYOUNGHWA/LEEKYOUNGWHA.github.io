@@ -111,6 +111,9 @@ CACHE 옵션은 원래 그 용도가 순차적으로 시퀀스를 증가시키�
 - 여러 개의 Instance가 하나의 Database를 엑세스  
   [https://myalpaca.tistory.com/17](https://myalpaca.tistory.com/17)
 
-## 프로시저(procedure)와 declare 차이
+## [[SQL] 프로시저(procedure)와 declare 차이
 
-[링크](https://pgnt.tistory.com/13)
+[링크 (tistory.com)](https://pgnt.tistory.com/13)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTgwNTE0Njg5XX0=
+-->
