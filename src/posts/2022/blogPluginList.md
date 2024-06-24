@@ -25,6 +25,8 @@ tags: ["vuepress"]
     "json-fn": "^1.1.1", // vuepress-plugin-chart 의존
     "vuepress": "^1.9.10", // 기본
     "vue-jsonp": "^2.0.0", // gist 삽입 개발하면서 추가
+    "json-fn": "^1.1.1",
+    "vuepress": "^1.9.10",
     "vuepress-plugin-chart": "^0.3.0", // 차트
     "vuepress-plugin-flowchart": "^1.5.0", // 플로우차트
     "vuepress-plugin-mermaidjs": "^1.9.1", // 머메이드
@@ -210,3 +212,6 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 설정 완료!
 
 구글에 노출되기 까지 하루나 이틀 걸리는거 같다. 인내심을 가지고 기다리자.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNDY4MjMyNzRdfQ==
+-->
