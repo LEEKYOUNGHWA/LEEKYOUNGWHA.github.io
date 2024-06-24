@@ -2,7 +2,7 @@
 title: vuepress 블로그 커스텀 개발 일지
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2024/01/16 00:00:0
+lastUpdated: 2024/03/11/160 00:00:0
 description: customize sidebar, tags to my vuepress blog, 뷰프레스1 사이드바 스크롤 디자인 변경
 meta:
   - name: vuepress tags
@@ -28,7 +28,10 @@ tags: ["vuepress"]
 .sidebar::-webkit-scrollbar-thumb {
   background-color: #09978da8;
 }
-```
+```tags: ["vuepress"]
+---
+
+# {{ $frontmatter.title }}
 
 ## vuepress tag page 넣기
 
@@ -352,3 +355,6 @@ markdown에서 사용할때는 이렇게
 ```javascript
 ![image](~@image/image.png)
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MjQxODM2NDRdfQ==
+-->
