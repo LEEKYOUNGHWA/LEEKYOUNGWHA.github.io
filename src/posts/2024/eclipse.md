@@ -10,12 +10,10 @@ meta:
 tags: ["tool"]
 ---
 
-## svn 씽크 공백 안맞을때
 
-Window -> Preferences 메뉴에서 General -> Editors -> AnyEdit Tools 를 선택
 
-sts에서 기본으로 체크 되어 있는  **Remove trailing whitespage**  체크 해제해준다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMDQyMCwtNDAxMDA3ODcwXX0=
+eyJoaXN0b3J5IjpbLTE1MjkzMzcwOTAsODczMDQyMCwtNDAxMD
+A3ODcwXX0=
 -->
