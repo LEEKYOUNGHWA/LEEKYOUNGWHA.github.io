@@ -1,14 +1,14 @@
 ---
-title:
-lang:
-date:
-lastUpdated:
-description:
+title: eclipse 설정
+lang: ko-KR
+date: 2024/06/24 14:58:00
+lastUpdated: 2024/06/24 14:58:00
+description: eclipse 설정
 meta:
-  - name:
-    content:
-tags:[""]
+  - name: eclipse 설정
+    content: eclipse 설정
+tags:["tools"]
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjE4MDg5Nl19
+eyJoaXN0b3J5IjpbLTIwNDg2MTE0N119
 -->
