@@ -5,9 +5,9 @@ date: 2024/04/30 09:36:00
 lastUpdated: 2024/04/30 09:36:00
 description: jQuery
 meta:
-  - name: jQuery
-    content: jQuery
-tags: ["javascript"]
+  - name: eclipse 설정
+    content: eclipse 설정
+tags: ["tool"]
 ---
 
 # jQuery
@@ -22,5 +22,5 @@ document.getElementsByTagName('head')[0].appendChild(jq);
 jQuery.noConflict();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjAzODM3OV19
+eyJoaXN0b3J5IjpbLTUxNDI5OTUyXX0=
 -->
