@@ -17,9 +17,9 @@ tags: ["vuepress"]
 뷰프레스에 gist 넣기.  
 Embed gist to vuepress blog. inspired by [https://github.com/sudhanshu-15/vue-embed-gist](https://github.com/sudhanshu-15/vue-embed-gist)
 
-::: details log..
-vue-embed-gist를 사용하려고 하였으나 빌드 에러가 났다. 소스 자체는 문제가 없는거 같은데... vuepress 에서 빌드할때 원리를 모르겠어서 정확한 이유는 모르겠음. (추측상 watch 에 jsonp를 달아놔서 그런거 같긴함...) 소스 자체는 복잡해보이지 않으므로 필요한 부분만 가져와서 간단하게 만들어 줬다.
-:::
+
+vue-embed-gist를 설치해서 사용하려고 하였으나 빌드 에러가 났다. 소스 자체는 문제가 없는거 같은데... vuepress 에서 빌드할때 원리를 모르겠어서 정확한 이유는 모르겠음. (추측상 watch 에 jsonp를 달아놔서 그런거 같긴함...) 소스 자체는 복잡해보이지 않으므로 필요한 부분만 가져와서 간단하게 만들어 줬다.
+
 
 ## 1. install [vue-jsonp](https://www.npmjs.com/package/vue-jsonp)
 
