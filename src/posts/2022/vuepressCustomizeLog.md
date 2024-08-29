@@ -28,10 +28,7 @@ tags: ["vuepress"]
 .sidebar::-webkit-scrollbar-thumb {
   background-color: #09978da8;
 }
-```tags: ["vuepress"]
----
-
-# {{ $frontmatter.title }}
+```
 
 ## vuepress tag page 넣기
 
