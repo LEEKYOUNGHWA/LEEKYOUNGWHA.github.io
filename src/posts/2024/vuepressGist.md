@@ -1,5 +1,5 @@
 ---
-title: 뷰프레스 블로그에 gist 넣기
+title: vuepress 블로그에 gist 넣기
 lang: ko-KR
 date: 2024/01/03 16:37:00
 lastUpdated: 2024/01/03 16:37:00

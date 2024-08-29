@@ -31,6 +31,11 @@ export default {
       this.location = location.pathname;
     })
   },
+  mounted() {
+    if (location.href.includes('#')) {
+      location.href = location.href;
+    }
+  },
 }
 </script>
 

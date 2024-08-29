@@ -62,12 +62,14 @@ module.exports = {
     editLinkText: "",
     lastUpdated: false,
     nav: [
-      { text: "post", link: "/posts/" },
+      { text: "TIL", link: "/posts/" },
       { text: "study", link: "/study/" },
+      { text: "blog", link: "/blog/" },
     ],
     sidebar: {
       "/posts/": getSideBar("posts"),
       "/study/": getSideBar("study"),
+      "/blog/": getSideBar("blog"),
     },
     smoothScroll: true,
     author: "LeeKyounghwa",
