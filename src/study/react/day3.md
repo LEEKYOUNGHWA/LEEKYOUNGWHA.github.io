@@ -8,7 +8,6 @@ meta:
   - name: Hooks
     content: Hooks
 tags: ["react"]
-sidebar: auto
 prev: ./day2.md
 next: ./day4.md
 ---

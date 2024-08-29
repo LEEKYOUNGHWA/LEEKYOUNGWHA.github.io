@@ -1,14 +1,36 @@
-## git reset hard
+# 블로그용 git 명령어..... 커밋 합치기!
 
-애증의 stackedit....  의도치 않은 동기화로 커밋을 혼자 10몇개씩 때려버린다
-명령어로 커밋 목록 정리가능
+내꺼니까 막 커밋 때리고 막 합치지 일할때는 잘 안 썼었던거 같다.  
+이게 다 애증의 stackedit 때문이다....  의도치 않은 동기화로 커밋을 혼자 수십개씩 때려버린다,, =3=  
+
+빡대가리는 명령어를 못외우니 적어놓겠다.
+
+정리하는거도 귀찮아서 점점 stackedit 과... 멀어지는거같다.....
+
+걍 pc에서 직접 커밋치는게 짱이다... 일하는척 하기도 좋...
+
+## git reset hard
 
 ```sh
 git reset --hard c8b0119a11479eb5c7baba0e7c385ba91775354f 
 git push origin HEAD --force
 ```
 
+## 여러 커밋(commit) 하나로 합치기
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjgyNTM2NV19
--->
+3개의 커밋을 하나로 합칠 수 있다. 숫자 변경해서 원하는 커밋 갯수 만큼 하나로 합치기 가능.
+
+```sh
+git rebase -i HEAD~3
+```
+
+2,3을 1로 합치고 싶으면 vi 창에서 커밋 메시지 2, 3의 pick => s 로 바꾸고 :wq 를 눌러 저장,종료 해준다.
+
+그러면 합쳐서 보여줄 커밋 메세지를 수정할 수 있다. 원하는 메세지로 변경해서 다시 :wq 를 눌러 저장, 종료.
+
+repository로 push 해준다.
+
+```sh
+git push -f origin master
+```
+

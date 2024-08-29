@@ -8,7 +8,6 @@ meta:
   - name: todo app 실습
     content: chapter 10, chapter11
 tags: ["react"]
-sidebar: auto
 prev: ./day4.md
 next: ./day6.md
 ---

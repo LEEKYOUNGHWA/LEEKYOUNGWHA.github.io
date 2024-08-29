@@ -8,7 +8,6 @@ meta:
   - name: Sass
     content: Sass
 tags: ["react"]
-sidebar: auto
 prev: ./day3.md
 next: ./day5.md
 ---

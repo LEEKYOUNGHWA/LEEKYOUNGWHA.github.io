@@ -55,4 +55,6 @@ export default {
   td, tr
     background-color white
     border-color white
+  .markdown-body pre
+    background-color black;
 </style>

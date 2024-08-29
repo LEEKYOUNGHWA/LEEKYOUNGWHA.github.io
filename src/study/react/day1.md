@@ -8,7 +8,6 @@ meta:
   - name: 리액트 환경 설정
     content: 리액트 환경 설정 yarn, vscode, node, Prettier, ESLint, Reactjs Code Snippet, 디버깅
 tags: ["react"]
-sidebar: auto
 next: ./day2.md
 ---
 

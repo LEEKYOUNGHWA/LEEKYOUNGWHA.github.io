@@ -2,68 +2,69 @@
   <component
     v-if="dynamicComponent" 
     :is="dynamicComponent"
-    :data="gridProps.data" 
-    :columns="gridProps.columns" 
-    :options="gridProps.options"
+    :data="data" 
+    :columns="columns" 
+    :options="options"
     :theme="theme"
-     @click="onClick"
   />
 </template>
 <script>
 import 'tui-grid/dist/tui-grid.css'
 
 export default {
-  name: 'myGrid',
-  data() {
-    return {
-      dynamicComponent: null,
-      theme: 'clean',
-      gridProps: {
-        data: [
-          { name: 'Beautiful222222',
-            artist: 'Birdy',
-            artist2: 'Birdy2'},
-          { name: 'test',
-            artist: 'Ed Sheeran',
-            artist2: 'Birdy2'},
-            { name: 'Beautiful',
-            artist: 'Birdy',
-            artist2: 'Birdy2'},
-          { name: 'test',
-            artist: 'Ed Sheeran',
-            artist2: 'Birdy2'},
-            { name: 'Beautiful',
-            artist: 'Birdy',
-            artist2: 'Birdy2'},
-          { name: 'test',
-            artist: 'Ed Sheeran',
-            artist2: 'Birdy2'},
-        ],
-        columns: [
+  name: 'toastGrid',
+  props: {
+    data : {
+      default: ()=> {
+        return [
+          { 
+            name: 'Beautiful',
+            artist: 'Birdy'
+          },
+          { 
+            name: 'test',
+            artist: 'Ed Sheeran'
+          },
+          { 
+            name: 'Beautiful',
+            artist: 'Birdy'
+          }
+        ]
+      }
+    },
+    columns : {
+      default : () => {
+        return [
           {
             header: 'Name',
             name: 'name',
-            width: 400
           },
           {
             header: 'Artist',
             name: 'artist',
-            width: 300
-          },
-          {
-            header: 'Artist2',
-            name: 'artist2',
-            width: 300
+            width: 450
           }
-        ],
-        options: {
-            scrollX: true,
-            scrollY: true,
-            rowHeight: 30,
-            rowHeaders: ['checkbox'],
-            draggable: true
-          },
-    }
+        ]
+      }
+    },
+    options : {
+      default : () => {
+        return {
+          scrollX: true,
+          scrollY: true,
+          rowHeight: 30,
+          rowHeaders: ['checkbox'],
+          draggable: true
+        }
+      }
+    },
+    theme : {
+      default : 'clean'
+    },
+  },
+  data() {
+    return {
+      dynamicComponent: null,
     }
   },
   mounted() {
@@ -72,17 +73,12 @@ export default {
       this.dynamicComponent = module.Grid
     })
   },
-  methods: {
-    onClick(evt) {
-      console.log(evt);
-    }
-  }
 };
 </script>
 <style>
 .tui-grid-table {
   margin: 0;
-  width: 1000px;
+  width:max-content;
   box-sizing: border-box;
   table-layout: fixed;
   border-collapse: collapse;

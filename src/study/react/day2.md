@@ -8,7 +8,6 @@ meta:
   - name: 리액트 라이프사이클 메서드
     content: 리액트 라이프사이클 메서드
 tags: ["react"]
-sidebar: auto
 prev: ./day1.md
 next: ./day3.md
 ---

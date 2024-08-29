@@ -8,7 +8,6 @@ meta:
   - name: axios
     content: chapter14
 tags: ["react"]
-sidebar: auto
 prev: ./day6.md
 ---
 
