@@ -11,6 +11,9 @@ meta:
 
 # blog history.
 
+## 2024.08.29
+[블로그에 toast-ui.vue-grid 삽입](/posts/2024/toastUiVueGrid.md)
+
 ## 2024.04.21
 [오라클 클라우드](/posts/2024/oracleCloud.md)
 
