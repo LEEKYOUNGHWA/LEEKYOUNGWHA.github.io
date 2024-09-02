@@ -1,3 +1,6 @@
+---
+sidebar: false
+---
 # Timeline
 
 <div class="container">
@@ -22,9 +25,26 @@
     flex: 1;
 }
 .blog-content {
+    padding-left:20px;
     flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .album-img-size {
+        padding-left:20px;
+        width: 200px;
+        height: 200px;
+    }
+    .blog-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
 </style>
