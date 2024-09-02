@@ -9,7 +9,7 @@ meta:
     content: diary
 ---
 
-# blog history.
+# TIL log.
 
 ## 2024.08.29
 [블로그에 toast-ui.vue-grid 삽입](/posts/2024/toastUiVueGrid.md)
