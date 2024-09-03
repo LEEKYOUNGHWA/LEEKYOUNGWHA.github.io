@@ -3,15 +3,16 @@ sidebar: false
 ---
 
 # Timeline
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/kr/album/the-dark-side-of-the-moon-50th-anniversary-remastered/1665303755"></iframe>
 
 <template v-for="album in albums">
-    <div class="container">
+    <div class="container" :id="albumId(album.artist, album.name)">
         <div class="blog-cover">
             <a :href="album.link"><img class="album-img-size" :src="album.img"></a>
         </div>
         <div class="blog-content">
             <h4>{{album.date}}</h4>
-            <h3 :id="albumId(album.artist, album.name)">
+            <h3 >
                 <router-link
                 :to="{ path: `#${albumId(album.artist, album.name)}`}"
                 class="header-anchor"
@@ -53,6 +54,38 @@ export default {
                     artist: "Alicia Keys",
                     name: "The Diary Of Alicia Keys",
                     memo: "타이틀이 워낙 유명하지만 수록곡이 더좋음",
+                },
+                {
+                    link:"https://music.apple.com/kr/album/timeless/1440984057",
+                    img:"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b8/8b/c3/b88bc3b9-6cf6-6630-5b3d-5b4c1ea67353/00602517026032.rgb.jpg/316x316bf.webp",
+                    date:"2024.06.23",
+                    artist: "Sergio Mendes",
+                    name: "Timeless",
+                    memo: "",
+                },
+                {
+                    link:"https://music.apple.com/kr/album/music-is-my-life/1552831176",
+                    img:"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f3/35/c3/f335c390-e382-7940-96d5-1ff2c68c79cf/divETC_20050610.jpg/316x316bb.webp",
+                    date:"2024.06.23",
+                    artist: "임정희",
+                    name: "Music Is My Life",
+                    memo: "",
+                },
+                {
+                    link:"https://music.apple.com/kr/album/roller-coaster/1486514391",
+                    img:"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/2a/93/752a9379-e4c3-7fdc-66ff-49a43c983953/Roller_Coaster.jpg/316x316bb.webp",
+                    date:"2024.06.21",
+                    artist: "롤러코스터",
+                    name: "Roller Coaster",
+                    memo: "",
+                },
+                {
+                    link:"https://music.apple.com/kr/album/innervisions/1440806790",
+                    img:"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c2/5f/ffc25f04-cb3b-b56e-dd28-8b77ae63e613/00602537070824.rgb.jpg/316x316bb.webp",
+                    date:"2024.06.15",
+                    artist: "Stevie Wonder",
+                    name: "Innervisions",
+                    memo: "",
                 }
             ]
         }
@@ -87,7 +120,6 @@ h4 {
     height:200px;
 }
 .blog-content {
-    padding-left:20px;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -105,6 +137,7 @@ h4 {
         height: 200px;
     }
     .blog-content {
+        padding-left:10px;
         display: flex;
         flex-direction: column;
     }
