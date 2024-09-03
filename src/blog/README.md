@@ -1,7 +1,6 @@
 ---
 sidebar: false
 ---
-
 # Timeline
 
 <div class="container">
@@ -28,12 +27,16 @@ sidebar: false
 .blog-content {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left:20px;
 =======
 >>>>>>> 797d301 (블로그개발)
 =======
     padding-left:20px;
 >>>>>>> 2e70f86 (css수정)
+=======
+    padding-left:20px;
+>>>>>>> ae92856a0f78346d7c32309c31d8152048b30c91
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -41,8 +44,11 @@ sidebar: false
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2e70f86 (css수정)
+=======
+>>>>>>> ae92856a0f78346d7c32309c31d8152048b30c91
 
 @media (max-width: 800px) {
     .container {
@@ -60,8 +66,11 @@ sidebar: false
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 797d301 (블로그개발)
 =======
 >>>>>>> 2e70f86 (css수정)
+=======
+>>>>>>> ae92856a0f78346d7c32309c31d8152048b30c91
 </style>
