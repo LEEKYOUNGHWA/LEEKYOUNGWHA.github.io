@@ -20,7 +20,7 @@ heroImage: /logo.jpg
   </div>
   <div class="feature">
     <h2>tagList</h2>
-    <a href="/etc/taglist">see post tags</a>
+    <a href="/etc/tagList">see post tags</a>
   </div>
   <div class="feature">
     <h2>resume</h2>

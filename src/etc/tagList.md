@@ -1,21 +1,20 @@
-# tagList
+# Tags
 
 <template v-for="tag in Object.keys(tags)">
-    <h2 :id="tag">
-        <router-link
-            :to="{ path: `#${tag}`}"
-            class="header-anchor"
-            aria-hidden="true">
-            #
-        </router-link>
-        {{tag}}
-    </h2>
-    <ul>
-        <li v-for="page in tags[tag]">
-            <router-link
-            :to="{ path: page.path}">{{page.title}}</router-link>
-        </li>
-    </ul>
+  <h2 :id="tag">
+    <router-link
+        :to="{ path: `#${tag}`}"
+        class="header-anchor"
+        aria-hidden="true">
+        #
+    </router-link>
+    {{tag}}
+  </h2>
+  <ul>
+    <li v-for="page in tags[tag]">
+      <router-link :to="{ path: page.path}">{{page.title}}</router-link>
+    </li>
+  </ul>
 </template>
 
 <script>
