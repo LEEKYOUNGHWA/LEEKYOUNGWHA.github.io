@@ -1,0 +1,180 @@
+{
+    "album" :  [
+        {
+            "link":"https://music.apple.com/kr/album/the-dude/1405193623",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/09/10/1b/09101b1c-be8a-9bc1-d566-3e4a38a2f394/00602567822455.rgb.jpg/316x316bb.webp",
+            "date":"2024.09.04",
+            "artist": "Quincy Jones",
+            "name": "The Dude",
+            "memo": "Ai No Corrida"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-dark-side-of-the-moon-50th-anniversary-remastered/1665303755",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/52/81/66/528166f4-c219-03f9-7024-819477a0c7de/Jobc573c095-e338-410b-af87-e5f93d819c09-146534046-PreviewImage_preview_image_nonvideo_sdr-Time1678811876031.png/316x316bb.webp",
+            "date":"2024.09.03",
+            "artist": "Pink Floyd",
+            "name": "The Dark Side of the Moon",
+            "memo": "센세이션 그 잡채"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-diary-of-alicia-keys/255342344",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/07/d6/64/07d66459-66ee-d3f7-22bf-79b61e9df037/Job85870431-061f-44ea-9284-b177ddc6be48-148891620-PreviewImage_preview_image_nonvideo_sdr-Time1681932734147.png/316x316bb.webp",
+            "date":"2024.09.02",
+            "artist": "Alicia Keys",
+            "name": "The Diary Of Alicia Keys",
+            "memo": "타이틀이 워낙 유명하지만 수록곡이 더좋음"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-stranger/158617952",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/8a/a9/67/8aa96785-9770-0124-3982-a6626898b3ee/Job9a4d5861-c73c-46a2-b41f-23fcadcce0bf-130611706-PreviewImage_preview_image_nonvideo_sdr-Time1649363210990.png/316x316bb.webp",
+            "date":"2024.09.01",
+            "artist": "Billy Joel",
+            "name": "The Stranger",
+            "memo": "Get It Right the First Time"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/my-beautiful-dark-twisted-fantasy/1443160553",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d1/74/da/d174dacf-5782-dfe2-19f7-ce037dcd0237/00602527584935.rgb.jpg/316x316bb.webp",
+            "date":"2024.08.26",
+            "artist": "Kanye West",
+            "name": "My Beautiful Dark Twisted Fantasy",
+            "memo": "2010년 발매일을 손꼽아 기다렸다 산 앨범......"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/52nd-street/259573387",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/18/0d/b6/180db64b-0ff3-1d2e-f233-5dc83a291676/Jobb33e2e95-18eb-4d8b-9ded-afb09eac31e5-130613150-PreviewImage_preview_image_nonvideo_sdr-Time1649365552225.png/316x316bb.webp",
+            "date":"2024.08.22",
+            "artist": "Billy Joel",
+            "name": "52nd Street",
+            "memo": "My life"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/hitnrun-phase-two/1068030454",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/25/87/b12587c1-1823-99b4-3946-9c656d766426/HNR_Phase2-Cover.jpg/316x316bb.webp",
+            "date":"2024.08.20",
+            "artist": "Prince",
+            "name": "HITnRUN Phase Two",
+            "memo": "프린스 마지막 앨범"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/bush/961256177",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ab/8a/0d/ab8a0dce-f563-5b8c-9d60-d95938aa56a3/dj.ufmcpiyg.jpg/316x316bb.webp",
+            "date":"2024.08.14",
+            "artist": "Snoop Dogg",
+            "name": "BUSH",
+            "memo": "퍼렐의 숨결이 닿은 모든 앨범을 사랑함"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/for-you/663586846",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music/v4/5b/2c/63/5b2c63cc-587e-8814-3585-3425827540c8/075992734820.jpg/316x316bb.webp",
+            "date":"2024.08.12",
+            "artist": "Prince",
+            "name": "For You",
+            "memo": "프린스 데뷔앨범"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/volcano/1676151993",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d4/7d/e5/d47de508-312e-fbb2-8b5a-78b92645d778/197188308315.jpg/316x316bb.webp",
+            "date":"2024.08.09",
+            "artist": "Jungle",
+            "name": "Volcano",
+            "memo": "2023최고의앨범"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/no-one-ever-really-dies/1311935265",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/14/5c/3d145cf0-679e-3003-4fb1-fa9b95fc7508/886446856896.jpg/316x316bb.webp",
+            "date":"2024.08.04",
+            "artist": "N.E.R.D",
+            "name": "NO ONE EVER REALLY DIES",
+            "memo": "갓 퍼렐22222"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/in-search-of/1475690530",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/23/60/f9/2360f925-0f9a-3a33-fea2-527b2e92c9eb/Job9cf60977-e1ca-40f4-9f73-c8a37cfea94b-133494601-PreviewImage_preview_image_nonvideo_sdr-Time1656536489290.png/316x316bb.webp",
+            "date":"2024.08.01",
+            "artist": "N.E.R.D",
+            "name": "In Search Of...",
+            "memo": "갓 퍼렐"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/i-want-you/1440815358",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/6d/de/386dde81-f75b-944a-a8bf-efec51554486/14UMGIM55410.rgb.jpg/316x316bb.webp",
+            "date":"2024.07.16",
+            "artist": "Marvin P.Gaye",
+            "name": "I Want You",
+            "memo": "What's Going On 말고"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/children-of-the-world/1444171212",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video115/v4/99/ab/7a/99ab7a81-b3a7-4f4f-4464-5b7d09e8d7f0/Jobabab7628-f73b-47a5-8d89-5cec17e8782f-123779406-PreviewImage_preview_image_nonvideo_sdr-Time1631211016243.png/316x316bb.webp",
+            "date":"2024.07.16",
+            "artist": "Bee Gees",
+            "name": "Children of the World",
+            "memo": "LP카페에서 발견"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/nct-127-cherry-bomb-the-3rd-mini-album/1247335504",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/95/1c/89/951c8962-2d96-d06a-c39d-63a593613c8a/NCT-DIGITAL_COVER.jpg/316x316bb.webp",
+            "date":"2024.07.16",
+            "artist": "NCT127",
+            "name": "NCT #127 CHERRY BOMB – The 3rd Mini Album",
+            "memo": "2017년기준 진짜 잘만든 앨범"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/be/1440726298",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/82/d4/5682d498-c253-6b18-9fe3-a7c39c81b823/06UMGIM20396.rgb.jpg/316x316bf.webp",
+            "date":"2024.07.13",
+            "artist": "Common",
+            "name": "Be",
+            "memo": "고딩때 진짜 많이 들었는데"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/ventura/1456218234",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/36/5d/e3365de3-f047-71c7-bbc6-b1793e01402d/190296904134.jpg/316x316bb.webp",
+            "date":"2024.06.23",
+            "artist": "Anderson .Paak",
+            "name": "Ventura",
+            "memo": "골라봐 Ventura vs Malibu"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/malibu/1065681363",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/1b/b7/b1/1bb7b1a0-4ff7-5623-4992-3ef443cd6880/888915169681_cover.jpg/316x316bb.webp",
+            "date":"2024.06.23",
+            "artist": "Anderson .Paak",
+            "name": "Malibu",
+            "memo": "골라봐 Ventura vs Malibu"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/timeless/1440984057",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b8/8b/c3/b88bc3b9-6cf6-6630-5b3d-5b4c1ea67353/00602517026032.rgb.jpg/316x316bf.webp",
+            "date":"2024.06.23",
+            "artist": "Sergio Mendes",
+            "name": "Timeless",
+            "memo": "이름값 하는 앨범"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/music-is-my-life/1552831176",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f3/35/c3/f335c390-e382-7940-96d5-1ff2c68c79cf/divETC_20050610.jpg/316x316bb.webp",
+            "date":"2024.06.23",
+            "artist": "임정희",
+            "name": "Music Is My Life",
+            "memo": "노래방 애창곡"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/roller-coaster/1486514391",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/2a/93/752a9379-e4c3-7fdc-66ff-49a43c983953/Roller_Coaster.jpg/316x316bb.webp",
+            "date":"2024.06.21",
+            "artist": "롤러코스터",
+            "name": "Roller Coaster",
+            "memo": "롤러코스터는 모든 앨범이 명반"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/innervisions/1440806790",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c2/5f/ffc25f04-cb3b-b56e-dd28-8b77ae63e613/00602537070824.rgb.jpg/316x316bb.webp",
+            "date":"2024.06.15",
+            "artist": "Stevie Wonder",
+            "name": "Innervisions",
+            "memo": "시대를 초월한 사운드...... 헤드셋 필수"
+        }
+    ]
+}

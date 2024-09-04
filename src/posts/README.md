@@ -11,6 +11,16 @@ meta:
 
 # TIL log.
 
+## 2024.09.04
+
+- html id로 스크롤 하는 방법  
+[scroll-to-a-specific-element-using-html](https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html)
+
+```css
+# 스크롤 마진
+scroll-margin-block-start: 110px; 
+```
+
 ## 2024.08.29
 [블로그에 toast-ui.vue-grid 삽입](/posts/2024/toastUiVueGrid.md)
 

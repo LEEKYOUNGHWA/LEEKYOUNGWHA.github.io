@@ -101,6 +101,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
+        "@data": "/src/data/",
         "@image": "/src/image/",
         "@components": "/src/.vuepress/components/",
       },
