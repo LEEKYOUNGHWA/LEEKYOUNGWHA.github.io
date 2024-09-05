@@ -7,13 +7,15 @@ sidebar: false
 <div style="padding:10px;"> </div>
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" :src="jukeBox"></iframe>
 
-#### playlist
-<template v-for="album in albums">
-    <div class="container" :id="albumId(album.artist, album.name)">
+#### playlist {{albums.length}}
+
+<template v-for="(album, idx) in albums" >
+    <div class="container" :id="albumId(album.artist, album.name)" :key="{idx}">
         <div class="blog-cover">
             <img @click="changeJukebox(album.link)" class="album-img" :src="album.img"/>
         </div>
         <div class="blog-content">
+            <p>{{idx+1}}</p>
             <h4>{{album.date}}</h4>
             <h3>
                 <a :href="`#${albumId(album.artist, album.name)}`"

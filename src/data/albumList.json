@@ -1,12 +1,20 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/discovery/697194953",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/9e/f3/19/9ef31946-26de-0a95-c771-30457c5c01ec/dj.huxlnxyy.jpg/316x316bb.webp",
+            "date":"2024.09.05",
+            "artist": "Daft Punk",
+            "name": "Discovery",
+            "memo": "One More Time"
+        },
+        {
             "link":"https://music.apple.com/kr/album/the-dude/1405193623",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/09/10/1b/09101b1c-be8a-9bc1-d566-3e4a38a2f394/00602567822455.rgb.jpg/316x316bb.webp",
             "date":"2024.09.04",
             "artist": "Quincy Jones",
             "name": "The Dude",
-            "memo": "Ai No Corrida"
+            "memo": "아빠"
         },
         {
             "link":"https://music.apple.com/kr/album/the-dark-side-of-the-moon-50th-anniversary-remastered/1665303755",
@@ -38,7 +46,7 @@
             "date":"2024.08.26",
             "artist": "Kanye West",
             "name": "My Beautiful Dark Twisted Fantasy",
-            "memo": "2010년 발매일을 손꼽아 기다렸다 산 앨범......"
+            "memo": "바야흐로 2010년... 발매일을 손꼽아 기다렸다 산 앨범...... 2010년 이앨범을 처음 들었던 충격과 경험은 값어치 환산 불가"
         },
         {
             "link":"https://music.apple.com/kr/album/52nd-street/259573387",
@@ -62,7 +70,7 @@
             "date":"2024.08.14",
             "artist": "Snoop Dogg",
             "name": "BUSH",
-            "memo": "퍼렐의 숨결이 닿은 모든 앨범을 사랑함"
+            "memo": "나의 한결같은 취향 퍼렐 33333"
         },
         {
             "link":"https://music.apple.com/kr/album/for-you/663586846",
@@ -78,7 +86,7 @@
             "date":"2024.08.09",
             "artist": "Jungle",
             "name": "Volcano",
-            "memo": "2023최고의앨범"
+            "memo": "2024최고의앨범"
         },
         {
             "link":"https://music.apple.com/kr/album/no-one-ever-really-dies/1311935265",
@@ -175,6 +183,118 @@
             "artist": "Stevie Wonder",
             "name": "Innervisions",
             "memo": "시대를 초월한 사운드...... 헤드셋 필수"
-        }
+        },
+        {
+            "link":"https://music.apple.com/kr/album/love-angel-music-baby/1440755762",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/85/dd/ad/85ddad6b-4071-e002-c298-aa78793bf69a/06UMGIM47135.rgb.jpg/316x316bb.webp",
+            "date":"2024.05.27",
+            "artist": "Gwen Stefani",
+            "name": "Love Angel Music Baby",
+            "memo": "요즘 다시 유행!"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/back-to-black/1422677780",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/6b/eb/39/6beb3977-8ed7-23bc-0463-cc8908706eb6/Jobca94c78a-1363-4aed-8575-4f230de8525f-125126762-PreviewImage_preview_image_nonvideo_sdr-Time1634847233312.png/316x316bb.webp",
+            "date":"2024.04.21",
+            "artist": "Amy Winehouse",
+            "name": "Back to Black",
+            "memo": "ㅜㅜ"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/frank/1440846425",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/ec/05/fa/ec05faa0-0b7e-abe4-b215-4e10ec60ed70/Jobdddbba26-005f-421a-b874-63891d77a229-158253083-PreviewImage_preview_image_nonvideo_sdr-Time1699305431785.png/316x316bb.webp",
+            "date":"2024.04.21",
+            "artist": "Amy Winehouse",
+            "name": "Frank",
+            "memo": "ㅜㅜ"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/songs-in-the-key-of-life/1440788438",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/3b/13/9a/3b139a74-a48e-4882-b26c-6ed079bf5957/Job573ed334-c075-4a82-b8f8-981ee16927fa-167027380-PreviewImage_preview_image_nonvideo_sdr-Time1714166671593.png/316x316bb.webp",
+            "date":"2024.04.10",
+            "artist": "Stevie Wonder",
+            "name": "Songs in the Key of Life",
+            "memo": "외계인도 이 앨범은 알거다. 우주최고"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/call-me-if-you-get-lost-the-estate-sale/1679454273",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0b/4d/63/0b4d63aa-f47c-6905-fea3-8fc84dbf1083/196871011907.jpg/316x316bb.webp",
+            "date":"2024.04.06",
+            "artist": "Tyler, The Creator",
+            "name": "CALL ME IF YOU GET LOST",
+            "memo": "완성"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/high-times-singles-1992-2006-deluxe-version/786107608",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/29/09/ea/2909ea5c-f8a0-3a7a-14e8-ae4a08a4ee2d/Job5ca264b0-0a81-4228-94a6-5060af6bda81-138527340-PreviewImage_preview_image_nonvideo_sdr-Time1667493554804.png/316x316bb.webp",
+            "date":"2024.03.20",
+            "artist": "Jamiroquai",
+            "name": "High Times: Singles 1992-2006",
+            "memo": "컴필레이션 앨범 별로 안좋아하는데 얘만 예외"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/in-everyday-matters/1486519994",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/22/42/e5/2242e5a5-21e7-1dbf-372f-d81a21a55e35/0.jpg/316x316bb.webp",
+            "date":"2024.03.18",
+            "artist": "롤러코스터",
+            "name": "일상다반사(日常茶飯事)",
+            "memo": "롤러코스터는 모든 앨범이 명반"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/sweet-freaks/915790853",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c1/65/28/c165281e-d463-e238-e2dd-1a217b471682/cover.jpg/316x316bb.webp",
+            "date":"2024.03.17",
+            "artist": "The Brand New Heavies",
+            "name": "Sweet Freaks",
+            "memo": "펑키퐁키"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-blueprint/1440757381",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/8f/a6/d4/8fa6d4ea-3953-f208-dd35-0d14b9fb0e03/07UMGIM02256.rgb.jpg/316x316bf.webp",
+            "date":"2024.03.16",
+            "artist": "JAY-Z",
+            "name": "The Blueprint",
+            "memo": "말모"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-college-dropout/1412872568",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/73/b1/0d73b181-2716-f7a6-a340-0a3f81eacfb9/06UMGIM15686.rgb.jpg/316x316bb.webp",
+            "date":"2024.03.13",
+            "artist": "JAY-Z",
+            "name": "The College Dropout",
+            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배. "
+        },
+        {
+            "link":"https://music.apple.com/kr/album/free-ride/1443546509",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/95/69/12/956912e0-99e3-a694-c254-40e6ebf23fac/00025218678421.rgb.jpg/316x316bb.webp",
+            "date":"2024.02.24",
+            "artist": "디지 길레스피",
+            "name": "Free Ride",
+            "memo": "사기조합"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/city-of-angels-expanded-edition/1443896907",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e1/c7/45/e1c745a6-d0ff-78f6-0f75-03168e4b3c71/00602527272498.rgb.jpg/316x316bb.webp",
+            "date":"2024.01.22",
+            "artist": "The Miracles",
+            "name": "City of Angels",
+            "memo": "알고리즘의 추천"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/celebration-deluxe-version/329519270",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/fd/08/c5/fd08c5bf-d415-1017-744a-1e6f0f13ce34/dj.ptreiqho.jpg/316x316bb.webp",
+            "date":"2024.01.17",
+            "artist": "Madonna",
+            "name": "Celebration",
+            "memo": "Vogue"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-fame/1440818588",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/12/e9/1e/12e91eaf-1ed9-c38f-a0cb-5134d425adab/Jobedf0124b-9306-45a7-8d8b-e6373cf1bd6d-154984021-PreviewImage_preview_image_nonvideo_sdr-Time1693423091097.png/316x316bb.webp",
+            "date":"2024.01.09",
+            "artist": "Lady Gaga",
+            "name": "The Fame",
+            "memo": "중학생때 난생 처음 산 앨범. 크,,, 나의 안목 @,,@"
+        }        
     ]
 }
