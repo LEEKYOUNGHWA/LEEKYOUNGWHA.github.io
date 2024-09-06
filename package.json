@@ -18,9 +18,11 @@
   "license": "MIT",
   "dependencies": {
     "@toast-ui/vue-grid": "^4.21.22",
+    "axios": "^1.7.5",
     "esm": "^3.0.0",
     "json-fn": "^1.1.1",
     "vue-jsonp": "^2.0.0",
+    "vue-typed-js": "^0.1.2",
     "vuepress": "^1.9.10",
     "vuepress-plugin-chart": "^0.3.0",
     "vuepress-plugin-flowchart": "^1.5.0",

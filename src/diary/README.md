@@ -1,28 +1,25 @@
----
-sidebar: false
----
+
 
 # Album Timeline
 #### jukebox        
 <div style="padding:10px;"> </div>
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" :src="jukeBox"></iframe>
 
-#### playlist {{albums.length}}
+#### albumlist {{albums.length}}
 
 <template v-for="(album, idx) in albums" >
-    <div class="container" :id="albumId(album.artist, album.name)" :key="{idx}">
+    <div class="container" :id="albumId(album.artist, album.name)">
         <div class="blog-cover">
             <img @click="changeJukebox(album.link)" class="album-img" :src="album.img"/>
         </div>
         <div class="blog-content">
-            <p>{{idx+1}}</p>
             <h4>{{album.date}}</h4>
             <h3>
                 <a :href="`#${albumId(album.artist, album.name)}`"
                     class="header-anchor"
                     aria-hidden="true">#</a>
-                {{album.artist}} - {{album.name}}
-                <a :href="album.link" target="_blank"><img class="apple-music-img" src="./../image/2024/apple-music.png"></a>
+                {{idx+1}}. {{album.artist}} - {{album.name}}
+                <a :href="album.link" target="_blank"><img class="apple-music-img" src="../image/2024/apple-music.png"></a>
             </h3>
             <p>{{album.memo}}</p>
         </div>
@@ -33,6 +30,12 @@ sidebar: false
 import albumList from '@data/albumList.json'
 
 export default {
+    async mounted() {
+        window.global ||= window;
+        const axios = require('axios').default
+        const data = await axios.get('https://reqres.in/api/users');
+        console.log(data);
+    },
     methods: {
         albumId(artist, name) {
             var id = artist + '-' + name;
@@ -43,9 +46,6 @@ export default {
             this.jukeBox = link.replace('music', 'embed.music');
             location.href = '#jukebox';
         },
-        playerSrc() {
-            return this.albums[0].link.replace('music', 'embed.music')
-        }
     },
     data() {
         return {

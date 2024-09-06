@@ -57,19 +57,19 @@ module.exports = {
   themeConfig: {
     logo: "/logo.jpg",
     repo: "",
-    editLinks: false,
+    editLinks: true,
     docsDir: "",
     editLinkText: "",
     lastUpdated: false,
     nav: [
       { text: "TIL", link: "/posts/" },
       { text: "study", link: "/study/" },
-      { text: "blog", link: "/blog/" },
+      { text: "diary", link: "/diary/" },
     ],
     sidebar: {
       "/posts/": getSideBar("posts"),
       "/study/": getSideBar("study"),
-      "/blog/": getSideBar("blog"),
+      "/diary/": getSideBar("diary"),
     },
     smoothScroll: true,
     author: "LeeKyounghwa",

@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/niteflyte/535877097",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/af/c6/72/afc67282-c42f-1b99-0f91-98524d3c9801/886443426016.jpg/316x316bf.webp",
+            "date":"2024.09.06",
+            "artist": "Niteflyte",
+            "name": "Niteflyte",
+            "memo": "타워 화장실에서 나오던 노래"
+        },
+        {
             "link":"https://music.apple.com/kr/album/discovery/697194953",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/9e/f3/19/9ef31946-26de-0a95-c771-30457c5c01ec/dj.huxlnxyy.jpg/316x316bb.webp",
             "date":"2024.09.05",
