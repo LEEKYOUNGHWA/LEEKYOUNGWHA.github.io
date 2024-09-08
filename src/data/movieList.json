@@ -1,6 +1,22 @@
 {
     "year2024" :  [
         {
+            "link":"https://www.imdb.com/title/tt0259711/?ref_=nm_knf_t_3",
+            "img":"https://m.media-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+            "name": "바닐라스카이",
+            "memo": "누가 내 최애 영화가 뭔지 물어봐서,, 이거 진짜 뻥안치고 100번 봄",
+            "star": 10,
+            "date": ""
+        },
+        {
+            "link":"https://www.imdb.com/title/tt9586294/?ref_=nv_sr_srsg_0",
+            "img":"https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20240730_169%2F1722318789382abguA_JPEG%2Fmovie_image.jpg",
+            "name": "소년시절의 너",
+            "memo": "러닝타임이 길지만 졸지 않았음",
+            "star": 3,
+            "date": "2024.09.07"
+        },
+        {
             "link":"https://www.imdb.com/title/tt18412256/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_ALIEN",
             "img":"https://m.media-amazon.com/images/M/MV5BNDMyNzgzMjctYmI2NS00OWI3LWI2YjAtYWM4MWVjNGEzMWRkXkEyXkFqcGc@._V1_.jpg",
             "name": "에이리언: 로물루스",
@@ -15,14 +31,6 @@
             "memo": "나, 휴잭맨 엑스맨, 로건, 데드풀, 매드맥스, 로키, 어벤져스 시리즈를 섭렵하였으나 영화관에서 꿀잠 잤음",
             "star": 2,
             "date": "2024.07.30"
-        },
-        {
-            "link":"https://www.imdb.com/title/tt0259711/?ref_=nm_knf_t_3",
-            "img":"https://m.media-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
-            "name": "바닐라스카이",
-            "memo": "내 최애영화.. 진짜 뻥안치고 100번 봄",
-            "star": 10,
-            "date": ""
-        }
+        }        
     ]
 }
