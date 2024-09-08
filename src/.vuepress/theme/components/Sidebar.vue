@@ -55,10 +55,10 @@ export default {
 
 .sidebar::-webkit-scrollbar {
   width: 5px;
-  background-color: #00988d36;
+  background-color: #ffffff;
 }
 .sidebar::-webkit-scrollbar-thumb {
-  background-color: #09978da8;
+  background-color: $accentColor;
 }
 
 @media (max-width: $MQMobile)

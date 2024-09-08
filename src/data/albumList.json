@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/find-your-flame/1725496181",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9f/16/be/9f16be61-9e52-83ab-53cd-e140155aae73/4062548079050.png/316x316bb.webp",
+            "date":"2024.09.08",
+            "artist": "Nubiyan Twist",
+            "name": "Find Your Flame",
+            "memo": "Lights out 무한반복중......앨범도 훌륭함"
+        },
+        {
             "link":"https://music.apple.com/kr/album/niteflyte/535877097",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/af/c6/72/afc67282-c42f-1b99-0f91-98524d3c9801/886443426016.jpg/316x316bf.webp",
             "date":"2024.09.06",
@@ -94,7 +102,7 @@
             "date":"2024.08.09",
             "artist": "Jungle",
             "name": "Volcano",
-            "memo": "2024최고의앨범"
+            "memo": "2023최고의앨범"
         },
         {
             "link":"https://music.apple.com/kr/album/no-one-ever-really-dies/1311935265",

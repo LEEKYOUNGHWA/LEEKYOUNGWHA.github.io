@@ -3,7 +3,7 @@
     <router-link
       v-for="tag in $page.frontmatter.tags"
       :key="tag"
-      :to="{ path: `/#${tag}`}">
+      :to="{ path: `/etc/taglist.html#${tag}`}">
       #{{tag}}
     </router-link>
   </div>

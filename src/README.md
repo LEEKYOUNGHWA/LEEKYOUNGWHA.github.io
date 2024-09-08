@@ -15,8 +15,8 @@ heroImage: /logo.jpg
     <a href="/study">read cs books, taken online courses</a>
   </div>
   <div class="feature">
-    <h2>blog</h2>
-    <a href="/blog">music, movie, etc</a>
+    <h2>diary</h2>
+    <a href="/diary">music, movie, etc</a>
   </div>
   <div class="feature">
     <h2>tagList</h2>
