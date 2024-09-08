@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "Mind Upload",
+  title: "MIND UPLOAD",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -21,32 +21,10 @@ module.exports = {
     ["link", { rel: "icon", href: "/logo.jpg" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
-    ],
-    [
-      "script",
-      {
-        async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-672PNZBWWP",
-      },
-    ],
-    [
-      "script",
-      {},
-      [
-        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-672PNZBWWP');",
-      ],
-    ],
-    [
-      "script",
-      {
-        async: true,
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8111136017997298",
-        crossorigin: "anonymous",
-      },
-    ],
+    ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],
+    ["script", { async: true, src: "https://www.googletagmanager.com/gtag/js?id=G-672PNZBWWP"}],
+    ["script", {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-672PNZBWWP');"]],
+    ["script", { async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8111136017997298", crossorigin: "anonymous" }],
   ],
 
   /**
@@ -64,12 +42,12 @@ module.exports = {
     nav: [
       { text: "TIL", link: "/posts/" },
       { text: "study", link: "/study/" },
-      { text: "diary", link: "/diary/" },
+      { text: "blog", link: "/blog/" },
     ],
     sidebar: {
       "/posts/": getSideBar("posts"),
       "/study/": getSideBar("study"),
-      "/diary/": getSideBar("diary"),
+      "/blog/": getSideBar("blog"),
     },
     smoothScroll: true,
     author: "LeeKyounghwa",
