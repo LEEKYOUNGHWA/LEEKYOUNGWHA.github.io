@@ -1,6 +1,30 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/shine-on/1443472586",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/45/7f/95457f02-b1d9-f198-c740-4aa5b2e2adc8/00075021481923.rgb.jpg/296x296bb.webp",
+            "date":"2024.09.10",
+            "artist": "L.T.D.",
+            "name": "Shine On",
+            "memo": "후...코드 전환이 예술.."
+        },
+        {
+            "link":"https://music.apple.com/kr/album/light-of-worlds/1443798401",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b8/e5/f3/b8e5f3fd-d515-2e3b-6151-e8f3dd2728e0/06UMGIM14844.rgb.jpg/316x316bb.webp",
+            "date":"2024.09.09",
+            "artist": "Kool & The Gang",
+            "name": "Light of Worlds",
+            "memo": "Kool & The Gang 대표 앨범에 이게 빠지다니..?"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/action/1444019076",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/59/dd/94/59dd945d-488a-4d01-942f-64767532e741/00888072395008.rgb.jpg/316x316bb.webp",
+            "date":"2024.09.09",
+            "artist": "The Blackbyrds",
+            "name": "Action",
+            "memo": "jazz-funk"
+        },
+        {
             "link":"https://music.apple.com/kr/album/find-your-flame/1725496181",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9f/16/be/9f16be61-9e52-83ab-53cd-e140155aae73/4062548079050.png/316x316bb.webp",
             "date":"2024.09.08",
