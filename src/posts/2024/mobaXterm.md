@@ -12,18 +12,6 @@ tags: ["tool"]
 
 # mobaXterm 설치
 
-## MobaXterm이란?
-
- Linux 환경에서 SSH 접속을 위해 Putty 혹은 XShell을 설치하거나 FTP & SFTP 접속을 위해 FileZilla(파일질라) 등을 설치하는 등 여러 가지 원격 접속용 프로그램을 설치하는 번거로움이 있다.   
-
-하지만 MobaXterm(모바엑스텀)을 사용하면 Linux 환경의 SSH 접속, FTP, SFTP 등을 이 프로그램 **1가지로 할 수 있다**.  
- 
-
-MobaXterm은 현존하는 최고의 SSH 접속 Tool이고, 유료 라이선스도 있지만, 무료 라이선스 또한 존재하고,
-기업에서 무료 라이선스로 이용 가능하다.
-
-[무작정 개발:티스토리](https://backendcode.tistory.com/270#head1)
-
 ## 설치 링크
 
 [https://mobaxterm.mobatek.net/download-home-edition.html](https://mobaxterm.mobatek.net/download-home-edition.html)

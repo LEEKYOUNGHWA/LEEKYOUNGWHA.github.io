@@ -10,12 +10,13 @@ meta:
 tags: ["java"]
 ---
 
-# poi 개발
+# java poi 개발
 
 ## maven dependency 설정
 
-기존 레거시 시스템에 open jdk 1.8 poi 3.8 버전을 사용하고 있었다. 
-xslx write 할 때 버전이 맞지 않는 오류 발생하여 강제로 버전을 맞춰 주었다.
+기존 레거시 시스템에 open jdk 1.8 poi 3.8 버전을 사용하고 있었다.  
+xslx write 할 때 버전이 맞지 않는 오류 발생하여 강제로 버전을 맞춰 주었다.  
+보기엔 별거 아닌거 같지만... 삽질을 겁나 했다,,
 
 ```xml
 <dependency>
