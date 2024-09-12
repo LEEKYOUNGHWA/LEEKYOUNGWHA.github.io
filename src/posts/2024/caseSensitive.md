@@ -18,9 +18,9 @@ CD abcd (X)
 ```
 이렇게 된다. 즉 동일한 커맨드일 때, 오타가 아닌 대소문자 문제라면 윈도우에선 정상작동, 리눅스에선 오작동이 일어난다.
 
-이유를 들자면,리눅스 : 유닉스에서 나온것이고, 유닉스는 C에서 출발한 것이며, C는 case sensitive가 된다. 
+이유를 들자면, 리눅스 : 유닉스에서 나온것이고, 유닉스는 C에서 출발한 것이며, C는 case sensitive가 된다. 
 
-윈도우 : 도스엔 to_upper()만 지원했다. 즉 파일이름은 무조건 대문자였고, 이 전통이 이어져 내려왔기 때문에 case sensitive가 없다.\
+윈도우 : 도스엔 to_upper()만 지원했다. 즉 파일이름은 무조건 대문자였고, 이 전통이 이어져 내려왔기 때문에 case sensitive가 없다.
 
 참고 : [Why is linux case sensitive?](http://www.linuxquestions.org/questions/linux-general-1/why-is-linux-case-sensitive-125995/) 
 
