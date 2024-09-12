@@ -23,10 +23,10 @@ npm remove typescript
 npm install typescript@~4.4.3 --save-dev
 ```
 
-[타입스크립트 다운그레이드](https://zetawiki.com/wiki/TypeScript_%EB%8B%A4%EC%9A%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C)]
+[타입스크립트 다운그레이드](https://zetawiki.com/wiki/TypeScript_%EB%8B%A4%EC%9A%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C)
 
 
-## tsc 실행 오류 발생시
+## Powershell 오류 발생시
 
 [Powershell 파워쉘 실행정책 - Execution Policy](https://m.blog.naver.com/vanstraat/221732533202)
 
@@ -54,12 +54,11 @@ Version 5.3.3
 ```
 
 
-# Error: node_modules/@types/lodash/common/object.d.ts:1026:46 - error TS1005: '?' expected.
+# error TS1005
+
+#### Error: node_modules/@types/lodash/common/object.d.ts:1026:46 - error TS1005: '?' expected.
 
 [Got failed on version 4.17.6](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/69932)
-
-![err](https://private-user-images.githubusercontent.com/49183072/344083096-77b540eb-9531-42fc-ba31-d361d4b8b773.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYwMzkyNjQsIm5iZiI6MTcyNjAzODk2NCwicGF0aCI6Ii80OTE4MzA3Mi8zNDQwODMwOTYtNzdiNTQwZWItOTUzMS00MmZjLWJhMzEtZDM2MWQ0YjhiNzczLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTExVDA3MTYwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYzMzYyZjAyNjFkY2RiNTc5NTYzZTg3Zjg1MjUzZDcwMTc3MTRiZjNlNGU0ODMwM2UwNTQwY2M5ZjM2MmJiMmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.3sLgIYpxbJ0yowENSslXFYti0xNHmdIcw_awk3koFcM)
-[](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/69932)
 
 ```cmd
 npm uninstall @types/lodash
