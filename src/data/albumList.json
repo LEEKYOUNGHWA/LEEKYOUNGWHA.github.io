@@ -1,12 +1,36 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/pulsar/1736766809",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/47/fc/1947fcd3-c0de-53ec-4bfb-f64ff4eeb80d/3663729305145_cover.jpg/316x316bb.webp",
+            "date":"2024.09.19",
+            "artist": "L'Impératrice",
+            "name": "Pulsar",
+            "memo": "마이너 업그레이드"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/tako-tsubo-extended/1711063990",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4f/99/a3/4f99a306-8ea4-6c4c-58ee-0a5e1b9c881a/3663729277411_cover.jpg/316x316bb.webp",
+            "date":"2024.09.18",
+            "artist": "L'Impératrice",
+            "name": "Tako Tsubo (Extended)",
+            "memo": "Is it music or new voodoo?"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/s%C3%A9rgio-mendes-the-new-brazil-77/1576792896",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cb/45/33cb456a-869d-321b-4baf-2efd35fa438c/18CRGIM06088.rgb.jpg/316x316bb.webp",
+            "date":"2024.09.14",
+            "artist": "Sergio Mendes",
+            "name": "Sérgio Mendes & The New Brazil '77",
+            "memo": "I'll take a bus or a train to get to love city. It's the only place I feel at home."
+        },
+        {
             "link":"https://music.apple.com/kr/album/shine-on/1443472586",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/45/7f/95457f02-b1d9-f198-c740-4aa5b2e2adc8/00075021481923.rgb.jpg/296x296bb.webp",
             "date":"2024.09.10",
             "artist": "L.T.D.",
             "name": "Shine On",
-            "memo": "후...코드 전환이 예술.."
+            "memo": "코드 전환이 예술.."
         },
         {
             "link":"https://music.apple.com/kr/album/light-of-worlds/1443798401",
@@ -334,7 +358,7 @@
             "date":"2024.01.09",
             "artist": "Lady Gaga",
             "name": "The Fame",
-            "memo": "중학생때 난생 처음 산 앨범. 크,,, 나의 안목 @,,@"
+            "memo": "중학생때 난생 처음 산 앨범.."
         }        
     ]
 }

@@ -10,6 +10,15 @@ meta:
 tags: ["react"]
 next: ./day2.md
 ---
+# 리액트를다루는기술
+
+- `리액트 환경설정`
+- [라이프사이클 메서드](./day2.md)
+- [Hooks](./day3.md)
+- [컴포넌트 스타일링](./day4.md)
+- [todo실습 - 환경구성, 불변성, react-virtualized](./day5.md)
+- [라우터](./day6.md)
+- [axios](./day7.md)
 
 # {{ $frontmatter.title }}
 

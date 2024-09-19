@@ -2,7 +2,7 @@
 title: 라이프사이클 메서드
 lang: ko-KR
 date: 2023/12/11 10:00:00
-lastUpdated: 2023/12/11 10:00:00
+lastUpdated: 2023/12/12 10:00:00
 description: 리액트 라이프사이클 메서드
 meta:
   - name: 리액트 라이프사이클 메서드
@@ -11,6 +11,14 @@ tags: ["react"]
 prev: ./day1.md
 next: ./day3.md
 ---
+# 리액트를다루는기술
+- [환경세팅](./day1.md)
+- `라이프사이클 메서드`
+- [Hooks](./day3.md)
+- [컴포넌트 스타일링](./day4.md)
+- [todo실습 - 환경구성, 불변성, react-virtualized](./day5.md)
+- [라우터](./day6.md)
+- [axios](./day7.md)
 
 # {{ $frontmatter.title }}
 

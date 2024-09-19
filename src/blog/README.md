@@ -1,3 +1,24 @@
+---
+heroText: blog
+description: music, movie, series ect...
+home: true
+---
+
+<div class="features">
+  <div class="feature">
+    <h2>Music</h2>
+    <a href="/blog/music/2024">Music of the year</a>
+  </div>
+  <div class="feature">
+    <h2>Movie</h2>
+    <a href="/blog/movie/2024">Movie of the year</a>
+  </div>
+  <div class="feature">
+    <h2>Series</h2>
+    <a href="/blog/series/2024">Series of the year</a>
+  </div>
+</div>
+
 # Album Timeline
 
 #### jukebox    

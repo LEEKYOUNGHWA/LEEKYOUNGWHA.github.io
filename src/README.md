@@ -8,15 +8,15 @@ heroImage: /logo.jpg
 <div class="features">
   <div class="feature">
     <h2>TIL</h2>
-    <a href="/posts">what i've learned</a>
+    <a href="/posts">Today I Learned</a>
   </div>
   <div class="feature">
     <h2>study</h2>
-    <a href="/study">read cs books, taken online courses</a>
+    <a href="/study">books, online courses</a>
   </div>
   <div class="feature">
-    <h2>diary</h2>
-    <a href="/diary">music, movie, etc</a>
+    <h2>blog</h2>
+    <a href="/blog">music, movie, etc</a>
   </div>
   <div class="feature">
     <h2>tagList</h2>

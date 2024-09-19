@@ -1,9 +1,30 @@
-# study log.
+---
+title: posts
+lang: ko-KR
+date: 2023/12/22 10:00:00
+heroText: study
+description: cs books, online courses
+home: true
+---
 
-## 2024.03.12
+<template v-for="page in posts">
+  <h4>{{page.frontmatter.lastUpdated}}</h4>
+  <h2><router-link :to="{ path: page.path}">{{page.title}}</router-link></h2>
+</template>
 
-스프링 입문을 위한 자바 객체 지향의 원리와 이해 - 디자인패턴
-
-## 2024.01.25
-
-스프링 입문을 위한 자바 객체 지향의 원리와 이해
+<script>
+export default {
+  computed: {
+    posts() {
+      let posts = []
+      for (let page of this.$site.pages) {
+        if ( page.relativePath.startsWith("study")) {
+          posts.push(page)
+        }
+      }
+      posts = posts.sort((a,b)=> new Date(b.frontmatter.lastUpdated) - new Date(a.frontmatter.lastUpdated))
+      return posts
+    }
+  },
+}
+</script>
