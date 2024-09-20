@@ -2,11 +2,19 @@
     "year2024" :  [
         {
             "link":"https://www.imdb.com/title/tt0259711/?ref_=nm_knf_t_3",
+            "img":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+            "name": "다크 나이트 3부작",
+            "memo": "요런시점에 떠서 명절맞이 정주행",
+            "star": 4,
+            "date": "2024.09.17"
+        },
+        {
+            "link":"https://www.imdb.com/title/tt0259711/?ref_=nm_knf_t_3",
             "img":"https://m.media-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
             "name": "바닐라스카이",
             "memo": "누가 내 최애 영화가 뭔지 물어봐서,, 이거 진짜 뻥안치고 100번 봄",
             "star": 10,
-            "date": ""
+            "date": "2024.09.08"
         },
         {
             "link":"https://www.imdb.com/title/tt9586294/?ref_=nv_sr_srsg_0",

@@ -1,12 +1,60 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/off-the-wall/186166282",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/b0/7f/ccb07f0d-1530-00b0-244a-6332daffc2b9/dj.xnuhftrz.jpg/316x316bb.webp",
+            "date":"2024.09.20",
+            "artist": "Michael Jackson",
+            "name": "Off the Wall",
+            "memo": "애플뮤직 보관함 정리 66666666. 내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범. 스릴러보다 더"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/for-the-bloom/1337583738",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c7/15/ee/c715ee8d-ab5d-3bbe-f697-291fe8e90c85/8806197904600.jpg/316x316bb.webp",
+            "date":"2024.09.20",
+            "artist": "거미",
+            "name": "For the Bloom",
+            "memo": "애플뮤직 보관함 정리 555555. 1,2,3집 다 명반이긴 한데 3집 수록곡이 도라방스"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/risqu%C3%A9/300994537",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ee/42/b1/ee42b16b-4d85-3adc-152e-5e4445214f6a/075678040627.jpg/296x296bb.webp",
+            "date":"2024.09.20",
+            "artist": "Chic",
+            "name": "Risqué",
+            "memo": "애플뮤직 보관함 정리 44444444. 나일 로저스 역작...... (내기준)"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/i-am/523223720",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/3a/61/58/3a615815-601e-a1fa-36d4-a0c7cdd3f548/Job2ccba1e0-1094-490e-8174-6dc894283e5d-169589700-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_330079911_1796287129-Time1717690955718.png/316x316bb.webp",
+            "date":"2024.09.20",
+            "artist": "Earth, Wind & Fire",
+            "name": "I Am",
+            "memo": "애플뮤직 보관함 정리 33333. 지루함의 반대말이 있다면 이 앨범이 아닐까,,,, 내 러닝메이트중 하나"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/parcels/1420157166",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/83/80/45/83804592-d6b6-2289-8cbf-57ba91496613/5060525437427_cover.jpg/316x316bb.webp",
+            "date":"2024.09.20",
+            "artist": "Parcels",
+            "name": "Parcels",
+            "memo": "애플뮤직 보관함 정리 2222. Time to lighten up! 한때 내 알람"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/city-slicker-ep/1564305258",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/db/16/01/db1601fc-4868-82d7-939b-43cdb06fde0e/3663729156433_cover.jpg/316x316bb.webp",
+            "date":"2024.09.20",
+            "artist": "Ginger Root",
+            "name": "City Slicker - EP",
+            "memo": "애플뮤직 보관함 정리, 4월쯤인가... 이사하고 많이 들었었음"
+        },
+        {
             "link":"https://music.apple.com/kr/album/pulsar/1736766809",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/19/47/fc/1947fcd3-c0de-53ec-4bfb-f64ff4eeb80d/3663729305145_cover.jpg/316x316bb.webp",
             "date":"2024.09.19",
             "artist": "L'Impératrice",
             "name": "Pulsar",
-            "memo": "마이너 업그레이드"
+            "memo": "다프트펑크가 프라다라면 얘넨 미우미우"
         },
         {
             "link":"https://music.apple.com/kr/album/tako-tsubo-extended/1711063990",
@@ -62,7 +110,7 @@
             "date":"2024.09.06",
             "artist": "Niteflyte",
             "name": "Niteflyte",
-            "memo": "타워 화장실에서 나오던 노래"
+            "memo": "I wonder if I'm falling in love again"
         },
         {
             "link":"https://music.apple.com/kr/album/discovery/697194953",
