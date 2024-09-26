@@ -1,12 +1,36 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/damn/1440881047",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/86/c9/bb/86c9bb30-fe3d-442e-33c1-c106c4d23705/17UMGIM88776.rgb.jpg/296x296bb.webp",
+            "date":"2024.09.26",
+            "artist": "Kendrick Lamar",
+            "name": "DAMN.",
+            "memo": "퓰리처상"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/color-your-soul/1699800902",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4e/b2/a8/4eb2a8da-d424-c195-a5e2-f77bb1153585/8804775021275.jpg/296x296bb.webp",
+            "date":"2024.09.24",
+            "artist": "클래지콰이",
+            "name": "Color Your Soul",
+            "memo": "아쉬운건 앨범커버뿐..."
+        },
+        {
+            "link":"https://music.apple.com/kr/album/greatest-hits/1422700835",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d8/cf/d0/d8cfd065-a14c-ca7c-1507-8fedc26fa77f/14UMGIM42816.rgb.jpg/316x316bb.webp",
+            "date":"2024.09.23",
+            "artist": "Queen",
+            "name": "Greatest Hits",
+            "memo": "영국에서 가장 많이 팔린 앨범. 존투 러닝과 함께"
+        },
+        {
             "link":"https://music.apple.com/kr/album/off-the-wall/186166282",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/cc/b0/7f/ccb07f0d-1530-00b0-244a-6332daffc2b9/dj.xnuhftrz.jpg/316x316bb.webp",
             "date":"2024.09.20",
             "artist": "Michael Jackson",
             "name": "Off the Wall",
-            "memo": "애플뮤직 보관함 정리 66666666. 내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범. 스릴러보다 더"
+            "memo": "애플뮤직 보관함 정리6. 내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범. 스릴러보다 더"
         },
         {
             "link":"https://music.apple.com/kr/album/for-the-bloom/1337583738",
@@ -14,7 +38,7 @@
             "date":"2024.09.20",
             "artist": "거미",
             "name": "For the Bloom",
-            "memo": "애플뮤직 보관함 정리 555555. 1,2,3집 다 명반이긴 한데 3집 수록곡이 도라방스"
+            "memo": "애플뮤직 보관함 정리5. 1,2,3집 다 명반이긴 한데 3집 수록곡이 도라방스"
         },
         {
             "link":"https://music.apple.com/kr/album/risqu%C3%A9/300994537",
@@ -22,7 +46,7 @@
             "date":"2024.09.20",
             "artist": "Chic",
             "name": "Risqué",
-            "memo": "애플뮤직 보관함 정리 44444444. 나일 로저스 역작...... (내기준)"
+            "memo": "애플뮤직 보관함 정리4. 나일 로저스 역작...... (내기준)"
         },
         {
             "link":"https://music.apple.com/kr/album/i-am/523223720",
@@ -30,7 +54,7 @@
             "date":"2024.09.20",
             "artist": "Earth, Wind & Fire",
             "name": "I Am",
-            "memo": "애플뮤직 보관함 정리 33333. 지루함의 반대말이 있다면 이 앨범이 아닐까,,,, 내 러닝메이트중 하나"
+            "memo": "애플뮤직 보관함 정리3. 지루함의 반대말이 있다면 이 앨범이 아닐까,,,, 내 러닝메이트중 하나"
         },
         {
             "link":"https://music.apple.com/kr/album/parcels/1420157166",
@@ -38,7 +62,7 @@
             "date":"2024.09.20",
             "artist": "Parcels",
             "name": "Parcels",
-            "memo": "애플뮤직 보관함 정리 2222. Time to lighten up! 한때 내 알람"
+            "memo": "애플뮤직 보관함 정리2. Time to lighten up! 한때 내 알람"
         },
         {
             "link":"https://music.apple.com/kr/album/city-slicker-ep/1564305258",
