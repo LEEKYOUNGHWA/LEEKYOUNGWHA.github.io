@@ -1,4 +1,6 @@
-# Crossfit terms
+# Crossfit
+
+## Crossfit terms
 
 <toastGrid 
     v-bind:data = "[
@@ -11,13 +13,13 @@
         { 
             name: 'AMRAP',
             fullname: 'As Many Rounds/Reps As Possible',
-            korean: '암랩/앰랩',
+            korean: '앰랩',
             desc: '주어진 시간 안에 가능한 많은 라운드 수행하기'
         },
         { 
             name: 'EMOM',
             fullname: 'Every Minute On the Minute',
-            korean: '이맘/이엠오엠',
+            korean: '이엠오엠',
             desc: '1분마다 정해진 동작 수행하기'
         },
         { 
@@ -63,16 +65,28 @@
             desc: '짝수 분(minute)'
         },
         { 
+            name: 'Scale',
+            fullname: '',
+            korean: '스케일',
+            desc: '난이도 조절'
+        },
+        { 
             name: 'Rx\'d',
             fullname: '',
             korean: '알엑스디',
             desc: '주어진 WOD를 스케일링 없이 그대로 해내는것'
         },
         { 
-            name: 'Scale',
-            fullname: '',
+            name: 'RPE',
+            fullname: 'Rate of Perceived Exertion',
             korean: '',
-            desc: '스케일링'
+            desc: '주관적인 느낌으로 운동의 강도를 정하는 것(1~10)'
+        },
+        { 
+            name: 'Metcon',
+            fullname: 'Metabolic Conditioning',
+            korean: '메트콘',
+            desc: '대사 경로의 효율성을 향상시키는 모든 운동'
         },
     ]"
     v-bind:columns = "[
@@ -108,3 +122,8 @@
         },
     }"
 />
+
+
+## Girl’s name wod, the girls
+
+![image](~@image/2024/theGirls.png)

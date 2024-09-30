@@ -30,7 +30,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .subhome
   padding 0
   max-width $homePageWidth

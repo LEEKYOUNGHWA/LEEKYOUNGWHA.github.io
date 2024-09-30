@@ -8,7 +8,27 @@ meta:
   - name: vuepress toast-ui grid
     content: vuepress toast-ui grid
 tags: ["vuepress"]
+image2: /img/logo2.jpg
 ---
+ 
+<img
+    v-if="data.image2"
+    :src="$withBase(data.image2)"
+    :alt="data.image2 || 'hero'"
+    >
+
+<script>
+export default {
+  name: 'Home',
+  computed: {
+    data () {
+      return this.$page.frontmatter
+    },
+  }
+}
+</script>
+
+
 
 # {{ $frontmatter.title }}
 
@@ -147,7 +167,3 @@ window.global ||= window;
 `src\.vuepress\components\toastGrid.vue`
 
 <Gist gistId="ad76ab3dc136bb5720b91f2510696238" file="toastGrid.vue"/>
-
-
-
-

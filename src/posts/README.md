@@ -4,12 +4,11 @@
       <h1>TIL</h1>
       <p class="description">Today I Learned</p>
     </header>
+    <template v-for="page in posts">
+      <h5>{{page.frontmatter.lastUpdated}}</h5>
+      <h3><router-link :to="{ path: page.path}">{{page.title}}</router-link></h3>
+    </template>
   </main>
-</template>
-
-<template v-for="page in posts">
-  <h5>{{page.frontmatter.lastUpdated}}</h5>
-  <h3><router-link :to="{ path: page.path}">{{page.title}}</router-link></h3>
 </template>
 
 <script>
@@ -29,7 +28,7 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 .subhome
   padding 0
   max-width $homePageWidth
@@ -51,55 +50,9 @@ export default {
       font-size 1.6rem
       line-height 1.3
       color lighten($textColor, 40%)
-    .action-button
-      display inline-block
-      font-size 1.2rem
-      color #fff
-      background-color $accentColor
-      padding 0.8rem 1.6rem
-      border-radius 4px
-      transition background-color .1s ease
-      box-sizing border-box
-      border-bottom 1px solid darken($accentColor, 10%)
-      &:hover
-        background-color lighten($accentColor, 10%)
-  .features
-    border-top 1px solid $borderColor
-    padding 1.2rem 0
-    margin-top 2.5rem
-    display flex
-    flex-wrap wrap
-    align-items flex-start
-    align-content stretch
-    justify-content space-between
-  .feature
-    flex-grow 1
-    flex-basis 30%
-    max-width 30%
-    h2
-      font-size 1.4rem
-      font-weight 500
-      border-bottom none
-      padding-bottom 0
-      color lighten($textColor, 10%)
-    p
-      color lighten($textColor, 25%)
-  .footer
-    padding 2.5rem
-    border-top 1px solid $borderColor
-    text-align center
-    color lighten($textColor, 25%)
-
-@media (max-width: $MQMobile)
-  .home
-    .features
-      flex-direction column
-    .feature
-      max-width 100%
-      padding 0 2.5rem
 
 @media (max-width: $MQMobileNarrow)
-  .home
+  .subhome
     padding-left 1.5rem
     padding-right 1.5rem
     .hero
@@ -112,10 +65,4 @@ export default {
         margin 1.2rem auto
       .description
         font-size 1.2rem
-      .action-button
-        font-size 1rem
-        padding 0.6rem 1.2rem
-    .feature
-      h2
-        font-size 1.25rem
 </style>
