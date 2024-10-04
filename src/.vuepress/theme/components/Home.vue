@@ -17,16 +17,16 @@
         {{ data.heroText || $title || 'Hello' }}
       </h1>
 
-      <vue-typed-js :strings="[ data.tagline || $description || 'Welcome to your VuePress site' ]">
+      <!-- <vue-typed-js :strings="[ data.tagline || $description || 'Welcome to your VuePress site' ]">
         <p v-if="data.tagline !== null" class="typing description"></p>
-      </vue-typed-js>
+      </vue-typed-js> -->
 
-      <!-- <p
+      <p
         v-if="data.tagline !== null"
         class="description"
       >
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p> -->
+      </p>
 
       <p
         v-if="data.actionText && data.actionLink"

@@ -1,10 +1,11 @@
 <template>
   <div>
     <div class="subhome">
-        <h1>{{title}}</h1>
-        <vue-typed-js :strings="[desc]">
+        <h1>{{ title }}</h1>
+        <p>{{ desc }}</p>
+        <!-- <vue-typed-js :strings="[desc]">
           <p class="typing description"></p>
-        </vue-typed-js>
+        </vue-typed-js> -->
     </div>
 
     <template v-for="page in posts" >
