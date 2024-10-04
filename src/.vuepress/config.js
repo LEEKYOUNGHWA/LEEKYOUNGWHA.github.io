@@ -58,6 +58,7 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    "img-lazy",
     "flowchart",
     "vuepress-plugin-mermaidjs",
     "vuepress-plugin-chart",

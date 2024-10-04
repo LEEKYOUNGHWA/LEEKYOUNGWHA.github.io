@@ -10,25 +10,6 @@ meta:
 tags: ["vuepress"]
 image2: /img/logo2.jpg
 ---
- 
-<img
-    v-if="data.image2"
-    :src="$withBase(data.image2)"
-    :alt="data.image2 || 'hero'"
-    >
-
-<script>
-export default {
-  name: 'Home',
-  computed: {
-    data () {
-      return this.$page.frontmatter
-    },
-  }
-}
-</script>
-
-
 
 # {{ $frontmatter.title }}
 

@@ -2,7 +2,7 @@
 title: vuepress 블로그 마크다운
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2023/01/01 00:00:00
+lastUpdated: 2023/01/01 00:00:01
 description: 마크다운 문법 vuepress 블로그용 정리
 meta:
   - name: 마크다운 블로그용

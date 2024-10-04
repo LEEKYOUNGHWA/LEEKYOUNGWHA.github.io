@@ -2,7 +2,7 @@
 title: vuepress 블로그 플러그인 정리
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2022/01/01 00:00:00
+lastUpdated: 2024/10/04 16:50:00
 description: vuepress플러그인들 정리
 meta:
   - name: vuepress
@@ -20,15 +20,18 @@ tags: ["vuepress"]
 이름이 조악한 애들은 나중에 뭐때문에 설치했는지 가물가물....
 
 ```js
+// package.json
 "dependencies": {
+    "@toast-ui/vue-grid": "^4.21.22", // 토스트 그리드
+    "axios": "^1.7.5", // axios
     "esm": "^3.0.0", // vuepress-plugin-sitemap 의존
     "json-fn": "^1.1.1", // vuepress-plugin-chart 의존
-    "vuepress": "^1.9.10", // 기본
     "vue-jsonp": "^2.0.0", // gist 삽입 개발하면서 추가
-    "json-fn": "^1.1.1",
-    "vuepress": "^1.9.10",
+    "vue-typed-js": "^0.1.2", // 타이핑효과
+    "vuepress": "^1.9.10", // 기본
     "vuepress-plugin-chart": "^0.3.0", // 차트
     "vuepress-plugin-flowchart": "^1.5.0", // 플로우차트
+    "vuepress-plugin-img-lazy": "^1.0.4", // image lazy loading
     "vuepress-plugin-mermaidjs": "^1.9.1", // 머메이드
     "vuepress-plugin-seo": "^0.1.4", // seo 메타생성
     "vuepress-plugin-sitemap": "^2.3.1" // 사이트맵
@@ -36,6 +39,12 @@ tags: ["vuepress"]
 ```
 
 - [official plugins(참고용)](https://github.com/vuepress/awesome-vuepress/blob/main/v1.md#official-plugins)
+
+## vue-typed-js 
+[vue-typed-js ](https://github.com/colwilson/vuepress-examples/blob/master/demos/plugins/README.md)
+
+## vuepress-plugin-img-lazy
+[vuepress-plugin-img-lazy](https://github.com/tolking/vuepress-plugin-img-lazy?tab=readme-ov-file)
 
 ## vuepress-plugin-mermaidjs
 
@@ -212,6 +221,5 @@ Sitemap: https://leekyounghwa.github.io/sitemap.xml
 설정 완료!
 
 구글에 노출되기 까지 하루나 이틀 걸리는거 같다. 인내심을 가지고 기다리자.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY4MjMyNzRdfQ==
--->
+
+![searchconsole](~@image/2024/searchconsole.jpg)

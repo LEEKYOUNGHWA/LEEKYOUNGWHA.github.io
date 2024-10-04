@@ -1,5 +1,13 @@
 {
-    "album" :  [ 
+    "album" :  [
+        {
+            "link":"https://music.apple.com/kr/album/into-you/1704790014",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/77/a1/d7/77a1d717-f054-3284-69b9-ad95a60b98ef/4580789570858.png/316x316bb.webp",
+            "date":"2024.10.04",
+            "artist": "Incognito",
+            "name": "Into You",
+            "memo": "애시드 재즈"
+        },
         {
             "link":"https://music.apple.com/kr/album/survival/158513207",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3b/b4/db/3bb4db1b-7bea-8002-b406-290134029f13/mzi.kmyiltxe.jpg/296x296bb.webp",

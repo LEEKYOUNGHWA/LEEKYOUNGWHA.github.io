@@ -1,8 +1,24 @@
 {
     "year2024" :  [
         {
+            "link":"https://www.imdb.com/title/tt11315808/?ref_=tt_mv_close",
+            "img":"https://search.pstatic.net/common?type=o&size=176x264&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20240820_178%2F1724133122047df9TH_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2",
+            "name": "비긴 어게인",
+            "memo": "재개봉",
+            "star": 4,
+            "date": "2024.10.03"
+        },
+        {
+            "link":"https://www.imdb.com/title/tt11315808/?ref_=tt_mv_close",
+            "img":"https://search.pstatic.net/common?type=o&size=174x242&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20240919_160%2F17267100850257nicf_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2",
+            "name": "조커: 폴리 아 되",
+            "memo": "씁....",
+            "star": 2,
+            "date": "2024.10.01"
+        },
+        {
             "link":"https://www.imdb.com/title/tt0259711/?ref_=nm_knf_t_3",
-            "img":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+            "img":"https://search.pstatic.net/common?type=o&size=176x264&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20200622_64%2F15927889581932gf40_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2",
             "name": "다크 나이트 3부작",
             "memo": "요런시점에 떠서 명절맞이 정주행",
             "star": 4,
@@ -39,6 +55,22 @@
             "memo": "나, 휴잭맨 엑스맨, 로건, 데드풀, 매드맥스, 로키, 어벤져스 시리즈를 섭렵하였으나 영화관에서 꿀잠 잤음",
             "star": 2,
             "date": "2024.07.30"
-        }        
+        },
+        {
+            "link":"https://www.imdb.com/title/tt31624258/?ref_=nv_sr_srsg_7_tt_7_nm_0_in_0_q_Hijack",
+            "img":"https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20240705_147%2F1720142916385Hwze0_JPEG%2Fmovie_image.jpg",
+            "name": "하이재킹",
+            "memo": "킬링타임...",
+            "star": 2,
+            "date": "2024.07.07"
+        },
+        {
+            "link":"https://www.imdb.com/title/tt15239678/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_dune",
+            "img":"https://search.pstatic.net/common?type=o&size=176x264&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20240207_151%2F1707288437263gBsdd_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2",
+            "name": "듄: 파트2",
+            "memo": "티모시 샬라메",
+            "star": 3,
+            "date": "2024.03.28"
+        }       
     ]
 }

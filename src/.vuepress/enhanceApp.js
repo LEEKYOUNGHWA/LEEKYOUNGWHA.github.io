@@ -3,6 +3,8 @@
  *
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
+import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy'
+import VueTypedJs from 'vue-typed-js'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -11,4 +13,9 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
+  Vue.component(ImgLazy.name, ImgLazy)
+  
+  if (typeof process === 'undefined') { // process is undefined in a browser         
+    Vue.use(VueTypedJs)
+  }
 }
