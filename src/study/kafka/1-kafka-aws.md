@@ -1,3 +1,8 @@
+---
+lastUpdated: 2024/10/07 14:56:00
+image: https://kafka.apache.org/logos/kafka_logo--simple.png
+---
+
 # 실습용 카프카 브로커 설치
 
 ## AWS EC2 인스턴스 발급 및 보안 설정
@@ -35,7 +40,7 @@ aws에서 카프카를 구축할 수 있는 방법은 크게 두가지가 있다
 
 ## 인스턴스 접속하기
 
-1. test-kafka-server-key.pem 파일을 -i 명령어로 읽어오기 위해 유저 권한 변경 (git bash 에서 실행)
+1. test-kafka-server-key.pem 파일을 -i 명령어로 읽어오기 위해 유저 권한 변경
 
 ```sh
 chmod 400 test-kafka-server-key.pem
@@ -133,17 +138,32 @@ jps -m
 tail -f logs/server.log
 ```
 
+![9](~@image/2024/kafka/8.png)
+
 ### 로컬 컴퓨터에서 카프카와 통신 확인
 
+> 로컬컴퓨터 cmd
+> ```
+> wsl --install
+> ```
+> 우분투 실행
+
+
 ```sh
-wsl --install # WSL 설치
 curl https://archive.apache.org/dist/kafka/2.5.0/kafka_2.12-2.5.0.tgz --output kafka.tgz
 tar -xvf kafka.tgz
 cd kafka_2.12-2.5.0
-doskey ls = dir # dir 명령어를 ls에 맵핑
 cd bin
 ls # 카프카 커맨드 라인 툴 확인
-bin/kafka-broker-api-versions.sh --bootstrap-server 3.21.129.47:9092
+./kafka-broker-api-versions.sh --bootstrap-server 3.21.129.47:9092
 ```
+
+![8](~@image/2024/kafka/8.png)
+
+
+
+
+
+
 
 

@@ -136,18 +136,18 @@ export default {
   }
   h3 
     a {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
     }
   p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .apple-music-img {
     width: 20px;
     height:20px;
   }
   .thumbnail {
-    width: 100px;
-    height:100px;
+    width: 90px;
+    height:90px;
     margin-left: 10px;
     margin-right: 15px;
   }

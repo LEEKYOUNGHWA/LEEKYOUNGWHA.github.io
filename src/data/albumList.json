@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/library/albums/l.RgDlqHA?l=ko",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/12/02/e5120236-aae7-fd46-b6f8-9e641e96c3f7/5054429007756.png/316x316bb.webp",
+            "date":"2024.10.07",
+            "artist": "Thundercat",
+            "name": "Drunk",
+            "memo": "Thunder Special Cat"
+        },
+        {
             "link":"https://music.apple.com/kr/album/into-you/1704790014",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/77/a1/d7/77a1d717-f054-3284-69b9-ad95a60b98ef/4580789570858.png/316x316bb.webp",
             "date":"2024.10.04",
