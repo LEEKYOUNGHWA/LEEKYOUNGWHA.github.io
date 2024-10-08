@@ -1,6 +1,7 @@
 ---
 lastUpdated: 2024/10/07 16:28:00
 image: https://kafka.apache.org/logos/kafka_logo--simple.png
+tags: ["kafka"]
 ---
 
 # 카프카 커맨드라인 툴

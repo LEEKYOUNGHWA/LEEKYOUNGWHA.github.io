@@ -1,6 +1,7 @@
 ---
 lastUpdated: 2024/10/07 14:56:00
 image: https://kafka.apache.org/logos/kafka_logo--simple.png
+tags: ["kafka"]
 ---
 
 # 실습용 카프카 브로커 설치

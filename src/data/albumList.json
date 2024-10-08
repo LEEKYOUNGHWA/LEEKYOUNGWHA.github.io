@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/slaughters-big-rip-off/1444200701",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0a/64/53/0a64538b-d1ad-89b6-e944-79c669e3d576/00731451713620.rgb.jpg/316x316bb.webp",
+            "date":"2024.10.08",
+            "artist": "James Brown",
+            "name": "Slaughter's Big Rip-Off",
+            "memo": "Bully Maguire"
+        },
+        {
             "link":"https://music.apple.com/kr/album/drunk/1197789099",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e5/12/02/e5120236-aae7-fd46-b6f8-9e641e96c3f7/5054429007756.png/316x316bb.webp",
             "date":"2024.10.07",
