@@ -61,9 +61,4 @@ F12 개발자도구 콘솔에서 아래와 같이 뜨면 성공
 >
 > 🎉 애널리틱스 계정에 표시되기까지 최대 24시간이 소요될 수 있습니다.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjczOTc3MCwtOTY1MzM3ODgxLDY3OD
-cxMzc1MSwtMTM1MDkwOTI4MCwxMDA1ODQwMzM5LDE5NDI4NjUz
-ODgsLTE5NzczNDE5NzYsMjA0Njc5NDM1NywtOTUxMDA2MTAyXX
-0=
--->
+![ga](~@image/2024/ga.png)

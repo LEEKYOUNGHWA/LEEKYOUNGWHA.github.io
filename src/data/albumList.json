@@ -1,11 +1,19 @@
 {
     "album" :  [
         {
-            "link":"https://music.apple.com/kr/album/slaughters-big-rip-off/1444200701",
-            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0a/64/53/0a64538b-d1ad-89b6-e944-79c669e3d576/00731451713620.rgb.jpg/316x316bb.webp",
+            "link":"https://music.apple.com/kr/album/friends/1590832349",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/fe/6b/fcfe6bb8-2b65-226a-4a3a-e6c3bd483bc0/4050538706628.jpg/316x316bb.webp",
+            "date":"2024.10.10",
+            "artist": "Shalamar",
+            "name": "Friends",
+            "memo": "하이파이 오디오룸에서 듣고 충격먹음.. 넘 좋아서.."
+        },
+        {
+            "link":"https://music.apple.com/kr/album/motherlode/1445099461",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cd/be/62/cdbe6287-c096-560b-5051-7e67d165ad6e/00602577173646.rgb.jpg/316x316bb.webp",
             "date":"2024.10.08",
             "artist": "James Brown",
-            "name": "Slaughter's Big Rip-Off",
+            "name": "Motherlode",
             "memo": "Bully Maguire"
         },
         {
@@ -86,7 +94,7 @@
             "date":"2024.09.20",
             "artist": "Earth, Wind & Fire",
             "name": "I Am",
-            "memo": "애플뮤직 보관함 정리3. 지루함의 반대말이 있다면 이 앨범이 아닐까,,,, 내 러닝메이트중 하나"
+            "memo": "애플뮤직 보관함 정리3. 지루함의 반대말이 있다면 이 앨범이 아닐까,,,,"
         },
         {
             "link":"https://music.apple.com/kr/album/parcels/1420157166",
