@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024/10/08 14:43:00
+lastUpdated: 2024/10/11 11:24:00
 image: https://kafka.apache.org/logos/kafka_logo--simple.png
 tags: ["kafka"]
 ---
@@ -45,4 +45,113 @@ lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-console-consumer.sh --bootstra
 > --topic stream_log_filter --from-beginning
 hellohello
 streams
+```
+
+## 스트림즈DSL - KTable과 KStream을 join()
+
+토픽 생성
+
+```sh
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-topics.sh --create --bootstrap-server my-kafka:9092 --partitions 3 --topic address
+Created topic address.
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-topics.sh --create --bootstrap-server my-kafka:9092 --partitions 3 --topic order
+Created topic order.
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-topics.sh --create --bootstrap-server my-kafka:9092 --partitions 3 --topic order_join
+Created topic order_join.
+```
+
+```java
+public class KStreamJoinTable {
+    private static String APLICATION_NAME = "order-join-application";
+    private static String BOOTSTRAP_SERVICES = "my-kafka:9092";
+    private static String ADDRESS_TABLE = "address";
+    private static String ORDER_STREAM = "order";
+    private static String ORDER_JOIN_STREAM = "order_join";
+
+    public static void main(String[] args) {
+
+        Properties props = new Properties();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, APLICATION_NAME);
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVICES);
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+
+        StreamsBuilder builder = new StreamsBuilder();
+        KTable<String, String> addressTable = builder.table(ADDRESS_TABLE);
+        KStream<String, String> orderStream = builder.stream(ORDER_STREAM);
+
+        orderStream.join(addressTable, (order, address) -> order + " send to " + address).to(ORDER_JOIN_STREAM);
+
+        KafkaStreams streams = new KafkaStreams(builder.build(), props);
+        streams.start();
+    }
+}
+```
+
+```sh
+bin/kafka-console-producer.sh --bootstrap-server my-kafka:9092 \
+> --topic address \
+> --property "parse.key=true" \
+> --property "key.separator=:"
+>wonyoung:jeju
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-console-producer.sh --bootstrap-server my-kafka:9092 \
+> --topic order \
+> --property "parse.key=true" \
+> --property "key.separator=:"
+>wonyoung:Tesla
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-console-consumer.sh --bootstrap-server my-kafka:9092 \
+--topic order_join --property print.key=true --property key.separator=":" --from-beginning
+wonyoung:Teslasend to jeju
+```
+
+## 스트림즈DSL - GlobalKTable과 KStream을 join()
+파티션 개수가 다른 2개의 토픽을 조인
+```sh
+# 파티션 2개인 토픽 생성
+bin/kafka-topics.sh --create --bootstrap-server my-kafka:9092 --partitions 2 --topic address_v2
+```
+
+```java
+public class KStreamJoinGlobalKTable {
+    private static String APPLICATION_NAME = "glbal-table-join-application";
+    private static String BOOTSTRAP_SERVERS = "my-kafka:9092";
+    private static String ADDRESS_GLOBAL_TABLE = "address_v2";
+    private static String ORDER_STREAM = "order";
+    private static String ORDER_JOIN_STREAM = "order-join";
+
+    public static void main(String[] args) {
+
+        Properties props = new Properties();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, APPLICATION_NAME);
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVERS);
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+
+        StreamsBuilder builder = new StreamsBuilder();
+        GlobalKTable<String,String> addressGlobalTable = builder.globalTable(ADDRESS_GLOBAL_TABLE);
+        KStream<String, String> orderStream = builder.stream(ORDER_STREAM);
+
+        orderStream.join(addressGlobalTable,
+                (orderKey, orderValue) -> orderKey, // GlobalKTable은 레코드를 매칭할 때 KStream의 메시지 키와 메시지 값 둘 다 사용할 수 있다. 여기서는 키와 매칭하도록 설정
+                (order,address) -> order + " send to " + address)
+                .to(ORDER_JOIN_STREAM);
+
+        KafkaStreams streams;
+        streams = new KafkaStreams(builder.build(), props);
+        streams.start();
+    }
+}
+```
+
+```sh
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-console-producer.sh --bootstrap-server my-kafka:9092 \
+> --topic address_v2 \
+> --property "parse.key=true" \
+> --property "key.separator=:"
+>wonyoung:Seoul
+>somin:Busan
+lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0$ bin/kafka-console-producer.sh --bootstrap-server my-kafka:9092 --topic order --prope
+rty "parse.key=true" --property "key.separator=:"
+>somin:Porsche
+>wonyoung:BMW
 ```
