@@ -7,17 +7,16 @@
           <p class="typing description"></p>
         </vue-typed-js> -->
     </div>
-
     <template v-for="page in posts" >
       <div class="container">
-          <router-link :to="{ path: page.path}">
-            <img-lazy class="thumbnail" :src="altImg(page.frontmatter.image)" />
-          </router-link>
-          <div class="blog-content">
-              <h5>lastUpdated: {{page.frontmatter.lastUpdated}}</h5>
-              <h3><router-link :to="{ path: page.path}">{{page.title}}</router-link></h3>
-              <p>{{page.frontmatter.description}}</p>
-          </div>
+        <router-link :to="{ path: page.path}" class="thumbnail-container">
+          <img-lazy class="thumbnail" :src="altImg(page.frontmatter.image)" />
+        </router-link>
+        <div class="blog-content">
+            <h5>lastUpdated: {{page.frontmatter.lastUpdated}}</h5>
+            <h3><router-link :to="{ path: page.path}">{{page.title}}</router-link></h3>
+            <p>{{page.frontmatter.description}}</p>
+        </div>
       </div>
       <h2></h2>
     </template>
@@ -61,7 +60,6 @@ export default {
           posts.push(page)
         }
       }
-      // console.log(posts)
       return posts.sort((a,b) => new Date(b.frontmatter.lastUpdated||'1999/10/04') - new Date(a.frontmatter.lastUpdated||'1999/10/04'))
     }
   },
@@ -93,18 +91,22 @@ export default {
     margin-top: 20px;
     scroll-margin-block-start: 70px;
   }
-  .apple-music-img {
-    width: 25px;
-    height:25px;
-  }
-  .thumbnail {
+  .thumbnail-container{
+    display: flex;
     object-fit: cover;
     cursor: pointer;
     width: 120px;
-    height:120px;
+    height: 120px;
     float: left;
     margin-left: 30px;
     margin-right: 30px;
+  }
+  .thumbnail {
+    max-height: 120px;
+    vertical-align:middle;
+    margin: auto;
+    width: auto;
+    height:auto;
   }
   .blog-content {
     flex: 2;
@@ -141,15 +143,20 @@ export default {
   p {
     font-size: 0.8rem;
   }
-  .apple-music-img {
-    width: 20px;
-    height:20px;
-  }
-  .thumbnail {
+  .thumbnail-container{
+    display: flex;
+    object-fit: cover;
+    cursor: pointer;
     width: 90px;
-    height:90px;
+    height: 90px;
+    float: left;
     margin-left: 10px;
     margin-right: 15px;
+  }
+  .thumbnail {
+    width: auto;
+    height:auto;
+    max-height: 90px;
   }
   .subhome
     text-align center

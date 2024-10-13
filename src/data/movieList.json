@@ -1,6 +1,14 @@
 {
     "year2024" :  [
         {
+            "link":"https://www.imdb.com/title/tt0109830/?ref_=nm_flmg_knf_i_3",
+            "img":"https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20160901_187%2F1472711688297YP2jH_JPEG%2Fmovie_image.jpg",
+            "name": "포레스트 검프",
+            "memo": "우리에게 운명이란게 있는건지 아니면 모두 바람처럼 떠다니는건지 내생각엔 둘다 맞는 것 같아",
+            "star": 5,
+            "date": "2024.10.13"
+        },
+        {
             "link":"https://www.imdb.com/title/tt11315808/?ref_=tt_mv_close",
             "img":"https://search.pstatic.net/common?type=o&size=176x264&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20240820_178%2F1724133122047df9TH_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2",
             "name": "비긴 어게인",

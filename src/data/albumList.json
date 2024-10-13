@@ -1,6 +1,22 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/the-lucky-one/1701715813",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/52/ec/fc52ec41-c563-8a10-02e0-ec40fb6882cc/artwork.jpg/316x316bb.webp",
+            "date":"2024.10.13",
+            "artist": "Cory Wong",
+            "name": "The Lucky One",
+            "memo": "띵반 발견,, 다른 앨범도 다 좋음 다들어봐야지이이"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/wild-cherry/198226103",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/af/f6/0c/aff60ca6-7385-e47d-7681-e5f73910665c/mzi.fjlfxpyy.jpg/316x316bb.webp",
+            "date":"2024.10.12",
+            "artist": "Wild Cherry",
+            "name": "Wild Cherry",
+            "memo": "다시 들어도 좋쿤,,"
+        },
+        {
             "link":"https://music.apple.com/kr/album/friends/1590832349",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/fe/6b/fcfe6bb8-2b65-226a-4a3a-e6c3bd483bc0/4050538706628.jpg/316x316bb.webp",
             "date":"2024.10.10",
