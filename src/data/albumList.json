@@ -1,12 +1,44 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/the-tk-years/693638730",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/e4/f9/cb/e4f9cbf5-cc61-055c-58c7-23b8a019b042/5099926790657.jpg/316x316bb.webp",
+            "date":"2024.10.16",
+            "artist": "KC and the Sunshine Band",
+            "name": "The TK Years",
+            "memo": "아침에 일어나자마자 머리에 멤돔.. do a little dance Make a little love Get down tonight, get down tonight!"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/back-in-black/574050396",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1e/14/58/1e145814-281a-58e0-3ab1-145f5d1af421/886443673441.jpg/316x316bb.webp",
+            "date":"2024.10.15",
+            "artist": "AC/DC",
+            "name": "Back In Black",
+            "memo": "오늘 왤케 졸리냐 암것도 하기 싫다"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/welcome-home/1687122836",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/d0/8f/e6/d08fe6c1-1a6c-0a7d-581d-a0603c16f708/Job1d3a0794-3787-495e-a1c2-7fa4f8e69dc6-153436656-PreviewImage_preview_image_nonvideo_sdr-Time1690477517042.png/316x316bb.webp",
+            "date":"2024.10.14",
+            "artist": "Gareth Donkin",
+            "name": "Welcome Home",
+            "memo": "Off the Wall 1티스푼"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/no-more-lies-single/1679528051",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e1/32/38e1324d-bf85-837a-fae0-bfe9578a4849/5054429174557.png/316x316bb.webp",
+            "date":"2024.10.14",
+            "artist": "Thundercat, Tame Impala" ,
+            "name": "No More Lies - Single",
+            "memo": "노래가 마약같네.... 둘이 앨범 하나 내줬으면"
+        },
+        {
             "link":"https://music.apple.com/kr/album/the-lucky-one/1701715813",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/52/ec/fc52ec41-c563-8a10-02e0-ec40fb6882cc/artwork.jpg/316x316bb.webp",
             "date":"2024.10.13",
             "artist": "Cory Wong",
             "name": "The Lucky One",
-            "memo": "띵반 발견,, 다른 앨범도 다 좋음 다들어봐야지이이"
+            "memo": "띵반 발견"
         },
         {
             "link":"https://music.apple.com/kr/album/wild-cherry/198226103",
@@ -86,7 +118,7 @@
             "date":"2024.09.20",
             "artist": "Michael Jackson",
             "name": "Off the Wall",
-            "memo": "애플뮤직 보관함 정리6. 내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범. 스릴러보다 더"
+            "memo": "내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범"
         },
         {
             "link":"https://music.apple.com/kr/album/for-the-bloom/1337583738",
@@ -94,7 +126,7 @@
             "date":"2024.09.20",
             "artist": "거미",
             "name": "For the Bloom",
-            "memo": "애플뮤직 보관함 정리5. 1,2,3집 다 명반이긴 한데 3집 수록곡이 도라방스"
+            "memo": "1,2,3집 다 명반이긴 한데 3집 수록곡이 도라방스"
         },
         {
             "link":"https://music.apple.com/kr/album/risqu%C3%A9/300994537",
@@ -102,7 +134,7 @@
             "date":"2024.09.20",
             "artist": "Chic",
             "name": "Risqué",
-            "memo": "애플뮤직 보관함 정리4. 나일 로저스 역작...... (내기준)"
+            "memo": "나일 로저스 역작...... (내기준)"
         },
         {
             "link":"https://music.apple.com/kr/album/i-am/523223720",
@@ -110,7 +142,7 @@
             "date":"2024.09.20",
             "artist": "Earth, Wind & Fire",
             "name": "I Am",
-            "memo": "애플뮤직 보관함 정리3. 지루함의 반대말이 있다면 이 앨범이 아닐까,,,,"
+            "memo": "지루함의 반대말이 있다면 이 앨범이 아닐까,,,,"
         },
         {
             "link":"https://music.apple.com/kr/album/parcels/1420157166",
@@ -118,7 +150,7 @@
             "date":"2024.09.20",
             "artist": "Parcels",
             "name": "Parcels",
-            "memo": "애플뮤직 보관함 정리2. Time to lighten up! 한때 내 알람"
+            "memo": "Time to lighten up! 한때 내 알람"
         },
         {
             "link":"https://music.apple.com/kr/album/city-slicker-ep/1564305258",
@@ -126,7 +158,7 @@
             "date":"2024.09.20",
             "artist": "Ginger Root",
             "name": "City Slicker - EP",
-            "memo": "애플뮤직 보관함 정리, 4월쯤인가... 이사하고 많이 들었었음"
+            "memo": "4월쯤인가... 이사하고 많이 들었었음"
         },
         {
             "link":"https://music.apple.com/kr/album/pulsar/1736766809",

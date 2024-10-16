@@ -155,3 +155,58 @@ rty "parse.key=true" --property "key.separator=:"
 >somin:Porsche
 >wonyoung:BMW
 ```
+
+## 프로세서 API
+
+토폴로지 기준으로 데이터를 처리한다는 관점에서 스트림즈DSL과 동일한 역할. 상세 로직의 구현이 필요하다면 프로세서 API를 활용한다. 프로세서 API에는 KStream, KTable, GlobalKTable 개념이 없다.
+
+```java
+public class FilterProcessor implements Processor<String, String> {
+
+    private ProcessorContext context;
+
+    @Override
+    public void init(ProcessorContext context) {
+        this.context = context;
+    }
+
+    @Override
+    public void process(String key, String value) {
+        if(value.length()>5) {
+            context.forward(key,value);
+        }
+        context.commit();
+    }
+
+    @Override
+    public void close() {
+
+    }
+}
+```
+```java
+public class SimpleKafkaProcessor {
+
+    private static String APPLICATION_NAME = "processor-application";
+    private static String BOOTSTRAP_SERVERS = "my-kafka:9092";
+    private static String STREAM_LOG = "stream_log";
+    private static String STREAM_LOG_FILTER = "stream_log_filter";
+
+    public static void main(String[] args) {
+        Properties props = new Properties();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, APPLICATION_NAME);
+        props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, BOOTSTRAP_SERVERS);
+        props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+
+        Topology topology = new Topology();
+        topology.addSource("Source", STREAM_LOG)
+                .addProcessor("Process", () -> new FilterProcessor(),"Source")
+                .addSink("Sink", STREAM_LOG_FILTER, "Process");
+
+        KafkaStreams streaming = new KafkaStreams(topology,props);
+        streaming.start();
+
+    }
+}
+```
