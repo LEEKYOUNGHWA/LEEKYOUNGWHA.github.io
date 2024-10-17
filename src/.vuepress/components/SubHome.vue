@@ -72,101 +72,100 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  h5, h3, h4, p {
-    margin-top: 1px;
-    margin-bottom: 10px;
-  }
-  h3, p {
-    display: -webkit-box
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  p {
-    font-size: 0.8em;
-  }
-  .container {
-    display: flex;
-    margin-top: 20px;
-    scroll-margin-block-start: 70px;
-  }
-  .thumbnail-container{
-    display: flex;
-    object-fit: cover;
-    cursor: pointer;
-    width: 120px;
-    height: 120px;
-    float: left;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  .thumbnail {
-    max-height: 120px;
-    vertical-align:middle;
-    margin: auto;
-    width: auto;
-    height:auto;
-  }
-  .blog-content {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 200px;
-  }
-  .subhome
-    padding 0
-    max-width $homePageWidth
-    margin 0px auto
-    display block
-    text-align left
-    margin-left 20px
-    h1
-      font-size 3rem
-      margin-bottom 10px
-    .description
-      max-width 35rem
-      font-size 1.6rem
-      line-height 1.3
-      color lighten($textColor, 40%)
-
-@media (max-width: $MQMobile)
+h5, h3, h4, p {
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+h3, p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+p {
+  font-size: 0.9em;
+}
+.container {
+  display: flex;
+  margin-top: 20px;
+  scroll-margin-block-start: 70px;
+}
+.thumbnail-container {
+  display: flex;
+  object-fit: cover;
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.thumbnail {
+  max-height: 120px;
+  margin: auto;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+.blog-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+}
+.subhome {
+  padding: 0;
+  max-width: var(--homePageWidth); /* SCSS 변수 사용을 고려해 var()로 대체 */
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
+.subhome h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.subhome .description {
+  max-width: 35rem;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.6); /* lighten 효과를 대체 */
+}
+@media (max-width: var(--MQMobile)) {
   h5, h3, h4, p {
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
-  h3 
-    a {
-      font-size: 1.1rem;
-    }
+  h3 a {
+    font-size: 1.1rem;
+  }
   p {
     font-size: 0.8rem;
   }
-  .thumbnail-container{
-    display: flex;
-    object-fit: cover;
-    cursor: pointer;
+  .thumbnail-container {
     width: 90px;
     height: 90px;
-    float: left;
     margin-left: 10px;
     margin-right: 15px;
   }
   .thumbnail {
-    width: auto;
-    height:auto;
     max-height: 90px;
   }
-  .subhome
-    text-align center
-    h1
-      font-size 2rem
-    .description
-      margin-bottom 40px
-      font-size 1.4rem
-      line-height 1.3
-  .container
-    h3
-      font-size 1.2rem
+  .subhome {
+    text-align: center;
+  }
+  .subhome h1 {
+    font-size: 2rem;
+  }
+  .subhome .description {
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  .container h3 {
+    font-size: 1.2rem;
+  }
+}
 </style>

@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/to-pimp-a-butterfly/1440828886",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/ae/61/0dae6140-d4af-d0df-eae0-3c92eb392a33/15UMGIM11922.rgb.jpg/316x316bb.webp",
+            "date":"2024.10.17",
+            "artist": "Kendrick Lamar",
+            "name": "To Pimp a Butterfly",
+            "memo": "If these walls could talk"
+        },
+        {
             "link":"https://music.apple.com/kr/album/the-tk-years/693638730",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music19/v4/e4/f9/cb/e4f9cbf5-cc61-055c-58c7-23b8a019b042/5099926790657.jpg/316x316bb.webp",
             "date":"2024.10.16",

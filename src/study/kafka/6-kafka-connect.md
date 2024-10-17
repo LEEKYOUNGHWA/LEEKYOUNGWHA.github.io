@@ -122,17 +122,60 @@ lkh@DESKTOP-1L2VEPP:~/kafka_2.12-2.5.0/config$ curl -X DELETE http://localhost:8
 - build.gradle에 connect-api 라이브러리와 빌드된 파일을 jar로 압축하기 위한 스크립트 작성
 - 카프카 커넥터를 직접 개발하고 플러그인으로 커넥트에 추가할 때 주의할점은 사용자가 직접 작성한 클래스뿐만 아니라 참조하는 라이브러리도 함께 빌드하여 jar로 압축
 
+[소스](https://github.com/bjpublic/apache-kafka-with-java/tree/master/Chapter3/3.6%20kafka-connector/simple-source-connector)
+
+### 실행
+
+1. 자르 생성  
+
+![17](~@image/2024/kafka/17.png)
+
+2. 커넥트 플러그인 디렉토리 생성 및 자르 넣기
+```sh
+sudo mkdir -p /usr/local/share/kafka/plugins
+sudo cp /mnt/c/simple-source-connector-1.0.jar /usr/local/share/kafka/plugins
 ```
-dependencies {
-    implementation 'org.apache.kafka:kafka-streams:2.5.0'
-    implementation 'org.slf4j:slf4j-simple:1.7.30'
-}
 
-jar {
-    from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it)}
-    }
-}
+3. 분산모드 커넥터 실행
+```sh
+bin/connect-distributed.sh config/connect-distributed.properties # 분산모드 커넥터 실행
+curl -X GET http://localhost:8083/connector-plugins # 실행가능 플러그인 조회
+```
+```
+# 추가 된 것을 확인할 수 있다 !
+[{"class":"com.example.SingleFileSourceConnector","type":"source","version":"1.0"}, 
+{"class":"org.apache.kafka.connect.file.FileStreamSinkConnector","type":"sink","version":"2.5.0"}, 
+{"class":"org.apache.kafka.connect.file.FileStreamSourceConnector","type":"source","version":"2.5.0"}, 
+{"class":"org.apache.kafka.connect.mirror.MirrorCheckpointConnector","type":"source","version":"1"},{"class":"org.apache.kafka.connect.mirror.MirrorHeartbeatConnector","type":"source","version":"1"}, 
+{"class":"org.apache.kafka.connect.mirror.MirrorSourceConnector","type":"source","version":"1"}]
 ```
 
+```sh
+# SingleFileSourceConnector 실행
+curl -X POST -H "Content-Type: application/json" \
+--data '{
+"name":"single-file-source",
+"config":{
+"connector.class":"com.example.SingleFileSourceConnector",
+"tasks.max":"1"
+}
+}' \
+http://localhost:8083/connectors
 
+# 실행확인
+curl -X GET http://localhost:8083/connectors/single-file-source/status
+
+# /tmp/kafka.txt 수정
+
+# 조회
+bin/kafka-console-consumer.sh --bootstrap-server my-kafka:9092 \
+--topic test \
+--from-beginning
+```
+
+## 싱크 커넥터
+- 토픽의 데이터를 타깃 애플리케이션으로 저장
+[소스](https://github.com/bjpublic/apache-kafka-with-java/tree/master/Chapter3/3.6%20kafka-connector/simple-sink-connector)
+
+## 미러메이커2
+- 두개의 카프카 클러스터간에 토픽을 복제하는 애플리케이션
