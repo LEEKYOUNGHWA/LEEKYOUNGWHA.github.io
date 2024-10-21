@@ -9,6 +9,57 @@ description: 52g
 - [https://dart.dev/guides](https://dart.dev/guides)
 - [Dart 언어 4시간만에 완전정복](https://www.inflearn.com/course/dart-%EC%96%B8%EC%96%B4-%EC%9E%85%EB%AC%B8?attributionToken=iQHwiAoMCKqex7gGEOq_ibsBEAEaJDY3MTI5YzY2LTAwMDAtMmRlZC04YmJkLTU4MjQyOWQzM2NmNCoHMTQ4OTQ0MDIwtbeMLaOAlyKo5aotnNa3LY6-nRXFy_MXwvCeFdSynRWOkckwn9a3LZD3sjCa7sYwOg5kZWZhdWx0X3NlYXJjaEgBaAF6AnNp)
 
+## 2. 객체지향프로그래밍
+```Dart
+void main() {
+//   Idol blackPink = Idol (
+//     '블랙핑크',
+//     ['지수','제니','리사','로제']
+//   );
+
+//   print(blackPink.name);
+//   print(blackPink.members);
+
+  Idol bts = Idol.formList([
+    ['RM', '진', '슈가', '제이홉'],
+    'BTS'
+  ]);
+
+  print(bts.name);
+  print(bts.members);
+
+  Idol blackPink = const Idol('블랙핑크', ['지수', '제니', '리사', '로제']);
+  Idol blackPink2 = const Idol('블랙핑크', ['지수', '제니', '리사', '로제']);
+  print(blackPink == blackPink2);
+  // const 선언하면 true 같은 인스턴스
+  // 아니면 false
+}
+
+class Idol {
+  final String name;
+  final List<String> members; // 클래스 변수 final 사용. 수정불가
+
+//   Idol(String name, List<String> members)
+//     :this. name = name,
+//     this.members = members;
+
+  // const 키워드 사용시
+  const Idol(this.name, this.members);
+
+  Idol.formList(List values)
+      : this.members = values[0],
+        this.name = values[1]; // named constructor
+
+  void sayHello() {
+    print('dkssudgktpdy ${this.name} 입니다.');
+  }
+
+  void introduce() {
+    print('저희 멤버는 ${this.members} 입니다.');
+  }
+}
+```
+
 ## 1. 기본기
 
 ```Dart
