@@ -194,7 +194,7 @@ int calculate(int x, int y, int z, Operation operation){
 }
 ```
 
-## 2-1. 객체지향프로그래밍
+## 2.1 객체지향프로그래밍
 
 ```Dart
 void main() {
@@ -268,7 +268,7 @@ class Idol {
 ```
 - private : _를 붙인다. 같은 파일 내에서만 사용 가능.
 
-## 2-2. 상속
+## 2.2 상속
 
 ```Dart
 // 상속(inheritance) : 상속을 받으면 부모 클래스의 모든 속성을 자식 클래스가 부여받는다
@@ -335,7 +335,7 @@ class GirlGroup extends Idol {
 }
 ```
 
-## 2-3. 메소드 오버라이딩
+## 2.3 메소드 오버라이딩
 ```Dart
 // method : function(class 내부에 있는 함수)
 // override : 덮어쓰다(우선시하다)
@@ -371,7 +371,8 @@ class TimesFour extends TimesTwo {
   }
 }
 ```
-## 2-4. static
+
+## 2.4 static
 
 ```Dart
 void main() {
@@ -407,7 +408,7 @@ class Employee {
 }
 ```
 
-## 2-5. 인터페이스
+## 2.5 인터페이스
 ```Dart
 void main() {
   BoyGroup bts = BoyGroup('BTS');
@@ -453,7 +454,7 @@ class GirlGroup implements IdolInterface {
 
 ```
 
-## 2-6. generic
+## 2.6 generic
 타입을 외부에서 받을 때 사용
 ```Dart
 void main() {
@@ -475,9 +476,9 @@ class Lecture<T> {
   }
 }
 ```
-# Functional Programming
 
-## 3-1. 형변환
+
+## 3.1 형변환
 
 ```Dart
 void main() {
@@ -497,4 +498,381 @@ void main() {
 }
 ```
 
-## 3-2.
+## 3.2 리스트 함수형
+```Dart
+void main() {
+  List<String> blackPink = ['로제','지수','리사','제니'];
+  
+  final newBlackPink = blackPink.map((x) {
+    return '블랙핑크 $x';
+  });
+  
+  print(blackPink);
+  print(newBlackPink.toList());
+  
+  final newBlackPink2 = blackPink.map((x) => '블랙핑크 $x');
+  
+  print(newBlackPink2.toList());
+  
+  print(blackPink == blackPink);
+  print(newBlackPink == blackPink);
+  print(newBlackPink == newBlackPink2);
+  
+  String number = '13579';
+  
+  final parsed = number.split('').map((x) => '$x.jpg').toList();
+  
+  print(parsed);
+}
+```
+
+## 3.3 맵 함수형
+```Dart
+void main() {
+  Map<String, String> harryPotter = {
+    'Harry Potter': '해리포터',
+    'Ron Weasley': '론 위즐리',
+    'Hermione Granger': '헤르미온느 그레인저'
+  };
+
+  // 잘 안쓴다
+  final result = harryPotter.map(
+    (key, value) => MapEntry(
+      'Harry Potter Character $key',
+      '해리포터 캐릭터 $value',
+    ),
+  );
+
+  print(harryPotter);
+  print(result);
+
+  final keys = harryPotter.keys.map((x) => 'Harry Potter Character $x').toList();
+  final values = harryPotter.values.map((x) => '해리포터 $x').toList();
+
+  print(keys);
+  print(values);
+}
+```
+
+## 3.4 Set 함수형
+```Dart
+void main(){
+  Set blackPinkSet = {
+    '로제',
+    '지수',
+    '제니',
+    '리사',
+  };
+  
+  final newSet = blackPinkSet.map((x) => '블랙핑크 $x').toSet();
+  
+  print(newSet);
+  
+  List<Map<String, String>> people = [
+    {
+      'name':'로제',
+      'group':'블랙핑크',
+    },
+    {
+      'name':'지수',
+      'group':'블랙핑크',
+    },
+    {
+      'name':'RM',
+      'group':'BTS',
+    },
+  ];
+  
+  print(people);
+  
+  // where 로 필터링을 할 수 있다. 많이씀
+  final blackPink = people.where((x) => x['group'] == '블랙핑크');
+  final bts = people.where((x) => x['group'] == 'BTS');
+  print(blackPink);
+  print(bts);
+}
+```
+
+## 3.5 reduce 함수형
+```Dart
+//reduce
+
+void main() {
+  List<int> numbers = [1, 3, 5, 7, 9];
+
+  // prev는 제일 처음에는 index 1이고 다음부터는 리턴한 값임.
+  final result = numbers.reduce((prev, next) {
+    print('------------');
+    print('previous : $prev');
+    print('next : $next');
+    print('total : ${prev + next}');
+
+    return prev + next;
+  });
+
+  print(result);
+
+  List<String> words = ['안녕하세요', '저는', '이경화','입니다'];
+  
+  final sentence = words.reduce((prev, next) => prev + next);
+  
+  print(sentence);
+  
+  //reduce의 원칙 : 반환되는 타입이 태초 멤버 타입과 같아야 한다.
+}
+```
+
+## 3.6 fold 함수형
+```Dart
+void main() {
+  List<int> numbers = [1,3,5,7,9];
+  
+  // fold는 형을 넣어줘야 함
+  final sum = numbers.fold<int>(0,(prev, next) => prev + next);
+  print(sum);
+  
+  List<String> words = [
+    '안녕하세요',
+    '저는',
+    '이경화'
+  ];
+  
+  final sentence = words.fold<String>('', (prev, next) => prev + next);
+  print(sentence);
+  
+  final count = words.fold<int>(0,(prev,next)=> prev + next.length);
+  print(count);
+}
+```
+
+## 3.7 cascading operator
+```Dart
+void main() {
+  List<int> even = [
+    2,
+    4,
+    6,
+    8,
+  ];
+
+  List<int> odd = [
+    1,
+    3,
+    5,
+    7,
+  ];
+  
+  // cascading operator
+  // ...
+  
+  print([...even, ...odd]);
+  print(even);
+  print([...even]);
+  print(even == [...even]); // false
+}
+```
+
+## 3.8 functional programming 실전
+```Dart
+void main() {
+  final List<Map<String, String>> people = [
+    {
+      'name': '지수',
+      'group': '블랙핑크',
+    },
+    {
+      'name': '로제',
+      'group': '블랙핑크',
+    },
+    {
+      'name': 'RM',
+      'group': 'BTS',
+    },
+    {
+      'name': '뷔',
+      'group': 'BTS',
+    },
+  ];
+
+  print(people);
+
+  final parsedPeople = people
+      .map((x) => Person(
+            name: x['name']!, // ! 값이 존재한다고 명시해주자
+            group: x['group']!,
+          ))
+      .toList();
+
+  print(parsedPeople);
+  // 클래스의 기본값은 Instance of 로 출력된다
+  // [Instance of 'Person', Instance of 'Person', Instance of 'Person', Instance of 'Person']
+
+  // toString override
+  // Person(name:RM, group:BTS), Person(name:뷔, group:BTS)]
+
+  for (Person person in parsedPeople) {
+    print(person.name);
+    print(person.group);
+  }
+
+  final bts = parsedPeople.where(
+    (x) => x.group == 'BTS',
+  ); // BTS에만 해당하는 값만 출력
+
+  // 연결해서 사용 가능
+  final result = people
+      .map(
+        (x) => Person(
+          name: x['name']!,
+          group: x['group']!,
+        ),
+      )
+      .where((x) => x.group == 'BTS')
+      .fold<int>(
+        0,
+        (prev, next) => prev + next.name.length,
+      );
+
+  print(result);
+}
+
+// 클래스 형태로 다루자!
+class Person {
+  final String name;
+  final String group;
+
+  Person({
+    required this.name,
+    required this.group,
+  });
+
+  @override
+  String toString() {
+    return 'Person(name:$name, group:$group)';
+  }
+}
+```
+
+## 4.1 비동기 프로그래밍 Async Programming
+```Dart
+void main() async {
+  // Future - 미래
+  // 미래에 받아올 값
+
+  Future<String> name = Future.value('코드팩토리');
+  Future<int> number = Future.value(1);
+  Future<bool> isTrue = Future.value(true);
+
+  // await는 Future를 리턴
+  final result1 = await addNumbers(1, 1);
+  final result2 = await addNumbers(2, 2);
+
+  print('result1 + result2 = ${result1 + result2}');
+}
+
+Future<int> addNumbers(int number1, int number2) async {
+  print('계산 시작 : $number1 + $number2');
+
+  // 서버 시뮬레이션 딜레이 2초
+  await Future.delayed(Duration(seconds: 2), () {
+    print('계산 완료 : $number1 + $number2 = ${number1 + number2}');
+  });
+
+  print('함수 완료 : $number1 + $number2 = ${number1 + number2}');
+
+  return number1 + number2;
+}
+```
+
+## 4.2 Stream
+
+### future vs stream
+- future : 한 함수에서 하나의 값만 받아냄.
+- stream : 닫아주는 순간까지 계속 무한하게 값을 받아낼 수 있다.
+
+```Dart
+import 'dart:async';
+
+void main() {
+  final controller = StreamController();
+  final stream = controller.stream.asBroadcastStream();
+  
+  final streamListner1 = stream.listen((val){
+    print('Listner1 : $val');
+  });
+  
+  final streamListner2 = stream.listen((val){
+    print('Listner2 : $val');
+  });
+  
+  final streamListner3 = stream.where((val)=>val%2 ==0).listen((val){
+    print('Listner3 : $val');
+  });
+  
+  final streamListner4 = stream.where((val)=>val%2 ==1).listen((val){
+    print('Listner4 : $val');
+  });
+  
+  controller.sink.add(1);
+  controller.sink.add(2);
+  controller.sink.add(3);
+  controller.sink.add(4);
+  controller.sink.add(5);
+}
+```
+#### 함수로 스트림
+```Dart
+import 'dart:async';
+
+void main() {
+  calculate(2).listen((val) {
+    print('calculate(2) : $val');
+  });
+
+  calculate(4).listen((val) {
+    print('calculate(4) : $val');
+  });
+
+// calculate(2) : 0
+// calculate(4) : 0
+// calculate(2) : 2
+// calculate(4) : 4
+// calculate(2) : 4
+// calculate(4) : 8
+// calculate(2) : 6
+// calculate(4) : 12
+// calculate(2) : 8
+// calculate(4) : 16
+}
+
+Stream<int> calculate(int number) async* {
+  for (int i = 0; i < 5; i++) {
+    yield i * number;
+
+    await Future.delayed(Duration(seconds: 1));
+  }
+}
+```
+#### 스트림 await
+```Dart
+import 'dart:async';
+
+void main() {
+  playAllStream().listen((val) {
+    print(val);
+  });
+}
+
+Stream<int> playAllStream() async* {
+  yield* calculate(1); // yield* : await과 동일
+  yield* calculate(1000);
+}
+
+Stream<int> calculate(int number) async* {
+  for (int i = 0; i < 5; i++) {
+    yield i * number;
+
+    await Future.delayed(Duration(seconds: 1));
+  }
+}
+```
