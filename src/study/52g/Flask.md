@@ -6,16 +6,6 @@ image: https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png
 
 # Flask
 
-## 설치 및 실행
-
-```sh
-# 설치
-conda install anaconda::flask
-
-# 실행
-python server.py
-```
-
 ## 생활코딩 강의
 
 - [생활코딩 Flask web framework Youtube](https://www.youtube.com/watch?v=X_n6IZmieV8&list=PLuHgQVnccGMClNOIuT3b3M4YZjxmult2y)
@@ -152,21 +142,39 @@ app.run(debug=True) # 디버그모드
 
 ## Flask + Jappa 배포
 
-- [블로그](https://yoonminlee.com/zappa-flask-serverless-deployment) 참고하였습니다.
+- [https://yoonminlee.com/zappa-flask-serverless-deployment](https://yoonminlee.com/zappa-flask-serverless-deployment)
+- [https://hidden-loca.tistory.com/41](https://hidden-loca.tistory.com/41)
+- [https://widesec.tistory.com/17](https://widesec.tistory.com/17)
 
-1. 가상환경 설치
+wsl 실행.
 
 ```sh
+sudo apt install python3.12-venv
 mkdir zappa-tutorial
 cd zappa-tutorial
-conda install anaconda::virtualenv
-virtualenv zappa_venv
-# 아나콘다에서 리눅스 명령어 쓰기 conda install m2-base
-.\zappa_venv\Scripts\activate
+sudo apt update && upgrade
+sudo apt install python3-pip
+sudo apt install python3-venv
+python3 -m venv .venv
+source .venv/bin/activate
 pip3 install Flask
 pip3 install zappa
+pip install setuptools
+zappa -v
+python app.py
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+sudo apt install unzip
+unzip awscliv2.zip
+sudo ./aws/install
+aws configure
+
+zappa init
+zappa deploy dev
+zappa update dev
 ```
-1. aws 계정, 인스턴스(있음)
-2. 액세스 키 생성
-3. 
+
+zappa 배포완료!
+
+[https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev](https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev)
 
