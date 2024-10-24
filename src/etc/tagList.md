@@ -1,9 +1,9 @@
 # Tags
 
 <template v-for="tag in Object.keys(tags)">
-  <h2 :id="tag">
+  <h2 :id="tag.replace(' ','-')">
     <router-link
-        :to="{ path: `#${tag}`}"
+        :to="{ path: `#${tag.replace(' ','-')}`}"
         class="header-anchor"
         aria-hidden="true">
         #

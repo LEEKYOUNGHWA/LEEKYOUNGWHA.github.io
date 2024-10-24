@@ -91,5 +91,60 @@ public class SpringConsumerApplication {
 ### 배치 리스너 활용
 
 ```java
+@SpringBootApplication
+public class SpringConsumerApplication {
+    public static Logger logger = LoggerFactory.getLogger(SpringConsumerApplication.class);
 
+    public static void main(String[] args) {
+        SpringApplication application = new SpringApplication(SpringConsumerApplication.class);
+        application.run(args);
+    }
+    // 1. ConsumerRecords 파라미터로 받음
+    @KafkaListener(topics = "test", groupId = "test-group-01")
+    public void batchListener(ConsumerRecords<String, String> records) { 
+        records.forEach(record -> logger.info(record.toString()));
+    }
+
+    // 2. List 자료구조로 받음
+    @KafkaListener(topics = "test", groupId = "test-group-02")
+    public void batchListener(List<String> list) {
+        list.forEach(recordValue -> logger.info(recordValue));
+    } 
+    
+    // 3. 2개 이상의 컨슈머 스레드로 배치 리스너 운영
+    @KafkaListener(topics = "test", groupId = "test-group-03", concurrency = "3")
+    public void concurrentBatchListener(ConsumerRecords<String, String> records) { //3
+        records.forEach(record -> logger.info(record.toString()));
+    }
+}
 ```
+
+### 배치 커밋 리스너, 배치 컨슈머 리스너
+```java
+@SpringBootApplication
+public class SpringConsumerApplication {
+    public static Logger logger = LoggerFactory.getLogger(SpringConsumerApplication.class);
+
+
+    public static void main(String[] args) {
+        SpringApplication application = new SpringApplication(SpringConsumerApplication.class);
+        application.run(args);
+    }
+
+    // AckMode를 MANUAL 또는 MANUAL_IMMEDIATE로 사용할 경우에는 수동 커밋을 하기 위해 파라미터로 Acknowledgment 인스턴스를 받아야 한다.
+    @KafkaListener(topics = "test", groupId = "test-group-01")
+    public void commitListener(ConsumerRecords<String, String> records, Acknowledgment ack) {
+        records.forEach(record -> logger.info(record.toString()));
+        ack.acknowledge(); // 커밋 수행
+    }
+
+    // 
+    @KafkaListener(topics = "test", groupId = "test-group-02")
+    public void consumerCommitListener(ConsumerRecords<String, String> records, Consumer<String, String> consumer) {
+        records.forEach(record -> logger.info(record.toString()));
+        consumer.commitSync(); // 원하는 타이밍에 커밋 가능 (commitSync, commitAsync)
+    }
+}
+```
+
+
