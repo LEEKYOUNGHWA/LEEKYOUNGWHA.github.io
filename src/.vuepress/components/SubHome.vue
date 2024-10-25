@@ -56,7 +56,7 @@ export default {
     posts() {
       let posts = []
       for (let page of this.$site.pages) {
-        if ( page.relativePath.startsWith(this.nav) && !page.relativePath.startsWith(this.nav +"/README")) {
+        if ( page.relativePath.startsWith(this.nav) && !page.relativePath.includes("README")) {
           posts.push(page)
         }
       }

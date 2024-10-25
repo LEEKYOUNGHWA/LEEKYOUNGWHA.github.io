@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/everybody/1440892046",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/eb/71/f1/eb71f1c3-bb33-def6-a233-214ecd99a5fc/17UMGIM87026.rgb.jpg/316x316bb.webp",
+            "date":"2024.10.25",
+            "artist": "Logic",
+            "name": "Everybody",
+            "memo": "http://www.everybodycover.com/"
+        },
+        {
             "link":"https://music.apple.com/kr/album/ultra-85/1750765140",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/1e/81/f5/1e81f57a-fe6f-1de5-c513-428f5bbbc0ba/Job482682bc-6371-4ed0-984a-d16fd1d7ff3f-173009521-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_337199345_1851821249-Time1722633691741.png/316x316bb.webp",
             "date":"2024.10.22",
