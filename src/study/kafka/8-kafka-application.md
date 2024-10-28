@@ -145,3 +145,17 @@ public void batchListener(ConsumerRecords<String, String> records) {
     records.forEach(record -> logger.info(record.toString()));
 }
 ```
+
+### +++ 오늘의 피드백
+
+::: warning feedback
+- 키값, 라스트 원, 내가 원하는값만 가져오고 싶을때, 옮긴 데이터만 알고 싶을때
+- 변화된 데이터를 어떻게 판단? 뭘로? (레거시 에서 요청했을대 한사람꺼 변한거 전체 다)
+- 식별할 수 있는 키값 정의! 
+- 수명주기 & 키 값 건드리면 안되 자동으로 없어지라고 그래서 이중에서 최근걸 찾을수 있어야 
+- 전문정의서 : json 항목 파라미터는 뭔지 url은 뭔지 타입 
+- 레디스 & 카우치베이스 거의 똑같다
+- 다음주중으로 키값 고민
+:::
+
+- [카프카 메시지 Key의 역할](https://jinyes-tistory.tistory.com/328)
