@@ -88,7 +88,6 @@ export default {
   }
   .container {
     display: flex;
-    margin-top: 20px;
     scroll-margin-block-start: 70px;
   }
   .thumbnail-container{
@@ -114,14 +113,15 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
     width: 200px;
+    margin-top: 10px;
   }
   .subhome
     padding 0
     max-width $homePageWidth
-    margin 0px auto
     display block
     text-align left
     margin-left 20px
+    margin-bottom 40px
     h1
       font-size 3rem
       margin-bottom 10px
@@ -169,4 +169,8 @@ export default {
   .container
     h3
       font-size 1.2rem
+  .blog-content {
+    margin-top: 0px;
+    margin-left: 10px;
+  }
 </style>
