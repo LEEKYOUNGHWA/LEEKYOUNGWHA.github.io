@@ -1,6 +1,22 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/fa/56/5ffa56c2-ea1f-7a17-6bad-192ff9b6476d/825646124206.jpg/296x296bb.webp",
+            "date":"2024.11.01",
+            "artist": "David Bowie",
+            "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+            "memo": "이 앨범의 위대함을 이제야 알았다"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/chromakopia/1776500452",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/bd/e9/7dbde97e-b97d-8cc3-0203-218b687408a9/196872555059.jpg/316x316bb.webp",
+            "date":"2024.10.31",
+            "artist": "Tyler, The Creator",
+            "name": "CHROMAKOPIA",
+            "memo": "기대를 저버리지 않는"
+        },
+        {
             "link":"https://music.apple.com/kr/album/everybody/1440892046",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/eb/71/f1/eb71f1c3-bb33-def6-a233-214ecd99a5fc/17UMGIM87026.rgb.jpg/316x316bb.webp",
             "date":"2024.10.25",
