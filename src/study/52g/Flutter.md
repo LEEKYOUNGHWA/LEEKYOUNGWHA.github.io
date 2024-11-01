@@ -71,3 +71,11 @@ flutter config --android-studio-dir="C:\Program Files\Android\Android Studio"
 :::
 
 - [dartPad](https://dartpad.dev/?id=e74b1c4b5246ecc28ce3e208f3ddd864)
+
+## Pomodoro App
+
+::: details Pomodoro App
+<Gist gistId="e5565f820a2ed3fd01a47fb32ba40271" file="PomodoroApp.dart"/>
+:::
+
+- [dartPad](https://dartpad.dev/?id=e5565f820a2ed3fd01a47fb32ba40271)

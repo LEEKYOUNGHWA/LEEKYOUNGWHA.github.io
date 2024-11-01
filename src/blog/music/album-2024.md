@@ -1,0 +1,133 @@
+---
+title: Album 2024
+lastUpdated: 2024/10/31 11:15:00
+description: Cyber Record collection
+image: https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/1e/81/f5/1e81f57a-fe6f-1de5-c513-428f5bbbc0ba/Job482682bc-6371-4ed0-984a-d16fd1d7ff3f-173009521-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_337199345_1851821249-Time1722633691741.png/316x316bb.webp
+---
+
+# Album 2024
+
+#### jukebox    
+
+<div style="padding:10px;"> </div>
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" :src="jukeBox"></iframe>
+
+#### albumlist {{albums.length}}
+
+<template v-for="(album, idx) in albums" >
+    <div class="container" :id="albumId(album.artist, album.name)">
+        <div @click="changeJukebox(album.link)">
+            <img-lazy class="album-img" :src="album.img"/>
+        </div>
+        <div class="blog-content">
+            <h4>{{album.date}}</h4>
+            <h3>
+                <a :href="`#${albumId(album.artist, album.name)}`"
+                    class="header-anchor"
+                    aria-hidden="true">#</a>
+                {{idx+1}}. {{album.artist}} - {{album.name}}
+                <a :href="album.link" target="_blank"><img class="apple-music-img" src="@image/2024/apple-music.png"></a>
+            </h3>
+            <p>{{album.memo}}</p>
+        </div>
+    </div>
+</template>
+
+
+
+<script>
+import albumList from '@data/albumList.json'
+
+export default {
+    // async mounted() {
+    //     window.global ||= window;
+    //     const axios = require('axios').default
+    //     const data = await axios.get('https://reqres.in/api/users');
+    //     console.log(data);
+    // },
+    methods: {
+        albumId(artist, name) {
+            var id = artist + '-' + name;
+            id = id.replaceAll(' ', '-');
+            return id;
+        },
+        changeJukebox(link) {
+            this.jukeBox = link.replace('music', 'embed.music');
+            location.href = '#album-list';
+        },
+    },
+    data() {
+        return {
+            albums: albumList.album,
+            jukeBox: albumList.album[0].link.replace('music', 'embed.music'),
+        }
+    }
+}
+</script>
+
+<style scoped>
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+p {
+    margin: 10px 0 0 0;
+    font-size: 0.85em;
+}
+h4 {
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    scroll-margin-block-start: 70px;
+}
+.apple-music-img {
+    width: 20px;
+    height: 20px;
+}
+.album-img {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+.blog-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .blog-content {
+        margin: 20px;
+    }
+    .album-img {
+        margin: 0 auto;
+    }
+}
+</style>

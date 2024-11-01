@@ -2,7 +2,7 @@
 title: 년도미상
 lastUpdated: 2024/10/28 10:13:00
 description: Movie
-image:
+image: https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg
 ---
 
 # 년도미상

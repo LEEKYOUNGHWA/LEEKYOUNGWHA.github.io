@@ -178,3 +178,18 @@ zappa 배포완료!
 
 [https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev](https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev)
 
+### 방법 2. virtualenv 설치
+
+```sh
+python3 -V
+sudo apt-get update
+sudo apt install python3-pip
+python3 -m pip config set global.break-system-packages true
+python3 -m pip install virtualenv
+cd /mnt/c/flask # wsl에서 C드라이브 접근
+virtualenv venv # 가상환경 생성
+. venv/bin/activate # virtualenv 활성화
+pip install -r requirements.txt
+```
+- [error: externally-managed-environment](https://velog.io/@mystic/%EB%A7%A5%EB%B6%81-Homebrew-python%EC%84%A4%EC%B9%98%EC%8B%9C-pip-%EB%AC%B8%EC%A0%9C)
+- [Defaulting to user installation because normal site-packages is not writeable](https://beausty23.tistory.com/213)
