@@ -1,4 +1,5 @@
 ---
+title: Home > posts
 sidebar: false
 ---
 

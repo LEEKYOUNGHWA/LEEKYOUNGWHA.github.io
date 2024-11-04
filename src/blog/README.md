@@ -1,4 +1,5 @@
 ---
+title: Home > blog
 sidebar: false
 ---
 
