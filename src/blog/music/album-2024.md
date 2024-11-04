@@ -17,7 +17,7 @@ image: https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/1e/81/f5/1e81f57a-fe
 
 <template v-for="(album, idx) in albums" >
     <div class="container" :id="albumId(album.artist, album.name)">
-        <div @click="changeJukebox(album.link)">
+        <div class="wrap" @click="changeJukebox(album.link)">
             <img-lazy class="album-img" :src="album.img"/>
         </div>
         <div class="blog-content">
@@ -67,23 +67,6 @@ export default {
 </script>
 
 <style scoped>
-.iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.iframe-container iframe,
-.iframe-container object,
-.iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 h3 {
     margin-top: 10px;
     margin-bottom: 0;
@@ -126,8 +109,8 @@ h4 {
     .blog-content {
         margin: 20px;
     }
-    .album-img {
-        margin: 0 auto;
+    .wrap {
+        margin:auto;
     }
 }
 </style>
