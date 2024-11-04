@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2024/10/23 14:19:00
+lastUpdated: 2024/11/04 17:29:00
 description: 52g
 image: https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png
 ---
@@ -140,11 +140,7 @@ app.run(debug=True) # 디버그모드
 ```
 :::
 
-## Flask + Jappa 배포
-
-- [https://yoonminlee.com/zappa-flask-serverless-deployment](https://yoonminlee.com/zappa-flask-serverless-deployment)
-- [https://hidden-loca.tistory.com/41](https://hidden-loca.tistory.com/41)
-- [https://widesec.tistory.com/17](https://widesec.tistory.com/17)
+## Flask + Jappa 배포 (개인실습)
 
 wsl 실행.
 
@@ -163,6 +159,10 @@ pip install setuptools
 zappa -v
 python app.py
 
+deactivate # 가상환경 비활성화
+
+# aws 설정
+cd ~
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 sudo apt install unzip
 unzip awscliv2.zip
@@ -177,8 +177,9 @@ zappa update dev
 zappa 배포완료!
 
 [https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev](https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev)
+** 내 개인 aws 조만간 내리자**
 
-### 방법 2. virtualenv 설치
+### 방법 2. virtualenv 설치 (온보딩 배포)
 
 ```sh
 python3 -V
@@ -186,10 +187,44 @@ sudo apt-get update
 sudo apt install python3-pip
 python3 -m pip config set global.break-system-packages true
 python3 -m pip install virtualenv
-cd /mnt/c/flask # wsl에서 C드라이브 접근
+# 소스 clone
+cd /mnt/c/study/flask/[폴더명] # wsl에서 C드라이브 접근
 virtualenv venv # 가상환경 생성
 . venv/bin/activate # virtualenv 활성화
 pip install -r requirements.txt
+# 사내 방화벽으로 막히면 핫스팟으로 일부 설치 하자 =3=
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh # rust 설치
+sudo apt install python3.12
+sudo vi ~/.bashrc
+export PYTHONPATH=/usr/bin/python3.12
+source ~/.bashrc
+virtualenv --python="/usr/bin/python3.12" "/mnt/c/study/flask/backend-flask_restx/venv" # 가상환경 생성
+. venv/bin/activate # virtualenv 활성화
+pip install -r requirements.txt
+python wsgi.py
+
+# 아마존 세팅 - 참고링크보셈
+
+cd /mnt/c/study/flask/backend-flask_restx
+. venv/bin/activate # virtualenv 활성화
+
+pip3 install zappa
+pip install setuptools
+zappa -v
+zappa init
+zappa deploy dev
+
+# zappa_settings.json 
+# "app_function": "wsgi.app", 
+# global n
 ```
-- [error: externally-managed-environment](https://velog.io/@mystic/%EB%A7%A5%EB%B6%81-Homebrew-python%EC%84%A4%EC%B9%98%EC%8B%9C-pip-%EB%AC%B8%EC%A0%9C)
-- [Defaulting to user installation because normal site-packages is not writeable](https://beausty23.tistory.com/213)
+
+배포완료... 
+- [https://il3yh0ax0h.execute-api.ap-northeast-2.amazonaws.com/dev/swagger](https://il3yh0ax0h.execute-api.ap-northeast-2.amazonaws.com/dev/swagger)  ** 회사계정 **
+
+> ### 참고 링크
+> - [https://yoonminlee.com/zappa-flask-serverless-deployment](https://yoonminlee.com/zappa-flask-serverless-deployment)
+> - [https://hidden-loca.tistory.com/41](https://hidden-loca.tistory.com/41)
+> - [https://widesec.tistory.com/17](https://widesec.tistory.com/17)
+> - [error: externally-managed-environment](https://velog.io/@mystic/%EB%A7%A5%EB%B6%81-Homebrew-python%EC%84%A4%EC%B9%98%EC%8B%9C-pip-%EB%AC%B8%EC%A0%9C)
+> - [Defaulting to user installation because normal site-packages is not writeable](https://beausty23.tistory.com/213)

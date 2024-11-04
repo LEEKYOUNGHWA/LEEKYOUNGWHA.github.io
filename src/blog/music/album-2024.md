@@ -54,7 +54,7 @@ export default {
         },
         changeJukebox(link) {
             this.jukeBox = link.replace('music', 'embed.music');
-            location.href = '#album-list';
+            location.href = '#jukebox';
         },
     },
     data() {
