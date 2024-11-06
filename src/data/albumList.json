@@ -1,6 +1,46 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/body-heat/1443141710",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/7c/ff/84/7cff8443-99b2-54f1-36e8-76cfa5c15219/00602557139266.rgb.jpg/316x316bb.webp",
+            "date":"2024.11.05",
+            "artist": "Quincy Jones",
+            "name": "Body Heat",
+            "memo": ""
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-birth-of-a-band/1443597166",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f1/e1/2f/f1e12f95-4c4c-4374-805e-ccf84d49298f/00602547786968.rgb.jpg/316x316bb.webp",
+            "date":"2024.11.05",
+            "artist": "Quincy Jones",
+            "name": "The Birth of a Band!",
+            "memo": ""
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-birth-of-a-band-vol-2/1443203063",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/f2/93/c9f29310-c3d9-3722-8f8c-2ba4736ede72/00042282261120.rgb.jpg/316x316bf.webp",
+            "date":"2024.11.05",
+            "artist": "Quincy Jones",
+            "name": "The Birth of a Band!, Vol. 2",
+            "memo": ""
+        },
+        {
+            "link":"https://music.apple.com/kr/album/big-band-bossa-nova/1440871985",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/13/b5/02/13b50218-9f54-1bef-b10f-624ec45437f2/06UMGIM16561.rgb.jpg/316x316bb.webp",
+            "date":"2024.11.05",
+            "artist": "Quincy Jones",
+            "name": "Big Band Bossa Nova",
+            "memo": ""
+        },
+        {
+            "link":"https://music.apple.com/kr/album/sounds-and-stuff-like-that/1442863691",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/9f/d6/309fd627-9f11-b4d7-906c-e425e13997d4/00602537383955.rgb.jpg/316x316bb.webp",
+            "date":"2024.11.04",
+            "artist": "Quincy Jones",
+            "name": "Sounds... And Stuff Like That!",
+            "memo": "퀸시 딜라이트 존스 2세(영어: Quincy Delight Jones Jr., 1933년 3월 14일~2024년 11월 3일)는 미국의 음악 녹음 프로듀서, 가수, 영화 음악 프로듀서로, 별칭은 \"Q\". 60년간 연예 관련 사업에 종업하되 그래미상에 80회 후보 지명(기중 28회 수상, 1991년 그래미 전설상 포함)된 기록을 세웠다."
+        },
+        {
             "link":"https://music.apple.com/kr/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5f/fa/56/5ffa56c2-ea1f-7a17-6bad-192ff9b6476d/825646124206.jpg/296x296bb.webp",
             "date":"2024.11.01",
@@ -14,7 +54,7 @@
             "date":"2024.10.31",
             "artist": "Tyler, The Creator",
             "name": "CHROMAKOPIA",
-            "memo": "And I hope you find yourself And I hope you find yourself And I hope you take your mask off"
+            "memo": "I hope you find yourself And I hope you take your mask off"
         },
         {
             "link":"https://music.apple.com/kr/album/everybody/1440892046",
