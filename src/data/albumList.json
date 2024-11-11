@@ -1,6 +1,14 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/promise/211677347",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/8b/22/0b/8b220bf9-7a5f-d266-3d39-c17d0070f3fa/dj.ylfbscrn.jpg/316x316bb.webp",
+            "date":"2024.11.11",
+            "artist": "Sade",
+            "name": "Promise",
+            "memo": "야밤에 알고리즘타고 등장한 샤데이... 앨범 너무좋다.. 라이브도 개쩐다.."
+        },
+        {
             "link":"https://music.apple.com/kr/album/body-heat/1443141710",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/7c/ff/84/7cff8443-99b2-54f1-36e8-76cfa5c15219/00602557139266.rgb.jpg/316x316bb.webp",
             "date":"2024.11.05",
