@@ -1,5 +1,5 @@
 ---
-title: Flask VS Code Debugging
+title: Flask VSCode Debugging
 lang: ko-KR
 date: 2024/11/05 14:47:00
 lastUpdated: 2024/11/05 14:47:00
@@ -12,7 +12,7 @@ tags: ["flask"]
 
 # Flask + wsl + VSCode Debugging
 
-일단 난 플라스크 환경을 wsl에 설정했다(...zappa 윈도우 아나콘다 배포 실패했음ㅜ).  
+일단 난 플라스크 환경을 wsl에 설정했다(...zappa 윈도우 아나콘다 배포 실패했음ㅜ 포기할수 없어 아나콘다...).  
 
 ## vscode flask 디버깅 설정
 1. wsl 에서 python 가상환경 flask 로컬 서버 띄우는거까지 했다고 가정하고 스타트
@@ -22,6 +22,9 @@ tags: ["flask"]
     검색해보니 확장 프로그램 버전 문제가 있다고 함. 파이썬 확장프로그램 설치 창에서 제거버튼의 오른쪽 아래 화살표 누르고 특정 버전 설치 클릭 한 다음 한달쯤 전걸로 설치해주니 해결되었음.
     :::
 1. 파이썬 인터프리터 설정 확인해 주자 `>Python: 인터프리터 선택` 가상환경의 파이썬 선택.. ***파이썬 버전 확인!!!!!***
+    > 가상환경 인터프리터 안뜨면 가상환경 폴더 열고 선택..  
+    
+    ![python interpretor](~@image/2024/flask.png)
 1. 좌측 네번째 아이콘 실행 및 디버그 클릭
 1. launch.json 없으면 만들어 주자
 1. `"FLASK_APP": "wsgi.py",` 프로젝트에서 진입점이 될 파이썬 파일 적어주자
