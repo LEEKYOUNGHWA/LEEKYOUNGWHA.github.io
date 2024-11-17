@@ -1,10 +1,28 @@
 ---
-title: 52g 사전학습 레슨런 공유
+title: 52g 레슨런 공유
 ---
+# 온보딩 교육 IT1055 이경화
 
-# 52g 사전학습 레슨런 공유
+## Flutter, Dart 이해도 공유...
+Flask는 홧병걸려 죽는줄 알았는데 챗 지피티가 flutter 화면은 기깔나게 그려주네요(아직 기능은 구현되지 않았습니다)..  
+인공지능 대격동의 시대에서 챗 지피티 활용 능력 또한 개발 능력중 일부분 아니겠습니까?!   
+틈나는대로 나머지 화면도 질의하면서 그려 가면서 완성해 나가겠습니다.
 
-사전학습 레슨런 공유 IT1055 이경화
+아 그리고, Dart는 사전교육때 무료 강의 완강을 했었습니다...  
+소스 다 치면서 다 돌려가면서 공부했었는데 얼마나 지났다고 가물가물 하네요..  
+그래도 머리속에 인덱싱은 되어 있으니 필요시 검색하면서 개발 할 수 있을거 같습니다!  
+
+감사합니다.
+
+### Todo App
+
+::: details Todo App
+<Gist gistId="ddd5edb6e9bd94f0fbf9b1d3bccfae0b" file="main.dart"/>
+:::
+
+- [todo app dartPad 미리보기..](https://dartpad.dev/?id=ddd5edb6e9bd94f0fbf9b1d3bccfae0b)
+
+## 사전학습 레슨런 공유
 
 - [Dart 사전학습](./dart.md)
 - [Flask 사전학습](./Flask.md)

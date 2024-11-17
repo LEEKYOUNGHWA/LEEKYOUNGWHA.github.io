@@ -1,6 +1,30 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/apollo-xxi/1464024764",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a4/2d/93/a42d9329-4df4-2825-208e-855aab7413e3/5056167115243_1.jpg/316x316bb.webp",
+            "date":"2024.11.17",
+            "artist": "Steve Lacy",
+            "name": "Apollo XXI",
+            "memo": "Playground 뮤비에서 입고있는 프린스 티셔츠"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/hive-mind/1388571796",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a7/9a/2d/a79a2dda-d97d-4225-bd7c-6a8b80715a01/886447110089.jpg/316x316bb.webp",
+            "date":"2024.11.17",
+            "artist": "The Internet",
+            "name": "Hive Mind",
+            "memo": "2124년 수능문제 The Internet 과 Odd Future 구성원 다이어그램을 그려 보시오"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/going-going-gone/1523126012",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video115/v4/a4/a9/a8/a4a9a8b2-233b-4c82-c15d-f94d8a03ee08/Jobabb9948a-9ba8-4fd6-83dc-80b2e68b49ee-123974131-PreviewImage_preview_image_nonvideo_sdr-Time1631725890728.png/316x316bb.webp",
+            "date":"2024.11.17",
+            "artist": "Going Going Gone",
+            "name": "Mild High Club",
+            "memo": "\"Freedom rings(자유가 울려 퍼지게 하라)\"는 미국에서 흔히 쓰이는 애국적 문구로, 미국의 자유에 대한 약속이 \"지구 전역에 퍼져서 번성하도록 해야 한다\"는 생각을 말합니다. 하지만 여기서는 다른 종류의 울림, 즉 금전 등록기의 울림이 뒤따릅니다. 이는 미국이 진정으로 자유를 누릴 만큼 부유한 사람들에게만 자유를 제공한다는 것을 의미합니다."
+        },
+        {
             "link":"https://music.apple.com/kr/album/promise/211677347",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/8b/22/0b/8b220bf9-7a5f-d266-3d39-c17d0070f3fa/dj.ylfbscrn.jpg/316x316bb.webp",
             "date":"2024.11.11",
@@ -166,7 +190,7 @@
             "date":"2024.10.07",
             "artist": "Thundercat",
             "name": "Drunk",
-            "memo": "Thunder Special Cat"
+            "memo": "From the minute I wake up, I'm staring at the screen, watching the world go insane. Gotta stay connected so I know what's happening in these streets. Thank God for technology, 'cause where would we be if we couldn't tweet our thoughts?"
         },
         {
             "link":"https://music.apple.com/kr/album/into-you/1704790014",
