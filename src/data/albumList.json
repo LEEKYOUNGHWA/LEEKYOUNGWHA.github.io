@@ -1,6 +1,30 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/rufus-featuring-chaka-khan/1443806525",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/99/ce/d5/99ced51d-3cfb-a6fa-4a99-92181ec7fa88/00076743137327.rgb.jpg/316x316bb.webp",
+            "date":"2024.11.28",
+            "artist": "Rufus",
+            "name": "Rufus featuring Chaka Khan",
+            "memo": "To everybody, Rufus 들으세여 요즘 내 최애 도파민"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/chocolate-star/321159490",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/72/5f/db/725fdb91-f818-6d16-df03-f8ecc3dd4ab8/dj.ngtwxojp.jpg/316x316bb.webp",
+            "date":"2024.11.27",
+            "artist": "Gary Davis",
+            "name": "Chocolate Star",
+            "memo": "\"Gee Dee\" is one of my favorite songs of ever - Tyler, The Creator"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/rufusized/1444057236",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/94/a9/c4/94a9c481-3162-02c5-da55-60324e89d8ca/00008811023621.rgb.jpg/316x316bf.webp",
+            "date":"2024.11.25",
+            "artist": "Rufus",
+            "name": "Rufusized",
+            "memo": "Is the material things that he's givin'? Can you truly say that you're happy livin'?"
+        },
+        {
             "link":"https://music.apple.com/kr/album/apollo-xxi/1464024764",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a4/2d/93/a42d9329-4df4-2825-208e-855aab7413e3/5056167115243_1.jpg/316x316bb.webp",
             "date":"2024.11.17",
@@ -30,7 +54,7 @@
             "date":"2024.11.11",
             "artist": "Sade",
             "name": "Promise",
-            "memo": "야밤에 알고리즘타고 등장한 샤데이... 앨범 너무좋다.. 라이브도 개쩐다.."
+            "memo": "야밤에 알고리즘타고 등장한 샤데이... 앨범 너무좋다.. 라이브도 쩐다.. Sade - Is It A Crime (Live Video from San Diego)"
         },
         {
             "link":"https://music.apple.com/kr/album/body-heat/1443141710",

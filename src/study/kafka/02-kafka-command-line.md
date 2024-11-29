@@ -180,3 +180,29 @@ bin/kafka-delete-records.sh --bootstrap-server my-kafka:9092 --offset-json-file 
 
 토픽의 특정 레코드 하나만 삭제되는 것이 아니라 파티션에 존재하는 가장 오래된 오프셋부터 지정한 오프셋까지 삭제된다. 카프카에서는 토픽의 파티션에 저장된 특정 데이터만 삭제할 수 없다.
 
+
+## kafka shutdown
+The Cluster ID xSMQ1fl_S6ynL-7pnLjXWQ doesn't match stored clusterId Some(vGNsOSo9S56TtQegyLvtNA) in meta.properties. The broker is trying to join the wrong cluster. Configured zookeeper.connect may be wrong.
+```sh
+# Kafka 데이터 디렉터리 초기화
+sudo rm -rf /tmp/kafka-logs
+```
+
+
+## 누구냐 넌
+```
+[2024-11-26 00:16:26,032] WARN [SocketServer brokerId=0] Unexpected error from /205.210.31.152; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:448)
+at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:398)
+at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+at kafka.network.Processor.poll(SocketServer.scala:861)
+at kafka.network.Processor.run(SocketServer.scala:760)
+at java.lang.Thread.run(Thread.java:750)
+```
+[aws 인바운드 규칙 설정](https://velog.io/@sunblock99/AWS-%ED%8A%B9%EC%A0%95-IP%EB%A7%8C-%EC%A0%91%EC%86%8D%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+
+

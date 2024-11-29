@@ -1,11 +1,11 @@
 ---
 lastUpdated: 2024/11/04 17:29:00
-description: 52g
+description: onBoarding
 image: https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png
 meta:
   - name: flask zappa 배포
     content: flask zappa 배포
-tags: ["flask"]
+tags: ["onBoarding"]
 ---
 
 # Flask zappa 배포
@@ -86,11 +86,6 @@ zappa init
 zappa deploy dev
 zappa update dev
 ```
-
-zappa 배포완료!
-
-[https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev](https://1tpei8luv2.execute-api.ap-northeast-2.amazonaws.com/dev)
-** 내 개인 aws 조만간 내리자**
 
 > ### 참고 링크
 > - [https://yoonminlee.com/zappa-flask-serverless-deployment](https://yoonminlee.com/zappa-flask-serverless-deployment)

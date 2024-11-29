@@ -7,7 +7,7 @@ description: Flask VSCode 디버깅 설정
 meta:
   - name: Flask wsl VSCode Debugging
     content: Flask wsl VSCode Debugging
-tags: ["flask"]
+tags: ["onBoarding"]
 ---
 
 # Flask + wsl + VSCode Debugging

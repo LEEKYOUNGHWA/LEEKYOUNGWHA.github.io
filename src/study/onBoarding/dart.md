@@ -1,7 +1,8 @@
 ---
 lastUpdated: 2024/10/22 16:51:00
-description: 52g
+description: onBoarding
 image: https://dart-ko.dev/assets/img/logo_lockup_dart_horizontal.png
+tags: ["onBoarding"]
 ---
 
 # Dart

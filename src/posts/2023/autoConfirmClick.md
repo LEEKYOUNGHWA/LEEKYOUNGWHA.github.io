@@ -17,25 +17,28 @@ tags: ["javascript"]
 
 # {{ $frontmatter.title }}
 
+> 아니 원래 넘어가기가 안됬었는데 넘어가지는군요?   
+> 버튼을 100번 누르느냐 세팅해놓고 자동 재생 시키느냐는 여러분들의 선택...  
+> ++ 최영재M의 스크립트 보완(감사감사) 에 제가 더 수정함  
+> ++ 유지현M 문의 보완
+
 getSmart 라는 사내 교육프로그램이 있는데 다음 차시로 넘어갈때마다 확인 누르는게 너무 귀찮다.  
 다음 차시로 자동으로 넘어가게 alert을 없애는 스크립트를 짜봤다.  
-의무교육들을때 크롬 탭 생성해서 복사해서 한꺼번에 4개의 강좌를 동시에 돌리면 됨.  
-켜놓기만 하면 오전에 의무교육 끝남.  
-다음 페이지로 넘어갈때 화면에서 발생하는 alert 이나 confirm 없애고 자동으로 재생시켜 줍니다
-
-++ 아니 원래 넘어가기가 안됬었는데 넘어가지는군요? 버튼을 100번 누르느냐 세팅해놓고 자동 재생 시키느냐는 여러분들의 선택...  
-++ 최영재M의 스크립트 보완 ㄳㄳ 에 제가 더 수정함
+의무교육들을때 크롬 탭에서 한꺼번에 4개의 강좌를 동시에 돌리면 됨.  
+다음 페이지로 넘어갈때 화면에서 발생하는 alert 이나 confirm 없애고 재생 위치를 뒤쪽으로 당겨 자동으로 재생시켜 줍니다
 
 - 참고 : [detect-if-an-alert-or-confirm-is-displayed-on-a-page](https://stackoverflow.com/questions/4866986/detect-if-an-alert-or-confirm-is-displayed-on-a-page)
 
 ## 사내 자체 프로그램용
 
 1. [Tampermonkey 크롬 확장 프로그램](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) 설치해 주세용. 한번 세팅해놓으면 두고두고 사용 가능
-1. 확장 프로그램 개발자 모드 켜주세요
+1. ***!!!확장 프로그램 개발자 모드 켜주세요!!!*** 안키면 파란 메시지 뜨면서 작동이 안됩니당 ㅠ  
+`크롬 더보기` > `확장 프로그램` > `확장 프로그램 관리` > 우측 상단 `개발자 모드` 활성화
+![tampermonkey4](~@image/2024/tampermonkey4.png)
 ![tampermonkey3](~@image/2024/tampermonkey3.png)
 1. Tampermonkey 스크립트 어떻게 공유하는지 모르겠군용 하나 만들어 주세요
 ![tampermonkey2](~@image/2024/tampermonkey2.png)
-1. 스크립트 작성후 `ctrl`+`s` 저장!
+1. 스크립트 작성후 `ctrl`+`s` 저장! (상단 주석도 중요합니다용 전체 복사 후 붙여넣기 해주세요)
 ```js
 // ==UserScript==
 // @name         getsmart 알럿 없애기 및 동영상 자동 재생, 끝으로 이동

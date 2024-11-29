@@ -1,10 +1,11 @@
 ---
-lastUpdated: 2024/10/29 12:02:00
-description: 52g
+lastUpdated: 2024/11/28 16:55:00
+description: 설치, 배포, 소스
 image: https://docs.flutter.dev/assets/images/branding/flutter/logo+text/horizontal/default.svg
+tags: ["onBoarding"]
 ---
 
-# Flutter
+# Flutter 설치, 배포
 
 [[toc]]
 
@@ -55,6 +56,27 @@ flutter config --android-studio-dir="C:\Program Files\Android\Android Studio"
 
 > 단축키
 > - `ctrl`+`.` : Code Action 열기
+
+## 배포
+
+[김진한M 블로그 ㄱ](https://meotlog.tistory.com/73)  
+
+마지막 쉘 스크립트 전까지 따라해 준다
+
+나는 맥 환경이 아니므로.. 걍 손수 돌려줬다...(챗 지피티가 배포까지 해주면 얼마나 좋을까)
+
+1. cmd 켜서 플러터 빌드..
+```cmd
+flutter build web --web-renderer html
+```
+2. wsl 켜서 aws 명령어 실행
+```sh
+aws s3 website s3://sherryflutter/ --index-document index.html --error-document error.html
+aws cloudfront create-invalidation --distribution-id E1JH0EGOJGN6Q3 --paths '/*'
+```
+
+[todo 최종 구현](https://d36q53cigyqtai.cloudfront.net/)
+- test 계정 : test@email.com / 1234
 
 ## Stateless Widgets
 

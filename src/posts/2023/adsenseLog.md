@@ -2,7 +2,7 @@
 title: vuepress 블로그 애드고시
 lang: ko-KR
 date: 2023/09/26 20:46:25
-lastUpdated: 2024/10/21 11:07:00
+lastUpdated: 2024/11/28 16:06:00
 description: 블로그 애드고시를 드디어 통과했습니다!!!
 meta:
   - name: vuepress
@@ -13,6 +13,10 @@ tags: ["vuepress"]
 ---
 
 # {{ $frontmatter.title }}
+
+## 2024-11-28
+아니 이거 언제 아이스크림 하나 사먹나... ㅎ
+![adsense](~@image/2024/adsense.png)
 
 ## 2024-10-21
 애드고시 1년만에 재도전 했다. 이번에도 떨어지겠지 하고 신청하고 잊고 있다가 블로그 들어갔는데 갑자기 광고가 뜨는 거시다?!@@!?!?  
