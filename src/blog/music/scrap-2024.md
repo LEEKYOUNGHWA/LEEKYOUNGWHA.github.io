@@ -16,6 +16,16 @@ frameborder="0" allowfullscreen></iframe>
 
 ## Fav
 
+#### Kanye plays 'Through The Wire' for Pharrell for the first time (2004)
+<div class="iframe-container" style="text-align: center;" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cGkcF7bHko4?si=bQ0XJVnynBENb63X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+#### Kanye West - Through The Wire MV
+<div class="iframe-container" style="text-align: center;" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uvb-1wjAtk4?si=vMv7K2r8xUlYiKm-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 #### Parcels - Lightenup | A COLORS SHOW  
 <div class="iframe-container" style="text-align: center;" >
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bJl-avjRgzU?si=BTiG1tgWSbInYC19" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -83,6 +93,12 @@ frameborder="0" allowfullscreen></iframe>
 > ### Kendrick Lamar
 > - [To Pimp A Butterfly 전곡해석](https://hiphople.com/album/12201865)
 > - [To Pimp A Butterfly 나무위키](https://namu.wiki/w/To%20Pimp%20A%20Butterfly)  
+
+> ### Kanye West - The Collage Dropout 은 우리 모두의 인생
+> - [The Collage Dropout 전곡해석](https://hiphople.com/album/12200706)
+
+> ### Wild Cherry - Play That Funky Music
+> [내가 어쩜 이렇게 어리석을 수가 있지? 내가 시대에 뒤쳐진 사람이라는 것을 모르다니.](https://blog.naver.com/auctionrun/223591915712)
 
 > ### EP
 > EP라는 용어는 원래 음반이 바이닐 레코드로 발매되던 시대, 12인치 LP판보다 작은 지름의 레코드판을 지칭하는 말이었다. LP와 > EP는 얼핏 비슷해보이지만 규격을 제안한 회사도 다르고 사양도 다른 별개의 매체이다. LP판은 12인치 33 1/3rpm인데 비해 EP판> 은 12인치 또는 7인치에 45rpm이었다.

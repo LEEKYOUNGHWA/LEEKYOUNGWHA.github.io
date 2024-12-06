@@ -1,6 +1,14 @@
 {
     "year2024" :  [
         {
+            "link":"https://www.netflix.com/kr/title/81024821",
+            "img":"https://search.pstatic.net/sunny?src=https%3A%2F%2Focc-0-993-988.1.nflxso.net%2Fdnm%2Fapi%2Fv6%2FE8vDc_W8CLv7-yMQu8KMEC7Rrr8%2FAAAABapFTnXqUmqu4TUKmRoLY3srwHCqKTqQ8hM4fOSDPkLTpnYeN0aKCce265qJ1g0AyezKLizgL59-6Z6Om8JgEFyiSl_qV6a-XdzR.jpg%3Fr%3D857&type=fff208_208",
+            "name": "삼체",
+            "memo": "올해 삼체에 미침.. 책 언제 다읽지?",
+            "star": 10,
+            "date": ""
+        },
+        {
             "link":"https://www.imdb.com/title/tt0097165/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_dead%2520poet",
             "img":"https://search.pstatic.net/common?type=o&size=176x264&quality=85&direct=true&src=https%3A%2F%2Fs.pstatic.net%2Fmovie.phinf%2F20210315_143%2F1615793538419tIM2B_JPEG%2Fmovie_image.jpg%3Ftype%3Dw640_2",
             "name": "죽은 시인의 사회",
@@ -103,6 +111,6 @@
             "memo": "잘나가다가 뒤에서 웃음 터짐",
             "star": 3,
             "date": "2024.03.02"
-        }       
+        }             
     ]
 }

@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/11/17 20:30:00
-description: 바보는 이걸 이해하는데 상당한 오랜 시간이 걸렸다
+description: 바보는 이걸 이해하는데 상당히 오랜 시간이 걸렸다
 tags: ["onBoarding"]
 ---
 

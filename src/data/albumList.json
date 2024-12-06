@@ -1,12 +1,49 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/honey/1434909253",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/1a/8e/ac1a8e0f-09a2-9db5-2d8f-30c1f63af48d/00602567825906.rgb.jpg/316x316bf.webp",
+            "date":"2024.12.06",
+            "artist": "Honey",
+            "name": "Ohio Players",
+            "memo": "Ohio Players와 함께라면 인생의 어떤 역경과 고난도 헤쳐나갈 수 있을거 같다. 여기서 말하는 역경과 고난은... 감기와 다이어트.. flutter,,..ㅋㅅㅋ 힘내자!",
+            "year": "1975"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/pipes-of-peace/1440948894",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/db/4d/61/db4d6133-44ef-8425-c5ed-e547d047bfa0/14CMGIM01977.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.03",
+            "artist": "Paul McCartney",
+            "name": "Pipes Of Peace",
+            "memo": "Say Say Say 가 멱살잡고 캐리했다. 내가 이 뮤직비디오를 얼마나 좋아했던가...... 마이클잭슨의 리즈시절이 담긴 뮤직비디오중 하나",
+            "year": "1983"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/1/1440833098",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/69/d1/f2/69d1f208-1fc8-1002-4ce4-3b0ffbce80ad/Jobd28660f7-972b-41cf-b8e7-564f8d8f1a1d-129350291-PreviewImage_preview_image_nonvideo_sdr-Time1646248961886.png/316x316bb.webp",
+            "date":"2024.12.02",
+            "artist": "The Beatles",
+            "name": "1",
+            "memo": "프로그래밍 언어를 비틀즈의 음반에 비유하자면 다트는 비틀즈의 히트곡 모음과 같다. 누구나 비틀즈를 좋아하며 Hey Jude가 특히 유명하다. 흥겨운 파티장에서 비틀즈의 히트곡을 듣고 있는데 갑자기 파티장과 어울리지 않는 노래인 Within You Without You가 나올 걱정은 할 필요 없다. 필자는 이 노래를 좋아하지만 모두가 좋아하지는 않으며 특히 파티장에는 안 어울린다. 다트 코드를 구현할때도 설명하기 어려운 문법이나 동작을 만나도 두려워할 필요가 없다. 원래 이런 일은 일어나기 마련이며 최악의 상황일지라도 관련 문서를 참고하면 쉽게 이해할 수 있다.",
+            "year": "2000"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/player/1458825368",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/53/c1/b853c1bc-aa35-1868-181c-6cd24ec9c5b1/00602577245428.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.01",
+            "artist": "Player",
+            "name": "Player",
+            "memo": "겨울이 되면 생각나는 노래 Melanie",
+            "year": "1977"
+        },
+        {
             "link":"https://music.apple.com/kr/album/rufus-featuring-chaka-khan/1443806525",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/99/ce/d5/99ced51d-3cfb-a6fa-4a99-92181ec7fa88/00076743137327.rgb.jpg/316x316bb.webp",
             "date":"2024.11.28",
             "artist": "Rufus",
             "name": "Rufus featuring Chaka Khan",
-            "memo": "To everybody, Rufus 들으세여 요즘 내 최애 도파민"
+            "memo": "Politicians tryin' to draw the right conclusions. Think about it, Is that the right solution? Cause everybody's got an aura It can either work against ya or it can work for ya",
+            "year": "1975"
         },
         {
             "link":"https://music.apple.com/kr/album/chocolate-star/321159490",
@@ -14,7 +51,8 @@
             "date":"2024.11.27",
             "artist": "Gary Davis",
             "name": "Chocolate Star",
-            "memo": "\"Gee Dee\" is one of my favorite songs of ever - Tyler, The Creator"
+            "memo": "\"Gee Dee\" is one of my favorite songs of ever - Tyler, The Creator",
+            "year": "2006"
         },
         {
             "link":"https://music.apple.com/kr/album/rufusized/1444057236",
@@ -22,7 +60,8 @@
             "date":"2024.11.25",
             "artist": "Rufus",
             "name": "Rufusized",
-            "memo": "Is the material things that he's givin'? Can you truly say that you're happy livin'?"
+            "memo": "Is the material things that he's givin'? Can you truly say that you're happy livin'?",
+            "year" : "1974"
         },
         {
             "link":"https://music.apple.com/kr/album/apollo-xxi/1464024764",
@@ -30,7 +69,8 @@
             "date":"2024.11.17",
             "artist": "Steve Lacy",
             "name": "Apollo XXI",
-            "memo": "Playground 뮤비에서 입고있는 프린스 티셔츠"
+            "memo": "Playground 뮤비에서 입고있는 프린스 티셔츠",
+            "year": "2019"
         },
         {
             "link":"https://music.apple.com/kr/album/hive-mind/1388571796",
@@ -38,7 +78,8 @@
             "date":"2024.11.17",
             "artist": "The Internet",
             "name": "Hive Mind",
-            "memo": "2124년 수능문제 The Internet 과 Odd Future 구성원 다이어그램을 그려 보시오"
+            "memo": "2124년 수능문제 The Internet 과 Odd Future 구성원 다이어그램을 그려 보시오",
+            "year": "2018"
         },
         {
             "link":"https://music.apple.com/kr/album/going-going-gone/1523126012",
@@ -46,7 +87,8 @@
             "date":"2024.11.17",
             "artist": "Going Going Gone",
             "name": "Mild High Club",
-            "memo": "\"Freedom rings(자유가 울려 퍼지게 하라)\"는 미국에서 흔히 쓰이는 애국적 문구로, 미국의 자유에 대한 약속이 \"지구 전역에 퍼져서 번성하도록 해야 한다\"는 생각을 말합니다. 하지만 여기서는 다른 종류의 울림, 즉 금전 등록기의 울림이 뒤따릅니다. 이는 미국이 진정으로 자유를 누릴 만큼 부유한 사람들에게만 자유를 제공한다는 것을 의미합니다."
+            "memo": "\"Freedom rings(자유가 울려 퍼지게 하라)\"는 미국에서 흔히 쓰이는 애국적 문구로, 미국의 자유에 대한 약속이 \"지구 전역에 퍼져서 번성하도록 해야 한다\"는 생각을 말합니다. 하지만 여기서는 다른 종류의 울림, 즉 금전 등록기의 울림이 뒤따릅니다. 이는 미국이 진정으로 자유를 누릴 만큼 부유한 사람들에게만 자유를 제공한다는 것을 의미합니다.",
+            "year": "2021"
         },
         {
             "link":"https://music.apple.com/kr/album/promise/211677347",
@@ -54,7 +96,17 @@
             "date":"2024.11.11",
             "artist": "Sade",
             "name": "Promise",
-            "memo": "야밤에 알고리즘타고 등장한 샤데이... 앨범 너무좋다.. 라이브도 쩐다.. Sade - Is It A Crime (Live Video from San Diego)"
+            "memo": "야밤에 알고리즘타고 등장한 샤데이... 앨범 너무좋다.. 라이브도 쩐다.. Sade - Is It A Crime (Live Video from San Diego)",
+            "year": "1985"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/the-glow-of-love/1413478347",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/83/2e/0e/832e0ea1-2ce9-7a75-f574-7583c39068eb/7630045431151_cover.jpg/316x316bb.webp",
+            "date":"2024.11.07",
+            "artist": "Change",
+            "name": "The Glow of Love",
+            "memo": "디스코 끝판왕",
+            "year": "1980"
         },
         {
             "link":"https://music.apple.com/kr/album/body-heat/1443141710",
@@ -62,7 +114,8 @@
             "date":"2024.11.05",
             "artist": "Quincy Jones",
             "name": "Body Heat",
-            "memo": ""
+            "memo": "",
+            "year": "1974"
         },
         {
             "link":"https://music.apple.com/kr/album/the-birth-of-a-band/1443597166",
@@ -70,7 +123,8 @@
             "date":"2024.11.05",
             "artist": "Quincy Jones",
             "name": "The Birth of a Band!",
-            "memo": ""
+            "memo": "",
+            "year": "1959"
         },
         {
             "link":"https://music.apple.com/kr/album/the-birth-of-a-band-vol-2/1443203063",
@@ -78,7 +132,8 @@
             "date":"2024.11.05",
             "artist": "Quincy Jones",
             "name": "The Birth of a Band!, Vol. 2",
-            "memo": ""
+            "memo": "",
+            "year": "1959"
         },
         {
             "link":"https://music.apple.com/kr/album/big-band-bossa-nova/1440871985",
@@ -86,7 +141,8 @@
             "date":"2024.11.05",
             "artist": "Quincy Jones",
             "name": "Big Band Bossa Nova",
-            "memo": ""
+            "memo": "",
+            "year": "1962"
         },
         {
             "link":"https://music.apple.com/kr/album/sounds-and-stuff-like-that/1442863691",
@@ -94,7 +150,8 @@
             "date":"2024.11.04",
             "artist": "Quincy Jones",
             "name": "Sounds... And Stuff Like That!",
-            "memo": "퀸시 딜라이트 존스 2세(영어: Quincy Delight Jones Jr., 1933년 3월 14일~2024년 11월 3일)는 미국의 음악 녹음 프로듀서, 가수, 영화 음악 프로듀서로, 별칭은 \"Q\". 60년간 연예 관련 사업에 종업하되 그래미상에 80회 후보 지명(기중 28회 수상, 1991년 그래미 전설상 포함)된 기록을 세웠다."
+            "memo": "퀸시 딜라이트 존스 2세(영어: Quincy Delight Jones Jr., 1933년 3월 14일~2024년 11월 3일)는 미국의 음악 녹음 프로듀서, 가수, 영화 음악 프로듀서로, 별칭은 \"Q\". 60년간 연예 관련 사업에 종업하되 그래미상에 80회 후보 지명(기중 28회 수상, 1991년 그래미 전설상 포함)된 기록을 세웠다.",
+            "year": "1978"
         },
         {
             "link":"https://music.apple.com/kr/album/the-rise-and-fall-of-ziggy-stardust-and-the/1039796877",
@@ -102,7 +159,8 @@
             "date":"2024.11.01",
             "artist": "David Bowie",
             "name": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
-            "memo": "이 앨범의 위대함을 이제야 알았다"
+            "memo": "이 앨범의 위대함을 이제야 알았다",
+            "year": "1972"
         },
         {
             "link":"https://music.apple.com/kr/album/chromakopia/1776500452",
@@ -110,7 +168,8 @@
             "date":"2024.10.31",
             "artist": "Tyler, The Creator",
             "name": "CHROMAKOPIA",
-            "memo": "I hope you find yourself And I hope you take your mask off"
+            "memo": "I hope you find yourself And I hope you take your mask off",
+            "year": "2024"
         },
         {
             "link":"https://music.apple.com/kr/album/everybody/1440892046",
@@ -118,7 +177,8 @@
             "date":"2024.10.25",
             "artist": "Logic",
             "name": "Everybody",
-            "memo": "http://www.everybodycover.com/"
+            "memo": "http://www.everybodycover.com/",
+            "year": "2017"
         },
         {
             "link":"https://music.apple.com/kr/album/ultra-85/1750765140",
@@ -126,7 +186,8 @@
             "date":"2024.10.22",
             "artist": "Logic",
             "name": "Ultra 85",
-            "memo": "철학자 앨런 왓츠가 이런 말을 했었지, \"여러분이 어떤 분야에 관심을 가졌든, 그걸 공유하는 사람들을 찾게 될 겁니다\" 라고. 진부한 말이지만, 어딘가에 들어가서 어울리기란 어렵지. 하지만 자신과 비슷한 사람들을 열심히 찾아본다면, 분명히 존재할 거야"
+            "memo": "철학자 앨런 왓츠가 이런 말을 했었지, \"여러분이 어떤 분야에 관심을 가졌든, 그걸 공유하는 사람들을 찾게 될 겁니다\" 라고. 진부한 말이지만, 어딘가에 들어가서 어울리기란 어렵지. 하지만 자신과 비슷한 사람들을 열심히 찾아본다면, 분명히 존재할 거야",
+            "year": "2024"
         },
         {
             "link":"https://music.apple.com/kr/album/the-incredible-true-story/1440845001",
@@ -134,7 +195,8 @@
             "date":"2024.10.21",
             "artist": "Logic",
             "name": "The Incredible True Story",
-            "memo": "칸예, 카우보이 비밥, 타란티노, 공상과학을 좋아하는 그는.... 내 이상형"
+            "memo": "칸예, 카우보이 비밥, 타란티노, 공상과학을 좋아하는 그는.... 내 이상형",
+            "year": "2015"
         },
         {
             "link":"https://music.apple.com/kr/album/to-pimp-a-butterfly/1440828886",
@@ -142,7 +204,8 @@
             "date":"2024.10.17",
             "artist": "Kendrick Lamar",
             "name": "To Pimp a Butterfly",
-            "memo": "I remember you was conflicted, misusing your influence. Sometimes, I did the same"
+            "memo": "I remember you was conflicted, misusing your influence. Sometimes, I did the same",
+            "year": "2015"
         },
         {
             "link":"https://music.apple.com/kr/album/the-tk-years/693638730",
@@ -150,7 +213,8 @@
             "date":"2024.10.16",
             "artist": "KC and the Sunshine Band",
             "name": "The TK Years",
-            "memo": "Do a little dance Make a little love Get down tonight, get down tonight!"
+            "memo": "Do a little dance Make a little love Get down tonight, get down tonight!",
+            "year": "2009"
         },
         {
             "link":"https://music.apple.com/kr/album/back-in-black/574050396",
@@ -158,7 +222,8 @@
             "date":"2024.10.15",
             "artist": "AC/DC",
             "name": "Back In Black",
-            "memo": "오늘 왤케 졸리냐 암것도 하기 싫다"
+            "memo": "오늘 왤케 졸리냐 암것도 하기 싫다",
+            "year": "1980"
         },
         {
             "link":"https://music.apple.com/kr/album/welcome-home/1687122836",
@@ -166,7 +231,8 @@
             "date":"2024.10.14",
             "artist": "Gareth Donkin",
             "name": "Welcome Home",
-            "memo": "Off the Wall 1티스푼"
+            "memo": "Off the Wall 1티스푼",
+            "year": "2023"
         },
         {
             "link":"https://music.apple.com/kr/album/no-more-lies-single/1679528051",
@@ -174,7 +240,8 @@
             "date":"2024.10.14",
             "artist": "Thundercat, Tame Impala" ,
             "name": "No More Lies - Single",
-            "memo": "노래가 마약같네.... 둘이 앨범 하나 내줬으면"
+            "memo": "노래가 마약같네.... 둘이 앨범 하나 내줬으면",
+            "year": "2023"
         },
         {
             "link":"https://music.apple.com/kr/album/the-lucky-one/1701715813",
@@ -182,7 +249,8 @@
             "date":"2024.10.13",
             "artist": "Cory Wong",
             "name": "The Lucky One",
-            "memo": "띵반 발견"
+            "memo": "띵반 발견",
+            "year": "2023"
         },
         {
             "link":"https://music.apple.com/kr/album/wild-cherry/198226103",
@@ -190,7 +258,8 @@
             "date":"2024.10.12",
             "artist": "Wild Cherry",
             "name": "Wild Cherry",
-            "memo": "다시 들어도 좋쿤,,"
+            "memo": "일렉 스타일의 펑키 음악을 연주할 거야. 처음에는 쉽지 않았어 로큰롤 정신을 바꾸는 것이. 지금은 훨씬 너무 좋아. 난 모든 면에서 락에서 비겁하게 빠져나오고 있어. 하지만 난 그 느낌은 절대 잃어버리지 않을 거야, 내가 그날 어떻게 교훈을 배우게 되었는지... 그곳 사람들은 춤추고 노래하고 리듬을 타고 움직이고 있었어. 그 음악이 나에게 다가왔을 때 누군가 돌아서서 나에게 외쳤어. 그 펑키 음악을 연주해 봐, 백인 소년아. 부기 록 음악은 그만하고 펑키 음악을 연주해 봐, 네가 죽을 때까지.",
+            "year": "1976"
         },
         {
             "link":"https://music.apple.com/kr/album/friends/1590832349",
@@ -295,14 +364,6 @@
             "artist": "Parcels",
             "name": "Parcels",
             "memo": "Time to lighten up! 한때 내 알람"
-        },
-        {
-            "link":"https://music.apple.com/kr/album/city-slicker-ep/1564305258",
-            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/db/16/01/db1601fc-4868-82d7-939b-43cdb06fde0e/3663729156433_cover.jpg/316x316bb.webp",
-            "date":"2024.09.20",
-            "artist": "Ginger Root",
-            "name": "City Slicker - EP",
-            "memo": "4월쯤인가... 이사하고 많이 들었었음"
         },
         {
             "link":"https://music.apple.com/kr/album/pulsar/1736766809",
@@ -593,6 +654,14 @@
             "memo": "완성"
         },
         {
+            "link":"https://music.apple.com/kr/album/city-slicker-ep/1564305258",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/db/16/01/db1601fc-4868-82d7-939b-43cdb06fde0e/3663729156433_cover.jpg/316x316bb.webp",
+            "date":"2024.04.01",
+            "artist": "Ginger Root",
+            "name": "City Slicker - EP",
+            "memo": "이사"
+        },
+        {
             "link":"https://music.apple.com/kr/album/high-times-singles-1992-2006-deluxe-version/786107608",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/29/09/ea/2909ea5c-f8a0-3a7a-14e8-ae4a08a4ee2d/Job5ca264b0-0a81-4228-94a6-5060af6bda81-138527340-PreviewImage_preview_image_nonvideo_sdr-Time1667493554804.png/316x316bb.webp",
             "date":"2024.03.20",
@@ -630,7 +699,7 @@
             "date":"2024.03.13",
             "artist": "Kanye West",
             "name": "The College Dropout",
-            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배. "
+            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배. !!!정정합니다!!! 분기마다 들어줘야 하는 Collage Dropout"
         },
         {
             "link":"https://music.apple.com/kr/album/free-ride/1443546509",
