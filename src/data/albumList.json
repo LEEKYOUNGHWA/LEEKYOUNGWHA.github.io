@@ -1,11 +1,38 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/hot-rats/1562897106",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cf/ff/cc/cfffcc53-3c98-9cff-079d-262fdede78e9/12UMGIM15567.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.10",
+            "artist": "Frank Zappa",
+            "name": "Hot Rats",
+            "memo": "ChatGPT : Python의 Zappa는 미국의 음악가 Frank Zappa에서 유래했을 가능성이 높습니다. Frank Zappa는 독창적이고 혁신적인 음악 스타일로 잘 알려져 있으며, Python의 Zappa 라이브러리도 Flask 애플리케이션을 AWS Lambda에 쉽게 배포하는 독창적인 도구입니다. Zappa의 실험적이고 예술적인 접근 방식이 Python Zappa의 간단하고 강력한 기능과 잘 어울려 이름이 선택된 것으로 보입니다. Zappa 라이브러리는 서버리스 애플리케이션 개발을 간소화하는 데 중점을 둡니다.",
+            "year": "1969"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/django-tunes/375544897",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/5f/9e/7c/5f9e7c38-759e-552a-9ad4-a55517ea1727/cover.jpg/316x316bb.webp",
+            "date":"2024.12.09",
+            "artist": "Florin Niculescu",
+            "name": "Django Tunes",
+            "memo": "12월 18일....유호정씨 보러 갈 생각에 신난 1인...^^",
+            "year": "2010"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/abbey-road-2019-mix/1474815798",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/53/43/485343e3-dd6a-0034-faec-f4b6403f8108/13UMGIM63890.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.08",
+            "artist": "The Beatles",
+            "name": "Abbey Road",
+            "memo": "세상에서 제일 유명한 앨범커버.. (챗 지피티도 그렇다고 했다!) 들으면 들을수록 좋다,, 비틀즈 입문으로 제격",
+            "year": "1969"
+        },
+        {
             "link":"https://music.apple.com/kr/album/honey/1434909253",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/1a/8e/ac1a8e0f-09a2-9db5-2d8f-30c1f63af48d/00602567825906.rgb.jpg/316x316bf.webp",
             "date":"2024.12.06",
-            "artist": "Honey",
-            "name": "Ohio Players",
+            "artist":"Ohio Players",
+            "name": "Honey",
             "memo": "Ohio Players와 함께라면 인생의 어떤 역경과 고난도 헤쳐나갈 수 있을거 같다. 여기서 말하는 역경과 고난은... 감기와 다이어트.. flutter,,..ㅋㅅㅋ 힘내자!",
             "year": "1975"
         },
@@ -267,7 +294,8 @@
             "date":"2024.10.10",
             "artist": "Shalamar",
             "name": "Friends",
-            "memo": "하이파이 오디오룸에서 듣고 충격먹음.. 넘 좋아서.."
+            "memo": "하이파이 오디오룸에서 듣고 충격먹음.. 넘 좋아서..",
+            "year": "1982"
         },
         {
             "link":"https://music.apple.com/kr/album/motherlode/1445099461",
@@ -275,7 +303,8 @@
             "date":"2024.10.08",
             "artist": "James Brown",
             "name": "Motherlode",
-            "memo": "Bully Maguire"
+            "memo": "Bully Maguire",
+            "year": "1988"
         },
         {
             "link":"https://music.apple.com/kr/album/drunk/1197789099",
@@ -283,7 +312,8 @@
             "date":"2024.10.07",
             "artist": "Thundercat",
             "name": "Drunk",
-            "memo": "From the minute I wake up, I'm staring at the screen, watching the world go insane. Gotta stay connected so I know what's happening in these streets. Thank God for technology, 'cause where would we be if we couldn't tweet our thoughts?"
+            "memo": "From the minute I wake up, I'm staring at the screen, watching the world go insane. Gotta stay connected so I know what's happening in these streets. Thank God for technology, 'cause where would we be if we couldn't tweet our thoughts?",
+            "year": "2017"
         },
         {
             "link":"https://music.apple.com/kr/album/into-you/1704790014",
@@ -291,7 +321,8 @@
             "date":"2024.10.04",
             "artist": "Incognito",
             "name": "Into You",
-            "memo": "애시드 재즈"
+            "memo": "애시드 재즈",
+            "year": "2023"
         },
         {
             "link":"https://music.apple.com/kr/album/survival/158513207",
@@ -299,7 +330,8 @@
             "date":"2024.09.27",
             "artist": "The O'Jays",
             "name": "Survival",
-            "memo": "適者生存 | Survival of the Fittest"
+            "memo": "適者生存 | Survival of the Fittest",
+            "year": "1975"
         },
         {
             "link":"https://music.apple.com/kr/album/damn/1440881047",
@@ -307,7 +339,8 @@
             "date":"2024.09.26",
             "artist": "Kendrick Lamar",
             "name": "DAMN.",
-            "memo": "퓰리처상"
+            "memo": "퓰리처상",
+            "year": "2017"
         },
         {
             "link":"https://music.apple.com/kr/album/color-your-soul/1699800902",
@@ -315,7 +348,8 @@
             "date":"2024.09.24",
             "artist": "클래지콰이",
             "name": "Color Your Soul",
-            "memo": "아쉬운건 앨범커버뿐..."
+            "memo": "아쉬운건 앨범커버뿐...",
+            "year": "2005"
         },
         {
             "link":"https://music.apple.com/kr/album/greatest-hits/1422700835",
@@ -323,7 +357,8 @@
             "date":"2024.09.23",
             "artist": "Queen",
             "name": "Greatest Hits",
-            "memo": "영국에서 가장 많이 팔린 앨범. 존투 러닝과 함께"
+            "memo": "영국에서 가장 많이 팔린 앨범. 존투 러닝과 함께",
+            "year": "1981"
         },
         {
             "link":"https://music.apple.com/kr/album/off-the-wall/186166282",
@@ -331,7 +366,8 @@
             "date":"2024.09.20",
             "artist": "Michael Jackson",
             "name": "Off the Wall",
-            "memo": "내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범"
+            "memo": "내가 진짜 장르불문 시대 불문 지구상에서 0번째로 좋아하는 앨범..(잠깐만... collage dropout....?!)",
+            "year": "1979"
         },
         {
             "link":"https://music.apple.com/kr/album/for-the-bloom/1337583738",
@@ -699,7 +735,7 @@
             "date":"2024.03.13",
             "artist": "Kanye West",
             "name": "The College Dropout",
-            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배. !!!정정합니다!!! 분기마다 들어줘야 하는 Collage Dropout"
+            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배.......... !!!정정합니다!!! 분기마다 들어줘야 하는 Collage Dropout"
         },
         {
             "link":"https://music.apple.com/kr/album/free-ride/1443546509",
