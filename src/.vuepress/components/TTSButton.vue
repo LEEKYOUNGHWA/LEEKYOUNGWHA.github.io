@@ -6,7 +6,7 @@
     export default {
         methods: {
             speakPageText() {
-                alert("");
+                // alert("");
                 // 페이지의 모든 텍스트를 가져오기
                 const pageText = document.getElementsByClassName('theme-default-content content__default')[0].innerText;
                 
