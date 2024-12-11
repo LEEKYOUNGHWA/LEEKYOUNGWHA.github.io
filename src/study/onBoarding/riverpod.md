@@ -1,8 +1,8 @@
 ---
 lastUpdated: 2024/12/06 17:16:00
 description: 바보는 이걸 이해하는데 상당히 오랜 시간이 걸렸다
-tags: ["onBoarding"]
-image: https://riverpod.dev/ko/img/logo.png
+tags: ["flutter"]
+image: https://docs.flutter.dev/assets/images/branding/flutter/logo+text/horizontal/default.svg
 ---
 
 # 플러터에 Riverpod 적용해서 리팩토링 해보자

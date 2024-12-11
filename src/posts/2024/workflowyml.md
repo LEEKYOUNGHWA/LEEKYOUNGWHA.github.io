@@ -37,57 +37,6 @@ Error: [BABEL] /github/workspace/node_modules/@vuepress/core/lib/client/clientEn
     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
     at Module.require (internal/modules/cjs/loader.js:637:17)
-    at require (internal/modules/cjs/helpers.js:22:18)
-    at Object.<anonymous> (/github/workspace/node_modules/@babel/generator/lib/index.js:7:18)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
-    at Module.require (internal/modules/cjs/loader.js:637:17)
-    at require (internal/modules/cjs/helpers.js:22:18)
-    at Object.<anonymous> (/github/workspace/node_modules/@babel/traverse/lib/path/index.js:14:18)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
-    at Module.require (internal/modules/cjs/loader.js:637:17)
-    at require (internal/modules/cjs/helpers.js:22:18)
-    at Object.<anonymous> (/github/workspace/node_modules/@babel/traverse/lib/context.js:7:14)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
-    at Module.require (internal/modules/cjs/loader.js:637:17)
-    at require (internal/modules/cjs/helpers.js:22:18)
-    at Object.<anonymous> (/github/workspace/node_modules/@babel/traverse/lib/traverse-node.js:7:16)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
-    at Module.require (internal/modules/cjs/loader.js:637:17)
-    at require (internal/modules/cjs/helpers.js:22:18)
-    at Object.<anonymous> (/github/workspace/node_modules/@babel/traverse/lib/path/context.js:27:21)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
- @ multi ./node_modules/@vuepress/core/lib/client/clientEntry.js app[0]
-(undefined) ./node_modules/@vuepress/core/lib/client/serverEntry.js
-Module build failed (from ./node_modules/babel-loader/lib/index.js):
-Error: [BABEL] /github/workspace/node_modules/@vuepress/core/lib/client/serverEntry.js: Cannot find module '@jridgewell/gen-mapping'
-    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
-    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
-    at Module.require (internal/modules/cjs/loader.js:637:17)
-    at require (internal/modules/cjs/helpers.js:22:18)
-    at Object.<anonymous> (/github/workspace/node_modules/@babel/generator/lib/source-map.js:7:19)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
 ```
 
 아니 이게 뭐냐고 난 건드린게 없다고 
@@ -125,13 +74,6 @@ SyntaxError: Unexpected token =
 > **chatGPT** : 이 오류는 Node.js의 구 버전과 호환되지 않는 최신 JavaScript 구문(예: ||= 논리 할당 연산자)으로 인해 발생합니다. 문제를 해결하려면 아래 단계를 따르세요  
 >   
 > Node.js 버전 확인 및 업그레이드  :  최신 JavaScript 문법을 지원하지 않는 오래된 Node.js 버전을 사용하고 있을 가능성이 높습니다.  
-> .  
-> .  
-> .  
-> **나의 말** : vuepress 이고 gitlab에 올라가 있거든... 저걸로 해결 못할거 같은데 다른 방법 알려줘  
-> **ChatGPT**: GitLab CI/CD 환경에서 VuePress와 관련된 문제를 해결하려면 다음과 같은 방법을 고려하세요. Node.js 버전 문제를 해결하지 않고는 오류를 해결하기 어려우므로, CI/CD 파이프라인에서 Node.js 환경을 명시적으로 설정하는 것이 중요합니다.  
->   
-> GitLab CI에서 Node.js 버전 명시 : GitLab CI/CD에서 사용되는 Node.js 버전이 오래된 경우 문제를 발생시킬 수 있습니다. .gitlab-ci.yml 파일에서 최신 LTS 버전을 사용하도록 설정하세요.  
 > .  
 > .  
 > .  

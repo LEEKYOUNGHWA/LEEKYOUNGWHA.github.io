@@ -2,7 +2,7 @@
 lastUpdated: 2024/11/28 16:55:00
 description: 설치, 배포, 소스
 image: https://docs.flutter.dev/assets/images/branding/flutter/logo+text/horizontal/default.svg
-tags: ["onBoarding"]
+tags: ["flutter"]
 ---
 
 # Flutter 설치, 배포

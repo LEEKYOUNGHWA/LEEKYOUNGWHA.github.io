@@ -1,10 +1,11 @@
 ---
 lastUpdated: 2024/12/09 16:50:00
 description: 원하는 스타일에 맞춰서 리팩토링 고고씽
-tags: ["onBoarding"]
+tags: ["flutter"]
+image: https://docs.flutter.dev/assets/images/branding/flutter/logo+text/horizontal/default.svg
 ---
 
-# go_router, flutter_dotenv 적용
+# config 설정 파일 만들어서 go router, flutter dotenv 적용
 
 챗 지피티가 판은 다 만들어준다. 원하는 스타일에 맞춰서 리팩토링 하는거 부터가 시작인듯   
 고고씽
@@ -21,24 +22,15 @@ dependencies:
   flutter_dotenv: ^5.0.2
 ```
 
-## main.. 정리하자...
-깔끔해졌다,,,
-```dart
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:todo/config/config.dart';
+## .env 파일 작성
+루트/assets/.env 파일 만들어 준다
 
-void main() async {
-  runApp(
-    ProviderScope(
-      child: MaterialApp.router(
-        debugShowCheckedModeBanner: false,
-        routerConfig: Config.router, // 반드시 GoRouter와 연결
-      ),
-    ),
-  );
-}
 ```
+# .env 파일
+BASE_URL_DEV=localhost:8080/dev/api/v1
+BASE_URL_PROD=https://il3yh0ax0h.execute-api.ap-northeast-2.amazonaws.com/dev/api/v1
+```
+개발, 운영 주소 적어주자 
 
 ## config.dart 만들어서 설정 몰아넣자 
 
@@ -112,29 +104,58 @@ class Config {
   );
 }
 ```
+## main.. 정리하자...
+깔끔해졌다,,,
+```dart
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:todo/config/config.dart';
+
+void main() async {
+  runApp(
+    ProviderScope(
+      child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
+        routerConfig: Config.router, // 반드시 GoRouter와 연결
+      ),
+    ),
+  );
+}
+```
 
 ## service 단 수정
+
+간헐적으로 오류 나서 `final url = await Config.apiUrl;` await 붙였다
 ```dart
 import 'package:dio/dio.dart';
 import 'package:todo/config/config.dart';
 
 class UserService {
   final Dio _dio = Dio();
-  static var baseUrl = Config.apiUrl;
 
   Future<Map<String, dynamic>?> fetchUserInfo(String token) async {
     try {
+      final url = await Config.apiUrl;
       final response = await _dio.get(
-        '$baseUrl/users',
+        '$url/users',
         options: Options(
           headers: {
             'Authorization': token,
           },
         ),
       );
-      .
-      .
-      .
+      if (response.statusCode == 200) {
+        return response.data; // JSON 데이터 반환
+      } else {
+        Exception('Failed to fetch user info: ${response.statusCode}');
+        return null;
+      }
+    } catch (e) {
+      Exception('Error fetching user info: $e');
+      return null;
+    }
+  }
+}
 ```
 
 ## 이제 실행 ㄱ
