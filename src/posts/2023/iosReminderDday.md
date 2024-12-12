@@ -19,13 +19,9 @@ image: https://leekyounghwa.github.io/img/ddayshortcut.jpg
 
 # {{ $frontmatter.title }}
 
+## [[단축어 링크]](https://www.icloud.com/shortcuts/7d80beb506564f7d8d57bd911b737ea2)
+
 ## 단축어 설정 방법
-
-아이폰 미리알림 기본어플에 디데이 기능 단축어로 추가하는 방법을 공유합니다.
-
-프로젝트 끝난 잉여는 잡기가 늘어간다... 내용은 간단하다. 오늘과 미리알림 날짜 사이의 일자를 계산하여 `D-` 로 시작하는 제목에 날짜를 업데이트 시켜주는 방식이다.
-
-- [단축어 링크](https://www.icloud.com/shortcuts/7d80beb506564f7d8d57bd911b737ea2)
 
 ::: warning ++ 보완....
 ![shortcut](~@image/2024/shortcut.png)  

@@ -1,6 +1,15 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/doggystyle-30th-anniversary-edition/1710796796",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/07/8d/6e/078d6e06-3646-dbb1-1b18-fca24a6b129a/Jobca20d272-881a-4911-9bf2-00f68ed111b8-146530032-PreviewImage_Preview_Image_Intermediate_nonvideo_273276108_1379587538-Time1678807857055.png/316x316bb.webp",
+            "date":"2024.12.12",
+            "artist": "Snoop Dogg",
+            "name": "Doggystyle",
+            "memo": "내일 Missionary 발매되는 날이다. 이미 선공개곡 Gorgeous가 내가 애플뮤직에서 올해 가장 많이 들은 노래 1위임.... >< 컄 기대된당,, 스눕독하면 Doggystyle 아니겠나?! 내일까지 이걸로 버틴다.......",
+            "year": "1993"
+        },
+        {
             "link":"https://music.apple.com/kr/album/hot-rats/1562897106",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cf/ff/cc/cfffcc53-3c98-9cff-079d-262fdede78e9/12UMGIM15567.rgb.jpg/316x316bb.webp",
             "date":"2024.12.10",
