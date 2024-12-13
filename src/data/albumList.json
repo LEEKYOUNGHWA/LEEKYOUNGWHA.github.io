@@ -1,6 +1,15 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/missionary/1784628144",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/3b/df/b33bdfe9-31bb-0be6-a05d-15a5d04bb7f5/24UM1IM36999.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.13",
+            "artist": "Snoop Dogg",
+            "name": "Missionary",
+            "memo": "이제 이 앨범은 제가 스눕독 앨범중에서 세번째로 좋아하는 앨범이 되었습니당 크",
+            "year": "2024"
+        },
+        {
             "link":"https://music.apple.com/kr/album/doggystyle-30th-anniversary-edition/1710796796",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/07/8d/6e/078d6e06-3646-dbb1-1b18-fca24a6b129a/Jobca20d272-881a-4911-9bf2-00f68ed111b8-146530032-PreviewImage_Preview_Image_Intermediate_nonvideo_273276108_1379587538-Time1678807857055.png/316x316bb.webp",
             "date":"2024.12.12",
