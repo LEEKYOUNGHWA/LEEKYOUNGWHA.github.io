@@ -7,7 +7,6 @@ description: axios
 meta:
   - name: axios
     content: chapter14
-tags: ["react"]
 prev: ./day6.md
 ---
 # 리액트를다루는기술

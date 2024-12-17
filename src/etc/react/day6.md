@@ -7,7 +7,6 @@ description: 리액트 라우터 (SPA)
 meta:
   - name: 리액트 라우터 (SPA)
     content: chapter13
-tags: ["react"]
 prev: ./day5.md
 next: ./day7.md
 ---

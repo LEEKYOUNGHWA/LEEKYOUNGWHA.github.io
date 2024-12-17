@@ -1,9 +1,4 @@
----
-title: 52g 레슨런 공유
-tags: ["onBoarding"]
----
 # 온보딩 교육 IT1055 이경화
-
 
 ## Flutter 회고...
 

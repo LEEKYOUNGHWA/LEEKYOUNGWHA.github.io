@@ -2,10 +2,10 @@
 lastUpdated: 2024/12/09 16:50:00
 description: 원하는 스타일에 맞춰서 리팩토링 고고씽
 tags: ["flutter"]
-image: https://docs.flutter.dev/assets/images/branding/flutter/logo+text/horizontal/default.svg
+image: https://img.icons8.com/color/512/flutter.png
 ---
 
-# config 설정 파일 만들어서 go router, flutter dotenv 적용
+# Flutter에 config 설정 파일 만들어서 go router, flutter dotenv 적용
 
 챗 지피티가 판은 다 만들어준다. 원하는 스타일에 맞춰서 리팩토링 하는거 부터가 시작인듯   
 고고씽

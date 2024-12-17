@@ -7,7 +7,6 @@ description: 리액트 라이프사이클 메서드
 meta:
   - name: 리액트 라이프사이클 메서드
     content: 리액트 라이프사이클 메서드
-tags: ["react"]
 prev: ./day1.md
 next: ./day3.md
 ---

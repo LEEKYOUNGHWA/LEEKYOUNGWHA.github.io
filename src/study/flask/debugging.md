@@ -7,12 +7,13 @@ description: Flask VSCode 디버깅 설정
 meta:
   - name: Flask wsl VSCode Debugging
     content: Flask wsl VSCode Debugging
-tags: ["onBoarding"]
+tags: ["flask"]
+image: https://img.icons8.com/?size=512&id=TtXEs5SeYLG8&format=png
 ---
 
 # Flask + wsl + VSCode Debugging
 
-일단 난 플라스크 환경을 wsl에 설정했다(...zappa 윈도우 아나콘다 배포 실패했음ㅜ 포기할수 없어 아나콘다...).  
+일단 난 플라스크 환경을 wsl에 세팅 했다.  
 
 ## vscode flask 디버깅 설정
 1. wsl 에서 python 가상환경 flask 로컬 서버 띄우는거까지 했다고 가정하고 스타트

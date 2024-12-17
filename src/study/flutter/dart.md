@@ -1,7 +1,7 @@
 ---
-lastUpdated: 2024/10/22 16:51:00
+lastUpdated: 2024/11/27 16:51:00
 description: onBoarding
-image: https://dart-ko.dev/assets/img/logo_lockup_dart_horizontal.png
+image: https://img.icons8.com/color/512/flutter.png
 tags: ["flutter"]
 ---
 

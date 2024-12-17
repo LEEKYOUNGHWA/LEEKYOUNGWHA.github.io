@@ -2,10 +2,10 @@
 lastUpdated: 2024/12/06 17:16:00
 description: 바보는 이걸 이해하는데 상당히 오랜 시간이 걸렸다
 tags: ["flutter"]
-image: https://docs.flutter.dev/assets/images/branding/flutter/logo+text/horizontal/default.svg
+image: https://img.icons8.com/color/512/flutter.png
 ---
 
-# 플러터에 Riverpod 적용해서 리팩토링 해보자
+# Flutter 에 Riverpod 적용해서 리팩토링 해보자
 
 - Riverpod : Flutter에서 상태 관리(State Management)를 위한 라이브러리
 - [https://riverpod.dev/ko/docs/introduction/getting_started](https://riverpod.dev/ko/docs/introduction/getting_started)

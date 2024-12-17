@@ -7,7 +7,6 @@ description: Sass
 meta:
   - name: Sass
     content: Sass
-tags: ["react"]
 prev: ./day3.md
 next: ./day5.md
 ---

@@ -1,31 +1,11 @@
 ---
-lastUpdated: 2024/11/29 13:47:00
-image: https://kafka.apache.org/logos/kafka_logo--simple.png
+lastUpdated: 2024/11/01 13:47:00
+image: https://velog.velcdn.com/images/gsun/post/64573b02-6890-4bf8-a50c-91210e6c9063/image.png
 tags: ["kafka"]
-description: 발표... 시연.... 로깅
+description: 여러 시스템으로 대량의 정보 전파
 ---
 
-# HR 프로젝트에 카프카를 쓴다면...
-
-> - [최최최종 PPT](https://docs.google.com/presentation/d/1fzvnjjhByDd0rYhr4DKLN7qyY-_HcZN_/edit?usp=drive_link&ouid=101205770932388491585&rtpof=true&sd=true)
-> - [시연 소스](https://github.com/LEEKYOUNGHWA/kafka-soa/tree/main)
-
-## 요구사항
-- 두 회사의 인사정보 통합
-- 여러 시스템으로 대량의 인사정보 주기적 전파
-- 여러 시스템 인사/시스템 권한 정보 실시간 전파
-
-## 시연 설명
-![kafka](~@image/2024/kafka/20.png)
-
-### 시나리오
-1. 인사정보 10000건 각 시스템 전파
-2. 팀 정보 10000건 각 시스템 전파
-3. md 정보 시스템 전파
-
-### 기술스택
-- spring boot + jpa + h2 로컬 3대
-- aws kafka 1대
+# 카프카 Pilot Project
 
 ## [chatgpt has the answer to life the universe and everything](https://shellypalmer.com/2023/01/chatgpt-has-the-answer-to-life-the-universe-and-everything/)
 
@@ -69,3 +49,27 @@ Publisher-Subscriber 구조로 하나의 소스에서 여러 소비자에게 데
 
 주요 동기식 API로 정합성을 보장하면서, 비동기 스트림 처리가 필요한 일부 데이터는 카프카를 활용해 전달합니다.
 카프카의 필요성은 전송 빈도, 데이터 처리 요구 사항, 장애 복구 필요성에 따라 결정되므로 프로젝트의 특성을 잘 고려하는 것이 좋습니다.
+
+<!-- [최최최종 PPT](https://docs.google.com/presentation/d/1fzvnjjhByDd0rYhr4DKLN7qyY-_HcZN_/edit?usp=drive_link&ouid=101205770932388491585&rtpof=true&sd=true) -->
+
+
+## 요구사항
+- 두 회사의 인사정보 통합
+- 여러 시스템으로 대량의 인사정보 주기적 전파
+- 여러 시스템 인사/시스템 권한 정보 실시간 전파
+
+## 시연 설명
+
+> - [시연 소스](https://github.com/LEEKYOUNGHWA/kafka-soa/tree/main)
+
+![kafka](~@image/2024/kafka/20.png)
+![kafka](~@image/2024/kafka/21.png)
+
+### 시나리오
+1. 인사정보 10000건 각 시스템 전파
+2. 팀 정보 10000건 각 시스템 전파
+3. md 정보 시스템 전파
+
+### 기술스택
+- spring boot + jpa + h2 로컬 3대
+- aws kafka 1대

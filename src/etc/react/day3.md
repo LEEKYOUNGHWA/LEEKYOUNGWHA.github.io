@@ -7,7 +7,6 @@ description: Hooks
 meta:
   - name: Hooks
     content: Hooks
-tags: ["react"]
 prev: ./day2.md
 next: ./day4.md
 ---

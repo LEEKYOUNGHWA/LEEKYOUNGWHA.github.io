@@ -47,21 +47,6 @@ frameborder="0" allowfullscreen></iframe>
     <iframe width= "100vw" height= "100vh" src="https://www.youtube.com/embed/2_iq3uPTIQc?si=-ATyJ5MjaxUx66ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-#### Anderson .Paak & The Free Nationals: NPR Music Tiny Desk Concert
-<div class="iframe-container" style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ferZnZ0_rSM?si=edrZdZ6DmMR0qfoi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-#### Justin Timberlake: Tiny Desk Concert
-<div class="iframe-container" style="text-align: center;" >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cMIJsoaxRjk?si=GcsI2-yClUDTjVCJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-#### Nile Rodgers & CHIC: Tiny Desk Concert
-<div class="iframe-container" style="text-align: center;" >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pRERgcQe-fQ?si=gGF2Iiuhwb_aZ2T4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
 ## Heroine
 
 #### MADONNA "Express Yourself" (Blond Ambition Tour)

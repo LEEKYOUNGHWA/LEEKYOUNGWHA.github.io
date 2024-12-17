@@ -1,7 +1,8 @@
 ---
 lastUpdated: 2024/11/17 20:30:00
 description: 바보는 이걸 이해하는데 상당히 오랜 시간이 걸렸다
-tags: ["onBoarding"]
+tags: ["flask"]
+image: https://img.icons8.com/?size=512&id=TtXEs5SeYLG8&format=png
 ---
 
 # pynamodb 삽질기...

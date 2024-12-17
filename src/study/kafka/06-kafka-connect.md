@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/10/15 12:14:00
-image: https://kafka.apache.org/logos/kafka_logo--simple.png
+image: https://velog.velcdn.com/images/gsun/post/64573b02-6890-4bf8-a50c-91210e6c9063/image.png
 tags: ["kafka"]
 ---
 

@@ -13,7 +13,7 @@
           <img-lazy class="thumbnail" :src="altImg(page.frontmatter.image)" />
         </router-link>
         <div class="blog-content">
-            <h5>lastUpdated: {{page.frontmatter.lastUpdated}}</h5>
+            <h5>{{page.frontmatter.lastUpdated}}</h5>
             <h3><router-link :to="{ path: page.path}">{{page.title}}</router-link></h3>
             <p>{{page.frontmatter.description}}</p>
         </div>
@@ -90,9 +90,8 @@ export default {
     display: flex;
     scroll-margin-block-start: 70px;
   }
-  .thumbnail-container{
+  .thumbnail-container {
     display: flex;
-    object-fit: cover;
     cursor: pointer;
     width: 120px;
     height: 120px;
@@ -101,11 +100,9 @@ export default {
     margin-right: 30px;
   }
   .thumbnail {
-    max-height: 120px;
-    vertical-align:middle;
-    margin: auto;
-    width: auto;
-    height:auto;
+    object-fit: cover;
+    width: 100%; /* 부모 컨테이너의 너비를 채움 */
+    height: 100%; /* 부모 컨테이너의 높이를 채움 */
   }
   .blog-content {
     flex: 2;
@@ -133,7 +130,7 @@ export default {
 
 @media (max-width: $MQMobile)
   h5, h3, h4, p {
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
   }
   h3 
@@ -147,16 +144,11 @@ export default {
     display: flex;
     object-fit: cover;
     cursor: pointer;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     float: left;
     margin-left: 10px;
     margin-right: 15px;
-  }
-  .thumbnail {
-    width: auto;
-    height:auto;
-    max-height: 90px;
   }
   .subhome
     text-align center

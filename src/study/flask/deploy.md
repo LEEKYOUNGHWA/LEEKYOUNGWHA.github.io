@@ -1,11 +1,11 @@
 ---
 lastUpdated: 2024/11/04 17:29:00
 description: onBoarding
-image: https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png
 meta:
   - name: flask zappa 배포
     content: flask zappa 배포
-tags: ["onBoarding"]
+tags: ["flask"]
+image: https://img.icons8.com/?size=512&id=TtXEs5SeYLG8&format=png
 ---
 
 # Flask zappa 배포

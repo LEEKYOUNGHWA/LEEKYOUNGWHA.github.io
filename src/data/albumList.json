@@ -1,6 +1,15 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/alligator-bites-never-heal/1763934442",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/78/3c/b1783ce4-71dd-8964-08b1-503209a02f5e/24UMGIM88643.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.17",
+            "artist": "Doechii",
+            "name": "Alligator Bites Never Heal",
+            "memo": "지루해서 몇번 듣다가 넘긴 앨범(이 아니라 믹스테잎)이었다.. 근데 타이니데스크 라이브가 미쳤다.. 보고 반해버림...꺼진 앨범도 다시 살리는 미친 라이브...(앨범은 실험적이고 굉장히 훌륭하나 다시 들어도 지루하긴 하다 근데 정규 앨범이 아니라고 하니, 정규 앨범을 기대해 본다)",
+            "year": "2024"
+        },
+        {
             "link":"https://music.apple.com/kr/album/missionary/1784628144",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/3b/df/b33bdfe9-31bb-0be6-a05d-15a5d04bb7f5/24UM1IM36999.rgb.jpg/316x316bb.webp",
             "date":"2024.12.13",
