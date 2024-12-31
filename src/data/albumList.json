@@ -1,6 +1,60 @@
 {
     "album" :  [
         {
+            "link":"https://music.apple.com/kr/album/vultures-2/1762101173",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/e3/b3/d9e3b369-0fd1-d505-4cf7-0eebada5dbdd/358175.jpg/316x316bb.webp",
+            "date":"2024.12.31",
+            "artist": "Kanye West",
+            "name": "VULTURES 2",
+            "memo": "2024년 마지막 앨범은 이거닷,, 올해 칸예웨스트의 공연을 못본건 내 평생의 한으로 남았다... 하는줄 알았으면 무조건 갔지 현생이 넘 바빴다... 눈뜨니까 왜 한국에서 공연하고 있냐고... 경화야.. 뭣이 중헌디... 뭣이 중헌디!!!!!!!!",
+            "year": "2024"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/blood-sugar-sex-magik/945581828",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video125/v4/c1/08/5b/c1085b9c-c4ed-355a-28d7-78d4fead1f35/Jobc1530edd-9a72-4c4c-9e47-815701131f70-124235193-PreviewImage_preview_image_nonvideo_sdr-Time1632414492308.png/316x316bb.webp",
+            "date":"2024.12.30",
+            "artist": "Red Hot Chili Peppers",
+            "name": "Blood Sugar Sex Magik",
+            "memo": "HR프로젝트 최익재 매니저님. 앨범을 낸적이 있으며(뭔지는 안알려주심) 넉살과 공연을 한적이 있고 술탄오브더 디스코 드럼과 친구이며 빅마마 지영이에게 드럼 못친다고 타박해서 드럼 접고 데뷔할 수 있게 만든 그가 죽을때까지 단 한장의 앨범만 들을 수 있다면 이 앨범을 듣겠다 함.",
+            "year": "1991"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/midnight-marauders/265670545",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/fe/84/0c/fe840c08-8f6f-695e-5d08-16b72db3c226/Job9b5a576b-dfe6-4f01-809c-3001e4aefc3a-156781775-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_300932550_1575793757-Time1696622851340.png/316x316bb.webp",
+            "date":"2024.12.30",
+            "artist": "A Tribe Called Quest",
+            "name": "Midnight Marauders",
+            "memo": "'이 앨범이 왜 유명한거지? 별로 좋지도 않은데' 싶다면 당신의 구린 에어팟을 탓하라. 은 내 에어팟 개구림 스피커 짊어지고 출근할뻔했다",
+            "year": "1993"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/dust-yourself-off-accept-no-substitutes/1558881643",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/64/db/b064dbc2-baa7-32b8-7e1d-caf9617921f6/21CRGIM25927.rgb.jpg/316x316bb.webp",
+            "date":"2024.12.24",
+            "artist": "Pleasure",
+            "name": "Accept No Substitutes",
+            "memo": "When you're being chased by a bear but you don't have time to take your headphones off - Ghettos of the mind",
+            "year": "1975"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/feel-like-makin-love/120157309",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/74/25/9d/74259d45-d40d-fd0a-8007-e647442b45e1/mzi.krrourke.jpg/316x316bb.webp",
+            "date":"2024.12.23",
+            "artist": "Roberta Flack",
+            "name": "Feel Like Makin' Love",
+            "memo": "스피커 질렀다. 이 앨범을 듣기 위해서...",
+            "year": "1975"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/cowboy-bebop-original-motion-picture-soundtrack/1521453383",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5a/bb/df/5abbdf28-bf0e-0530-e5f8-0f0ca3150e0a/195081633657.jpg/316x316bb.webp",
+            "date":"2024.12.18",
+            "artist": "SEAT BELTS",
+            "name": "COWBOY BEBOP (Original Motion Picture Soundtrack)",
+            "memo": "때가 되었다. 카우보이 비밥을 다시 봐야 할 때... 누구나 다 알지만 누구나 다 모르는 희대의 명반 카우보이 비밥 오리지널 모션 픽쳐 사운드 트랙.",
+            "year": "1998"
+        },
+        {
             "link":"https://music.apple.com/kr/album/alligator-bites-never-heal/1763934442",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/78/3c/b1783ce4-71dd-8964-08b1-503209a02f5e/24UMGIM88643.rgb.jpg/316x316bb.webp",
             "date":"2024.12.17",
@@ -15,7 +69,7 @@
             "date":"2024.12.13",
             "artist": "Snoop Dogg",
             "name": "Missionary",
-            "memo": "이제 이 앨범은 제가 스눕독 앨범중에서 세번째로 좋아하는 앨범이 되었습니당 크",
+            "memo": "이제 이 앨범은 제가 스눕독 앨범중에서 세번째로 좋아하는 앨범이 되었습니다",
             "year": "2024"
         },
         {
@@ -24,8 +78,17 @@
             "date":"2024.12.12",
             "artist": "Snoop Dogg",
             "name": "Doggystyle",
-            "memo": "내일 Missionary 발매되는 날이다. 이미 선공개곡 Gorgeous가 내가 애플뮤직에서 올해 가장 많이 들은 노래 1위임.... >< 컄 기대된당,, 스눕독하면 Doggystyle 아니겠나?! 내일까지 이걸로 버틴다.......",
+            "memo": "내일 드디어 Missionary 발매되는 날이다. 내일까지 이걸로 버틴다.......",
             "year": "1993"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/musical-massage-expanded-edition/1443997230",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/20/2f/19/202f1920-131e-8d65-4f49-0b6a655e53f0/00044001899928.rgb.jpg/316x316bf.webp",
+            "date":"2024.12.12",
+            "artist": "Leon Ware",
+            "name": "Musical Massage (Expanded Edition)",
+            "memo": "Leon Ware의 데모 앨범을 들은 모타운 수장 Berry Gordy는 이 곡들이 Marvin Gaye에게 어울릴 것이라 판단. Marvin Gaye는 데모 곡들을 듣고 자신의 다음 앨범 I Want You에 대부분을 녹음했다. 이 앨범은 R&B 차트 1위, Billboard 200 차트 톱 10에 오르며 100만 장 이상 판매되어 큰 성공을 거두었다. Leon Ware는 솔로 활동을 재개하며 Musical Massage를 발표으나 앨범은 홍보 부족으로 상업적 성공을 거두지 못했고 다른 아티스트들을 위한 작곡과 프로듀싱에 집중하며 새로운 앨범을 내지 않았다. 1979년, 그는 세 번째 앨범 Inside Is Love를 발표하며 차트에서 성공을 거두었다.",
+            "year": "1976"
         },
         {
             "link":"https://music.apple.com/kr/album/hot-rats/1562897106",
@@ -51,7 +114,7 @@
             "date":"2024.12.08",
             "artist": "The Beatles",
             "name": "Abbey Road",
-            "memo": "세상에서 제일 유명한 앨범커버.. (챗 지피티도 그렇다고 했다!) 들으면 들을수록 좋다,, 비틀즈 입문으로 제격",
+            "memo": "세상에서 제일 유명한 앨범커버",
             "year": "1969"
         },
         {
@@ -60,7 +123,7 @@
             "date":"2024.12.06",
             "artist":"Ohio Players",
             "name": "Honey",
-            "memo": "Ohio Players와 함께라면 인생의 어떤 역경과 고난도 헤쳐나갈 수 있을거 같다. 여기서 말하는 역경과 고난은... 감기와 다이어트.. flutter,,..ㅋㅅㅋ 힘내자!",
+            "memo": "Ohio Players와 함께라면 인생의 어떤 역경과 고난도 헤쳐나갈 수 있을거 같다. 여기서 말하는 역경과 고난은... 감기와 다이어트.. flutter,,",
             "year": "1975"
         },
         {
@@ -249,7 +312,7 @@
             "date":"2024.10.21",
             "artist": "Logic",
             "name": "The Incredible True Story",
-            "memo": "칸예, 카우보이 비밥, 타란티노, 공상과학을 좋아하는 그는.... 내 이상형",
+            "memo": "I've got the Akira on the wall, I just can't follow their law. Swear to God that they know me. They don't know me at all. And its all right, it's alright I've upgraded",
             "year": "2015"
         },
         {
@@ -286,15 +349,6 @@
             "artist": "Gareth Donkin",
             "name": "Welcome Home",
             "memo": "Off the Wall 1티스푼",
-            "year": "2023"
-        },
-        {
-            "link":"https://music.apple.com/kr/album/no-more-lies-single/1679528051",
-            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/e1/32/38e1324d-bf85-837a-fae0-bfe9578a4849/5054429174557.png/316x316bb.webp",
-            "date":"2024.10.14",
-            "artist": "Thundercat, Tame Impala" ,
-            "name": "No More Lies - Single",
-            "memo": "노래가 마약같네.... 둘이 앨범 하나 내줬으면",
             "year": "2023"
         },
         {
@@ -411,7 +465,8 @@
             "date":"2024.09.20",
             "artist": "Chic",
             "name": "Risqué",
-            "memo": "나일 로저스 역작...... (내기준)"
+            "memo": "나일 로저스 역작...... (내기준)",
+            "year": "1979"
         },
         {
             "link":"https://music.apple.com/kr/album/i-am/523223720",
@@ -419,7 +474,8 @@
             "date":"2024.09.20",
             "artist": "Earth, Wind & Fire",
             "name": "I Am",
-            "memo": "지루함의 반대말이 있다면 이 앨범이 아닐까,,,,"
+            "memo": "지루함의 반대말이 있다면 이 앨범이 아닐까,,,,",
+            "year": "1979"
         },
         {
             "link":"https://music.apple.com/kr/album/parcels/1420157166",
@@ -427,7 +483,8 @@
             "date":"2024.09.20",
             "artist": "Parcels",
             "name": "Parcels",
-            "memo": "Time to lighten up! 한때 내 알람"
+            "memo": "Time to lighten up! 한때 내 알람",
+            "year": "2018"
         },
         {
             "link":"https://music.apple.com/kr/album/pulsar/1736766809",
@@ -435,7 +492,8 @@
             "date":"2024.09.19",
             "artist": "L'Impératrice",
             "name": "Pulsar",
-            "memo": "다프트펑크가 프라다라면 얘넨 미우미우"
+            "memo": "다프트펑크가 프라다라면 얘넨 미우미우",
+            "year": "2024"
         },
         {
             "link":"https://music.apple.com/kr/album/tako-tsubo-extended/1711063990",
@@ -443,7 +501,8 @@
             "date":"2024.09.18",
             "artist": "L'Impératrice",
             "name": "Tako Tsubo (Extended)",
-            "memo": "Is it music or new voodoo?"
+            "memo": "Is it music or new voodoo?",
+            "year": "2021"
         },
         {
             "link":"https://music.apple.com/kr/album/s%C3%A9rgio-mendes-the-new-brazil-77/1576792896",
@@ -451,7 +510,8 @@
             "date":"2024.09.14",
             "artist": "Sergio Mendes",
             "name": "Sérgio Mendes & The New Brazil '77",
-            "memo": "I'll take a bus or a train to get to love city. It's the only place I feel at home."
+            "memo": "I'll take a bus or a train to get to love city. It's the only place I feel at home.",
+            "year": "1977"
         },
         {
             "link":"https://music.apple.com/kr/album/shine-on/1443472586",
@@ -459,7 +519,8 @@
             "date":"2024.09.10",
             "artist": "L.T.D.",
             "name": "Shine On",
-            "memo": "코드 전환이 예술.."
+            "memo": "코드 전환이 예술..",
+            "year": "1980"
         },
         {
             "link":"https://music.apple.com/kr/album/light-of-worlds/1443798401",
@@ -467,7 +528,8 @@
             "date":"2024.09.09",
             "artist": "Kool & The Gang",
             "name": "Light of Worlds",
-            "memo": "Kool & The Gang 대표 앨범에 이게 빠지다니..?"
+            "memo": "Kool & The Gang 대표 앨범에 이게 빠지다니..?",
+            "year": "1974"
         },
         {
             "link":"https://music.apple.com/kr/album/action/1444019076",
@@ -475,7 +537,8 @@
             "date":"2024.09.09",
             "artist": "The Blackbyrds",
             "name": "Action",
-            "memo": "jazz-funk"
+            "memo": "jazz-funk",
+            "year": "1977"
         },
         {
             "link":"https://music.apple.com/kr/album/find-your-flame/1725496181",
@@ -483,7 +546,8 @@
             "date":"2024.09.08",
             "artist": "Nubiyan Twist",
             "name": "Find Your Flame",
-            "memo": "Lights out 무한반복중......앨범도 훌륭함"
+            "memo": "Lights out 무한반복중......앨범도 훌륭함",
+            "year": "2024"
         },
         {
             "link":"https://music.apple.com/kr/album/niteflyte/535877097",
@@ -491,7 +555,8 @@
             "date":"2024.09.06",
             "artist": "Niteflyte",
             "name": "Niteflyte",
-            "memo": "I wonder if I'm falling in love again"
+            "memo": "I wonder if I'm falling in love again",
+            "year": "1995"
         },
         {
             "link":"https://music.apple.com/kr/album/discovery/697194953",
@@ -499,7 +564,8 @@
             "date":"2024.09.05",
             "artist": "Daft Punk",
             "name": "Discovery",
-            "memo": "One More Time"
+            "memo": "One More Time",
+            "year": "2001"
         },
         {
             "link":"https://music.apple.com/kr/album/the-dude/1405193623",
@@ -507,7 +573,8 @@
             "date":"2024.09.04",
             "artist": "Quincy Jones",
             "name": "The Dude",
-            "memo": "아빠"
+            "memo": "아빠",
+            "year": "1981"
         },
         {
             "link":"https://music.apple.com/kr/album/the-dark-side-of-the-moon-50th-anniversary-remastered/1665303755",
@@ -515,7 +582,8 @@
             "date":"2024.09.03",
             "artist": "Pink Floyd",
             "name": "The Dark Side of the Moon",
-            "memo": "센세이션 그 잡채"
+            "memo": "센세이션 그 잡채",
+            "year": "1973"
         },
         {
             "link":"https://music.apple.com/kr/album/the-diary-of-alicia-keys/255342344",
@@ -523,7 +591,8 @@
             "date":"2024.09.02",
             "artist": "Alicia Keys",
             "name": "The Diary Of Alicia Keys",
-            "memo": "타이틀이 워낙 유명하지만 수록곡이 더좋음"
+            "memo": "타이틀이 워낙 유명하지만 수록곡이 더좋음",
+            "year": "2003"
         },
         {
             "link":"https://music.apple.com/kr/album/the-stranger/158617952",
@@ -531,7 +600,8 @@
             "date":"2024.09.01",
             "artist": "Billy Joel",
             "name": "The Stranger",
-            "memo": "Get It Right the First Time"
+            "memo": "오늘따라 심금을 울리네... 눈물난다... 인생 덧없는거 아니겠나.. 빔프로젝터 살까말까 망설였는데 사서 라이브 벽면에 틀어놔야지...",
+            "year": "1977"
         },
         {
             "link":"https://music.apple.com/kr/album/my-beautiful-dark-twisted-fantasy/1443160553",
@@ -539,7 +609,8 @@
             "date":"2024.08.26",
             "artist": "Kanye West",
             "name": "My Beautiful Dark Twisted Fantasy",
-            "memo": "바야흐로 2010년... 발매일을 손꼽아 기다렸다 산 앨범......"
+            "memo": "바야흐로 2010년... 발매일을 손꼽아 기다렸다 산 앨범......",
+            "year": "2010"
         },
         {
             "link":"https://music.apple.com/kr/album/52nd-street/259573387",
@@ -547,7 +618,8 @@
             "date":"2024.08.22",
             "artist": "Billy Joel",
             "name": "52nd Street",
-            "memo": "My life"
+            "memo": "My life",
+            "year": "1978"
         },
         {
             "link":"https://music.apple.com/kr/album/hitnrun-phase-two/1068030454",
@@ -555,7 +627,8 @@
             "date":"2024.08.20",
             "artist": "Prince",
             "name": "HITnRUN Phase Two",
-            "memo": "프린스 마지막 앨범"
+            "memo": "프린스 마지막 앨범",
+            "year": "2015"
         },
         {
             "link":"https://music.apple.com/kr/album/bush/961256177",
@@ -563,7 +636,8 @@
             "date":"2024.08.14",
             "artist": "Snoop Dogg",
             "name": "BUSH",
-            "memo": "나의 한결같은 취향 퍼렐 33333"
+            "memo": "나의 한결같은 취향 퍼렐 33333",
+            "year": "2015"
         },
         {
             "link":"https://music.apple.com/kr/album/for-you/663586846",
@@ -571,7 +645,8 @@
             "date":"2024.08.12",
             "artist": "Prince",
             "name": "For You",
-            "memo": "프린스 데뷔앨범"
+            "memo": "프린스 데뷔앨범",
+            "year": "1978"
         },
         {
             "link":"https://music.apple.com/kr/album/volcano/1676151993",
@@ -579,7 +654,8 @@
             "date":"2024.08.09",
             "artist": "Jungle",
             "name": "Volcano",
-            "memo": "2023최고의앨범"
+            "memo": "2023최고의앨범",
+            "year": "2023"
         },
         {
             "link":"https://music.apple.com/kr/album/no-one-ever-really-dies/1311935265",
@@ -587,7 +663,8 @@
             "date":"2024.08.04",
             "artist": "N.E.R.D",
             "name": "NO ONE EVER REALLY DIES",
-            "memo": "갓 퍼렐22222"
+            "memo": "갓 퍼렐22222",
+            "year": "2017"
         },
         {
             "link":"https://music.apple.com/kr/album/in-search-of/1475690530",
@@ -595,7 +672,8 @@
             "date":"2024.08.01",
             "artist": "N.E.R.D",
             "name": "In Search Of...",
-            "memo": "갓 퍼렐"
+            "memo": "갓 퍼렐",
+            "year": "2001"
         },
         {
             "link":"https://music.apple.com/kr/album/i-want-you/1440815358",
@@ -603,7 +681,8 @@
             "date":"2024.07.16",
             "artist": "Marvin P.Gaye",
             "name": "I Want You",
-            "memo": "What's Going On 말고"
+            "memo": "What's Going On 말고",
+            "year": "1976"
         },
         {
             "link":"https://music.apple.com/kr/album/children-of-the-world/1444171212",
@@ -611,7 +690,8 @@
             "date":"2024.07.16",
             "artist": "Bee Gees",
             "name": "Children of the World",
-            "memo": "LP카페에서 발견"
+            "memo": "LP카페에서 발견",
+            "year": "1976"
         },
         {
             "link":"https://music.apple.com/kr/album/nct-127-cherry-bomb-the-3rd-mini-album/1247335504",
@@ -619,7 +699,8 @@
             "date":"2024.07.16",
             "artist": "NCT127",
             "name": "NCT #127 CHERRY BOMB – The 3rd Mini Album",
-            "memo": "2017년기준 진짜 잘만든 앨범"
+            "memo": "2017년기준 진짜 잘만든 앨범",
+            "year": "2017"
         },
         {
             "link":"https://music.apple.com/kr/album/be/1440726298",
@@ -627,7 +708,8 @@
             "date":"2024.07.13",
             "artist": "Common",
             "name": "Be",
-            "memo": "고딩때 진짜 많이 들었는데"
+            "memo": "고딩때 진짜 많이 들었는데",
+            "year": "2005"
         },
         {
             "link":"https://music.apple.com/kr/album/ventura/1456218234",
@@ -635,7 +717,8 @@
             "date":"2024.06.23",
             "artist": "Anderson .Paak",
             "name": "Ventura",
-            "memo": "골라봐 Ventura vs Malibu"
+            "memo": "Ventura vs Malibu",
+            "year": "2019"
         },
         {
             "link":"https://music.apple.com/kr/album/malibu/1065681363",
@@ -643,7 +726,8 @@
             "date":"2024.06.23",
             "artist": "Anderson .Paak",
             "name": "Malibu",
-            "memo": "골라봐 Ventura vs Malibu"
+            "memo": "Ventura vs Malibu",
+            "year": "2016"
         },
         {
             "link":"https://music.apple.com/kr/album/timeless/1440984057",
@@ -651,7 +735,8 @@
             "date":"2024.06.23",
             "artist": "Sergio Mendes",
             "name": "Timeless",
-            "memo": "이름값 하는 앨범"
+            "memo": "이름값 하는 앨범",
+            "year": "2006"
         },
         {
             "link":"https://music.apple.com/kr/album/music-is-my-life/1552831176",
@@ -659,7 +744,8 @@
             "date":"2024.06.23",
             "artist": "임정희",
             "name": "Music Is My Life",
-            "memo": "노래방 애창곡"
+            "memo": "노래방 애창곡",
+            "year": "2005"
         },
         {
             "link":"https://music.apple.com/kr/album/roller-coaster/1486514391",
@@ -667,7 +753,8 @@
             "date":"2024.06.21",
             "artist": "롤러코스터",
             "name": "Roller Coaster",
-            "memo": "롤러코스터는 모든 앨범이 명반"
+            "memo": "롤러코스터는 모든 앨범이 명반",
+            "year": "1999"
         },
         {
             "link":"https://music.apple.com/kr/album/innervisions/1440806790",
@@ -675,7 +762,8 @@
             "date":"2024.06.15",
             "artist": "Stevie Wonder",
             "name": "Innervisions",
-            "memo": "시대를 초월한 사운드...... 헤드셋 필수"
+            "memo": "시대를 초월한 사운드...... 헤드셋 필수",
+            "year": "1973"
         },
         {
             "link":"https://music.apple.com/kr/album/love-angel-music-baby/1440755762",
@@ -683,7 +771,8 @@
             "date":"2024.05.27",
             "artist": "Gwen Stefani",
             "name": "Love Angel Music Baby",
-            "memo": "요즘 다시 유행!"
+            "memo": "요즘 다시 유행!",
+            "year": "2004"
         },
         {
             "link":"https://music.apple.com/kr/album/back-to-black/1422677780",
@@ -691,7 +780,8 @@
             "date":"2024.04.21",
             "artist": "Amy Winehouse",
             "name": "Back to Black",
-            "memo": "ㅜㅜ"
+            "memo": "ㅜㅜ",
+            "year": "2006"
         },
         {
             "link":"https://music.apple.com/kr/album/frank/1440846425",
@@ -699,7 +789,8 @@
             "date":"2024.04.21",
             "artist": "Amy Winehouse",
             "name": "Frank",
-            "memo": "ㅜㅜ"
+            "memo": "ㅜㅜ",
+            "year": "2003"
         },
         {
             "link":"https://music.apple.com/kr/album/songs-in-the-key-of-life/1440788438",
@@ -707,7 +798,8 @@
             "date":"2024.04.10",
             "artist": "Stevie Wonder",
             "name": "Songs in the Key of Life",
-            "memo": "외계인도 이 앨범은 알거다. 우주최고"
+            "memo": "외계인도 이 앨범은 알거다. 우주최고",
+            "year": "1976"
         },
         {
             "link":"https://music.apple.com/kr/album/call-me-if-you-get-lost-the-estate-sale/1679454273",
@@ -715,7 +807,8 @@
             "date":"2024.04.06",
             "artist": "Tyler, The Creator",
             "name": "CALL ME IF YOU GET LOST",
-            "memo": "완성"
+            "memo": "완성",
+            "year": "2021"
         },
         {
             "link":"https://music.apple.com/kr/album/city-slicker-ep/1564305258",
@@ -723,7 +816,8 @@
             "date":"2024.04.01",
             "artist": "Ginger Root",
             "name": "City Slicker - EP",
-            "memo": "이사"
+            "memo": "이사",
+            "year": "2021"
         },
         {
             "link":"https://music.apple.com/kr/album/high-times-singles-1992-2006-deluxe-version/786107608",
@@ -731,7 +825,8 @@
             "date":"2024.03.20",
             "artist": "Jamiroquai",
             "name": "High Times: Singles 1992-2006",
-            "memo": "컴필레이션 앨범 별로 안좋아하는데 얘만 예외"
+            "memo": "컴필레이션 앨범 별로 안좋아하는데 얘만 예외",
+            "year": "2006"
         },
         {
             "link":"https://music.apple.com/kr/album/in-everyday-matters/1486519994",
@@ -739,7 +834,8 @@
             "date":"2024.03.18",
             "artist": "롤러코스터",
             "name": "일상다반사(日常茶飯事)",
-            "memo": "롤러코스터는 모든 앨범이 명반"
+            "memo": "롤러코스터는 모든 앨범이 명반",
+            "year": "2000"
         },
         {
             "link":"https://music.apple.com/kr/album/sweet-freaks/915790853",
@@ -747,7 +843,8 @@
             "date":"2024.03.17",
             "artist": "The Brand New Heavies",
             "name": "Sweet Freaks",
-            "memo": "펑키퐁키"
+            "memo": "펑키퐁키",
+            "year": "2014"
         },
         {
             "link":"https://music.apple.com/kr/album/the-blueprint/1440757381",
@@ -755,7 +852,8 @@
             "date":"2024.03.16",
             "artist": "JAY-Z",
             "name": "The Blueprint",
-            "memo": "말모"
+            "memo": "모든 아티스트는 제이지처럼 앨범을 만들어야함",
+            "year": "2001"
         },
         {
             "link":"https://music.apple.com/kr/album/the-college-dropout/1412872568",
@@ -763,7 +861,8 @@
             "date":"2024.03.13",
             "artist": "Kanye West",
             "name": "The College Dropout",
-            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배.......... !!!정정합니다!!! 분기마다 들어줘야 하는 Collage Dropout"
+            "memo": "생애주기마다 들어줘야하는 College Dropout. 죽을고비 넘기고 들으니 감동이 열배...... !!!정정합니다!!! 분기마다 들어줘야 하는 Collage Dropout...... !!!정정합니다!!! 매달 들어줘야하는 Collage Dropout......!",
+            "year": "2004"
         },
         {
             "link":"https://music.apple.com/kr/album/free-ride/1443546509",
@@ -771,7 +870,8 @@
             "date":"2024.02.24",
             "artist": "디지 길레스피",
             "name": "Free Ride",
-            "memo": "사기조합"
+            "memo": "사기조합",
+            "year": "1977"
         },
         {
             "link":"https://music.apple.com/kr/album/city-of-angels-expanded-edition/1443896907",
@@ -779,7 +879,8 @@
             "date":"2024.01.22",
             "artist": "The Miracles",
             "name": "City of Angels",
-            "memo": "알고리즘의 추천"
+            "memo": "알고리즘의 추천",
+            "year": "1975"
         },
         {
             "link":"https://music.apple.com/kr/album/celebration-deluxe-version/329519270",
@@ -787,7 +888,8 @@
             "date":"2024.01.17",
             "artist": "Madonna",
             "name": "Celebration",
-            "memo": "Vogue"
+            "memo": "Vogue",
+            "year": "2009"
         },
         {
             "link":"https://music.apple.com/kr/album/the-fame/1440818588",
@@ -795,7 +897,8 @@
             "date":"2024.01.09",
             "artist": "Lady Gaga",
             "name": "The Fame",
-            "memo": "중학생때 난생 처음 산 앨범.."
+            "memo": "중학생때 난생 처음 산 앨범..",
+            "year": "2008"
         }        
     ]
 }

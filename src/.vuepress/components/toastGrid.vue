@@ -78,12 +78,13 @@ export default {
 <style>
 .tui-grid-table {
   margin: 0;
-  width:max-content;
+  width: 100%; /* or max-width: 100% */
   box-sizing: border-box;
-  table-layout: fixed;
+  table-layout: auto; /* or fixed, depending on your needs */
   border-collapse: collapse;
   border: 1px hidden transparent;
   border-bottom: none;
   color: black;
+  overflow-x: auto;
 }
 </style>

@@ -4,7 +4,7 @@ description: 이제 검증되지 않은 영화를 영화관에서 보는건 고�
 image: https://m.media-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg
 ---
 
-# 주관적 취향이 다분한 영화 리스트
+# 주관적 취향이 다분한 Movie(+Series) 리스트
 
 > ...이제 검증되지 않은 영화를 영화관에서 보는건 고문이다   
 > **[leekyounghwa's IMDB Watchlist](https://www.imdb.com/user/ur191119219/watchlist/?ref_=ext_shr_lnk)**
@@ -85,11 +85,14 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .star {
     display: inline-block; /* 원래대로 가로 정렬 */
     margin-right: 2px; /* Optional: 별 사이 간격 조정 */
+    font-size: 1.3em; /* 폰트 크기를 1.5배로 설정 */
 }
 
 ul {
