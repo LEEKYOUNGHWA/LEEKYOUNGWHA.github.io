@@ -1,5 +1,25 @@
-{
-    "album" :  [
+export const albumList = {
+    "2025" :  [
+        {
+            "link":"https://music.apple.com/us/album/ticket-to-shangri-la/1633523152?l=ko",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bf/54/e9/bf54e954-072c-e92b-cd1e-ba0077b8b5c1/195729973398_cover.jpg/316x316bb.webp",
+            "date":"2025.01.02",
+            "artist": "Young Gun Silver Fox",
+            "name": "Ticket To Shangri-La",
+            "memo": "오픈카 뚜껑 열고 바람을 맞으며 남부 해안을 질주하고 싶다",
+            "year": "2022"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/graduation/1451901307",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/27/7a/7d/277a7d16-af71-6411-31bb-40ddb5e0861b/Job906cdf5f-ec5f-4124-bdf1-fcd49e211a9d-136664272-PreviewImage_preview_image_nonvideo_sdr-Time1663689458985.png/316x316bb.webp",
+            "date":"2025.01.01",
+            "artist": "Kanye West",
+            "name": "Graduation",
+            "memo": "I g-go for mine, I gots to shine \n Now throw yo' hands up in the sky \n I'ma get on this TV, mama \n I'ma, I'ma put shit down \n I'm good",
+            "year": "2007"
+        },
+    ],
+    "2024" :  [
         {
             "link":"https://music.apple.com/kr/album/vultures-2/1762101173",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d9/e3/b3/d9e3b369-0fd1-d505-4cf7-0eebada5dbdd/358175.jpg/316x316bb.webp",
@@ -312,7 +332,7 @@
             "date":"2024.10.21",
             "artist": "Logic",
             "name": "The Incredible True Story",
-            "memo": "I've got the Akira on the wall, I just can't follow their law. Swear to God that they know me. They don't know me at all. And its all right, it's alright I've upgraded",
+            "memo": "I've got the Akira on the wall\nI just can't follow their law\nSwear to God that they know me\nThey don't know me at all\nAnd its all right, it's alright I've upgraded",
             "year": "2015"
         },
         {
