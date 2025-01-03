@@ -1,6 +1,15 @@
 export const albumList = {
     "2025" :  [
         {
+            "link":"https://music.apple.com/kr/album/gershwin-plays-gershwin-the-piano-rolls/79576591",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/9e/6b/269e6bb0-45df-d9ce-a620-b6f2db25947e/mzi.vxdfiicg.jpg/316x316bb.webp",
+            "date":"2025.01.03",
+            "artist": "George Gershwin",
+            "name": "Gershwin Plays Gershwin: The Piano Rolls",
+            "memo": "전 직장인이고 바쁩니다! 18분 플레이리스트 짜는게 이렇게 어려울 줄이야.. 이래저래 고민하다가 내가 듣고 싶은걸 듣자! 이렇게 결론이 났습니다.. 그래서 제가 좋아라 하고 듣고싶은것이 무어냐 하면 조지 거쉬윈이고요. 저 어릴때 집에 엄마가 저 태교 한다고 사셨던 클래식 전집이 있었습니다.. 전집 맨 뒤에 비닐 포장도 안뜯은 앨범이 바로 조지 거쉬윈 피아노 앨범 이었고요. 그걸 제가 중학생때 처음으로 뜯어서 주구장창 들었죠. 미리 말씀드리는데 좀 지루할 겁니다.. 여러분들 펑크는 평소에 주구장창 들으시니까 한번 환기 한다는 기분으로 들어보시죠...",
+            "year": "1993"
+        },
+        {
             "link":"https://music.apple.com/us/album/ticket-to-shangri-la/1633523152?l=ko",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bf/54/e9/bf54e954-072c-e92b-cd1e-ba0077b8b5c1/195729973398_cover.jpg/316x316bb.webp",
             "date":"2025.01.02",
