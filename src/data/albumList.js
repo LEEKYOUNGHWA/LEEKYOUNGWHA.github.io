@@ -1,6 +1,33 @@
 export const albumList = {
     "2025" :  [
         {
+            "link":"https://music.apple.com/kr/album/astral-signal/1444048865",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/79/b6/f3/79b6f3f7-6b77-0733-be42-f07d1e047085/00602567229179.rgb.jpg/316x316bb.webp",
+            "date":"2025.01.06",
+            "artist": "Gene Harris",
+            "name": "Astral Signal",
+            "memo": "[BN-LA 550-G] \n * 1975 bluenote",
+            "year": "1974"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/places-spaces/724869220",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/a2/77/9ca27708-1a7e-89d7-b21b-e5513c6e1d4f/00724385432651.jpg/316x316bb.webp",
+            "date":"2025.01.06",
+            "artist": "Donald Byrd",
+            "name": "Places & Spaces",
+            "memo": "[BN-LA 549-G] \n * bluenote : 재즈 와 블루스 에서 블루 노트 는 표현적 목적으로 표준과 약간 다른 피치 로 부르거나 연주되는 음 입니다. 일반적으로 변화는 4분음 과 반음 사이이지만 , 이는 음악적 맥락에 따라 다릅니다 \n * BN-LA 시리즈 : 1970년대에 블루노트 레코드의 모회사인 United Artists Records 의 번호 매기기 시퀀스를 사용하여 발행된 12인치 LP에 추가 접두사가 붙습니다. 접미사는 앨범의 가격표와 2장 세트인지 여부를 나타내는 코드입니다.",
+            "year": "1975"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/masego/1674970698",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/15/ca/3c/15ca3ce8-a1a3-26d5-2bc4-0da56f2cab30/23UMGIM04122.rgb.jpg/316x316bb.webp",
+            "date":"2025.01.05",
+            "artist": "Masego",
+            "name": "Masego",
+            "memo": "내기준 만점짜리 앨범 \n 완성도★★★★★ \n 독창성★★★★★ \n 유기성★★★★★",
+            "year": "2023"
+        },
+        {
             "link":"https://music.apple.com/kr/album/gershwin-plays-gershwin-the-piano-rolls/79576591",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/9e/6b/269e6bb0-45df-d9ce-a620-b6f2db25947e/mzi.vxdfiicg.jpg/316x316bb.webp",
             "date":"2025.01.03",

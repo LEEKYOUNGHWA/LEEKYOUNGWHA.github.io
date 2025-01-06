@@ -25,3 +25,6 @@ flutter build web --web-renderer html --dart-define=PROFILE=env
 aws s3 cp build/web/ s3://sherryflutter/ --recursive # 디렉토리 내부의 모든 파일과 하위 디렉토리까지 복사
 aws cloudfront create-invalidation --distribution-id E1JH0EGOJGN6Q3 --paths '/*' # 캐시를 무효화
 ```
+
+[todo 최종 구현](https://d36q53cigyqtai.cloudfront.net/)
+- test 계정 : test@email.com / 1234
