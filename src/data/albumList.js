@@ -1,11 +1,20 @@
 export const albumList = {
     "2025" :  [
         {
-            "link":"https://music.apple.com/kr/album/astral-signal/1444048865",
-            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/79/b6/f3/79b6f3f7-6b77-0733-be42-f07d1e047085/00602567229179.rgb.jpg/316x316bb.webp",
+            "link":"https://music.apple.com/kr/album/enigmatic-society/1680826849",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/98/18/ed/9818ede2-dec5-0cb1-2d4d-9b0ebc606a3b/197342108898_cover.jpg/230x230bb.jpg",
+            "date":"2025.01.07",
+            "artist": "Dinner Party",
+            "name": "Enigmatic Society",
+            "memo": "Breathe 노래랑 뮤직비디오에서 2만점을 획득하여 간신히 리스트에 올려드렸습니다. \n 서울 지하철 2호선 사당방면 퇴근길 당신을 구원해줄 단 하나의 노래 Breathe.",
+            "year": "2023"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/fancy-dancer/715882574",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music/v4/02/92/4c/02924c5c-2619-0912-bd40-1028572ef2c0/05099952237553.jpg/316x316bb.webp",
             "date":"2025.01.06",
-            "artist": "Gene Harris",
-            "name": "Astral Signal",
+            "artist": "Bobbi Humphrey",
+            "name": "Fancy Dancer",
             "memo": "[BN-LA 550-G] \n * 1975 bluenote",
             "year": "1974"
         },
@@ -24,7 +33,7 @@ export const albumList = {
             "date":"2025.01.05",
             "artist": "Masego",
             "name": "Masego",
-            "memo": "내기준 만점짜리 앨범 \n 완성도★★★★★ \n 독창성★★★★★ \n 유기성★★★★★",
+            "memo": "완성도★★★★★ \n 독창성★★★★★ \n 유기성★★★★★",
             "year": "2023"
         },
         {
