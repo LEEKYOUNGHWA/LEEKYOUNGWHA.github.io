@@ -1,3 +1,6 @@
+---
+lastUpdated: 2024/09/12 09:29:00
+---
 # 리눅스는 대소문자 구분하고 윈도우는 대소문자 구분 못한다 
 
 윈도우는 case sensitive가 없다,하지만 리눅스는 case sensitive가 있다.

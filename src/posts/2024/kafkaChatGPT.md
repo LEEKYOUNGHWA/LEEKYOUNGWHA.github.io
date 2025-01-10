@@ -1,7 +1,7 @@
 ---
 title: kafka chatGPT
 lastUpdated: 2024/10/16 14:40:00
-description: 카프카 용도 알려줘
+subTitle: 카프카 용도 알려줘
 ---
 
 # kafka chatGPT

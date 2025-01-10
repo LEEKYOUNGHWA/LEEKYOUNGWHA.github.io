@@ -3,7 +3,7 @@ title: poi 개발
 lang: ko-KR
 date: 2024/08/22 19:37:00
 lastUpdated: 2024/08/22 19:37:00
-description: poi 개발
+subTitle: poi 개발
 meta:
   - name: poi
     content: poi

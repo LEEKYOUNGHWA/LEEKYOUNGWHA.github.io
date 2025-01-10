@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/11/27 16:51:00
-description: onBoarding
+subTitle: onBoarding
 image: https://img.icons8.com/color/512/flutter.png
 tags: ["flutter"]
 ---

@@ -1,6 +1,24 @@
 export const albumList = {
     "2025" :  [
         {
+            "link":"https://music.apple.com/kr/album/naughty/281620358",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music/d4/7a/91/mzi.yoretjje.jpg/316x316bb.webp",
+            "date":"2025.01.10",
+            "artist": "Chaka Khan",
+            "name": "Naughty",
+            "memo": "소울러버의 디바추천",
+            "year": "1980"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/mm-food/1516750770",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/18/db/b618dbd0-49c8-e88a-6523-0a49c55258dc/cover.jpg/316x316bb.webp",
+            "date":"2025.01.09",
+            "artist": "MF DOOM",
+            "name": "MM..FOOD",
+            "memo": "20주년 기념판이 있지만 클래식은 순정으로 들어야 제맛",
+            "year": "2004"
+        },
+        {
             "link":"https://music.apple.com/kr/album/enigmatic-society/1680826849",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/98/18/ed/9818ede2-dec5-0cb1-2d4d-9b0ebc606a3b/197342108898_cover.jpg/230x230bb.jpg",
             "date":"2025.01.07",

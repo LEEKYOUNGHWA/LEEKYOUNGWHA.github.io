@@ -3,7 +3,7 @@ title: vuepress 블로그에 tui.grid 넣기
 lang: ko-KR
 date: 2024/08/29 11:23:00
 lastUpdated: 2024/08/29 11:23:00
-description: vuepress toast-ui grid
+subTitle: vuepress toast-ui grid
 meta:
   - name: vuepress toast-ui grid
     content: vuepress toast-ui grid

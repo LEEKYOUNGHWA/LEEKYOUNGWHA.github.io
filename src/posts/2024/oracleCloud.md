@@ -3,7 +3,7 @@ title: 오라클 클라우드 무료 티어에 spring boot 배포하기
 lang: ko-KR
 date: 2024/04/21 19:37:00
 lastUpdated: 2024/04/21 19:37:00
-description: 오라클 클라우드 무료 티어에 spring boot 배포하기
+subTitle: 오라클 클라우드 무료 티어에 spring boot 배포하기
 meta:
   - name: 오라클 클라우드 무료 티어에 spring boot 배포하기
     content: 오라클 클라우드 무료 티어에 spring boot 배포하기

@@ -1,5 +1,6 @@
 ---
-tags: ["python"]    
+tags: ["python"]
+lastUpdated: 2023/12/04 00:00:00
 ---
 
 # **day2** (2023-12-05)

@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/11/28 16:55:00
-description: 설치, 소스
+subTitle: 설치, 소스
 image: https://img.icons8.com/color/512/flutter.png
 tags: ["flutter"]
 ---

@@ -3,7 +3,7 @@ title: vuepress 블로그 애드고시
 lang: ko-KR
 date: 2023/09/26 20:46:25
 lastUpdated: 2024/11/28 16:06:00
-description: 블로그 애드고시를 드디어 통과했습니다!!!
+subTitle: 블로그 애드고시를 드디어 통과했습니다!!!
 meta:
   - name: vuepress
     content: vuepress blog adsense

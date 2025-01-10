@@ -3,7 +3,7 @@ title: 파이썬으로 대량 문서 작업 소스
 lang: ko-KR
 date: 2023/11/20 10:00:00
 lastUpdated: 2023/11/20 10:00:00
-description: 프로젝트 하면서 5000개 문서 분류 및 rename, 1000개 쿼리 엑셀로 정리한 파이썬 소스.
+subTitle: 프로젝트 하면서 5000개 문서 분류 및 rename, 1000개 쿼리 엑셀로 정리한 파이썬 소스.
 meta:
   - name: 파이썬으로 문서 작업 자동화
     content: python read and write ppt, pptx

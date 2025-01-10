@@ -15,7 +15,7 @@
         <div class="blog-content">
             <h5>{{page.frontmatter.lastUpdated}}</h5>
             <h3><router-link :to="{ path: page.path}">{{page.title}}</router-link></h3>
-            <p>{{page.frontmatter.description}}</p>
+            <p>{{page.frontmatter.subTitle}}</p>
         </div>
       </div>
       <h2></h2>
@@ -84,7 +84,7 @@ export default {
     text-overflow: ellipsis;
   }
   p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .container {
     display: flex;
@@ -138,7 +138,7 @@ export default {
       font-size: 1.1rem;
     }
   p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .thumbnail-container{
     display: flex;

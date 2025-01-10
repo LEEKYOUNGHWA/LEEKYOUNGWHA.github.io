@@ -3,7 +3,7 @@ title: Flask VSCode Debugging
 lang: ko-KR
 date: 2024/11/05 14:47:00
 lastUpdated: 2024/11/05 14:47:00
-description: Flask VSCode 디버깅 설정
+subTitle: Flask VSCode 디버깅 설정
 meta:
   - name: Flask wsl VSCode Debugging
     content: Flask wsl VSCode Debugging

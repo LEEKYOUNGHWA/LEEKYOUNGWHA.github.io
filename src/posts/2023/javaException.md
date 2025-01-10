@@ -3,7 +3,7 @@ title: java exception
 lang: ko-KR
 date: 2023/12/01 10:00:00
 lastUpdated: 2023/12/01 10:00:00
-description: java exception
+subTitle: java exception
 meta:
   - name: java exception
     content: java exception

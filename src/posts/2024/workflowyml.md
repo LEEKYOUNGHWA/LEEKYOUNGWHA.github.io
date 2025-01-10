@@ -2,7 +2,7 @@
 title: vuepress 블로그 배포 오류
 lang: ko-KR
 lastUpdated: 2024/12/10 23:10:00
-description: 쒸익
+subTitle: 쒸익
 tags: ["vuepress"]
 ---
 

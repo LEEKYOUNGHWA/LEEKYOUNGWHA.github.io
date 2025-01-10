@@ -1,5 +1,6 @@
 ---
-tags: ["java"]    
+tags: ["java"]
+lastUpdated: 2024/01/05 17:34:00
 ---
 
 ## 13. 제네릭

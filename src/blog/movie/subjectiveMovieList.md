@@ -1,13 +1,14 @@
 ---
 lastUpdated: 2024/12/17 17:49:00
-description: 이제 검증되지 않은 영화를 영화관에서 보는건 고문이다
+subTitle: 이제 검증되지 않은 영화를 영화관에서 보는건 고문이다
 image: https://m.media-amazon.com/images/M/MV5BYzFlMTJjYzUtMWFjYy00NjkyLTg1Y2EtYmZkMjdlOGQ1ZGYwL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg
 ---
 
 # 주관적 취향이 다분한 Movie(+Series) 리스트
 
-> ...이제 검증되지 않은 영화를 영화관에서 보는건 고문이다   
-> **[leekyounghwa's IMDB Watchlist](https://www.imdb.com/user/ur191119219/watchlist/?ref_=ext_shr_lnk)**
+> ......이제 검증되지 않은 영화를 영화관에서 보는건 고문이다   
+> ## [leekyounghwa's IMDB Watchlist](https://www.imdb.com/user/ur191119219/watchlist/?ref_=ext_shr_lnk)  
+> 여기서 n번 시청한 영화 리스트업
 
 <br/>
 
@@ -54,7 +55,7 @@ h3 {
 p {
     margin-top: 10px;
     margin-bottom: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 h4 {

@@ -3,7 +3,7 @@ title: GetSmart alert 없애기, 자동 재생
 lang: ko-KR
 date: 2023/11/20 10:00:00
 lastUpdated: 2024/11/11 09:46:00
-description: Tampermonkey를 사용한 확실한 방법!! 의무교육 자동재생. alert() 이나 confirm() 자동 확인 && 버튼 자동 클릭.
+subTitle: Tampermonkey를 사용한 확실한 방법!! alert() 이나 confirm() 없애고 의무교육 동영상 자동재생
 image: https://www.tampermonkey.net/images/ape.svg
 meta:
   - name: auto click alert ok
@@ -19,11 +19,11 @@ tags: ["javascript"]
 
 > 아니 원래 넘어가기가 안됬었는데 넘어가지는군요?   
 > 버튼을 100번 누르느냐 세팅해놓고 자동 재생 시키느냐는 여러분들의 선택...  
-> ++ 최영재M의 스크립트 보완(감사감사) 에 제가 더 수정함  
-> ++ 유지현M 문의 보완
+> ++ 영재M 의 스크립트 보완(감사감사) 에 제가 더 수정함  
+> ++ 지현M 문의 보완
 
 getSmart 라는 사내 교육프로그램이 있는데 다음 차시로 넘어갈때마다 확인 누르는게 너무 귀찮다.  
-다음 차시로 자동으로 넘어가게 alert을 없애는 스크립트를 짜봤다.  
+다음 차시로 자동으로 넘어가게 alert(confirm)을 없애는 스크립트를 짜봤다.  
 의무교육들을때 크롬 탭에서 한꺼번에 4개의 강좌를 동시에 돌리면 됨.  
 다음 페이지로 넘어갈때 화면에서 발생하는 alert 이나 confirm 없애고 재생 위치를 뒤쪽으로 당겨 자동으로 재생시켜 줍니다
 

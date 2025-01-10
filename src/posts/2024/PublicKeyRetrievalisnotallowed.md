@@ -1,3 +1,7 @@
+---
+lastUpdated: 2024/09/11 17:31:00
+---
+
 # DBeaver(디비버) Public Key Retrieval is not allowed 에러
 
 1. 접속하고자 하는 connection을 클릭하고 우클릭한 뒤, Edit Connection을 클릭한다.

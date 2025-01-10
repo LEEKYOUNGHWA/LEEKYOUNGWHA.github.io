@@ -1,5 +1,6 @@
 ---
 tags: ["database"]
+lastUpdated: 2023/10/11 14:04:00
 ---
 
 # oracle PL/SQL DECLARE PROCEDURE

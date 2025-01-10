@@ -3,7 +3,7 @@ title: playwright
 lang: ko-KR
 date: 2023/12/07 00:00:00
 lastUpdated: 2023/12/22 00:00:00
-description: playwright Microsoft에서 출시한 브라우저 테스트 및 웹 스크래핑을 위한 오픈 소스 자동화 라이브러리 브라우저 동작을 자동화 해줌... 신기하다....playwright에 코드를 자동으로 써주는?? 녹화해주는 codegen 이라는 기능이 있음. 귀찮게 요소 하나하나 찾아서 소스를 안짜줘도 되는게 젤 좋은거 같다.  녹화버튼 누르고 원하는 액션 하면 소스가 자동으로 생성됨.  녹화한 소스 그대로 돌리면 자동화 완성이다.
+subTitle: playwright Microsoft에서 출시한 브라우저 테스트 및 웹 스크래핑을 위한 오픈 소스 자동화 라이브러리 브라우저 동작을 자동화 해줌... 신기하다....playwright에 코드를 자동으로 써주는?? 녹화해주는 codegen 이라는 기능이 있음. 귀찮게 요소 하나하나 찾아서 소스를 안짜줘도 되는게 젤 좋은거 같다.  녹화버튼 누르고 원하는 액션 하면 소스가 자동으로 생성됨.  녹화한 소스 그대로 돌리면 자동화 완성이다.
 meta:
   - name: playwright
     content: playwright 설치, codegen

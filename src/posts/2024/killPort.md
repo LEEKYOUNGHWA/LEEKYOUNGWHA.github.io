@@ -3,7 +3,7 @@ title: Window Linux port kill
 lang: ko-KR
 date: 2024/11/05 11:54:00
 lastUpdated: 2024/11/05 11:54:00
-description: Window Linux 포트 죽이기
+subTitle: Window Linux 포트 죽이기
 meta:
   - name: Window Linux port kill
     content: Window Linux port kill

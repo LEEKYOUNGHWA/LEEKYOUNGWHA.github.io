@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/11/04 17:29:00
-description: onBoarding
+subTitle: onBoarding
 meta:
   - name: flask zappa 배포
     content: flask zappa 배포

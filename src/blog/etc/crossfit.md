@@ -1,17 +1,7 @@
 ---
-title: ect 2024
+subTitle: 내돈내산 고통
 lastUpdated: 2024/09/13 14:45:00
-description: etc....
-image: 
 ---
-
-# 2024
-
-## Kurzgesagt
-
-![image](~@image/2024/kurz/1.jpg)
-![image](~@image/2024/kurz/2.jpg)
-![image](~@image/2024/kurz/3.jpg)
 
 # Crossfit
 

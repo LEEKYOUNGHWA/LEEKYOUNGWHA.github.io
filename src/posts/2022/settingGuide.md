@@ -3,7 +3,7 @@ title: vuepress 블로그 세팅 가이드
 lang: ko-KR
 date: 2022/01/01 00:00:00
 lastUpdated: 2023/11/14 13:53:43
-description: 초 스피드로 뷰프레스 블로그 세팅하기.
+subTitle: 초 스피드로 뷰프레스 블로그 세팅하기.
 meta:
   - name: vuepress setting guide
     content: easiest fatest way to setting vuepress blog using chocolatey, vsCode

@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/12/09 16:50:00
-description: 원하는 스타일에 맞춰서 리팩토링 고고씽
+subTitle: 원하는 스타일에 맞춰서 리팩토링 고고씽
 tags: ["flutter"]
 image: https://img.icons8.com/color/512/flutter.png
 ---

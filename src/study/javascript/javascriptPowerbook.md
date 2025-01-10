@@ -3,7 +3,7 @@ title: 자바스크립트파워북
 lang: ko-KR
 date: 2023/12/22 10:00:00
 lastUpdated: 2023/12/27 14:45:00
-description: 자바스크립트파워북
+subTitle: 자바스크립트파워북
 meta:
   - name: 자바스크립트파워북
     content: 자바스크립트파워북

@@ -1,5 +1,6 @@
 ---
-tags: ["java"]    
+tags: ["java"]
+lastUpdated: 2024/01/05 17:28:00
 ---
 
 # 5. 참조타입

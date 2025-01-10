@@ -3,7 +3,7 @@ title: mobaXterm 설치
 lang: ko-KR
 date: 2024/02/07 12:03:00
 lastUpdated: 2024/02/07 12:03:00
-description: mobaXterm 설치, 한글 깨질때 설정 방법
+subTitle: mobaXterm 설치, 한글 깨질때 설정 방법
 meta:
   - name: mobaXterm 설치
     content: mobaXterm 설치

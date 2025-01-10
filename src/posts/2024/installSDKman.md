@@ -3,7 +3,7 @@ title: Window 에 SDKman 설치
 lang: ko-KR
 date: 2024/01/26 14:05:00
 lastUpdated: 2024/01/29 13:19:00
-description: window 에서 SDKman 설치. choco 를 이용해서 설치. 설치후 제대로 동작하지 않을때
+subTitle: window 에서 SDKman 설치. choco 를 이용해서 설치. 설치후 제대로 동작하지 않을때
 meta:
   - name: window 에서 SDKman 설치 choco
     content: window 에서 SDKman 설치 choco

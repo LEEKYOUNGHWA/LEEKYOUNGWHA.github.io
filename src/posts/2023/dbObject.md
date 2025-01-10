@@ -1,5 +1,6 @@
 ---
 tags: ["database"]
+lastUpdated: 2023/09/27 14:21:00
 ---
 
 # oracle object 조회

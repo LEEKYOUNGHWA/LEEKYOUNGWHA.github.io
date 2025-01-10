@@ -3,7 +3,7 @@ title: git 명령어 정리
 lang: ko-KR
 date: 2023/11/20 10:00:00
 lastUpdated: 2023/11/20 10:00:00
-description: git 명령어 정리
+subTitle: git 명령어 정리
 meta:
   - name: git 명령어 정리
     content: git 명령어 정리

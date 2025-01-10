@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/12/17 13:20:00
-description: 거의없다를 제친 내 최애 영화 유튜버
+subTitle: 거의없다를 제친 내 최애 영화 유튜버
 image: https://yt3.googleusercontent.com/J0u9zbDZI_Lt993z-yG6Xmzk-GKJydnsA-DC5RORISC_Fi3-6MGEPggGUuOyapDtynN1_1rE=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj
 ---
 

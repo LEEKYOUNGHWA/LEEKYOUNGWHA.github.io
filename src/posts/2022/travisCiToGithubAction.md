@@ -3,7 +3,7 @@ title: vuepress 블로그 CD/CI
 lang: ko-KR
 date: 2022/11/10 00:00:00
 lastUpdated: 2023/11/10 00:00:0
-description: travis ci 유료화로 github action 으로 이사간 로그.
+subTitle: travis ci 유료화로 github action 으로 이사간 로그.
 meta:
   - name: travis ci 유료화로 github action 으로 이사
     content: travis ci 유료화로 github action 으로 이사

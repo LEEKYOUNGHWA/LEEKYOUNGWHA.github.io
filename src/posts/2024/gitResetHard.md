@@ -1,3 +1,7 @@
+---
+lastUpdated: 2024/06/24 14:57:00
+---
+
 # git reset hard
 
 ## git reset hard

@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/12/06 17:16:00
-description: 바보는 이걸 이해하는데 상당히 오랜 시간이 걸렸다
+subTitle: 바보는 이걸 이해하는데 상당히 오랜 시간이 걸렸다
 tags: ["flutter"]
 image: https://img.icons8.com/color/512/flutter.png
 ---

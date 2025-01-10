@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/11/28 16:55:00
-description: flutter window 배포 방법 aws coludfront
+subTitle: window 환경에서 aws coludfront로 flutter 배포
 image: https://img.icons8.com/color/512/flutter.png
 tags: ["flutter"]
 ---

@@ -3,7 +3,7 @@ title: 파이썬 스터디
 lang: ko-KR
 date: 2023/12/04 00:00:00
 lastUpdated: 2023/12/04 00:00:00
-description: 파이썬 스터디 파이썬 코딩 도장 요약. 아나콘다 주피터 노트북 anaconda23.3.1, python3.10.9, jupyterNotebook
+subTitle: 파이썬 스터디 파이썬 코딩 도장 요약. 아나콘다 주피터 노트북 anaconda23.3.1, python3.10.9, jupyterNotebook
 meta:
   - name: 파이썬
     content: 아나콘다, 주피터노트북

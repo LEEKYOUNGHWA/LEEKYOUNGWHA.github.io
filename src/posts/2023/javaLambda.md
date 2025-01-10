@@ -3,7 +3,7 @@ title: java lambda cheet sheet
 lang: ko-KR
 date: 2023/12/01 10:00:00
 lastUpdated: 2023/12/01 10:00:00
-description: java lambda cheet sheet
+subTitle: java lambda cheet sheet
 meta:
   - name: java lambda cheet sheet
     content: java lambda cheet sheet

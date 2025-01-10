@@ -1,6 +1,6 @@
 ---
 lastUpdated: 2024/11/28 16:55:00
-description: 위젯을 그려보자
+subTitle: 위젯을 그려보자
 image: https://img.icons8.com/color/512/flutter.png
 tags: ["flutter"]
 ---
