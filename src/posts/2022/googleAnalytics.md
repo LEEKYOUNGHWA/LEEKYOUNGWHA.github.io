@@ -2,7 +2,7 @@
 title: vuepress 블로그 google analytics
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2023/09/27 13:46:26
+lastUpdated: 2022/01/01 13:46:26
 subTitle: vuepress google analytics
 meta:
   - name: vuepress google analytics

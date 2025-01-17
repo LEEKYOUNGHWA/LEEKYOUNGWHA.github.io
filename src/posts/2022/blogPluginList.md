@@ -2,7 +2,7 @@
 title: vuepress 블로그 플러그인 정리
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2024/10/04 16:50:00
+lastUpdated: 2022/01/01 16:50:00
 subTitle: vuepress플러그인들 정리
 meta:
   - name: vuepress

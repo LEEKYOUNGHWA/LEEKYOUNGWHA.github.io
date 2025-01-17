@@ -2,7 +2,7 @@
 title: vuepress 블로그 커스텀 개발 일지
 lang: ko-KR
 date: 2022/01/01 00:00:00
-lastUpdated: 2024/03/11/160 00:00:0
+lastUpdated: 2022/01/01 00:00:00
 subTitle: customize sidebar, tags to my vuepress blog, 뷰프레스1 사이드바 스크롤 디자인 변경
 meta:
   - name: vuepress tags

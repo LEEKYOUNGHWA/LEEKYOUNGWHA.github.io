@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024/12/12 16:39:00
-tags: ["onBoarding"]
 description: jinhanM과 지피티가 뽑아준
 ---
 

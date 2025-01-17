@@ -1,6 +1,5 @@
 ---
 lastUpdated: 2024/12/10 16:01:00
-tags: ["onBoarding"]
 description: 챗 지피티가 뽑아준
 ---
 

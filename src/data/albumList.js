@@ -1,6 +1,33 @@
 export const albumList = {
     "2025" :  [
         {
+            "link":"https://music.apple.com/kr/album/original-musiquarium/1440757544",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/68/13/006813b3-9ca1-2e6f-98df-4ef78cd6cb49/06UMGIM20452.rgb.jpg/316x316bf.webp",
+            "date":"2025.01.17",
+            "artist": "Kanye West",
+            "name": "Late Registration",
+            "memo": "휴먼 알고리즘 경고리즘에 의거 Stevie Wonder의 Superwoman을 들으면 We Major를 들어줘야함 \n 내가 좋아하는 클래식 곰돌이 시리즈.. ★★★★★★★★★★",
+            "year": "2005"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/original-musiquarium/1440757544",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/0e/7d/b60e7db1-67cf-4491-9550-d266fdd1104d/00602537002290.rgb.jpg/316x316bb.webp",
+            "date":"2025.01.17",
+            "artist": "Stevie Wonder",
+            "name": "Original Musiquarium",
+            "memo": "Isn't She Lovely 다음에 Do I Do를 주기적으로 들어줘야 하는 편",
+            "year": "1982"
+        },
+        {
+            "link":"https://music.apple.com/kr/album/an-innocent-man/259814641",
+            "img":"https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/34/39/0a/34390abf-f81b-c39f-dd8f-afb746ba5137/Joba269eeb2-4d50-4136-8430-87ab61cfa057-130612842-PreviewImage_preview_image_nonvideo_sdr-Time1649364916870.png/316x316bb.webp",
+            "date":"2025.01.15",
+            "artist": "Billy Joel",
+            "name": "An Innocent Man",
+            "memo": "Uptown Girl은 42년전 노래이다",
+            "year": "1983"
+        },
+        {
             "link":"https://music.apple.com/kr/album/naughty/281620358",
             "img":"https://is1-ssl.mzstatic.com/image/thumb/Music/d4/7a/91/mzi.yoretjje.jpg/316x316bb.webp",
             "date":"2025.01.10",
